@@ -157,7 +157,7 @@ GopherTV.run()
 </div>
 
 <div data-defineview="video/playlist">
-    currently playing <span data-bind="controllers.video.currentTag"></span><br/>
+    Now Playing: `<span data-bind="controllers.video.currentTag"></span>`<br/>
     <ul class="nav nav-sidebar">
         <li data-foreach-video="controllers.video.currentPlaylist">
         <a data-event-click="playVideo"><span data-bind="video.Title"></span></a><br/>
