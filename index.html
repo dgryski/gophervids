@@ -31,10 +31,10 @@ class GopherTV.Video extends Batman.Model
     @resourceName: 'video'
 
     @FilterTag: (tag) ->
-        @filterVideos(tag, "Tags")
+        GopherTV.Video.filterVideos(tag, "Tags")
 
-    @FilterSpeakers: (speaker) ->
-        @filterVideos(speaker, "Speakers")
+    @FilterSpeaker: (speaker) ->
+        GopherTV.Video.filterVideos(speaker, "Speakers")
 
     @filterVideos: (needle, haystack) ->
         videos = @get "all"
@@ -95,6 +95,26 @@ class GopherTV.VideoController extends Batman.Controller
         @render
             into: 'playlist'
             source: 'video/playlist'
+
+
+    playSpeaker: (node, event, context) ->
+
+        t = context.get('speaker')
+        console.log("playing tag", t)
+        @set("currentTag", t)
+
+        ytplayer = $("#ytplayer")[0];
+
+        @set("currentPlaylist", GopherTV.Video.FilterSpeaker(t) )
+
+        ids = @currentPlaylist.map( (v) -> v.get("YtId") )
+        ytplayer.cuePlaylist ids 
+        ytplayer.playVideo
+
+        @render
+            into: 'playlist'
+            source: 'video/playlist'
+
 
 @initVideos = ->
     # hard-coded, for now
