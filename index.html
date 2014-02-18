@@ -26,27 +26,39 @@ class GopherTV extends Batman.App
 
 class GopherTV.Video extends Batman.Model
     @persist Batman.LocalStorage
-    @encode 'Id', 'YtId', 'Tags', 'Title'
+    @encode 'Id', 'YtId', 'Tags', 'Title', 'Speakers'
     @primaryKey: 'Id'
     @resourceName: 'video'
 
     @FilterTag: (tag) ->
+        @filterVideos(tag, "Tags")
+
+    @FilterSpeakers: (speaker) ->
+        @filterVideos(speaker, "Speakers")
+
+    @filterVideos: (needle, haystack) ->
         videos = @get "all"
-        return videos.filter( (v) -> (v.get("Tags").indexOf(tag) >= 0) ).toArray()
+        return videos.filter( (v) -> (v.get(haystack).indexOf(needle) >= 0) ).toArray()
+
+    @classAccessor 'Speakers', ->
+        @getList('Speakers')
 
     @classAccessor 'Tags', ->
+        @getList('Tags')
+
+    @getList: (what) ->
         # should cache this
         videos = @get "all"
-        allTags = {}
+        all = {}
         videos.forEach (v) ->
-            v.get("Tags").forEach (t) ->
-                    c = allTags[t] 
+            v.get(what).forEach (t) ->
+                    c = all[t] 
                     if c?
                         c += 1
                     else
                         c = 1
-                    allTags[t] = c
-        return Object.keys(allTags).sort()
+                    all[t] = c
+        return Object.keys(all).sort()
 
 class GopherTV.VideoController extends Batman.Controller
 
@@ -89,36 +101,36 @@ class GopherTV.VideoController extends Batman.Controller
     # add: "date", slide deck link, auto-complete video title
     # split out people tags
     videos = [
-        { id: "f6kdp27TYZs", tags: ["io", "concurrency", "rob-pike"], title: "Go concurrency patterns" },
-        { id: "QDDwwePbDtw", tags: ["io", "concurrency", "sameer-ajmani"], title: "Advanced Go concurrency" },
-        { id: "fc25ihfXhbg", tags: ["io", "appengine", "david-symonds"] , title: "High Performance Apps with Go on App Engine" },
-        { id: "wyJSgTEjuII", tags: ["hangout", "appengine", "johan-euphrosine"], title: "Go + App Engine Hangout" },
-        { id: "iyjqL7ZqHfg", tags: ["hangout", "google-drive"], title: "Google Drive SDK: Writing your first Drive App in Go" },
-        { id: "AR9Q6UgxEuY", tags: ["ruby", "lionel-barrow"], title: "Ruby and Go" },
-        { id: "elu0VpLzJL8", tags: ["python", "francesc-campoy"], title: "Go for Pythonistas" },
-        { id: "p9VUCp98ay4", tags: ["io", "fireside-chat"], title: "Google I/O 2013: Fireside Chat with the Go Team" },
-        { id: "sln-gJaURzk", tags: ["io", "fireside-chat"], title: "Google I/O 2012: Meet the Go Team" },
-        { id: "ytEkHepK08c", tags: ["intro", "russ-cox"], title: "A Tour of Go" },
-        { id: "HxaD_trXwRE", tags: ["rob-pike"], title: "Lexical Scanning in Go" },
-        { id: "-i0hat7pdpk", tags: ["io", "appengine", "rob-pike", "andrew-gerrand"], title: "Writing Web Apps in Go" },
-        { id: "jgVhBThJdXc", tags: ["intro", "io", "russ-cox", "rob-pike"], title: "Go Programming" },
-        { id: "wCHpytRfSL4", tags: ["francesc-campoy"], title: "Singing Gophers" },
-        { id: "4iAiS-qv26Q", tags: ["concurrency", "sameer-ajmani"], title: "Let's Go Further: Build Concurrent Software using the Go Programming Language" },
-        { id: "2KmHtgtEZ1s", tags: ["screencast", "andrew-gerrand"], title: "Getting Started with Go" },
-        { id: "7BBBl8yeIw0", tags: ["mongodb", "sam-helman"], title: "How we use Go and MongoDB at MongoDB" },
-        { id: "_41bkNr7eik", tags: ["profiling", "john-graham-cumming"], title: "Profiling Go Programs" },
-        { id: "XCsL89YtqCs", tags: ["screencast", "andrew-gerrand"], title: "Writing, building, installing, and testing Go code" },
-        { id: "7VcArS4Wpqk", tags: ["historic", "rob-pike"], title: "Another Go at Language Design" },
-        { id: "rKnDgT73v8s", tags: ["historic", "rob-pike"], title: "The Go Programming Language" },
-        { id: "bj9T2c2Xk_s", tags: ["rob-pike", "andrew-gerrand"], title: "The Path to Go 1" },
-        { id: "yue4X8rcGJU", tags: ["appengine", "danny-hermes", "alex-vagin"], title: "Google Cloud Endpoints on Go and PHP: An Experiment" },
-        { id: "9kzoGaoVkqI", tags: ["hangout", "brad-fitzpatrick", "andrew-gerrand"], title: "Go hangout with Andrew and Brad" },
-        { id: "GHaXN8G10fI", tags: ["brad-fitzpatrick"], title: "Airbnb Tech Talk: Go Programming Language" },
-        { id: "HQtLRqqB-Kk", tags: ["appengine", "andrew-gerrand"], title: "Cuddle, A Go App Engine Demo" },
+        { id: "f6kdp27TYZs", tags: ["io", "concurrency"], speakers:[ "rob-pike"], title: "Go concurrency patterns" },
+        { id: "QDDwwePbDtw", tags: ["io", "concurrency"], speakers:["sameer-ajmani"], title: "Advanced Go concurrency" },
+        { id: "fc25ihfXhbg", tags: ["io", "appengine"],  speakers:["david-symonds"] , title: "High Performance Apps with Go on App Engine" },
+        { id: "wyJSgTEjuII", tags: ["hangout", "appengine"], speakers:["johan-euphrosine"], title: "Go + App Engine Hangout" },
+        { id: "iyjqL7ZqHfg", tags: ["hangout", "google-drive"], speakers:["vic-fryzel"], title: "Google Drive SDK: Writing your first Drive App in Go" },
+        { id: "AR9Q6UgxEuY", tags: ["ruby"],  speakers:["lionel-barrow"], title: "Ruby and Go" },
+        { id: "elu0VpLzJL8", tags: ["python"],  speakers:["francesc-campoy"], title: "Go for Pythonistas" },
+        { id: "p9VUCp98ay4", tags: ["io", "fireside-chat"], speakers:[], title: "Google I/O 2013: Fireside Chat with the Go Team" },
+        { id: "sln-gJaURzk", tags: ["io", "fireside-chat"], speakers:[], title: "Google I/O 2012: Meet the Go Team" },
+        { id: "ytEkHepK08c", tags: ["intro"], speakers:[ "russ-cox"], title: "A Tour of Go" },
+        { id: "HxaD_trXwRE", tags: [], speakers: ["rob-pike"], title: "Lexical Scanning in Go" },
+        { id: "-i0hat7pdpk", tags: ["io", "appengine"], speakers: ["rob-pike", "andrew-gerrand"], title: "Writing Web Apps in Go" },
+        { id: "jgVhBThJdXc", tags: ["intro", "io"], speakers:[ "russ-cox", "rob-pike"], title: "Go Programming" },
+        { id: "wCHpytRfSL4", tags: [], speakers:["francesc-campoy"], title: "Singing Gophers" },
+        { id: "4iAiS-qv26Q", tags: ["concurrency"], speakers:[ "sameer-ajmani"], title: "Let's Go Further: Build Concurrent Software using the Go Programming Language" },
+        { id: "2KmHtgtEZ1s", tags: ["screencast"], speakers:[ "andrew-gerrand"], title: "Getting Started with Go" },
+        { id: "7BBBl8yeIw0", tags: ["mongodb"],  speakers:["sam-helman"], title: "How we use Go and MongoDB at MongoDB" },
+        { id: "_41bkNr7eik", tags: ["profiling"],  speakers:["john-graham-cumming"], title: "Profiling Go Programs" },
+        { id: "XCsL89YtqCs", tags: ["screencast"],  speakers:["andrew-gerrand"], title: "Writing, building, installing, and testing Go code" },
+        { id: "7VcArS4Wpqk", tags: ["historic"], speakers:[ "rob-pike"], title: "Another Go at Language Design" },
+        { id: "rKnDgT73v8s", tags: ["historic"], speakers:[ "rob-pike"], title: "The Go Programming Language" },
+        { id: "bj9T2c2Xk_s", tags: [], speakers: ["rob-pike", "andrew-gerrand"], title: "The Path to Go 1" },
+        { id: "yue4X8rcGJU", tags: ["appengine"],  speakers:["danny-hermes", "alex-vagin"], title: "Google Cloud Endpoints on Go and PHP: An Experiment" },
+        { id: "9kzoGaoVkqI", tags: ["hangout"],  speakers:["brad-fitzpatrick", "andrew-gerrand"], title: "Go hangout with Andrew and Brad" },
+        { id: "GHaXN8G10fI", tags: [], speakers: ["brad-fitzpatrick"], title: "Airbnb Tech Talk: Go Programming Language" },
+        { id: "HQtLRqqB-Kk", tags: ["appengine"], speakers:[ "andrew-gerrand"], title: "Cuddle, A Go App Engine Demo" },
     ];
 
     for v, i in videos
-        vid = new GopherTV.Video(Id: i, YtId: v.id, Tags: v.tags, Title: v.title)
+        vid = new GopherTV.Video(Id: i, YtId: v.id, Tags: v.tags, Speakers: v.speakers, Title: v.title)
         vid.save()
 
 @initVideos()
@@ -154,9 +166,16 @@ GopherTV.run()
 
 <div data-defineview="video/index">
     <ul class="nav nav-sidebar">
+        Tags:
         <li data-foreach-tag="Video.Tags">
         <a data-event-click="playTag"><span data-bind="tag"/></span></a>
         </li>
+
+        Speakers:
+        <li data-foreach-speaker="Video.Speakers">
+        <a data-event-click="playSpeaker"><span data-bind="speaker"/></span></a>
+        </li>
+
     </ul>
 </div>
 
