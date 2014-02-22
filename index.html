@@ -1,7 +1,9 @@
-<html>
+<html ng-app>
 <head>
 
 <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.js.css"></script>
+
 
 <style>
 
@@ -15,112 +17,12 @@
 
 </style>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/coffee-script/1.7.1/coffee-script.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/batman.js/0.15.0/batman.min.js"></script>
-<script type="text/coffeescript">
-class GopherTV extends Batman.App
-    @root 'video#index'
-    @route '/video/play', 'video#play'
-    @resources 'video'
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+<script type="text/javascript">
 
-class GopherTV.Video extends Batman.Model
-    @persist Batman.LocalStorage
-    @encode 'Id', 'YtId', 'Tags', 'Title', 'Speakers'
-    @primaryKey: 'Id'
-    @resourceName: 'video'
+function GopherTVController($scope) {
 
-    @FilterTag: (tag) ->
-        GopherTV.Video.filterVideos(tag, "Tags")
-
-    @FilterSpeaker: (speaker) ->
-        GopherTV.Video.filterVideos(speaker, "Speakers")
-
-    @filterVideos: (needle, haystack) ->
-        videos = @get "all"
-        return videos.filter( (v) -> (v.get(haystack).indexOf(needle) >= 0) ).toArray()
-
-    @classAccessor 'Speakers', ->
-        @getList('Speakers')
-
-    @classAccessor 'Tags', ->
-        @getList('Tags')
-
-    @getList: (what) ->
-        # should cache this
-        videos = @get "all"
-        all = {}
-        videos.forEach (v) ->
-            v.get(what).forEach (t) ->
-                    c = all[t] 
-                    if c?
-                        c += 1
-                    else
-                        c = 1
-                    all[t] = c
-        return Object.keys(all).sort()
-
-class GopherTV.VideoController extends Batman.Controller
-
-    @currentPlaylist: null
-    @currentTag: null
-
-    routingKey: 'video'
-    index: ->
-        @render
-            into: 'taglist'
-        console.log "gophertv ready!"
-
-    playVideo: (node, event, context) ->
-        vid = context.get("video")
-        for v, idx in @currentPlaylist
-            if v.get("YtId") is vid.get("YtId")
-                ytplayer = $("#ytplayer")[0]
-                ytplayer.playVideoAt(idx)
-
-    playTag: (node, event, context) ->
-
-        t = context.get('tag')
-        console.log("playing tag", t)
-        @set("currentTag", t)
-
-        ytplayer = $("#ytplayer")[0];
-
-        @set("currentPlaylist", GopherTV.Video.FilterTag(t) )
-
-        ids = @currentPlaylist.map( (v) -> v.get("YtId") )
-        ytplayer.cuePlaylist ids 
-        ytplayer.playVideo
-
-        @render
-            into: 'playlist'
-            source: 'video/playlist'
-
-
-    playSpeaker: (node, event, context) ->
-
-        t = context.get('speaker')
-        console.log("playing tag", t)
-        @set("currentTag", t)
-
-        ytplayer = $("#ytplayer")[0];
-
-        @set("currentPlaylist", GopherTV.Video.FilterSpeaker(t) )
-
-        ids = @currentPlaylist.map( (v) -> v.get("YtId") )
-        ytplayer.cuePlaylist ids 
-        ytplayer.playVideo
-
-        @render
-            into: 'playlist'
-            source: 'video/playlist'
-
-
-@initVideos = ->
-    # hard-coded, for now
-    # add: "date", slide deck link, auto-complete video title
-    # split out people tags
-    videos = [
+    $scope.videos = [
         { id: "f6kdp27TYZs", tags: ["io", "concurrency"], speakers:[ "rob-pike"], title: "Go concurrency patterns" },
         { id: "QDDwwePbDtw", tags: ["io", "concurrency"], speakers:["sameer-ajmani"], title: "Advanced Go concurrency" },
         { id: "fc25ihfXhbg", tags: ["io", "appengine"],  speakers:["david-symonds"] , title: "High Performance Apps with Go on App Engine" },
@@ -150,21 +52,78 @@ class GopherTV.VideoController extends Batman.Controller
         { id: "3qsGpRxDGxI", tags: ["optimization"], speakers:["martin-bruse"], title: "Optimization in Go, an Informal Overview" },
     ];
 
-    for v, i in videos
-        vid = new GopherTV.Video(Id: i, YtId: v.id, Tags: v.tags, Speakers: v.speakers, Title: v.title)
-        vid.save()
+    $scope.filterOn = function (needle, haystack) {
+        return $scope.videos.filter(function(v) { return (v[haystack].indexOf(needle) >= 0) } )
+    }
 
-@initVideos()
-window.GopherTV = GopherTV
-GopherTV.run()
+    $scope.getList = function (what) {
+        var all = {}
+        $scope.videos.forEach( function (v) {
+            v[what].forEach (function (t) {
+                all[t] = 1 + (all[t] || 0)
+            })
+        })
+        var k = Object.keys(all).sort()
+        return k.map(function(item) {return {item:item, count:all[item]}})
+    }
+
+    $scope.tags = $scope.getList("tags")
+    $scope.speakers = $scope.getList("speakers")
+
+    $scope.currentPlaylist = null
+
+    $scope.playSomething = function(needle, haystack) {
+        console.log("playing", haystack, needle)
+        $scope.currentTag = needle
+
+        var ytplayer = document.getElementById("ytplayer")
+
+        $scope.currentPlaylist = $scope.filterOn(needle, haystack)
+        var ids = $scope.currentPlaylist.map(function(v) { return v.id })
+        ytplayer.cuePlaylist(ids)
+        ytplayer.playVideo()
+    }
+
+    $scope.playVideo = function(index) {
+        var ytplayer = document.getElementById("ytplayer")
+        ytplayer.playVideoAt(index)
+    }
+
+    $scope.playTag = function(what) {
+        $scope.playSomething(what, "tags")
+    }
+
+    $scope.playSpeaker = function(what) {
+        $scope.playSomething(what, "speakers")
+    }
+
+}
+
 </script>
 </head>
-<body>
+<body ng-controller="GopherTVController">
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-2  sidebar">
-            <div data-yield="taglist">
+        <div class="col-md-2 sidebar">
+
+        <a href="https://github.com/dgryski/gophervids">Feedback?</a>
+
+            <div class="nav nav-sidebar">
+
+                <h4>Tags</h4>
+                <div class="list-group">
+                    <span ng-repeat="tag in tags">
+                        <a class="list-group-item" ng-click="playTag(tag.item)">{{tag.item}} <span class="badge">{{tag.count}}</span></a>
+                    </span>
+                </div>
+
+                <h4>Speakers</h4>
+                <div class="list-group">
+                    <span ng-repeat="speaker in speakers">
+                        <a class="list-group-item"  ng-click="playSpeaker(speaker.item)">{{speaker.item}} <span class="badge">{{speaker.count}}</span></a>
+                    </span>
+                </div>
             </div>
         </div>
 
@@ -177,36 +136,18 @@ GopherTV.run()
             </object><br/>
         </div>
 
-        <div class="col-md-4  sidebar">
-            <div data-yield="playlist">
+        <div class="col-md-4 sidebar">
+            <span ng-hide="currentTag == null"><h4>Now Playing: `{{currentTag}}`</h4></span>
+            <span ng-show="currentTag == null"><h4>No playlist selected</h4></span>
+            <div class="list-group">
+                <span ng-repeat="video in currentPlaylist">
+                    <a class="list-group-item" ng-click="playVideo($index)">{{video.title}}</a>
+                </span>
             </div>
         </div>
 
+
     </div>
-</div>
-
-<div data-defineview="video/index">
-    <ul class="nav nav-sidebar">
-        Tags:
-        <li data-foreach-tag="Video.Tags">
-        <a data-event-click="playTag"><span data-bind="tag"/></span></a>
-        </li>
-
-        Speakers:
-        <li data-foreach-speaker="Video.Speakers">
-        <a data-event-click="playSpeaker"><span data-bind="speaker"/></span></a>
-        </li>
-
-    </ul>
-</div>
-
-<div data-defineview="video/playlist">
-    Now Playing: `<span data-bind="controllers.video.currentTag"></span>`<br/>
-    <ul class="nav nav-sidebar">
-        <li data-foreach-video="controllers.video.currentPlaylist">
-        <a data-event-click="playVideo"><span data-bind="video.Title"></span></a><br/>
-        </li>
-    </ul>
 </div>
 
 </body>
