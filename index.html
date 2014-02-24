@@ -21,7 +21,7 @@
 <script type="text/javascript">
 'use strict;'
 
-function GopherTVController($scope) {
+function GopherTVController($scope, $window) {
 
     $scope.videos = [
         // by date: sort -r
@@ -110,6 +110,8 @@ function GopherTVController($scope) {
         console.log("playing", haystack, needle)
         $scope.currentTag = needle
 
+        document.location.hash=haystack+"="+needle
+
         var ytplayer = document.getElementById("ytplayer")
 
         $scope.currentPlaylist = $scope.filterOn(needle, haystack)
@@ -131,6 +133,17 @@ function GopherTVController($scope) {
         $scope.playSomething(what, "speakers")
     }
 
+    $window.onYouTubePlayerReady = function() {
+        console.log("youtube player ready")
+        var h = document.location.hash
+        var re= /^#(tags|speakers)=([-a-z]+)/
+        var arr;
+        if (arr = re.exec(h)) {
+            console.log("grabbing playlist from hash", arr[1], "=", arr[2])
+            $scope.playSomething(arr[2], arr[1])
+            $scope.$apply()
+        }
+    }
 }
 
 </script>
