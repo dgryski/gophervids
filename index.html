@@ -48,7 +48,7 @@ function GopherTVController($scope, $window) {
         { date: "2013-08-08", id: "l_8z4fc-qNw", tags: ["meetup", "best-practices", "zeromq"], speakers: ["francesc-campoy", "buddy-sandidge"], title: "12 Go Best Practices / Go and ZeroMQ" },
         { date: "2013-07-23", id: "T-LJF6YOcsY", tags: ["root-access"], speakers: ["martin-gorner", "chad-fowler"], title: "root access Berlin #1: 6Wunderkinder on Go"},
         { date: "2013-07-07", id: "sYukPc0y_Ro", tags: ["dotscale"], speakers: ["brad-fitzpatrick"], title: "dotScale 2013: Software I'm excited about"},
-        { date: "2013-06-29", id: "xCH7ZaWUvDI", tags: ["meetup", "gocircuit", "nsq"], speakers: ["matt-reiferson", "jehiah-czebotar", "petar-maymounkov"], title: "NSQ: Realtime Distributed Messaging At Scale / Go Circuit: Bottom-up Linguistic Evolution"},
+        { date: "2013-06-29", id: "xCH7ZaWUvDI", tags: ["meetup", "gocircuit", "nsq", "distributed"], speakers: ["matt-reiferson", "jehiah-czebotar", "petar-maymounkov"], title: "NSQ: Realtime Distributed Messaging At Scale / Go Circuit: Bottom-up Linguistic Evolution"},
         { date: "2013-06-12", id: "yue4X8rcGJU", tags: ["appengine"],  speakers:["danny-hermes", "alex-vagin"], title: "Google Cloud Endpoints on Go and PHP: An Experiment"},
         { date: "2013-06-11", id: "jE59PN4xuWo", tags: ["meetup", "interfaces"], speakers: ["mattias-hansson"], title: "From OOP to Go" },
         { date: "2013-06-11", id: "57gJA6XLDYg", tags: ["meetup", "concurrency"], speakers: ["stefan-nilsson"], title: "Go concurrently" },
@@ -58,6 +58,7 @@ function GopherTVController($scope, $window) {
         { date: "2013-05-09", id: "USr0Bvg1ZOo", tags: ["meetup", "juju", "go1.1"], speakers:["dave-cheney", "andrew-gerrand"], title: "Go and Juju at Canonical / What's new in Go 1.1"},
         { date: "2013-04-25", id: "1X-3ekyZD9A", tags: ["meetup", "web-services", "chat-roulette", "interfaces"], speakers: ["andrew-gerrand"], title: "Go: A Simple Programming Environment / Code that Grows With Grace" },
         { date: "2013-04-23", id: "UgzIApJdLwY", tags: ["railsberry"], speakers: ["andrew-gerrand"], title: "Go: A Simple programming environment"},
+        { date: "2013-02-13", id: "ruw0uOC4_Xk", tags: ["hangout", "concurrency", "stathat", "tools" ], speakers: ["patrick-crosby", "phil-pennock"], title: "Go concurrency in production / Public Tools with Go" },
         { date: "2012-10-26", id: "XCsL89YtqCs", tags: ["screencast"],  speakers:["andrew-gerrand"], title: "Writing, building, installing, and testing Go code"},
         { date: "2012-09-26", id: "GHaXN8G10fI", tags: [], speakers: ["brad-fitzpatrick"], title: "Airbnb Tech Talk: Go Programming Language"},
         { date: "2012-09-24", id: "iyjqL7ZqHfg", tags: ["hangout", "google-drive"], speakers:["vic-fryzel"], title: "Google Drive SDK: Writing your first Drive App in Go"},
@@ -88,6 +89,8 @@ function GopherTVController($scope, $window) {
         { date: "2010-04-28", id: "7VcArS4Wpqk", tags: ["historic"], speakers:[ "rob-pike"], title: "Another Go at Language Design"},
         { date: "2009-10-30", id: "rKnDgT73v8s", tags: ["historic"], speakers:[ "rob-pike"], title: "The Go Programming Language"},
     ].sort(function(a,b) { return a.date <= b.date })
+
+    console.log($scope.videos.length, "videos loaded")
 
     $scope.filterOn = function (needle, haystack) {
         return $scope.videos.filter(function(v) { return (v[haystack].indexOf(needle) >= 0) } )
@@ -137,7 +140,6 @@ function GopherTVController($scope, $window) {
     }
 
     $window.onYouTubePlayerReady = function() {
-        console.log("youtube player ready")
         var h = document.location.hash
         var re= /^#(tags|speakers)=([-a-z]+)/
         var arr;
