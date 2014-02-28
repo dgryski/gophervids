@@ -92,7 +92,7 @@ function GopherTVController($scope, $window) {
         { date: "2010-05-21", id: "jgVhBThJdXc", tags: ["io"], speakers:[ "russ-cox", "rob-pike"], title: "Google I/O 2010: Go Programming"},
         { date: "2010-04-28", id: "7VcArS4Wpqk", tags: ["historic"], speakers:[ "rob-pike"], title: "Another Go at Language Design"},
         { date: "2009-10-30", id: "rKnDgT73v8s", tags: ["historic"], speakers:[ "rob-pike"], title: "The Go Programming Language"},
-    ].sort(function(a,b) { return a.date <= b.date })
+    ].sort(function(a,b) { return (a.date == b.date ? 0 : (a.date < b.date ? 1 : -1 )) })
 
     console.log($scope.videos.length, "videos loaded")
 
