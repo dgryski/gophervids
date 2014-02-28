@@ -248,7 +248,7 @@ function GopherTVController($scope, $window) {
         <div class="col-md-4 sidebar">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <span ng-hide="currentTag == null"><span ng-click="clear()" class="glyphicon glyphicon-remove"> Now playing `{{currentTag}}`</span></span>
+                    <span ng-show="currentTag"><span ng-click="clear()" class="glyphicon glyphicon-remove"> Now playing `{{currentTag}}`</span></span>
                     <span ng-show="currentTag == null && (!searchText || !searchText.title)">No playlist selected</span>
                     <span ng-show="currentTag == null && searchText && searchText.title">Search: {{ searchText.title }}</span>
                 </div>
