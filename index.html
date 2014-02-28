@@ -116,9 +116,24 @@ function GopherTVController($scope, $window) {
 
     $scope.currentPlaylist = null
 
+    $scope.sidebarVideoList = function () {
+        if ($scope.currentPlaylist) {
+            return $scope.currentPlaylist
+        }
+
+        if ($scope.searchText && $scope.searchText.title) {
+            return $scope.videos
+        }
+
+        return null
+    }
+
     $scope.playSomething = function(needle, haystack) {
         console.log("playing", haystack, needle)
         $scope.currentTag = needle
+        if ($scope.searchText) {
+		$scope.searchText.title = ''
+        }
 
         document.location.hash=haystack+"="+needle
 
@@ -130,10 +145,23 @@ function GopherTVController($scope, $window) {
         ytplayer.playVideo()
     }
 
-    $scope.playVideo = function(index) {
+    $scope.playVideo = function(id) {
+        console.log("playing video", id)
         var ytplayer = document.getElementById("ytplayer")
-        ytplayer.playVideoAt(index)
+
+        // if it's in our current playlist, jump there
+        if ($scope.currentPlaylist) {
+            $scope.currentPlaylist.forEach(function(v, k) {
+                if (v.id == id) {
+                    ytplayer.playVideoAt(k)
+                }
+            })
+        }
+
+        // not in the current playlist
+        ytplayer.loadVideoById(id)
     }
+
 
     $scope.playTag = function(what) {
         $scope.playSomething(what, "tags")
@@ -141,6 +169,11 @@ function GopherTVController($scope, $window) {
 
     $scope.playSpeaker = function(what) {
         $scope.playSomething(what, "speakers")
+    }
+
+    $scope.clear = function () {
+        $scope.currentPlaylist = null
+        $scope.currentTag = null
     }
 
     $window.onYouTubePlayerReady = function() {
@@ -189,14 +222,19 @@ function GopherTVController($scope, $window) {
 
             </ul>
 
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Title Search" ng-model="searchText.title">
+                </div>
+            </form>
+
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="https://github.com/dgryski/gophervids">Feedback?</a></li>
             </ul>
         </div>
     </nav>
 
-
-<div class="row">
+	<div class="row">
 
         <div class="col-md-6 main">
             <object width="640" height="360">
@@ -208,16 +246,22 @@ function GopherTVController($scope, $window) {
         </div>
 
         <div class="col-md-4 sidebar">
-            <span ng-hide="currentTag == null"><h4>Now Playing: `{{currentTag}}`</h4></span>
-            <span ng-show="currentTag == null"><h4>No playlist selected</h4></span>
-            <div class="list-group">
-                <span ng-repeat="video in currentPlaylist">
-                    <a class="list-group-item" ng-click="playVideo($index)">{{video.title}}</a>
-                </span>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <span ng-hide="currentTag == null"><span ng-click="clear()" class="glyphicon glyphicon-remove"> Now playing `{{currentTag}}`</span></span>
+                    <span ng-show="currentTag == null && (!searchText || !searchText.title)">No playlist selected</span>
+                    <span ng-show="currentTag == null && searchText && searchText.title">Search: {{ searchText.title }}</span>
+                </div>
+
+                <div class="panel-body">
+                    <div class="list-group">
+                        <span ng-repeat="video in sidebarVideoList() | filter:searchText">
+                            <a class="list-group-item" ng-click="playVideo(video.id)">{{video.title}}</a>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
-
-
     </div>
 </div>
 
