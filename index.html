@@ -137,10 +137,14 @@ function GopherTVController($scope, $window) {
 
         document.location.hash=haystack+"="+needle
 
-        var ytplayer = document.getElementById("ytplayer")
+        var playlist = $scope.filterOn(needle, haystack)
+        $scope.loadPlaylist(playlist)
+    }
 
-        $scope.currentPlaylist = $scope.filterOn(needle, haystack)
-        var ids = $scope.currentPlaylist.map(function(v) { return v.id })
+    $scope.loadPlaylist = function(playlist) {
+        $scope.currentPlaylist = playlist
+        var ytplayer = document.getElementById("ytplayer")
+        var ids = playlist.map(function(v) { return v.id })
         ytplayer.cuePlaylist(ids)
         ytplayer.playVideo()
     }
@@ -169,6 +173,11 @@ function GopherTVController($scope, $window) {
 
     $scope.playSpeaker = function(what) {
         $scope.playSomething(what, "speakers")
+    }
+
+    $scope.mostRecent = function() {
+        $scope.currentTag = 'recent'
+        $scope.loadPlaylist($scope.videos)
     }
 
     $scope.clear = function () {
@@ -228,6 +237,10 @@ function GopherTVController($scope, $window) {
                     <input type="text" class="form-control" placeholder="Title Search" ng-model="searchText.title">
                 </div>
             </div>
+
+            <ul class="nav navbar-nav">
+                <li><a href="" ng-click="mostRecent()">Recent</a></li>
+            </ul>
 
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="https://github.com/dgryski/gophervids">Feedback?</a></li>
