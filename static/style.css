@@ -81,7 +81,7 @@ Make thing purty on desktops...using bootstrap's breakpoint
 		bottom: 0;
 		right:33%;
 		z-index:10;
-		background: url('img/gopher-hole.png');
+		background: url('/static/gopher-hole.png');
 	}
 
 	.gopher {
@@ -92,7 +92,7 @@ Make thing purty on desktops...using bootstrap's breakpoint
 		margin-right: 46px;
 		width: 108px;
 		height: 144px;
-		background: url('img/gopher.png') no-repeat scroll 0 35px transparent;
+		background: url('/static/gopher.png') no-repeat scroll 0 35px transparent;
 	}
 
 }
