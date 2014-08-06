@@ -1,7 +1,8 @@
 application: gophervids
 version: 1
-runtime: python
-api_version: python23
+runtime: python27
+api_version: 1
+threadsafe: yes
 
 handlers:
 - url: /

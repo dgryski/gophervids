@@ -85,13 +85,11 @@
                         width: '640',
                         videoId: '2KmHtgtEZ1s',
                         events: {
-                            'onReady': onPlayerReady,
+                            'onReady': function(evt) {
+                                event.target.playVideo();
+                            },
                         }
                     });
-                }
-
-                function onPlayerReady(event) {
-                    event.target.playVideo();
                 }
                 </script>
                 <br/>
