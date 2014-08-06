@@ -8,9 +8,9 @@ handlers:
   static_files: index.html
   upload: index.html
 
-- url: /static/(.*\.(css|png))$
+- url: /static/(.*\.(css|png|js|json))$
   static_files: static/\1
-  upload: static/.*\.(css|png)$
+  upload: static/.*\.(css|png|js|json)$
 
 - url: /.*
   script: _go_app
