@@ -219,27 +219,25 @@ function GopherTVController($scope, $window) {
 
     $scope.loadPlaylist = function(playlist) {
         $scope.currentPlaylist = playlist
-        var ytplayer = document.getElementById("ytplayer")
         var ids = playlist.map(function(v) { return v.id })
-        ytplayer.cuePlaylist(ids)
-        ytplayer.playVideo()
+        window.player.cuePlaylist(ids)
+        window.player.playVideo()
     }
 
     $scope.playVideo = function(id) {
         console.log("playing video", id)
-        var ytplayer = document.getElementById("ytplayer")
 
         // if it's in our current playlist, jump there
         if ($scope.currentPlaylist) {
             $scope.currentPlaylist.forEach(function(v, k) {
                 if (v.id == id) {
-                    ytplayer.playVideoAt(k)
+                    window.player.playVideoAt(k)
                 }
             })
         }
 
         // not in the current playlist
-        ytplayer.loadVideoById(id)
+        window.player.loadVideoById(id)
     }
 
 
@@ -336,12 +334,33 @@ function GopherTVController($scope, $window) {
 	<div class="row">
 
         <div class="col-md-7 main video-container">
-            <object width="640" height="360">
-                <param name="allowFullScreen" value="true"></param>
-                <param name="allowScriptAccess" value="always"></param>
-                <!-- video is "Getting Started with Go" -->
-                <embed id="ytplayer" src="//www.youtube.com/v/2KmHtgtEZ1s?enablejsapi=1&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="360" wmode="opaque"></embed>
-            </object><br/>
+
+                <div id="ytplayer"></div>
+                <script>
+                // Add YouTube script.
+                var tag = document.createElement('script');
+                tag.src = "https://www.youtube.com/iframe_api";
+                var firstScriptTag = document.getElementsByTagName('script')[0];
+                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+                function onYouTubeIframeAPIReady() {
+                    window.player = new YT.Player('ytplayer', {
+                        height: '390',
+                        width: '640',
+                        videoId: '2KmHtgtEZ1s',
+                        events: {
+                            'onReady': onPlayerReady,
+                        }
+                    });
+                }
+
+                function onPlayerReady(event) {
+                    event.target.playVideo();
+                }
+                </script>
+                <br/>
+
+            <br/>
         </div>
 
         <div class="col-md-4 sidebar">
