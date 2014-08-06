@@ -8,8 +8,11 @@
 <link href="/static/style.css" rel="stylesheet" />
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+<script src="https://www.youtube.com/iframe_api"></script>
 <script type="text/javascript">
 'use strict;'
+
+var player;
 
 function GopherTVController($scope, $window) {
 
@@ -219,27 +222,25 @@ function GopherTVController($scope, $window) {
 
     $scope.loadPlaylist = function(playlist) {
         $scope.currentPlaylist = playlist
-        var ytplayer = document.getElementById("ytplayer")
         var ids = playlist.map(function(v) { return v.id })
-        ytplayer.cuePlaylist(ids)
-        ytplayer.playVideo()
+        player.cuePlaylist(ids)
+        player.playVideo()
     }
 
     $scope.playVideo = function(id) {
         console.log("playing video", id)
-        var ytplayer = document.getElementById("ytplayer")
 
         // if it's in our current playlist, jump there
         if ($scope.currentPlaylist) {
             $scope.currentPlaylist.forEach(function(v, k) {
                 if (v.id == id) {
-                    ytplayer.playVideoAt(k)
+                    player.playVideoAt(k)
                 }
             })
         }
 
         // not in the current playlist
-        ytplayer.loadVideoById(id)
+        player.loadVideoById(id)
     }
 
 
@@ -268,7 +269,7 @@ function GopherTVController($scope, $window) {
         document.location.hash=''
     }
 
-    $window.onYouTubePlayerReady = function() {
+    $window.onPlayerReady = function() {
         var h = document.location.hash
         var re= /^#(tags|speakers)=([-a-z]+)/
         var arr;
@@ -278,6 +279,18 @@ function GopherTVController($scope, $window) {
             $scope.$apply()
         }
     }
+}
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('ytplayer', {
+        height: '390',
+        width: '640',
+        videoId: '2KmHtgtEZ1s',
+        html5: 1,
+        events: {
+            'onReady': onPlayerReady
+        }
+    });
 }
 
 </script>
@@ -335,14 +348,7 @@ function GopherTVController($scope, $window) {
 
 	<div class="row">
 
-        <div class="col-md-7 main video-container">
-            <object width="640" height="360">
-                <param name="allowFullScreen" value="true"></param>
-                <param name="allowScriptAccess" value="always"></param>
-                <!-- video is "Getting Started with Go" -->
-                <embed id="ytplayer" src="//www.youtube.com/v/2KmHtgtEZ1s?enablejsapi=1&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="360" wmode="opaque"></embed>
-            </object><br/>
-        </div>
+        <div id="ytplayer" class="col-md-7 main video-container"></div>
 
         <div class="col-md-4 sidebar">
             <div class="panel panel-default">
