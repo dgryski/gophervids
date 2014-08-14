@@ -34,6 +34,20 @@
     "speakers": ["tommi-virtanen"],
     "title": "Go-nuts and Bolt (1/2)"
 }, {
+    "date": "2014-07-23",
+    "added": "2014-08-14",
+    "id": "ydWFpcoYraU",
+    "tags": ["optimization"],
+    "speakers": ["oleg-shaldybin"],
+    "title": "Finding Memory Leaks in Go Programs"
+}, {
+    "date": "2014-07-22",
+    "added": "2014-08-14",
+    "id": "8D3Vmm1BGoY",
+    "tags": ["best-practices"],
+    "speakers": ["francesc-campoy"],
+    "title": "Twelve Go Best Practices"
+}, {
     "date": "2014-07-17",
     "added": "2014-07-26",
     "id": "lx3nIvpAbn8",
