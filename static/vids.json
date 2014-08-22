@@ -1,4 +1,26 @@
-[{
+[
+{
+    "date": "2014-08-21",
+    "added": "2014-08-22",
+    "id": "w7RziV_Sn-g",
+    "tags": ["beego"],
+    "speakers": ["lei-cao"],
+    "title": "Create a Web API Application in One Minute in Beego"
+}, {
+    "date": "2014-08-20",
+    "added": "2014-08-22",
+    "id": "P8U9-wPYiHA",
+    "tags": ["errors", "strings", "byte-slices"],
+    "speakers": ["kevin-burke", "adam-thomason"],
+    "title": "Where Errors Come From / The Pitfalls of Using Strings and Byte Slices Interchangeably"
+}, {
+    "date": "2014-08-21",
+    "added": "2014-08-22",
+    "id": "MAUSLdiyYs4",
+    "tags": ["math"],
+    "speakers": ["attila-olah"],
+    "title": "Arbitrary Precision Math Using Go"
+}, {
     "date": "2014-07-30",
     "added": "2014-08-05",
     "id": "70Z1AyvfaQE",
@@ -41,12 +63,33 @@
     "speakers": ["oleg-shaldybin"],
     "title": "Finding Memory Leaks in Go Programs"
 }, {
+    "date": "2014-07-23",
+    "added": "2014-08-22",
+    "id": "H8nA_ZZxaMU",
+    "tags": ["crypto"],
+    "speakers": ["kyle-isom"],
+    "title": "A Tour of Cryptography Packages in Go"
+}, {
+    "date": "2014-07-23",
+    "added": "2014-08-22",
+    "id": "7zYXhhrRn2E",
+    "tags": ["web-app"],
+    "speakers": ["beyang-liu"],
+    "title": "Patterns and Examples for building a Go web app"
+}, {
     "date": "2014-07-22",
     "added": "2014-08-14",
     "id": "8D3Vmm1BGoY",
     "tags": ["best-practices"],
     "speakers": ["francesc-campoy"],
     "title": "Twelve Go Best Practices"
+}, {
+    "date": "2014-07-22",
+    "added": "2014-08-22",
+    "id": "oidiAJbtzDM",
+    "tags": ["testing"],
+    "speakers": ["quinn-slack"],
+    "title": "How Sourcegraph tests in Go"
 }, {
     "date": "2014-07-17",
     "added": "2014-07-26",
