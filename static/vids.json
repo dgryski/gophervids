@@ -1,5 +1,54 @@
 [
 {
+    "date": "2014-09-22",
+    "added": "2014-09-22",
+    "id": "cVJWRc31vbo",
+    "tags": ["meetup"],
+    "speakers": ["cory-lanou"],
+    "title": "Beginning Go - Questions and Answers"
+}, {
+    "date": "2014-09-21",
+    "added": "2014-09-22",
+    "id": "HJIjTTHWYnE",
+    "tags": ["etcd"],
+    "speakers": ["brandon-philips"],
+    "title": "etcd: distributed locking and service discovery"
+}, {
+    "date": "2014-09-18",
+    "added": "2014-09-22",
+    "id": "ABGF_ryhFzM",
+    "tags": ["oop"],
+    "speakers": ["steve-francia"],
+    "title": "Objected Oriented Programming Go"
+}, {
+    "date": "2014-09-11",
+    "added": "2014-09-22",
+    "id": "Ng8m5VXsn8Q",
+    "tags": ["oop", "concurrency"],
+    "speakers": ["francesc-campoy"],
+    "title": "Go: Object Oriented and Concurrent (just not the usual way)"
+}, {
+    "date": "2014-08-27",
+    "added": "2014-09-22",
+    "id": "gfErCkcyMQk",
+    "tags": ["bitcoin"],
+    "speakers": ["dave-collins", "marco-peereboom"],
+    "title": "BTCD for Go Language Developers"
+}, {
+    "date": "2014-08-27",
+    "added": "2014-09-22",
+    "id": "H2Wk4PHCdpw",
+    "tags": ["appengine"],
+    "speakers": ["adam-jimerson"],
+    "title": "Building web apps in Go on Google App Engine"
+}, {
+    "date": "2014-08-26",
+    "added": "2014-09-22",
+    "id": "qkSsPgXAWU0",
+    "tags": ["web-app"],
+    "speakers": ["courtland-fowler", "josh-yaganeh", "ryan-arana"],
+    "title": "How we build Geobin.io"
+}, {
     "date": "2014-08-21",
     "added": "2014-08-22",
     "id": "w7RziV_Sn-g",
@@ -146,6 +195,13 @@
     "tags": ["meetup", "intro"],
     "speakers": ["kelsey-hightower"],
     "title": "Programming Go for Beginning Devs"
+}, {
+    "date": "2014-06-18",
+    "added": "2014-09-22",
+    "id": "wlSa6xxSCtk",
+    "tags": ["data-structures"],
+    "speakers": ["adam-jimerson"],
+    "title": "Data types and structures in Go"
 }, {
     "date": "2014-06-11",
     "added": "2014-06-20",
