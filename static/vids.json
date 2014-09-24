@@ -6,7 +6,7 @@
     "tags": ["scale2014"],
     "speakers": ["sugu-sougoumarane"],
     "title": "Scaling YouTube's Backend: The Vitess Trade-offs",
-{
+}, {
     "date": "2014-09-22",
     "added": "2014-09-22",
     "id": "cVJWRc31vbo",
