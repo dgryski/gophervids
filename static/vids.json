@@ -3,9 +3,9 @@
     "date": "2014-09-22",
     "added": "2014-09-24",
     "id": "5yDO-tmIoXY",
-    "tags": ["scale2014"],
+    "tags": ["scale2014", "vitess"],
     "speakers": ["sugu-sougoumarane"],
-    "title": "Scaling YouTube's Backend: The Vitess Trade-offs",
+    "title": "Scaling YouTube's Backend: The Vitess Trade-offs"
 }, {
     "date": "2014-09-22",
     "added": "2014-09-22",
