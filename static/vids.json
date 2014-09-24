@@ -1,5 +1,12 @@
 [
 {
+    "date": "2014-09-23",
+    "added": "2014-09-24",
+    "id": "2r1thDQTtv8",
+    "tags": ["appengine", "angularjs"],
+    "speakers": ["francesc-campoy"],
+    "title": "Building an app from scratch with Go"
+}, {
     "date": "2014-09-22",
     "added": "2014-09-24",
     "id": "5yDO-tmIoXY",
@@ -717,7 +724,7 @@
     "date": "2013-11-15",
     "added": "2014-04-08",
     "id": "CBwOuK9x5VQ",
-    "tags": ["angularjs"],
+    "tags": ["angularjs", "appengine"],
     "speakers": ["sathish-vj"],
     "title": "Beginning GlowSo.me - AppEngine, Go, AngularJS: A robust, quick app stack"
 }, {
