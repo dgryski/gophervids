@@ -1,5 +1,12 @@
 [
 {
+    "date": "2014-09-26",
+    "added": "2014-09-27",
+    "id": "2COw_Q6Ol4k",
+    "tags": ["rails", "go-generate", "meetup"],
+    "speakers": ["david-nix", "kevin-gillette"],
+    "title": "Why I Rails over Go / Go Generate"
+}, {
     "date": "2014-09-25",
     "added": "2014-09-26",
     "id": "2pkVVD7zFLk",
