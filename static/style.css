@@ -10,6 +10,10 @@ body {
 	margin-bottom:0;
 }
 
+.remove-current-tag {
+	cursor: pointer;
+}
+
 /*
 Make thing purty on desktops...using bootstrap's breakpoint
 */
