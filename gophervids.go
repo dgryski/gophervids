@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"net/http"
+	"strings"
 	"time"
 
 	"github.com/gorilla/feeds"
@@ -31,22 +32,22 @@ func init() {
 		Link:        &feeds.Link{Href: "http://gophervids.appspot.com"},
 		Description: "categorized golang videos",
 		Author:      &feeds.Author{"Damian Gryski", "damian@gryski.com"},
-		Created:     time.Now(),
 	}
 
 	for _, v := range vids {
-		updated, _ := time.Parse("2006-01-02", v.Date)
-		var speaker string
-		if len(v.Speakers) > 0 {
-			speaker = v.Speakers[0]
-		}
+		created, _ := time.Parse("2006-01-02", v.Date)
+		updated, _ := time.Parse("2006-01-02", v.Added)
+		speaker := strings.Join(v.Speakers, ", ")
 		feed.Items = append(feed.Items, &feeds.Item{
 			Title:   v.Title,
 			Link:    &feeds.Link{Href: "https://youtu.be/" + v.Id},
 			Author:  &feeds.Author{speaker, ""},
-			Created: updated,
+			Created: created,
+			Updated: updated,
 		})
 	}
+
+	feed.Created = feed.Items[0].Updated
 
 	http.HandleFunc("/rss.xml", func(w http.ResponseWriter, r *http.Request) {
 		feed.WriteRss(w)
