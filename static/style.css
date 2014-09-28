@@ -26,6 +26,7 @@ Make thing purty on desktops...using bootstrap's breakpoint
 	.dropdown .dropdown-menu {
 		max-height: 400px;
 		overflow-y: auto;
+		min-width: 230px;
 	}
 
 	.sidebar {
