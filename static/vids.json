@@ -1,5 +1,12 @@
 [
 {
+    "date": "2014-10-08",
+    "added": "2014-10-09",
+    "id": "gdHG9DWgUyE",
+    "tags": ["runtime", "internals", "meetup"],
+    "speakers": ["shane-hansen"],
+    "title": "A Tour of Go's Runtime"
+}, {
     "date": "2014-09-26",
     "added": "2014-09-27",
     "id": "2COw_Q6Ol4k",
