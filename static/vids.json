@@ -38,9 +38,9 @@
     "date": "2014-09-26",
     "added": "2014-09-27",
     "id": "2COw_Q6Ol4k",
-    "tags": ["rails", "go-generate", "meetup"],
+    "tags": ["ruby", "go-generate", "meetup"],
     "speakers": ["david-nix", "kevin-gillette"],
-    "title": "Why I Rails over Go / Go Generate"
+    "title": "Why I Chose Rails over Go / Go Generate"
 }, {
     "date": "2014-09-25",
     "added": "2014-09-26",
