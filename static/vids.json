@@ -1,11 +1,32 @@
 [
 {
+    "date": "2014-10-17",
+    "added": "2014-10-18",
+    "id": "eVlxuST7dCA",
+    "tags": ["jwt", "json", "meetup"],
+    "speakers": ["yamil-asusta"],
+    "title": "Using JSON Web Tokens within Go web applications"
+}, {
+    "date": "2014-10-14",
+    "added": "2014-10-18",
+    "id": "lRq8JszFaqY",
+    "tags": ["php"],
+    "speakers": ["jan-halfar"],
+    "title": "PHP and Go: a success story"
+}, {
     "date": "2014-10-13",
     "added": "2014-10-14",
     "id": "sFUSP8Au_PE",
     "tags": ["best-practices", "naming"],
     "speakers": ["andrew-gerrand"],
     "title": "What's in a name?"
+}, {
+    "date": "2014-10-12",
+    "added": "2014-10-19",
+    "id": "iux7MBPUKZI",
+    "tags": ["pubnub"],
+    "speakers": ["im-a-developer"],
+    "title": "Using PubNub 3.5 with Google Go Programming Language"
 }, {
     "date": "2014-10-08",
     "added": "2014-10-09",
