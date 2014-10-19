@@ -763,6 +763,13 @@
     "speakers": ["dustin-sallings"],
     "title": "five minutes of go with emacs"
 }, {
+    "date": "2013-12-05",
+    "added": "2014-10-15",
+    "id": "BkKP3naKLi8",
+    "tags": ["optimization"],
+    "speakers": ["samuel-lampa"],
+    "title": "Profiling Go Code - A Beginners Tutorial"
+}, {
     "date": "2013-11-19",
     "added": "2014-02-23",
     "id": "Hoj-Clpo9ec",
