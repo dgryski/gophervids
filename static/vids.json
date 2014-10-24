@@ -1,5 +1,26 @@
 [
 {
+    "date": "2014-10-24",
+    "added": "2014-10-25",
+    "id": "LJvEIjRBSDA",
+    "tags": ["music"],
+    "speakers": ["scalability"],
+    "title": "Write in Go"
+}, {
+    "date": "2014-10-24",
+    "added": "2014-10-25",
+    "id": "ZUCHMAoOgUQ",
+    "tags": ["constants"],
+    "speakers": ["bill-kennedy", "meetup"],
+    "title": "The Nature of Constants in Go"
+}, {
+    "date": "2014-10-20",
+    "added": "2014-10-25",
+    "id": "RdwZXw4B_xM",
+    "tags": ["meetup"],
+    "speakers": ["jeffrey-hulten"],
+    "title": "Learning to write Go"
+}, {
     "date": "2014-10-17",
     "added": "2014-10-18",
     "id": "eVlxuST7dCA",
@@ -27,6 +48,13 @@
     "tags": ["pubnub"],
     "speakers": ["im-a-developer"],
     "title": "Using PubNub 3.5 with Google Go Programming Language"
+}, {
+    "date": "2014-10-10",
+    "added": "2014-10-25",
+    "id": "myCHCXFFTPY",
+    "tags": ["dotgo", "dependencies"],
+    "speakers": ["keith-rarick"],
+    "title": "dotGo 2014: Keith Rarick - Vendoring and Import Path Rewriting"
 }, {
     "date": "2014-10-08",
     "added": "2014-10-09",
