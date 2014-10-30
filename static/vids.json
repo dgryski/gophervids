@@ -1,5 +1,13 @@
 [
 {
+    "date": "2014-10-27",
+    "added": "2014-10-30",
+    "id": "2_FMbcQJg0c",
+    "tags": ["testing", "dotgo", "mocking", "oop"],
+    "speakers": ["gabriel-aszalos"],
+    "title": "Mocking in Go: Using interfaces for fun and profits"
+},
+{
     "date": "2014-10-24",
     "added": "2014-10-25",
     "id": "LJvEIjRBSDA",
