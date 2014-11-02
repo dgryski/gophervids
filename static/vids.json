@@ -1,11 +1,67 @@
 [
 {
+    "date": "2014-10-29",
+    "added": "2014-11-02",
+    "id": "ablZG08AjNg",
+    "tags": ["couchbase"],
+    "speakers": ["marty-schooh"],
+    "title": "Building Advanced Systems with Go and Couchbase Server"
+},
+{
+    "date": "2014-10-27",
+    "added": "2014-11-02",
+    "id": "0arV-k8OPMg",
+    "tags": ["angular"],
+    "speakers": ["kyle-dinh"],
+    "title": "AngularJS + Go : A Lean Combination"
+},
+{
+    "date": "2014-10-27",
+    "added": "2014-11-02",
+    "id": "woCg2zaIVzQ",
+    "tags": ["concurrency", "dotgo"],
+    "speakers": ["john-graham-cumming"],
+    "title": "dotGo 2014: I came for the easy concurrency I stayed for the easy composition"
+},
+{
+    "date": "2014-10-27",
+    "added": "2014-11-02",
+    "id": "VoFfhEbcEG0",
+    "tags": ["logging", "dotgo", "monitoring"],
+    "speakers": ["matt-heath"],
+    "title": "dotGo 2014: Observability in micro-service architectures"
+},
+{
     "date": "2014-10-27",
     "added": "2014-10-30",
     "id": "2_FMbcQJg0c",
     "tags": ["testing", "dotgo", "mocking", "oop"],
     "speakers": ["gabriel-aszalos"],
-    "title": "Mocking in Go: Using interfaces for fun and profits"
+    "title": "dotGo 2014: Mocking in Go: Using interfaces for fun and profits"
+},
+{
+    "date": "2014-10-26",
+    "added": "2014-11-02",
+    "id": "rzzu2NxxPA4",
+    "tags": ["hardware", "meetup"],
+    "speakers": ["zubair-hamed"],
+    "title": "Interfacing Go with Real-world Things"
+},
+{
+    "date": "2014-10-26",
+    "added": "2014-11-02",
+    "id": "VExv3rSpVh0",
+    "tags": ["kaggle", "meetup"],
+    "speakers": ["martin-andrews"],
+    "title": "Using Go for the Reverse Game-of-Life Kaggle Challenge"
+},
+{
+    "date": "2014-10-26",
+    "added": "2014-11-02",
+    "id": "kU4N-QJj5Ek",
+    "tags": ["testing", "meetup"],
+    "speakers": ["mark-tong"],
+    "title": "More Efficient Testing"
 },
 {
     "date": "2014-10-24",
