@@ -1,5 +1,93 @@
 [
 {
+   "date": "2014-11-07",
+   "added": "2014-11-09",
+   "id": "24lFtGHWxAQ",
+   "speakers": ["dave-cheney"],
+   "tags": ["options", "dotgo"],
+   "title": "dotGo 2014 - Functional options for friendly APIs"
+},
+{
+   "date": "2014-11-07",
+   "added": "2014-11-09",
+   "id": "yi5A3cK1LNA",
+   "speakers": ["blake-mizerany"],
+   "tags": ["dotgo", "dependencies"],
+   "title": "dotGo 2014 - Three fallacies of dependencies"
+},
+{
+   "date": "2014-11-06",
+   "added": "2014-11-09",
+   "id": "VLciNxKAKyc",
+   "speakers": ["brad-fitzpatrick", "andrew-gerrand"],
+   "tags": ["interview", "dotgo"],
+   "title": "dotGo 2014 - Brad Fitzpatrick - Interview"
+},
+{
+   "date": "2014-11-06",
+   "added": "2014-11-09",
+   "id": "B-r3Wf_I2Lk",
+   "speakers": ["francesc-campoy"],
+   "tags": ["dotgo", "style"],
+   "title": "dotGo 2014 - Things I learned teaching Go"
+},
+{
+   "date": "2014-11-06",
+   "added": "2014-11-09",
+   "id": "cYgm2JJblCE",
+   "speakers": ["jeremy-saenz"],
+   "tags": ["dotgo", "packages"],
+   "title": "dotGo 2014 - Building Better Packages"
+},
+{
+   "date": "2014-11-06",
+   "added": "2014-11-09",
+   "id": "8IKxf98h65Y",
+   "speakers": ["ben-sigelman"],
+   "tags": ["distributed"],
+   "title": "Distributed Systems in Go: The Good, The Bad, and The Otherwise"
+},
+{
+   "date": "2014-11-06",
+   "added": "2014-11-09",
+   "id": "u72iOjHXQCo",
+   "speakers": ["francesc-campoy"],
+   "tags": ["gce", "appengine"],
+   "title": "Build Your App"
+},
+{
+    "date": "2014-11-05",
+    "added": "2014-11-09",
+    "id": "3GG9vdA-lSs",
+    "tags": ["devops", "dotgo"],
+    "speakers": ["anthony-eden"],
+    "title": "dotGo 2014: Go Remote Control"
+},
+{
+    "date": "2014-11-05",
+    "added": "2014-11-09",
+    "id": "YcSCFEw08WA",
+    "tags": ["drone", "dotgo"],
+    "speakers": ["felix-geisendorfer"],
+    "title": "dotGo 2014: GoDrone: Writing a Quadcopter firmware in Go"
+},
+{
+   "date": "2014-11-04",
+   "added": "2014-11-09",
+   "id": "fsTOOPB1TBY",
+   "speakers": ["andrew-gerrand"],
+   "tags": ["dotgo", "intro"],
+   "title": "dotGo 2014 - 5 things I love (or why you should learn Go)"
+},
+{
+   "date": "2014-11-04",
+   "added": "2014-11-09",
+   "id": "R_0DKX0KbHM",
+   "speakers": ["john-graham-cumming", "andrew-gerrand"],
+   "tags": ["interview", "dotgo"],
+   "title": "dotGo 2014 - John Graham-Cumming - Interview"
+},
+{
     "date": "2014-10-29",
     "added": "2014-11-02",
     "id": "ablZG08AjNg",
