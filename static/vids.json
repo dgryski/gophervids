@@ -74,8 +74,8 @@
     "date": "2014-10-24",
     "added": "2014-10-25",
     "id": "ZUCHMAoOgUQ",
-    "tags": ["constants"],
-    "speakers": ["bill-kennedy", "meetup"],
+    "tags": ["constants", "meetup"],
+    "speakers": ["bill-kennedy"],
     "title": "The Nature of Constants in Go"
 }, {
     "date": "2014-10-20",
@@ -158,8 +158,8 @@
     "date": "2014-09-25",
     "added": "2014-10-15",
     "id": "Qi4-OAuL-RU",
-    "tags": ["surge2014"],
-    "speakers": ["baron-schwartz", "owen-zanzal", "surge", "devops"],
+    "tags": ["surge2014", "surge", "devops"],
+    "speakers": ["baron-schwartz", "owen-zanzal"],
     "title": "Surge 2014: The Golang Effect - How Go Changed Operations at VividCortex"
 }, {
     "date": "2014-09-23",
