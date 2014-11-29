@@ -1,5 +1,45 @@
 [
 {
+   "date": "2014-11-11",
+   "added": "2014-11-29",
+   "id": "7t1SqAfZK8w",
+   "speakers": ["andrew-gerrand", "francesc-campoy", "brad-fitzpatrick", "dave-cheney", "keith-rarick", "blake-mizerany"],
+   "tags": ["dotgo", "fireside-chat"],
+   "title": "dotGo 2014 - Final Go panel - part 2"
+},
+{
+   "date": "2014-11-11",
+   "added": "2014-11-29",
+   "id": "biX7AMpKTvc",
+   "speakers": ["andrew-gerrand", "francesc-campoy", "brad-fitzpatrick", "dave-cheney", "keith-rarick", "blake-mizerany"],
+   "tags": ["dotgo", "fireside-chat"],
+   "title": "dotGo 2014 - Final Go panel - part 1"
+},
+{
+   "date": "2014-11-22",
+   "added": "2014-11-29",
+   "id": "BYrmD1UeNxs",
+   "speakers": ["bill-kennedy"],
+   "tags": ["meetup", "errors"],
+   "title": "Go-Miami Error Handling In Go"
+},
+{
+   "date": "2014-11-10",
+   "added": "2014-11-29",
+   "id": "lkCeLUuftmg",
+   "speakers": ["jeremy-saenz", "andew-gerrand"],
+   "tags": ["dotgo", "interview"],
+   "title": "dotGo 2014 - Jeremy Saenz - Interview"
+},
+{
+   "date": "2014-11-10",
+   "added": "2014-11-29",
+   "id": "SptDsw7B93E",
+   "speakers": ["dave-cheney", "andrew-gerrand"],
+   "tags": ["dotgot", "interview"],
+   "title": "dotGo 2014 - Dave Cheney - Interview"
+},
+{
    "date": "2014-11-07",
    "added": "2014-11-09",
    "id": "24lFtGHWxAQ",
