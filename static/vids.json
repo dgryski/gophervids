@@ -1,5 +1,69 @@
 [
 {
+   "date": "2014-12-08",
+   "added": "2015-01-01",
+   "id": "lDZD2n2GbBA",
+   "speakers": ["ted-kornish", "ryan-atallah"],
+   "tags": ["style"],
+   "title": "Scaling a Go Codebase"
+},
+{
+   "date": "2014-12-09",
+   "added": "2015-01-01",
+   "id": "-S0-qgl8120",
+   "speakers": ["chris-agocs"],
+   "tags": ["queues"],
+   "title": "Message Queues and Go"
+},
+{
+   "date": "2014-12-01",
+   "added": "2015-01-01",
+   "id": "JkgQJrodSpI",
+   "speakers": ["ashish-gandhi"],
+   "tags": ["optimization"],
+   "title": "Optimizing Go with Ashish Gandhi from CloudFlare"
+},
+{
+   "date": "2014-11-11",
+   "added": "2015-01-01",
+   "id": "r4g25rmiFig",
+   "speakers": ["baron-schwartz"],
+   "tags": ["sql"],
+   "title": "MySQL and Go"
+},
+{
+   "date": "2014-12-19",
+   "added": "2015-01-01",
+   "id": "PXoG0WX0r_E",
+   "speakers": ["rob-pike"],
+   "tags": ["little-language"],
+   "title": "Implementing a bignum calculator - Rob Pike"
+},
+{
+   "date": "2014-12-24",
+   "added": "2015-01-01",
+   "id": "Kx0nUrTItR0",
+   "speakers": ["bryan-liles"],
+   "tags": ["production"],
+   "title": "Go at Work (at Digital Ocean)"
+},
+{
+   "date": "2014-12-24",
+   "added": "2015-01-01",
+   "id": "gjLAoYxSLTE",
+   "speakers": ["alan-donovan"],
+   "tags": ["tooling"],
+   "title": "Static Analysis Tools for Go Code Comprehension and Refactoring"
+},
+{
+   "date": "2013-01-03",
+   "added": "2015-01-01",
+   "id": "0bsxjosoSoc",
+   "speakers": ["olivier-van-acker"],
+   "tags": ["sctp"],
+   "title": "Implementation of SCTP in Go (FreeBSD)"
+},
+{
    "date": "2014-11-11",
    "added": "2014-11-29",
    "id": "7t1SqAfZK8w",
