@@ -1,5 +1,45 @@
 [
 {
+   "date": "2015-01-09",
+   "added": "2015-01-25",
+   "id": "1rZ-JorHJEY",
+   "speakers": ["andrew-gerrand", "brad-fitzpatrick"],
+   "tags": ["hangout"],
+   "title": "Hacking with Andrew and Brad: tip.golang.org"
+},
+{
+   "date": "2014-12-15",
+   "added": "2015-01-25",
+   "id": "GjGRhIl0xWs",
+   "speakers": ["tom-hudson"],
+   "tags": ["virtual-machine"],
+   "title": "Hey!: Tom Hudson - Let's build a virtual machine!"
+},
+{
+   "date": "2015-01-16",
+   "added": "2015-01-25",
+   "id": "KY8OXFi3CDU",
+   "speakers": ["matt-sherman"],
+   "tags": ["meetup", "code-generation"],
+   "title": "Go-Miami Matt Sherman - Stack Overflow"
+},
+{
+   "date": "2015-01-16",
+   "added": "2015-01-25",
+   "id": "MeOK1UzGHYw",
+   "speakers": ["mark-smith"],
+   "tags": ["tutorial"],
+   "title": "Building Services in Go"
+},
+{
+   "date": "2014-03-05",
+   "added": "2015-01-25",
+   "id": "YUigj99zXLU",
+   "speakers": ["mark-smith"],
+   "tags": ["tutorial"],
+   "title": "Introduction to Go - Mark Smith (Linux.conf.au 2014) By Net"
+},
+{
    "date": "2014-12-08",
    "added": "2015-01-01",
    "id": "lDZD2n2GbBA",
