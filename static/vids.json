@@ -1,5 +1,13 @@
 [
 {
+   "date": "2015-02-03",
+   "added": "2015-02-04",
+   "id": "l3zHGMgtr2Y",
+   "speakers": ["kamil-kisiel"],
+   "tags": ["optimization"],
+   "title": "Taking Out the Trash -- Optimizing Memory Allocation in Go Programs"
+},
+{
    "date": "2015-01-09",
    "added": "2015-01-25",
    "id": "1rZ-JorHJEY",
