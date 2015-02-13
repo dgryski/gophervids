@@ -1,11 +1,35 @@
 [
 {
+   "date": "2015-02-05",
+   "added": "2015-02-13",
+   "id": "tLNGCZKX3NI",
+   "speakers": ["lakshan-perera", "audrey-lim"],
+   "tags": ["internet-of-things"],
+   "title": "[Singapore Gophers] Internet of Things with Go"
+},
+{
    "date": "2015-02-03",
    "added": "2015-02-04",
    "id": "l3zHGMgtr2Y",
    "speakers": ["kamil-kisiel"],
    "tags": ["optimization"],
    "title": "Taking Out the Trash -- Optimizing Memory Allocation in Go Programs"
+},
+{
+   "date": "2015-01-29",
+   "added": "2015-02-13",
+   "id": "8U7YUINiMz0",
+   "speakers": ["jonathan-gomez"],
+   "tags": ["web-framework"],
+   "title": "[Singapore Gophers] Customising Your Own Web Framework in Go"
+},
+{
+   "date": "2015-01-21",
+   "added": "2015-02-13",
+   "id": "AiRhWG-2nGU",
+   "speakers": ["khaja-minhajuddin"],
+   "tags": ["screencast", "tutorial", "webapp"],
+   "title": "How to build a simple web app in golang - Redirectapp"
 },
 {
    "date": "2015-01-09",
@@ -70,6 +94,14 @@
    "speakers": ["ashish-gandhi"],
    "tags": ["optimization"],
    "title": "Optimizing Go with Ashish Gandhi from CloudFlare"
+},
+{
+   "date": "2014-11-26",
+   "added": "2015-02-13",
+   "id": "89NC1gK2gZA",
+   "speakers": ["loh-Siu-yin"],
+   "tags": ["concurrency"],
+   "title": "[Singapore Gophers] Writing Concurrent Programs in Go"
 },
 {
    "date": "2014-11-11",
