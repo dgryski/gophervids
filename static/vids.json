@@ -1,5 +1,13 @@
 [
 {
+   "date": "2015-02-25",
+   "added": "2015-02-26",
+   "id": "yG-UaBJXZ80",
+   "speakers": ["andrew-gerrand", "brad-fitzpatrick"],
+   "tags": ["hangout"],
+   "title": "Hacking with Andrew and Brad: an HTTP/2 client"
+},
+{
    "date": "2015-02-05",
    "added": "2015-02-13",
    "id": "tLNGCZKX3NI",
