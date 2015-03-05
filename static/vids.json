@@ -4,7 +4,7 @@
    "added": "2015-02-26",
    "id": "yG-UaBJXZ80",
    "speakers": ["andrew-gerrand", "brad-fitzpatrick"],
-   "tags": ["hangout"],
+   "tags": ["hangout", "http2"],
    "title": "Hacking with Andrew and Brad: an HTTP/2 client"
 },
 {
@@ -928,7 +928,7 @@
     "date": "2014-04-09",
     "added": "2014-04-10",
     "id": "9sTrCqeHP7E",
-    "tags": ["meetup", "appengine", "animated-gifs", "text/template"],
+    "tags": ["meetup", "appengine", "animated-gifs", "templates"],
     "speakers": ["piotr-piasecki", "gavin-b", "joseph-holsten"],
     "title": "Golangvan: Google App Engine, creating animated Gifs and text/template"
 }, {
