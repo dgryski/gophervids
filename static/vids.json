@@ -669,7 +669,7 @@
     "date": "2014-06-11",
     "added": "2014-06-20",
     "id": "Ph4eYD7Bgek",
-    "tags": ["meetup", "error-handling"],
+    "tags": ["meetup", "errors"],
     "speakers": ["daniel-morsing"],
     "title": "Go London User Group: Effective Error Handling"
 }, {
