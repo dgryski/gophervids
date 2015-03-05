@@ -1,5 +1,149 @@
 [
 {
+   "date": "2015-03-05",
+   "added": "2015-03-05",
+   "id": "GM39Be_OhLM",
+   "speakers": ["peter-bourgon"],
+   "tags": ["fosdem", "distributed"],
+   "title": "Go and the Modern Enterprise - Peter Bourgon - Go Devroom FOSDEM 2015"
+},
+{
+   "date": "2015-03-05",
+   "added": "2015-03-05",
+   "id": "Ck1bRyYxJCQ",
+   "speakers": ["norberto-leite"],
+   "tags": ["fosdem", "mongodb", "cli"],
+   "title": "Moving MongoDB components to Go - Norberto Leite - Go Devroom FOSDEM 2015"
+},
+{
+   "date": "2015-03-05",
+   "added": "2015-03-05",
+   "id": "12vPCJrWwxA",
+   "speakers": ["dmitry-savintsev"],
+   "tags": ["fosdem", "security"],
+   "title": "Finding Bad Needles in Worldwide Haystacks - Dmitry Savintsev - Go Devroom FOSDEM 2015"
+},
+{
+   "date": "2015-03-05",
+   "added": "2015-03-05",
+   "id": "gAfoLwog_MA",
+   "speakers": ["brad-fitzpatrick"],
+   "tags": ["fosdem", "http2"],
+   "title": "HTTP/2 for Go - Brad Fitzpatrick - Go Devroom FOSDEM 2015"
+},
+{
+   "date": "2015-03-05",
+   "added": "2015-03-05",
+   "id": "Kd8EqTvW5EQ",
+   "speakers": ["andrew-gerrand"],
+   "tags": ["fosdem"],
+   "title": "The State of Go - Andrew Gerrand - Go Devroom FOSDEM 2015"
+},
+{
+   "date": "2015-03-05",
+   "added": "2015-03-05",
+   "id": "ndKj77VW2eM",
+   "speakers": ["tobias-schottdorf"],
+   "tags": ["fosdem", "cockroachdb"],
+   "title": "CockroachDB: Towards an Open-Source Spanner - Tobias Schottdorf - Go Devroom FOSDEM 2015"
+},
+{
+   "date": "2015-03-05",
+   "added": "2015-03-05",
+   "id": "oM-MfeflUZ8",
+   "speakers": [],
+   "tags": [],
+   "title": "Lightning Talks - Go Devroom FOSDEM 2015"
+},
+{
+   "date": "2015-03-05",
+   "added": "2015-03-05",
+   "id": "UNulSprd2Ng",
+   "speakers": ["kelse-hightower"],
+   "tags": ["fosdem", "coreos"],
+   "title": "Go at CoreOS - Kelsey Hightower - Go Devroom FOSDEM 2015"
+},
+{
+   "date": "2015-03-04",
+   "added": "2015-03-05",
+   "id": "3Gsdg4-85X8",
+   "speakers": ["andrew-gerrand"],
+   "tags": ["london-go-gathering"],
+   "title": "The State of Go (Feb 2015) - Andrew Gerrand - London Go Gathering 2015"
+},
+{
+   "date": "2015-03-04",
+   "added": "2015-03-05",
+   "id": "lzlGXMnrBgw",
+   "speakers": ["matt-heath"],
+   "tags": ["london-go-gathering", "distributed", "errors"],
+   "title": "Channeling Failure - Matt Heath - London Go Gathering 2015"
+},
+{
+   "date": "2015-03-04",
+   "added": "2015-03-05",
+   "id": "YgnD27GFcyA",
+   "speakers": ["francesc-campoy"],
+   "tags": ["london-go-gathering", "json", "code-generation"],
+   "title": "JSON, interfaces, and go generate - Francesc Campoy - London Go Gathering 2015"
+},
+{
+   "date": "2015-03-04",
+   "added": "2015-03-05",
+   "id": "ZLq0Zeoyu6Y",
+   "speakers": ["david-crawshaw"],
+   "tags": ["london-go-gathering", "mobile"],
+   "title": "Go on Mobile - David Crawshaw - London Go Gathering 2015"
+},
+{
+   "date": "2015-03-04",
+   "added": "2015-03-05",
+   "id": "gukAZO1fqZQ",
+   "speakers": ["brad-fitzpatrick"],
+   "tags": ["london-go-gathering", "http2"],
+   "title": "HTTP/2 - Brad Fitzpatrick - London Go Gathering 2015"
+},
+{
+   "date": "2015-03-04",
+   "added": "2015-03-05",
+   "id": "8igk2ylk_X4",
+   "speakers": ["john-graham-cumming"],
+   "tags": ["london-go-gathering"],
+   "title": "How Go spread at CloudFlare - John Graham-Cumming - London Go Gathering 2015"
+},
+{
+   "date": "2015-03-04",
+   "added": "2015-03-05",
+   "id": "iFR_7AKkJFU",
+   "speakers": ["peter-bourgon"],
+   "tags": ["london-go-gathering", "distributed"],
+   "title": "Go and the Modern Enterprise - Peter Bourgon - London Go Gathering 2015"
+},
+{
+   "date": "2015-03-03",
+   "added": "2015-03-05",
+   "id": "alfpaDqeHB4",
+   "speakers": ["chang-sau-sheong"],
+   "tags": ["meetup", "templates"],
+   "title": "3 Things You May Not Know About The Go Template Engine - GoSG"
+},
+{
+   "date": "2015-03-03",
+   "added": "2015-03-05",
+   "id": "7kN5IltyNxs",
+   "speakers": ["soares-chen"],
+   "tags": ["meetup", "nodejs"],
+   "title": "Adventures in Go from a Node.js developer - GoSG"
+},
+{
+   "date": "2015-03-01",
+   "added": "2015-03-05",
+   "id": "5TJkSIatolI",
+   "speakers": ["mark-probst"],
+   "tags": ["screencast", "scheme"],
+   "title": "WatchPeopleCode: Scheme in Go - #1: The Reader"
+},
+{
    "date": "2015-02-25",
    "added": "2015-02-26",
    "id": "yG-UaBJXZ80",
