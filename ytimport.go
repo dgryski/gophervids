@@ -3,7 +3,7 @@
 // Command ytimport creates a partial JSON file from a list of youtube videos.
 /*
 To extract a list of IDs from a playlist:
-   curl -s https://www.youtube.com/playlist?list=PLiAILMXD9huEKtg1Lyx0PO6Ki1WaJSyR5 |grep -o 'data-video-id="[^"]*"'  |sed 's/.*=//; s/"//g;' |go run ytimport.go
+   curl -s https://www.youtube.com/playlist?list=PLiAILMXD9huEKtg1Lyx0PO6Ki1WaJSyR5 |grep -o 'data-video-id="[^"]*"'  |sed 's/.*=//; s/"//g;' |go run ytimport.go >playlist.json
 */
 package main
 
