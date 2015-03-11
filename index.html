@@ -1,4 +1,4 @@
-<html ng-app>
+<html ng-app="gophervids">
 <head>
 
 <script>
@@ -18,9 +18,13 @@
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 <link href="/static/style.css" rel="stylesheet" />
+<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
 <script src="/static/vids.js"></script>
+<script src="http://vjs.zencdn.net/4.12/video.js"></script>
+<script src="/static/vjs.youtube.js"></script>
+<script src="/static/vjs.vimeo.js"></script>
 
 </head>
 <body ng-controller="GopherTVController">
@@ -76,43 +80,27 @@
 
 	<div class="row">
 
+
+
         <div class="col-md-7 main video-container">
-
-                <div id="ytplayer"></div>
-                <script>
-                // Add YouTube script.
-                var tag = document.createElement('script');
-                tag.src = "https://www.youtube.com/iframe_api";
-                var firstScriptTag = document.getElementsByTagName('script')[0];
-                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-                function onYouTubeIframeAPIReady() {
-                    window.player = new YT.Player('ytplayer', {
-                        height: '390',
-                        width: '640',
-                        videoId: '2KmHtgtEZ1s',
-                        events: {
-                        'onReady': function(event) { window.loadPlaylistFromHash() },
-                        }
-                    });
-                }
-                </script>
+            <h3 ng-bind="currentPlaylist[currentIndex].title"></h3>
+            <go-video playlist="currentPlaylist" index="currentIndex" width="640" height="360"/>
                 <br/>
             <br/>
         </div>
 
-        <div class="col-md-4 sidebar">
+        <div class="col-md-4 sidebar" >
             <div class="panel panel-default">
                 <div class="panel-heading">
                     <span class="remove-current-tag" ng-show="currentTag"><span ng-click="clear()" class="glyphicon glyphicon-remove"> Now playing `{{currentTag}}`</span></span>
-                    <span ng-show="currentTag == null && (!searchText || !searchText.title)">No playlist selected</span>
+                    <span ng-show="currentPlaylist == null && (!searchText || !searchText.title)">No playlist selected</span>
                     <span ng-show="currentTag == null && searchText && searchText.title">Search: {{ searchText.title }}</span>
                 </div>
 
                 <div class="panel-body">
                     <div class="list-group">
                         <span ng-repeat="video in sidebarVideoList() | filter:searchText">
-                            <a class="list-group-item" ng-click="playVideo(video.id)">{{video.title}}</a>
+                            <a class="list-group-item" ng-class="{'active':(video.id==currentPlaylist[currentIndex].id)}" ng-click="playVideo(video.id)">{{video.title}}</a>
                         </span>
                     </div>
                 </div>
