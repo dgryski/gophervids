@@ -145,19 +145,14 @@ a{
 		overflow-y: scroll;
 	}
 
-	.video_section .panel{
-		margin: 0px;
-	}
-
-	.video_section	.item_panel .panel-body{
+	.video_section	.item_panel .panel_body{
 		/*position: absolute;*/
 		width: 100%;
 		height:10000px;
-		/*overflow-y: scroll;*/
-		padding: 0px 15px;
+		overflow-y: scroll;
 	}
 
-	.video_section::-webkit-scrollbar{
+	.video_section::-webkit-scrollbar,.video_section	.item_panel::-webkit-scrollbar{
 		display: none;
 	}
 

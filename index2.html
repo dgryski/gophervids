@@ -61,12 +61,21 @@
     </section>
 
     <section class="latest_talk show">
-        <!-- <div class="col-md-7 main video-container">
+        <div class="col-md-7 main video-container">
             <h3 ng-bind="currentPlaylist[currentIndex].title"></h3>
-            <go-video playlist="currentPlaylist" index="currentIndex" width="640" height="360"/>
+            <!-- <go-video playlist="currentPlaylist" index="currentIndex" width="640" height="360"/> -->
                 <br/>
             <br/>
-        </div> -->
+        </div>
+    </section>
+
+    <section class="tags">
+        <ul class="nav navbar-nav">
+            <li><a href="" ng-click="recentTalks()">#Recent Talks</a></li>
+        </ul>
+        <ul class="nav navbar-nav">
+            <li><a href="" ng-click="newVideos()">#New Videos</a></li>
+        </ul>
     </section>
 
   </section>
