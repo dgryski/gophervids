@@ -1,0 +1,177 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	min-width: 480px;
+}
+
+.navbar {
+	border-radius: 0;
+	margin-bottom:0;
+}
+
+.remove-current-tag {
+	cursor: pointer;
+}
+
+.brand_section{
+	font-family: helvetica,georgia, sans-serif;
+	padding: 10px;
+}
+
+.brand_logo{
+	width: 40.322580645%;
+	height: auto;
+}
+
+.inlineItems{
+	display: inline-block;
+	/*vertical-align: 150%;*/
+}
+
+.brand_logo h1{
+	font-size: 400%;
+	font-weight: bold;
+	width: 200px;
+}
+
+.brand_logo #brand_logo_image{
+	width: 20.532%;
+	height: 130px;
+}
+
+.brand_logo #brand_logo_image img{
+	width:100% !important;
+	height: 100% !important;
+	vertical-align: bottom;
+}
+
+.menu_cover{
+	width:100%;
+	height: auto;
+	position: absolute;
+	display: block;
+	top:10;
+}
+
+a{
+	text-decoration: none;
+	color: rgba(0,0,0,1);
+}
+
+.brand_menu nav#brand_menu_nav ul li{
+	font-weight: bold;
+}
+
+.large_brand{
+	height: 500px;
+}
+
+.small_brand{
+	height: 100px;
+}
+
+.brand_bottom{
+	background: #222;
+}
+
+@media (min-width: 62em) {
+
+	.vertUp{
+		vertical-align: 50;
+	}
+
+	.brand_section{
+		width: 100%;
+		position: relative;
+		min-height: 100px;
+		overflow: hidden;
+		background:#A1174C;
+		background:#ccc;
+		border-bottom: 10px solid rgba(0,0,0,0.6)
+	}
+
+	.brand_bottom{
+		width: 100%;
+		height: 200px;
+	}
+
+	.brand_menu{
+		position: relative;
+		width:100%;
+		height: auto;
+		padding: 0.5em;
+	}
+
+	.brand_menu nav#brand_menu_nav{
+		position:absolute;
+		width: auto;
+		height: auto;
+		right: 30;
+	}
+
+	.brand_menu nav#brand_menu_nav ul {
+		display: block;
+		list-style-type: none;
+	}
+
+	.brand_menu nav#brand_menu_nav ul li{
+		display: inline-block;
+		list-style-type: none;
+		width: auto;
+		padding: 5px 8px;
+	}
+
+	.video_section{
+		width: 100%;
+		height: 600px;
+		position: relative;
+		overflow-y: scroll;
+	}
+
+	.video_section	.item_panel{
+		position: relative;
+		width: 100%;
+		height: 600px;
+		overflow-y: scroll;
+	}
+
+	.video_section .panel{
+		margin: 0px;
+	}
+
+	.video_section	.item_panel .panel-body{
+		/*position: absolute;*/
+		width: 100%;
+		height:10000px;
+		/*overflow-y: scroll;*/
+		padding: 0px 15px;
+	}
+
+	.video_section::-webkit-scrollbar{
+		display: none;
+	}
+
+	.video_item{
+		display: inline-block;
+		vertical-align: top;
+		width: 300px;
+		height: 150px;
+		margin: 15px 20px;
+	}
+
+	.video_item a {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+}

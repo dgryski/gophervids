@@ -1,0 +1,17 @@
+application: gophervids
+version: 1
+runtime: go
+api_version: go1
+
+handlers:
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /static/(.*\.(css|png|js|json))$
+  static_files: static/\1
+  upload: static/.*\.(css|png|js|json)$
+  application_readable: true
+
+- url: /.*
+  script: _go_app

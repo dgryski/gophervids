@@ -1,0 +1,103 @@
+body {
+}
+
+/*.margin-base-vertical {
+    margin: 40px 0;
+}
+*/
+.navbar {
+	border-radius: 0;
+	margin-bottom:0;
+}
+
+.remove-current-tag {
+	cursor: pointer;
+}
+
+/*
+Make thing purty on desktops...using bootstrap's breakpoint
+*/
+@media (min-width: 992px) {
+	.navbar {
+		position: fixed;
+		z-index:1;
+		width: 100%;
+	}
+	
+	.navbar-default a.navbar-brand:hover {
+		color:#6AD7E5;
+	}
+	.dropdown .dropdown-menu {
+		max-height: 400px;
+		overflow-y: auto;
+		min-width: 230px;
+	}
+
+	.sidebar {
+		position: absolute;
+		top: 50px;
+		min-height: 100%;
+		right: 0;
+		margin-top: -50px;
+		padding: 0;
+	}
+
+	.sidebar .panel {
+		border-radius: 0;
+		margin: 0;
+		margin-top: 50px;
+	}
+
+	.panel .panel-heading {
+		position: fixed;
+		width: 100%;
+		z-index:1;
+		border-top: 1px solid #ddd;
+		border-radius: 0;
+	}
+
+	.panel .panel-body {
+		padding: 40px 0 0 0;
+		margin:0;
+	}
+
+	.panel-body .list-group {
+		margin: 0;
+	}
+
+	.list-group a.list-group-item {
+		border-radius: 0;
+		border: 0;
+		border-bottom: 1px solid #ddd;
+		cursor: pointer;
+	}
+
+	.video-container {
+		margin-top: 80px;
+		padding-right: 0;
+		padding-left: 40px;
+		position: fixed;
+	}
+
+	.gopher-hole {
+		position: fixed;
+		width:211px;
+		height:39px;
+		bottom: 0;
+		right:33%;
+		z-index:10;
+		background: url('/static/gopher-hole.png');
+	}
+
+	.gopher {
+		position: absolute;
+		z-index: 1;
+		bottom: 0px;
+		right: 100%;
+		margin-right: 46px;
+		width: 108px;
+		height: 144px;
+		background: url('/static/gopher.png') no-repeat scroll 0 35px transparent;
+	}
+
+}

@@ -1,0 +1,99 @@
+<html ng-app="gophervids">
+<head>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55226077-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Gophervids ATOM Feed" />
+<link rel="alternate" type="application/rss+xml" title="Gophervids RSS Feed" href="/rss.xml" />
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+<!-- <link href="/static/style.css" rel="stylesheet" /> -->
+<!-- my-own-style-sheet with updating changes -->
+<link href="/static/restyle.css" rel="stylesheet" />
+<!----end of my own stylesheet-->
+
+<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+<script src="/static/vids.js"></script>
+<script src="http://vjs.zencdn.net/4.12/video.js"></script>
+<script src="/static/vjs.youtube.js"></script>
+<script src="/static/vjs.vimeo.js"></script>
+
+</head>
+<body ng-controller="GopherTVController">
+  <section class="brand_section large_brand">
+
+    <section class="brand_logo">
+      <div class="inlineItems" id="brand_logo_image">
+        <img src="/static/gopher.png" />
+      </div>
+      <h1 class="inlineItems vertUp">GopherVids</h1>
+    </section>
+
+    <section class="menu_cover">
+      <section class="brand_menu">
+        <nav id="brand_menu_nav">
+          <ul class="brand_menu_lists" id="menu">
+
+            <li id="community">
+              <a href=""><span class="communtity">Community<span></a>
+            </li>
+
+            <li id="feedback">
+              <a href="http://gophers.slack.com"><span class="feedback">Reach Out<span></a>
+            </li>
+
+          </ul>
+        </nav>
+
+      </section>
+    </section>
+
+    <section class="latest_talk show">
+        <!-- <div class="col-md-7 main video-container">
+            <h3 ng-bind="currentPlaylist[currentIndex].title"></h3>
+            <go-video playlist="currentPlaylist" index="currentIndex" width="640" height="360"/>
+                <br/>
+            <br/>
+        </div> -->
+    </section>
+
+  </section>
+
+  <section class="video_section">
+      <div class="panel panel-default">
+          <div class="panel-heading">
+              <span class="remove-current-tag" ng-show="currentTag"><span ng-click="clear()" class="glyphicon glyphicon-remove"> Now playing `{{currentTag}}`</span></span>
+              <span ng-show="currentPlaylist == null && (!searchText || !searchText.title)">No playlist selected</span>
+              <span ng-show="currentTag == null && searchText && searchText.title">Search: {{ searchText.title }}</span>
+          </div>
+      </div>
+      <div class="item_panel">
+          <div class="panel-body">
+              <div class="list-group">
+                  <section ng-repeat="video in sidebarVideoList()" class="video_item">
+                    <a class="list-group-item" ng-class="{'active':(video.id==currentPlaylist[currentIndex].id)}" ng-click="playVideo(video.id)">{{video.title}}</a>
+                  </section>
+              </div>
+          </div>
+
+      </div>
+
+  </section>
+
+  <section class="brand_bottom">
+
+  </section>
+</body>
+</html>
