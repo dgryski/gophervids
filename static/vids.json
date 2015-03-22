@@ -612,7 +612,7 @@
    "date": "2014-11-22",
    "added": "2014-11-29",
    "id": "BYrmD1UeNxs",
-   "speakers": ["bill-kennedy"],
+   "speakers": ["william-kennedy"],
    "tags": ["meetup", "errors"],
    "title": "Go-Miami Error Handling In Go"
 },
@@ -796,7 +796,7 @@
     "added": "2014-10-25",
     "id": "ZUCHMAoOgUQ",
     "tags": ["constants", "meetup"],
-    "speakers": ["bill-kennedy"],
+    "speakers": ["william-kennedy"],
     "title": "The Nature of Constants in Go"
 }, {
     "date": "2014-10-20",
@@ -1244,7 +1244,7 @@
     "added": "2014-05-27",
     "id": "EfJRQ1lGkUk",
     "tags": ["gophercon", "mongodb", "analytics"],
-    "speakers": ["bill-kennedy"],
+    "speakers": ["william-kennedy"],
     "title": "[GopherCon 2014]: Building an Analytics Engine using MongoDB"
 }, {
     "date": "2014-04-25",
