@@ -1,5 +1,302 @@
 [
 {
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "5iD0Hl0alZ0",
+   "speakers": ["francesc-campoy"],
+   "tags": ["gophercon-india"],
+   "title": "Evolution of a Gopher - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "xpiiMOLkCHQ",
+   "speakers": ["gabriel-azsalos"],
+   "tags": ["gophercon-india", "style"],
+   "title": "Gopher From The Future - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "VZrL0UB5RnI",
+   "speakers": ["mike-gehard"],
+   "tags": ["gophercon-india", "ruby"],
+   "title": "A Journey From Ruby to Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "egGFG4T3T5M",
+   "speakers": ["aaron-cruz"],
+   "tags": ["gophercon-india", "code-reading"],
+   "title": "Herding Gophers - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "0bh07LTq-oA",
+   "speakers": ["kunal-powar"],
+   "tags": ["gophercon-india", "embedded"],
+   "title": "EMBD - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "MSoormoAXGE",
+   "speakers": ["niket-patel"],
+   "tags": ["gophercon-india", "microservices"],
+   "title": "Joy of Single Purpose Services in Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "QkPw8-Pf0SM",
+   "speakers": ["william-kennedy"],
+   "tags": ["gophercon-india", "channels"],
+   "title": "Go in Action - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "eyAeVl9pMCM",
+   "speakers": ["julia-poladsky"],
+   "tags": ["gophercon-india", "javascript"],
+   "title": "Go for Front End Developers - GopherConIndia 2015"
+},
+
+{
+   "date": "2015-03-10",
+   "added": "2015-03-22",
+   "id": "Vl4Yd4lzuL4",
+   "speakers": ["keiji-yoshida"],
+   "tags": ["gophercon-india", "style"],
+   "title": "Practical Tips for Creating a Go Package Successfully - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-10",
+   "added": "2015-03-22",
+   "id": "aI_XdjQwTCU",
+   "speakers": ["beyang-liu"],
+   "tags": ["gophercon-india", "go-generate"],
+   "title": "Go metaprogramming - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-10",
+   "added": "2015-03-22",
+   "id": "JXljs5ciwKE",
+   "speakers": ["baiju-muthukadan"],
+   "tags": ["gophercon-india", "javascript"],
+   "title": "Web development using Go and Ember.js - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-10",
+   "added": "2015-03-22",
+   "id": "IkoUarC1Mcg",
+   "speakers": ["jason-moiron"],
+   "tags": ["gophercon-india", "optimization"],
+   "title": "Optimising Go Programs - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "-BPVId_lA5w",
+   "speakers": ["robert-winslow"],
+   "tags": ["serialization", "flatbuffers"],
+   "title": "Flatbuffers for Golang: Fast and Fun Serialization"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "IY-PGcZTs9Y",
+   "speakers": ["amit-upadhyay"],
+   "tags": ["gophercon-india"],
+   "title": "An alternate approach to data - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "KqUbIk-kS9s",
+   "speakers": ["baishampayan-ghose"],
+   "tags": ["gophercon-india"],
+   "title": "The Roots of Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "uEhs_xrWJNw",
+   "speakers": ["martin-schoch"],
+   "tags": ["gophercon-india", "bleve", "search-engine"],
+   "title": "bleve - modern text indexing for Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "JkCwOdWb1y0",
+   "speakers": ["piyush-verma"],
+   "tags": ["gophercon-india", "microservices"],
+   "title": "Gottp: A micro backend framework in Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "FPYX0tN0IG4",
+   "speakers": ["sunil-sayyaparaju"],
+   "tags": ["gophercon-india"],
+   "title": "Concurrent, High-Performance Data-Access With Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "TfBnVObVwxY",
+   "speakers": ["sriram-melkote"],
+   "tags": ["gophercon-india"],
+   "title": "N1QL a query language in Go. It makes \"cents\" - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "NYkFhe4yR5U",
+   "speakers": ["david-calavera"],
+   "tags": ["gophercon-india", "git"],
+   "title": "High performance git infrastructure with Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "oeEVtyypYPg",
+   "speakers": ["rajesh-ramachandran"],
+   "tags": ["gophercon-india", "cgo"],
+   "title": "Cgo - Go under the hood - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "jSqkdjxLmiI",
+   "speakers": ["lakshan-perera"],
+   "tags": ["gophercon-india", "internet-of-things"],
+   "title": "Building Internet of Things with Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "UCneEDBbsJY",
+   "speakers": ["veronica-lopez"],
+   "tags": ["gophercon-india", "concurrency", "android"],
+   "title": "Concurrency by Data Structures - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "R-0vNocr-9Q",
+   "speakers": ["jyotiska-nk"],
+   "tags": ["gophercon-india", "image-processing"],
+   "title": "Image Processing in Scale with Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "gRcD_TM_Yhc",
+   "speakers": ["sendil-devar"],
+   "tags": ["gophercon-india", "simulation"],
+   "title": "Go for Simulations in Wireless Research - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "CZp2WWorKO4",
+   "speakers": ["bryan-liles"],
+   "tags": ["gophercon-india", "standard-library"],
+   "title": "Embracing the Standard Library - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "mDTg1dLUqBE",
+   "speakers": ["matthew-campbell"],
+   "tags": ["gophercon-india", "go-in-production"],
+   "title": "How to keep wall street chatting using Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "DicCTlSC0m0",
+   "speakers": ["shiju-varghese"],
+   "tags": ["gophercon-india", "mongodb", "rest"],
+   "title": "Building RESTful Services With Go and MongoDB - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "5u-mQKI6syQ",
+   "speakers": ["guillaume-charmes"],
+   "tags": ["gophercon-india", "raytracing"],
+   "title": "Raytracing in Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-09",
+   "added": "2015-03-22",
+   "id": "_6AYkV2mz80",
+   "speakers": ["dave-cheney"],
+   "tags": ["gophercon-india", "simplicity"],
+   "title": "Simplicity and the ideas that Go left behind - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "hFqXgmor74k",
+   "speakers": ["alan-shreve"],
+   "tags": ["gophercon-india", "channels"],
+   "title": "Principles of designing Go APIs with channels - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-12",
+   "added": "2015-03-22",
+   "id": "dhb63boH8E8",
+   "speakers": ["ryan-paul"],
+   "tags": ["rethinkdb"],
+   "title": "Ryan Paul: Build a realtime RethinkDB cluster monitoring app with live graphs"
+},
+{
+   "date": "2015-03-12",
+   "added": "2015-03-22",
+   "id": "bouIpFd9VGM",
+   "speakers": ["tommi-virtanen"],
+   "tags": ["boltdb"],
+   "title": "Go-nuts and Bolts: An Introduction to BoltDB"
+},
+{
+   "date": "2015-03-14",
+   "added": "2015-03-22",
+   "id": "gRpUfjTwSOo",
+   "speakers": ["william-kennedy"],
+   "tags": ["oop"],
+   "title": "OOPs in Go by William Kennedy"
+},
+{
+   "date": "2015-03-16",
+   "added": "2015-03-22",
+   "id": "6Z3bPTJSnmo",
+   "speakers": ["dmitri-shuralyov"],
+   "tags": ["gopherjs", "javascript"],
+   "title": "Getting Started with GopherJS"
+},
+{
+   "date": "2015-03-17",
+   "added": "2015-03-22",
+   "id": "Yzc8tZEECtg",
+   "speakers": [],
+   "tags": ["gophercon-india", "fireside-chat"],
+   "title": "Q & A - GopherConIndia 2015"
+},
+{
+   "date": "2014-12-19",
+   "added": "2015-03-22",
+   "id": "ojAeeDOofKc",
+   "speakers": ["eleanor-mchugh"],
+   "tags": ["networking"],
+   "title": "Code Mesh 2014 - Go for the Would-Be Network Programmer - Eleanor McHugh"
+},
+{
    "date": "2015-03-05",
    "added": "2015-03-05",
    "id": "GM39Be_OhLM",
