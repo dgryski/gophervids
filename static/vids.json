@@ -124,7 +124,7 @@
    "date": "2015-03-11",
    "added": "2015-03-22",
    "id": "uEhs_xrWJNw",
-   "speakers": ["martin-schoch"],
+   "speakers": ["marty-schoch"],
    "tags": ["gophercon-india", "bleve", "search-engine"],
    "title": "bleve - modern text indexing for Go - GopherConIndia 2015"
 },
