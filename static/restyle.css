@@ -1,7 +1,10 @@
+html{
+	font-size: 1em;
+}
+
 * {
 	margin: 0px;
 	padding: 0px;
-	width: 100%;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-o-box-sizing: border-box;
@@ -11,56 +14,17 @@
 body{
 	width: 100%;
 	height: 100%;
-	min-width: 480px;
+	max-width: 100%;
+	min-width: 320px;
 }
 
-.navbar {
-	border-radius: 0;
-	margin-bottom:0;
+.fatherWrap{
+	width: 100%;
+	height: 100%;
 }
 
-.remove-current-tag {
-	cursor: pointer;
-}
-
-.brand_section{
-	font-family: helvetica,georgia, sans-serif;
-	padding: 10px;
-}
-
-.brand_logo{
-	width: 40.322580645%;
-	height: auto;
-}
-
-.inlineItems{
-	display: inline-block;
-	/*vertical-align: 150%;*/
-}
-
-.brand_logo h1{
-	font-size: 400%;
-	font-weight: bold;
-	width: 200px;
-}
-
-.brand_logo #brand_logo_image{
-	width: 20.532%;
-	height: 130px;
-}
-
-.brand_logo #brand_logo_image img{
-	width:100% !important;
-	height: 100% !important;
-	vertical-align: bottom;
-}
-
-.menu_cover{
-	width:100%;
-	height: auto;
-	position: absolute;
-	display: block;
-	top:10;
+.relativePosition{
+	position: relative;
 }
 
 a{
@@ -68,8 +32,8 @@ a{
 	color: rgba(0,0,0,1);
 }
 
-.brand_menu nav#brand_menu_nav ul li{
-	font-weight: bold;
+ul {
+	list-style: none;
 }
 
 .large_brand{
@@ -80,93 +44,143 @@ a{
 	height: 100px;
 }
 
-.brand_bottom{
-	background: #222;
+.imgScale{
+	width: 100%;
+	height: 100%;
 }
 
-@media (min-width: 62em) {
+.brand_logo_header{
+	vertical-align: top;
+}
 
-	.vertUp{
-		vertical-align: 50;
+.hidden{
+	display: none;
+}
+
+.brand_section{
+	/*background: rgba(132,132,132,1);*/
+}
+
+.brand_logo_menu_section{
+	width: 100%;
+	height: auto;
+}
+
+.brand_logo_menu_section .brand_logo{
+	width: 3.0em;
+	height: 200px;
+}
+
+.brand_logo_menu_section .brand_logo div{
+
+}
+
+.brand_logo_menu_section .brand_logo div.brand_logo_image{
+	width: 2.0em;
+	height: 100%;
+}
+
+
+.brand_logo_menu_section .brand_menu{
+	/*font-size: 1em;*/
+
+}
+
+.brand_logo_menu_section .brand_menu .brand_menu_nav{
+}
+
+.brand_logo_menu_section .brand_menu .brand_menu_nav nav{
+}
+
+.brand_logo_menu_section .brand_menu .brand_menu_nav nav ul{
+
+}
+
+.brand_logo_menu_section .brand_menu .brand_menu_nav nav ul li{
+
+}
+
+@media (min-width: 859.6555px) and (max-width: 5000px){
+
+	/*.video_section::-webkit-scrollbar,.video_section	.item_panel::-webkit-scrollbar{
+		display: none;
+	}*/
+
+	.brand_logo{
+		font-size: 1500%;
 	}
 
-	.brand_section{
-		width: 100%;
-		position: relative;
-		min-height: 100px;
-		overflow: hidden;
-		background:#A1174C;
-		background:#ccc;
-		border-bottom: 10px solid rgba(0,0,0,0.6)
+	.brand_logo_menu_section .brand_logo{
+		height: 250px;
+	}
+}
+
+@media (min-width: 700px) and (max-width:860px){
+
+	.fatherWrap{
 	}
 
-	.brand_bottom{
-		width: 100%;
+	.brand_logo{
+		font-size: 900%;
+	}
+
+	.brand_logo_menu_section .brand_logo{
 		height: 200px;
 	}
+}
 
-	.brand_menu{
-		position: relative;
-		width:100%;
-		height: auto;
-		padding: 0.5em;
+@media (min-width: 680px) and (max-width:700px){
+
+	.fatherWrap{
 	}
 
-	.brand_menu nav#brand_menu_nav{
-		position:absolute;
-		width: auto;
-		height: auto;
-		right: 30;
+	.brand_logo{
+		font-size: 700%;
 	}
 
-	.brand_menu nav#brand_menu_nav ul {
-		display: block;
-		list-style-type: none;
+	.brand_logo_menu_section .brand_logo{
+		height: 170px;
+	}
+}
+
+@media (min-width: 480px) and (max-width:680px){
+
+	.fatherWrap{
 	}
 
-	.brand_menu nav#brand_menu_nav ul li{
-		display: inline-block;
-		list-style-type: none;
-		width: auto;
-		padding: 5px 8px;
+	.brand_logo{
+		font-size: 500%;
 	}
 
-	.video_section{
-		width: 100%;
-		height: 600px;
-		position: relative;
-		overflow-y: scroll;
+	.brand_logo_menu_section .brand_logo div.brand_logo_image{
+		width: 3.0em;
 	}
 
-	.video_section	.item_panel{
-		position: relative;
-		width: 100%;
-		height: 600px;
-		overflow-y: scroll;
-	}
-
-	.video_section	.item_panel .panel_body{
-		/*position: absolute;*/
-		width: 100%;
-		height:10000px;
-		overflow-y: scroll;
-	}
-
-	.video_section::-webkit-scrollbar,.video_section	.item_panel::-webkit-scrollbar{
-		display: none;
-	}
-
-	.video_item{
-		display: inline-block;
-		vertical-align: top;
-		width: 300px;
+	.brand_logo_menu_section .brand_logo{
 		height: 150px;
-		margin: 15px 20px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 490px){
+
+	.fatherWrap{
 	}
 
-	.video_item a {
-		display: block;
-		width: 100%;
+	.brand_logo{
+		font-size: 290%;
+	}
+
+	.brand_logo_menu_section .brand_logo{
+		height: 100px;
+	}
+
+	.brand_logo_menu_section .brand_logo div.brand_logo_image{
+		width: 3.0em;
+	}
+
+	.brand_logo_menu_section .brand_logo div.brand_logo_image img{
+		width: 120%;
+		/*height: inherit;*/
 		height: 100%;
 	}
 }
