@@ -87,7 +87,7 @@ a,a:active,a:hover,a:visited{
 }
 
 .brand_header{
-	z-index: 4000;
+	/*z-index: 4000;*/
 	background: #903063;
 	font-size: 100%;
 	width: 100%;
