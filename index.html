@@ -1,106 +1,150 @@
+<!DOCTYPE html />
 <html ng-app="gophervids">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<script>
-  // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  // ga('create', 'UA-55226077-1', 'auto');
-  // ga('send', 'pageview');
-</script>
+  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Gophervids ATOM Feed" />
+  <link rel="alternate" type="application/rss+xml" title="Gophervids RSS Feed" href="/rss.xml" />
 
-<link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Gophervids ATOM Feed" />
-<link rel="alternate" type="application/rss+xml" title="Gophervids RSS Feed" href="/rss.xml" />
+  <!-- // <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  // <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
+  // <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  <script src="/static/jquery.min.js"></script>
+  <link href="/static/bootstrap.min.css" rel="stylesheet" />
+  <script src="/static/bootstrap.min.js"></script>
 
-<!-- <link href="/static/style.css" rel="stylesheet" /> -->
-<!-- my-own-style-sheet with updating changes -->
-<link href="/static/restyle.css" rel="stylesheet" />
-<!-- include the league gothic font/no-google-font-solutions -->
-<!-- <link href="/static/fonts/leaguegothic/stylesheet.css" rel="stylesheet" /> -->
-<!----end of my own stylesheet-->
-<!-- <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> -->
-<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
-<script src="/static/vids.js"></script>
-<script src="http://vjs.zencdn.net/4.12/video.js"></script>
-<script src="/static/vjs.youtube.js"></script>
-<script src="/static/vjs.vimeo.js"></script>
+  <link href="/static/restyle.css" rel="stylesheet" />
 
+  <!-- <link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet"> -->
+  <!-- // <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script> -->
+
+  <link href="/static/video-js.css" rel="stylesheet">
+  <script src="/static/angular.min.js"></script>
+  <script src="/static/vids.js"></script>
+
+  <!-- // <script src="http://vjs.zencdn.net/4.12/video.js"></script> -->
+  <script src="/static/video.js"></script>
+
+  <script src="/static/vjs.youtube.js"></script>
+  <script src="/static/vjs.vimeo.js"></script>
 </head>
 <body ng-controller="GopherTVController">
     <header class="brand_header ">
-      <section class="brand_page page">
-        <section class="brand_logo">
-          <a href="/index.html"><img class="imgscale" src="/static/gophers.svg" /></a>
+      <div class="page">
+        <section class="brand_logo columns">
+          <a href="/index.html"><img class="scale" src="/static/gophers.svg" /></a>
+        </section><section class="brand_menu columns">
+            <nav class="desktop_nav_menu">
+              <ul>
+                <li><a href="https://gophers.slacks.com">Community</a></li>
+                <li><a href="#">ReachUs</a></li>
+              </ul>
+            </nav>
         </section>
-        <section class="mobile_brand_menu">
-            <a href="#menu_bottom" class="flipMenu"><img class="imgscale" src="/static/menu.svg" /></a>
-        </section>
-        <section class="brand_menu">
-          <nav class="flipout">
-            <ul>
-              <li><a href="https://gophers.slacks.com">#Community</a></li>
-              <li><a href="#">#ReachUs</a></li>
-            </ul>
-          </nav>
-        </section>
-      </section>
+      </div>
     </header>
-    <div class="clear"></div>
 
-    <section class="video_section page">
-      <section class="thirds columns video_page">
-        <div class="video-container">
-          <h3 ng-bind="currentPlaylist[currentIndex].title"></h3>
-          <go-video playlist="currentPlaylist" index="currentIndex" width="640" height="360"/>
-          <br/>
+    <section class="video_section">
+
+      <section id="video_page" class="columns video_page">
+        <div class="page">
+          <div class="video_container">
+            <h3 ng-bind="currentPlaylist[currentIndex].title"></h3>
+            <go-video playlist="currentPlaylist" index="currentIndex" max-width="640" height="360"/>
+            <br/>
+          </div>
+        </div>
+        <!-- <div class="clear"></div> -->
+      </section>
+
+      <section id="filter_lists" class="columns filter_lists">
+        <div class="page">
+          <ul>
+            <li class="activeMenu">
+              <a href="" class="gs" ng-click="clear()">Getting Started With Go</a>
+            </li>
+            <li>
+              <a href="" ng-click="loadAllVideos()">All Videos</a>
+            </li>
+            <li>
+              <a href="" ng-click="newVideos()">New Videos</a>
+            </li>
+            <li>
+              <a href="" ng-click="recentTalks()">Recent Talks</a>
+            </li>
+            <li class="dropdown">
+              <!-- <a href="" ng-click="#">Speakers</a> -->
+              <a href="" class="dropdown-toggle" data-toggle="dropdown">Video Tags <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                  <li ng-repeat="tag in tags">
+                      <a href="" ng-click="playTag(tag.item)"><span class="badge pull-right">{{tag.count}}</span>{{tag.item}}</a>
+                  </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle" data-toggle="dropdown">Speakers <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                  <li ng-repeat="speaker in speakers">
+                      <a href="" ng-click="playSpeaker(speaker.item)"><span class="badge pull-right">{{speaker.count}}</span>{{speaker.item}}</a>
+                  </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="clear"></div> -->
+      </section>
+
+      <section class="columns video_lists">
+        <div class="page">
+            <ul>
+              <li ng-repeat="video in sidebarVideoList() | filter:searchText">
+                <a class="" ng-class="{'active':(video.id==currentPlaylist[currentIndex].id)}" ng-click="playVideo(video.id); hideWall();">{{video.title}}</a>
+              </li>
+            </ul>
         </div>
       </section>
-      <section class="thirds columns filter_lists">
-        <ul>
-          <li class="activeMenu">
-            <a href="" class="gs" ng-click="recentTalks()">Getting Started With Go</a>
-          </li>
-          <li>
-            <a href="" ng-click="recentTalks()">All Videos</a>
-          </li>
-          <li>
-            <a href="" ng-click="recentTalks()">New Videos</a>
-          </li>
-          <li>
-            <a href="" ng-click="recentTalks()">Recent Talks</a>
-          </li>
-          <li>
-            <a href="" ng-click="#">Speakers</a>
-          </li>
-          <li>
-            <a href="" ng-click="#">Video Tags</a>
-          </li>
-        </ul>
-      </section>
-      <section class="thirds columns video_lists">
-        <div class="list-group">
+
+      <section class="mobile list_video_tags">
+        <div class="page">
           <ul>
-            <li ng-repeat="video in sidebarVideoList() | filter:searchText">
-              <a class="" ng-class="{'active':(video.id==currentPlaylist[currentIndex].id)}" ng-click="playVideo(video.id)">{{video.title}}</a>
+              <li ng-repeat="tag in tags">
+                  <a href="" ng-click="playTag(tag.item); showFiltered();"><span class="badge pull-right">{{tag.count}}</span>{{tag.item}}</a>
+              </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="mobile list_speaker_tags">
+        <div class="page">
+          <ul>
+            <li ng-repeat="speaker in speakers">
+                <a href="" ng-click="playSpeaker(speaker.item); showFiltered();"><span class="badge pull-right">{{speaker.count}}</span>{{speaker.item}}</a>
             </li>
           </ul>
         </div>
       </section>
-    </section>
-    <div class="clear"></div>
 
-    <section id="menu_bottom" class="mobile_bottom_menu">
-      <ul>
-        <li><a href="https://gophers.slacks.com">@Community</a></li>
-        <li><a href="#">@ReachUs</a></li>
-      </ul>
+
+      <section id="mobile_menu_sectors" class="mobile">
+        <div class="filter" ng-show="videoExt">
+          <div class="form-group">
+              <input ng-focus="loadTalks()" type="text" class="form-control" placeholder="Title Search" ng-model="searchText.title">
+          </div>
+        </div>
+        <ul>
+          <li ng-click="clearMobile()"><a href="#">Basics</a></li>
+          <li ng-click="recentMobileTalks()"><a href="#">Recent</a></li>
+          <li ng-click="newMobileVideos()"><a href="#">New</a></li>
+          <li ng-click="speakerTags()"><a href="#">People</a></li>
+          <li ng-click="videoTags()"><a href="#">Tags</a></li>
+        </ul>
+        <div class="clear"></div>
+      </section>
+
+
     </section>
+
+
 </body>
 </html>

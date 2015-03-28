@@ -13,7 +13,7 @@ mod.directive('goVideo', [
                   var id = 0;
 
                   var player=null;
-            
+
                   function play(src) {
                       // always initialize new player because of techOrder
                       //
@@ -51,12 +51,12 @@ mod.directive('goVideo', [
                       if (newValue==null || scope.index == null) {
                           return;
                       }
-                      
+
                       console.debug(newValue[scope.index].url);
                       play(newValue[scope.index].url);
                   });
 
-                  scope.$watch('index', function(newValue, oldValue) { 
+                  scope.$watch('index', function(newValue, oldValue) {
                       if (newValue==null || scope.playlist == null) {
                           return;
                       }
@@ -166,6 +166,15 @@ app.controller('GopherTVController', ['$scope', '$window', '$http', '$log', func
         }
     };
 
+    $scope.videoExt = false;
+
+    $scope.showMobileMenu = function(){
+      if($scope.showMenu == false){
+        $scope.showMenu = true;
+      }else{
+        $scope.showMenu = false;
+      };
+    };
 
     $scope.playTag = function(what) {
         $scope.playSomething(what, 'tags');
@@ -191,16 +200,184 @@ app.controller('GopherTVController', ['$scope', '$window', '$http', '$log', func
     };
 
     $scope.clear = function() {
+        $scope.showMenu = false;
         document.location.hash = '';
 
         $scope.currentPlaylist = [{
             'title': 'Get Started with Go',
             'id': '2KmHtgtEZ1s',
-            'url': 'http://www.youtube.com/watch?v=2KmHtgtEZ1s'
+            'url': 'http://www.youtube.com/watch?v=2KmHtgtEZ1s',
+            'tags': ["getting-started-with-go"]
         }];
 
         $scope.currentIndex = 0;
         $scope.currentTag = "Welcome to Go";
+    };
+
+    $scope.showFiltered = function(){
+      angular.element(".video_lists").show(200);
+      angular.element(".list_video_tags").hide(100);
+      angular.element(".list_speaker_tags").hide(100);
+    };
+
+    $scope.resetActive = function(){
+      $scope.deActive(".video_lists","activeMobile");
+      $scope.deActive(".list_speaker_tags","activeMobile");
+      $scope.deActive(".list_video_tags","activeMobile");
+    };
+
+    $scope.deActive = function(tag,css){
+      angular.element(tag).removeClass(css);
+    };
+
+    $scope.proActive = function(tag,css){
+      angular.element(tag).addClass(css);
+    };
+
+    $scope.showWall = function(){
+      angular.element('.video_lists').show(200);
+      $scope.wallOpen = true;
+    };
+
+    $scope.hideWall = function(){
+      angular.element('.video_lists').hide(200);
+      $scope.wallOpen = false;
+    };
+
+    $scope.hideFilter = function(){
+      $scope.videoExt =false;
+      angular.element('.mobile').removeClass(css);
+    };
+
+    $scope.wallOpen = false;
+
+    $scope.recentWall = false;
+    $scope.speakerWall = false;
+    $scope.tagWall = false;
+
+    $scope.recentWall = false;
+    $scope.newWall = false;
+    $scope.clearWall = false;
+
+    $scope.loadTalks = function(){
+        $scope.showWall();
+        // $scope.recentTalks();
+    };
+
+    $scope.pullUp = function(){
+      $scope.videoExt = true;
+      angular.element(".list_video_tags").removeClass('pullDown');
+      angular.element(".list_speaker_tags").removeClass('pullDown');
+      angular.element(".video_lists").removeClass('pullDown');
+    };
+
+    $scope.pullDown = function(){
+      $scope.videoExt = false;
+      angular.element(".list_video_tags").addClass('pullDown');
+      angular.element(".list_speaker_tags").addClass('pullDown');
+      angular.element(".video_lists").addClass('pullDown');
+    };
+
+    $scope.recentMobileTalks = function(){
+      // $scope.videoExt = true;
+      $scope.pullUp();
+
+      if(!$scope.recentWall){
+        $scope.recentTalks();
+        $scope.recentWall = true;
+        $scope.showWall();
+      }else{
+        if(!$scope.wallOpen){
+          $scope.showWall();
+        }else{
+          $scope.hideWall();
+        }
+      }
+
+      $scope.clearWall = false;
+      $scope.newWall = false;
+
+      angular.element(".list_video_tags").hide();
+      angular.element(".list_speaker_tags").hide();
+    };
+
+    $scope.newMobileVideos = function(){
+      // $scope.videoExt = true;
+      $scope.pullUp();
+
+      if(!$scope.newWall){
+        $scope.newVideos();
+        $scope.newWall = true;
+        $scope.showWall();
+      }else{
+        if(!$scope.wallOpen){
+          $scope.showWall();
+        }else{
+          $scope.hideWall();
+        }
+      }
+
+      $scope.recentWall = false;
+      $scope.clearWall = false;
+
+      angular.element(".list_video_tags").hide();
+      angular.element(".list_speaker_tags").hide();
+    };
+
+    $scope.speakerTags = function(){
+      $scope.clear();
+      // $scope.videoExt = false;
+      $scope.pullDown();
+
+      if(!$scope.speakerWall){
+        angular.element(".list_speaker_tags").show(200);
+        $scope.speakerWall = true;
+      }else{
+        angular.element(".list_speaker_tags").hide(200);
+        $scope.speakerWall = false;
+      }
+
+      angular.element(".video_lists").hide(100);
+      angular.element(".list_video_tags").hide(100);
+    };
+
+    $scope.videoTags = function(){
+      $scope.clear();
+      // $scope.videoExt = false;
+      $scope.pullDown();
+
+      if(!$scope.tagWall){
+        angular.element(".list_video_tags").show(200);
+        $scope.tagWall = true;
+      }else{
+        angular.element(".list_video_tags").hide(200);
+        $scope.tagWall = false;
+      }
+
+      angular.element(".video_lists").hide();
+      angular.element(".list_speaker_tags").hide();
+    };
+
+    $scope.clearMobile = function(){
+      $scope.pullDown();
+
+      if(!$scope.clearWall){
+        $scope.clear();
+        $scope.clearWall = true;
+        $scope.showWall();
+      }else{
+        if(!$scope.wallOpen){
+          $scope.showWall();
+        }else{
+          $scope.hideWall();
+        }
+      }
+
+      $scope.recentWall = false;
+      $scope.newWall = false;
+
+      angular.element(".list_video_tags").hide();
+      angular.element(".list_speaker_tags").hide();
     };
 
     function loadPlaylistFromHash() {
