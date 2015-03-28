@@ -148,7 +148,7 @@ a,a:active,a:hover,a:visited{
 
 .video_section .video_page .video_container{
 	width: 100%;
-	padding: 0.5em;
+	/*padding: 0.5em;*/
 }
 
 .video_section .video_page .video_container h3{
