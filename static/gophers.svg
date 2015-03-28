@@ -217,10 +217,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.94385136"
-     inkscape:cx="500.39482"
+     inkscape:cx="381.73207"
      inkscape:cy="263.89418"
      inkscape:document-units="px"
-     inkscape:current-layer="layer9"
+     inkscape:current-layer="g4419"
      showgrid="false"
      inkscape:window-width="1525"
      inkscape:window-height="846"
@@ -486,7 +486,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="text-black"
-     style="display:none">
+     style="display:inline">
     <g
        id="g4409">
       <g
@@ -557,7 +557,7 @@
     </g>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="text-white"
      id="g4419"
      inkscape:groupmode="layer">

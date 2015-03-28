@@ -78,10 +78,10 @@ a,a:active,a:hover,a:visited{
 	line-height: 1.618em;
 }
 
-.page,.desktop_nav_menu{
+.page{
 	position: relative;
 	width: 100%;
-	/*max-width: 75em;*/
+	max-width: 80em;
 	margin: 0px auto;
 	font-family: "Lato", 'Helvetica Neue',Helvetica,sans-serif;
 }
@@ -453,6 +453,7 @@ a,a:active,a:hover,a:visited{
 	.video_lists{
 		background: rgba(39, 35, 35,1);
 		padding: 1em;
+		max-height: 100%;
 	}
 
 	.video_lists ul li{
