@@ -14,7 +14,7 @@
   <link href="/static/bootstrap.min.css" rel="stylesheet" />
   <script src="/static/bootstrap.min.js"></script>
 
-  <link href="/static/restyle.css" rel="stylesheet" />
+  <link href="/static/seamless.css" rel="stylesheet" />
 
   <!-- <link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet"> -->
   <!-- // <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script> -->
@@ -30,117 +30,138 @@
   <script src="/static/vjs.vimeo.js"></script>
 </head>
 <body ng-controller="GopherTVController">
-    <header class="brand_header ">
+
+    <header class="header columns">
       <div class="page">
-        <section class="brand_logo columns">
-          <a href="/index.html"><img class="scale" src="/static/gophers.svg" /></a>
-        </section><section class="brand_menu columns">
-            <nav class="desktop_nav_menu">
-              <ul>
-                <li><a href="https://gophers.slacks.com">Community</a></li>
-                <li><a href="#">ReachUs</a></li>
-              </ul>
-            </nav>
-        </section>
+        <a href="/index.html" class="logo">
+          <!-- <img class="scale" src="/static/gophers.svg" /> -->
+        </a>
+        <a href="#bottomMenu" class="mobile menu"></a>
+        <nav class="desktop menu">
+          <ul>
+            <li><a href="https://github.com/">Github</a></li>
+            <li><a href="https://gophers.slacks.com">Community</a></li>
+            <li><a href="https://github.com/dgryski/gophervids">ReachUs</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
-    <section class="video_section">
-
-      <section id="video_page" class="columns video_page">
-        <div class="page">
-          <div class="video_container">
-            <h3 ng-bind="currentPlaylist[currentIndex].title"></h3>
-            <go-video playlist="currentPlaylist" index="currentIndex" max-width="640" height="360"/>
-            <br/>
-          </div>
-        </div>
-        <!-- <div class="clear"></div> -->
-      </section>
-
-      <section id="filter_lists" class="columns filter_lists">
-        <div class="page">
-          <ul class="">
-            <li class="activeMenu">
-              <a href="" class="gs" ng-click="clear()">Getting Started With Go</a>
-            </li>
-            <li>
-              <a href="" ng-click="newVideos()">New Videos</a>
-            </li>
-            <li>
-              <a href="" ng-click="recentTalks()">Recent Talks</a>
-            </li>
-            <li class="dropdown">
-              <!-- <a href="" ng-click="#">Speakers</a> -->
-              <a href="" class="dropdown-toggle" data-toggle="dropdown">Video Tags <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                  <li ng-repeat="tag in tags">
-                      <a href="" ng-click="playTag(tag.item)"><span class="badge pull-right">{{tag.count}}</span>{{tag.item}}</a>
-                  </li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="" class="dropdown-toggle" data-toggle="dropdown">Speakers <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                  <li ng-repeat="speaker in speakers">
-                      <a href="" ng-click="playSpeaker(speaker.item)"><span class="badge pull-right">{{speaker.count}}</span>{{speaker.item}}</a>
-                  </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <!-- <div class="clear"></div> -->
-      </section>
-
-      <section class="columns video_lists">
-        <div class="page">
-            <ul>
-              <li ng-repeat="video in sidebarVideoList() | filter:searchText">
-                <a class="" ng-class="{'active':(video.id==currentPlaylist[currentIndex].id)}" ng-click="playVideo(video.id)">{{video.title}}</a>
-              </li>
+    <section id="filter_lists" class="columns filter_lists">
+      <div class="page">
+        <ul class="filters">
+          <li class="activeMenu">
+            <a href="" class="gs" ng-click="clear()">Getting Started</a>
+          </li>
+          <li>
+            <a href="" ng-click="newVideos()">New Videos</a>
+          </li>
+          <li>
+            <a href="" ng-click="recentTalks()">Recent Talks</a>
+          </li>
+          <li class="dropdown">
+            <!-- <a href="" ng-click="#">Speakers</a> -->
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Video Tags <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li ng-repeat="tag in tags">
+                    <a href="" ng-click="playTag(tag.item)"><span class="badge pull-right">{{tag.count}}</span>{{tag.item}}</a>
+                </li>
             </ul>
-        </div>
-      </section>
-
-      <section class="mobile list_video_tags">
-        <div class="page">
-          <ul>
-              <li ng-repeat="tag in tags">
-                  <a href="" ng-click="playTag(tag.item); showFiltered();"><span class="badge pull-right">{{tag.count}}</span>{{tag.item}}</a>
-              </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="mobile list_speaker_tags">
-        <div class="page">
-          <ul>
-            <li ng-repeat="speaker in speakers">
-                <a href="" ng-click="playSpeaker(speaker.item); showFiltered();"><span class="badge pull-right">{{speaker.count}}</span>{{speaker.item}}</a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-
-      <section id="mobile_menu_sectors" class="mobile">
-        <div class="filter" ng-show="videoExt">
-          <div class="form-group">
-              <input ng-focus="loadTalks()" type="text" class="form-control" placeholder="Title Search" ng-model="searchText.title">
-          </div>
-        </div>
-        <ul>
-          <li ng-click="clearMobile()"><a href="#">Basics</a></li>
-          <li ng-click="recentMobileTalks()"><a href="#">Recent</a></li>
-          <li ng-click="newMobileVideos()"><a href="#">New</a></li>
-          <li ng-click="speakerTags()"><a href="#">People</a></li>
-          <li ng-click="videoTags()"><a href="#">Tags</a></li>
+          </li>
+          <li class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">Speakers <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li ng-repeat="speaker in speakers">
+                    <a href="" ng-click="playSpeaker(speaker.item)"><span class="badge pull-right">{{speaker.count}}</span>{{speaker.item}}</a>
+                </li>
+            </ul>
+          </li>
         </ul>
         <div class="clear"></div>
-      </section>
-
-
+      </div>
     </section>
+
+    <section class="columns video_page">
+      <div class="page">
+        <div class="video_container">
+          <!-- <h3 ng-bind="currentPlaylist[currentIndex].title"></h3> -->
+          <!-- <go-video playlist="currentPlaylist" index="currentIndex" max-width="640" height="360"/> -->
+          <br/>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </section>
+
+    <section class="columns video_controls">
+        <div class="page">
+          <div class="filter form-group">
+              <label>Filter</label>
+              <input ng-focus="loadTalks()" type="text" class="form-control" placeholder="Title Search" ng-model="searchText.title">
+              <div class="filterClear"></div>
+          </div>
+          <div class="slide">
+            <label>Play All</label>
+            <slider class="slided" placeholder="Play All" ng-click="enableAllPlay()" checked slide-ball></slider>
+            <div class="filterClear"></div>
+          </div>
+          <div class="clear"></div>
+        </div>
+    </section>
+
+    <section class="columns video_lists">
+        <div class="page">
+          <ul>
+            <li ng-repeat="video in sidebarVideoList() | filter:searchText">
+              <exvids id={{video.id}} url={{video.url}} ex-video>
+                <span class="playButton"></span>
+                <span class="playTitle">{{video.title}}</span>
+              </exvids>
+            </li>
+          </ul>
+          <div class="clear"></div>
+        </div>
+    </section>
+
+    <footer class="columns">
+      <div class="page">
+
+        <div class="ft tribute columns">
+          <h3>Made with Love</h3>
+          <br/>
+
+        </div>
+
+        <div id="bottomMenu" class="ft mobile columns">
+          <h3>Menu</h3>
+            <ul class="menu">
+              <li><a href="https://gophers.slacks.com">Community</a></li>
+              <li><a href="https://github.com/dgryski/gophervids">ReachUs</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+
+        <div class="ft contrib columns">
+            <h3>Contributors:</h3>
+            <ul>
+              <li><a href="https://gophers.slacks.com">Gopher Community</a></li>
+              <li><a href="/">Damian Gryski <span>(@dgryski)</span></a></li>
+              <li><a href="https://twitter.com/influx6">Alex Ewetumo <span>(@alex.ewetumo)</span></a></li>
+              <li><a href="https://twitter.com/">Remco Verhoef <span>(@remco)</span></a></li>
+              <li><a href="#">  ...many more</a></li>
+            </ul>
+          <div class="clear"></div>
+        </div>
+
+        <div class="ft connect columns">
+            <h3>Connect</h3>
+            <ul>
+              <li><a href="https://github.com/">Github</a></li>
+              <li><a href="https://facebook.com/gopherAcademy">Facebook</a></li>
+            </ul>
+        </div>
+
+      </div>
+    </footer>
 
 
 </body>
