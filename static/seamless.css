@@ -58,7 +58,7 @@ body{
 	text-rendering:optimizelegibility;
 	font-family: "Lato", 'Helvetica Neue',Helvetica,sans-serif;
 	/*background: #f7f9ed;*/
-	background: url("./static/bodyback.png");
+	background: url("./bodyback.png");
 }
 
 ul li {
@@ -116,13 +116,13 @@ a,a:active,a:hover,a:visited{
 	width: 18.75em;
 	height: 100%;
 	float: left;
-	background: url("./static/gophers.svg") no-repeat top left;
+	background: url("./gophers.svg") no-repeat top left;
 	background-size: contain;
 
 }
 
 a.mobile.menu{
-	background: url('./static/menu.svg') no-repeat top left;
+	background: url('./menu.svg') no-repeat top left;
 	background-size: contain;
 	width: 65px;
 	height: 60px;
@@ -287,7 +287,7 @@ exvids span.playButton{
 	background: #222;
 	width: 70px;
 	height: 70px;
-	background: url("./static/play.png") no-repeat;
+	background: url("./play.png") no-repeat;
 	background-position: -140 0;
 	z-index: 10;
 }
