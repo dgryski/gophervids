@@ -282,14 +282,14 @@ exvids span{
 exvids span.playButton{
 	display: block;
 	position: absolute;
-	right: -10;
-	top: -10;
+	right: -15;
+	bottom: -10;
 	background: #222;
 	width: 70px;
 	height: 70px;
 	background: url("/static/play.png") no-repeat;
 	background-position: -140 0;
-	z-index: 4000;
+	z-index: 10;
 }
 
 exvids span.playButton:hover{
@@ -316,15 +316,22 @@ exvids video{
 	display: block;
 	float: left;
 	width: 20em;
-	height: 250px;
+	height: 170px;
+	/*min-height: 170px;*/
+	/*max-height: 200px;*/
 	margin: 10px;
-	padding: 3em 1em;
+	padding: 1em 1em;
 	background: rgba(0,0,0,0.1);
-	background: rgba(115, 48, 134,1);
+	background: rgba(115, 48, 134,0.8);
+}
+
+.video_lists ul li:hover{
+	background: rgba(234, 25, 143,1);
 }
 
 .video_lists ul li exvids span.playTitle{
-	font-size: 1.4em;
+	/*margin-top: 10px;*/
+	font-size: 110%;
 	font-weight: bold;
 }
 
