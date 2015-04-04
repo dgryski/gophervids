@@ -1,9 +1,384 @@
 [
 {
+<<<<<<< HEAD
    "date": "2015-03-05",
    "added": "2015-03-05",
    "id": "GM39Be_OhLM",
    "url": "http://www.youtube.com/watch?v=GM39Be_OhLM",
+=======
+   "date": "2015-03-22",
+   "added": "2015-04-04",
+   "id": "gc-cH2t75oE",
+   "speakers": ["francesc-campoy"],
+   "tags": ["go-tour", "whispering-gophers"],
+   "title": "DevFest.ca - Go - 2015.03.21"
+},
+{
+   "date": "2015-03-20",
+   "added": "2015-04-04",
+   "id": "KlsaEYLGq2A",
+   "speakers": ["aditya-godbole"],
+   "tags": ["generics"],
+   "title": "Pune Gopher Meetup Golang Generics"
+},
+{
+   "date": "2015-01-21",
+   "added": "2015-04-04",
+   "id": "uyXpUSu_APU",
+   "speakers": ["alexander-surma"],
+   "tags": ["generics"],
+   "title": "Generics Code Generation in Go | Alexander Surma | DevFest 2014 Berlin"
+},
+{
+   "date": "2015-03-20",
+   "added": "2015-04-04",
+   "id": "y2bLGIw4o7k",
+   "speakers": ["francesc-campoy"],
+   "tags": ["cpp"],
+   "title": "Go For C++ Devs"
+},
+{
+   "date": "2015-03-30",
+   "added": "2015-04-04",
+   "id": "R-WwvBbfJWo",
+   "speakers": ["mohit-gupta", "alex-zylman"],
+   "tags": ["interfaces", "rate-limiting"],
+   "title": "Interfaces will Save the Future: Rate Limiter in Golang"
+},
+{
+   "date": "2014-10-25",
+   "added": "2015-04-04",
+   "id": "yg7zsuasIIE",
+   "speakers": ["tomas-senart"],
+   "tags": ["dotgo", "load-testing"],
+   "title": "dotGo 2014 - Tomás Senart - Vegeta: HTTP load testing in Go"
+},
+{
+   "date": "2014-10-28",
+   "added": "2015-04-04",
+   "id": "HqZQBmNVhBw",
+   "speakers": ["john-cimmamond"],
+   "tags": ["dotgo", "oop"],
+   "title": "dotGo 2014 - John Cinnamond - Go is a great OO language"
+},
+{
+   "date": "2014-11-05",
+   "added": "2015-04-04",
+   "id": "4KFTacxqkcQ",
+   "speakers": ["brad-fitzpatrick"],
+   "tags": ["dotgo", "state-of-gopher"],
+   "title": "dotGo 2014 - Brad Fitzpatrick - The State of the Gopher"
+},
+{
+   "date": "2015-04-03",
+   "added": "2015-04-04",
+   "id": "qo4RAPxCTa0",
+   "speakers": ["jeremy-schlatter"],
+   "tags": ["debugging"],
+   "title": "Godebug and the Wonders of Code Generation"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "5iD0Hl0alZ0",
+   "speakers": ["francesc-campoy"],
+   "tags": ["gophercon-india"],
+   "title": "Evolution of a Gopher - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "xpiiMOLkCHQ",
+   "speakers": ["gabriel-azsalos"],
+   "tags": ["gophercon-india", "style"],
+   "title": "Gopher From The Future - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "VZrL0UB5RnI",
+   "speakers": ["mike-gehard"],
+   "tags": ["gophercon-india", "ruby"],
+   "title": "A Journey From Ruby to Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "egGFG4T3T5M",
+   "speakers": ["aaron-cruz"],
+   "tags": ["gophercon-india", "code-reading"],
+   "title": "Herding Gophers - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "0bh07LTq-oA",
+   "speakers": ["kunal-powar"],
+   "tags": ["gophercon-india", "embedded"],
+   "title": "EMBD - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "MSoormoAXGE",
+   "speakers": ["niket-patel"],
+   "tags": ["gophercon-india", "microservices"],
+   "title": "Joy of Single Purpose Services in Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "QkPw8-Pf0SM",
+   "speakers": ["william-kennedy"],
+   "tags": ["gophercon-india", "channels"],
+   "title": "Go in Action - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-07",
+   "added": "2015-03-22",
+   "id": "eyAeVl9pMCM",
+   "speakers": ["julia-poladsky"],
+   "tags": ["gophercon-india", "javascript"],
+   "title": "Go for Front End Developers - GopherConIndia 2015"
+},
+
+{
+   "date": "2015-03-10",
+   "added": "2015-03-22",
+   "id": "Vl4Yd4lzuL4",
+   "speakers": ["keiji-yoshida"],
+   "tags": ["gophercon-india", "style"],
+   "title": "Practical Tips for Creating a Go Package Successfully - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-10",
+   "added": "2015-03-22",
+   "id": "aI_XdjQwTCU",
+   "speakers": ["beyang-liu"],
+   "tags": ["gophercon-india", "go-generate"],
+   "title": "Go metaprogramming - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-10",
+   "added": "2015-03-22",
+   "id": "JXljs5ciwKE",
+   "speakers": ["baiju-muthukadan"],
+   "tags": ["gophercon-india", "javascript"],
+   "title": "Web development using Go and Ember.js - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-10",
+   "added": "2015-03-22",
+   "id": "IkoUarC1Mcg",
+   "speakers": ["jason-moiron"],
+   "tags": ["gophercon-india", "optimization"],
+   "title": "Optimising Go Programs - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "-BPVId_lA5w",
+   "speakers": ["robert-winslow"],
+   "tags": ["serialization", "flatbuffers"],
+   "title": "Flatbuffers for Golang: Fast and Fun Serialization"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "IY-PGcZTs9Y",
+   "speakers": ["amit-upadhyay"],
+   "tags": ["gophercon-india"],
+   "title": "An alternate approach to data - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "KqUbIk-kS9s",
+   "speakers": ["baishampayan-ghose"],
+   "tags": ["gophercon-india"],
+   "title": "The Roots of Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "uEhs_xrWJNw",
+   "speakers": ["marty-schoch"],
+   "tags": ["gophercon-india", "bleve", "search-engine"],
+   "title": "bleve - modern text indexing for Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "JkCwOdWb1y0",
+   "speakers": ["piyush-verma"],
+   "tags": ["gophercon-india", "microservices"],
+   "title": "Gottp: A micro backend framework in Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "FPYX0tN0IG4",
+   "speakers": ["sunil-sayyaparaju"],
+   "tags": ["gophercon-india"],
+   "title": "Concurrent, High-Performance Data-Access With Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "TfBnVObVwxY",
+   "speakers": ["sriram-melkote"],
+   "tags": ["gophercon-india"],
+   "title": "N1QL a query language in Go. It makes \"cents\" - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "NYkFhe4yR5U",
+   "speakers": ["david-calavera"],
+   "tags": ["gophercon-india", "git"],
+   "title": "High performance git infrastructure with Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "oeEVtyypYPg",
+   "speakers": ["rajesh-ramachandran"],
+   "tags": ["gophercon-india", "cgo"],
+   "title": "Cgo - Go under the hood - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "jSqkdjxLmiI",
+   "speakers": ["lakshan-perera"],
+   "tags": ["gophercon-india", "internet-of-things"],
+   "title": "Building Internet of Things with Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "UCneEDBbsJY",
+   "speakers": ["veronica-lopez"],
+   "tags": ["gophercon-india", "concurrency", "android"],
+   "title": "Concurrency by Data Structures - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "R-0vNocr-9Q",
+   "speakers": ["jyotiska-nk"],
+   "tags": ["gophercon-india", "image-processing"],
+   "title": "Image Processing in Scale with Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "gRcD_TM_Yhc",
+   "speakers": ["sendil-devar"],
+   "tags": ["gophercon-india", "simulation"],
+   "title": "Go for Simulations in Wireless Research - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "CZp2WWorKO4",
+   "speakers": ["bryan-liles"],
+   "tags": ["gophercon-india", "standard-library"],
+   "title": "Embracing the Standard Library - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "mDTg1dLUqBE",
+   "speakers": ["matthew-campbell"],
+   "tags": ["gophercon-india", "go-in-production"],
+   "title": "How to keep wall street chatting using Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "DicCTlSC0m0",
+   "speakers": ["shiju-varghese"],
+   "tags": ["gophercon-india", "mongodb", "rest"],
+   "title": "Building RESTful Services With Go and MongoDB - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "5u-mQKI6syQ",
+   "speakers": ["guillaume-charmes"],
+   "tags": ["gophercon-india", "raytracing"],
+   "title": "Raytracing in Go - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-09",
+   "added": "2015-03-22",
+   "id": "_6AYkV2mz80",
+   "speakers": ["dave-cheney"],
+   "tags": ["gophercon-india", "simplicity"],
+   "title": "Simplicity and the ideas that Go left behind - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-11",
+   "added": "2015-03-22",
+   "id": "hFqXgmor74k",
+   "speakers": ["alan-shreve"],
+   "tags": ["gophercon-india", "channels"],
+   "title": "Principles of designing Go APIs with channels - GopherConIndia 2015"
+},
+{
+   "date": "2015-03-12",
+   "added": "2015-03-22",
+   "id": "dhb63boH8E8",
+   "speakers": ["ryan-paul"],
+   "tags": ["rethinkdb"],
+   "title": "Ryan Paul: Build a realtime RethinkDB cluster monitoring app with live graphs"
+},
+{
+   "date": "2015-03-12",
+   "added": "2015-03-22",
+   "id": "bouIpFd9VGM",
+   "speakers": ["tommi-virtanen"],
+   "tags": ["boltdb"],
+   "title": "Go-nuts and Bolts: An Introduction to BoltDB"
+},
+{
+   "date": "2015-03-14",
+   "added": "2015-03-22",
+   "id": "gRpUfjTwSOo",
+   "speakers": ["william-kennedy"],
+   "tags": ["oop"],
+   "title": "OOPs in Go by William Kennedy"
+},
+{
+   "date": "2015-03-16",
+   "added": "2015-03-22",
+   "id": "6Z3bPTJSnmo",
+   "speakers": ["dmitri-shuralyov"],
+   "tags": ["gopherjs", "javascript"],
+   "title": "Getting Started with GopherJS"
+},
+{
+   "date": "2015-03-17",
+   "added": "2015-03-22",
+   "id": "Yzc8tZEECtg",
+   "speakers": [],
+   "tags": ["gophercon-india", "fireside-chat"],
+   "title": "Q & A - GopherConIndia 2015"
+},
+{
+   "date": "2014-12-19",
+   "added": "2015-03-22",
+   "id": "ojAeeDOofKc",
+   "speakers": ["eleanor-mchugh"],
+   "tags": ["networking"],
+   "title": "Code Mesh 2014 - Go for the Would-Be Network Programmer - Eleanor McHugh"
+},
+{
+   "date": "2015-03-05",
+   "added": "2015-03-05",
+   "id": "GM39Be_OhLM",
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["peter-bourgon"],
    "tags": ["fosdem", "distributed"],
    "title": "Go and the Modern Enterprise - Peter Bourgon - Go Devroom FOSDEM 2015"
@@ -12,7 +387,10 @@
    "date": "2015-03-05",
    "added": "2015-03-05",
    "id": "Ck1bRyYxJCQ",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=Ck1bRyYxJCQ",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["norberto-leite"],
    "tags": ["fosdem", "mongodb", "cli"],
    "title": "Moving MongoDB components to Go - Norberto Leite - Go Devroom FOSDEM 2015"
@@ -21,7 +399,10 @@
    "date": "2015-03-05",
    "added": "2015-03-05",
    "id": "12vPCJrWwxA",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=12vPCJrWwxA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["dmitry-savintsev"],
    "tags": ["fosdem", "security"],
    "title": "Finding Bad Needles in Worldwide Haystacks - Dmitry Savintsev - Go Devroom FOSDEM 2015"
@@ -30,7 +411,10 @@
    "date": "2015-03-05",
    "added": "2015-03-05",
    "id": "gAfoLwog_MA",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=gAfoLwog_MA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["brad-fitzpatrick"],
    "tags": ["fosdem", "http2"],
    "title": "HTTP/2 for Go - Brad Fitzpatrick - Go Devroom FOSDEM 2015"
@@ -39,7 +423,10 @@
    "date": "2015-03-05",
    "added": "2015-03-05",
    "id": "Kd8EqTvW5EQ",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=Kd8EqTvW5EQ",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["andrew-gerrand"],
    "tags": ["fosdem"],
    "title": "The State of Go - Andrew Gerrand - Go Devroom FOSDEM 2015"
@@ -48,7 +435,10 @@
    "date": "2015-03-05",
    "added": "2015-03-05",
    "id": "ndKj77VW2eM",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=ndKj77VW2eM",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["tobias-schottdorf"],
    "tags": ["fosdem", "cockroachdb"],
    "title": "CockroachDB: Towards an Open-Source Spanner - Tobias Schottdorf - Go Devroom FOSDEM 2015"
@@ -57,7 +447,10 @@
    "date": "2015-03-05",
    "added": "2015-03-05",
    "id": "oM-MfeflUZ8",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=oM-MfeflUZ8",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": [],
    "tags": [],
    "title": "Lightning Talks - Go Devroom FOSDEM 2015"
@@ -66,8 +459,12 @@
    "date": "2015-03-05",
    "added": "2015-03-05",
    "id": "UNulSprd2Ng",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=UNulSprd2Ng",
    "speakers": ["kelse-hightower"],
+=======
+   "speakers": ["kelsey-hightower"],
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "tags": ["fosdem", "coreos"],
    "title": "Go at CoreOS - Kelsey Hightower - Go Devroom FOSDEM 2015"
 },
@@ -75,7 +472,10 @@
    "date": "2015-03-04",
    "added": "2015-03-05",
    "id": "3Gsdg4-85X8",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=3Gsdg4-85X8",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["andrew-gerrand"],
    "tags": ["london-go-gathering"],
    "title": "The State of Go (Feb 2015) - Andrew Gerrand - London Go Gathering 2015"
@@ -84,7 +484,10 @@
    "date": "2015-03-04",
    "added": "2015-03-05",
    "id": "lzlGXMnrBgw",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=lzlGXMnrBgw",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["matt-heath"],
    "tags": ["london-go-gathering", "distributed", "errors"],
    "title": "Channeling Failure - Matt Heath - London Go Gathering 2015"
@@ -93,7 +496,10 @@
    "date": "2015-03-04",
    "added": "2015-03-05",
    "id": "YgnD27GFcyA",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=YgnD27GFcyA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["francesc-campoy"],
    "tags": ["london-go-gathering", "json", "code-generation"],
    "title": "JSON, interfaces, and go generate - Francesc Campoy - London Go Gathering 2015"
@@ -102,7 +508,10 @@
    "date": "2015-03-04",
    "added": "2015-03-05",
    "id": "ZLq0Zeoyu6Y",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=ZLq0Zeoyu6Y",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["david-crawshaw"],
    "tags": ["london-go-gathering", "mobile"],
    "title": "Go on Mobile - David Crawshaw - London Go Gathering 2015"
@@ -111,7 +520,10 @@
    "date": "2015-03-04",
    "added": "2015-03-05",
    "id": "gukAZO1fqZQ",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=gukAZO1fqZQ",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["brad-fitzpatrick"],
    "tags": ["london-go-gathering", "http2"],
    "title": "HTTP/2 - Brad Fitzpatrick - London Go Gathering 2015"
@@ -120,7 +532,10 @@
    "date": "2015-03-04",
    "added": "2015-03-05",
    "id": "8igk2ylk_X4",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=8igk2ylk_X4",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["john-graham-cumming"],
    "tags": ["london-go-gathering"],
    "title": "How Go spread at CloudFlare - John Graham-Cumming - London Go Gathering 2015"
@@ -129,7 +544,10 @@
    "date": "2015-03-04",
    "added": "2015-03-05",
    "id": "iFR_7AKkJFU",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=iFR_7AKkJFU",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["peter-bourgon"],
    "tags": ["london-go-gathering", "distributed"],
    "title": "Go and the Modern Enterprise - Peter Bourgon - London Go Gathering 2015"
@@ -138,7 +556,10 @@
    "date": "2015-03-03",
    "added": "2015-03-05",
    "id": "alfpaDqeHB4",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=alfpaDqeHB4",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["chang-sau-sheong"],
    "tags": ["meetup", "templates"],
    "title": "3 Things You May Not Know About The Go Template Engine - GoSG"
@@ -147,7 +568,10 @@
    "date": "2015-03-03",
    "added": "2015-03-05",
    "id": "7kN5IltyNxs",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=7kN5IltyNxs",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["soares-chen"],
    "tags": ["meetup", "nodejs"],
    "title": "Adventures in Go from a Node.js developer - GoSG"
@@ -156,7 +580,10 @@
    "date": "2015-03-01",
    "added": "2015-03-05",
    "id": "5TJkSIatolI",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=5TJkSIatolI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["mark-probst"],
    "tags": ["screencast", "scheme"],
    "title": "WatchPeopleCode: Scheme in Go - #1: The Reader"
@@ -165,7 +592,10 @@
    "date": "2015-02-25",
    "added": "2015-02-26",
    "id": "yG-UaBJXZ80",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=yG-UaBJXZ80",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["andrew-gerrand", "brad-fitzpatrick"],
    "tags": ["hangout", "http2"],
    "title": "Hacking with Andrew and Brad: an HTTP/2 client"
@@ -174,7 +604,10 @@
    "date": "2015-02-05",
    "added": "2015-02-13",
    "id": "tLNGCZKX3NI",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=tLNGCZKX3NI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["lakshan-perera", "audrey-lim"],
    "tags": ["internet-of-things"],
    "title": "[Singapore Gophers] Internet of Things with Go"
@@ -183,7 +616,10 @@
    "date": "2015-02-03",
    "added": "2015-02-04",
    "id": "l3zHGMgtr2Y",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=l3zHGMgtr2Y",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["kamil-kisiel"],
    "tags": ["optimization"],
    "title": "Taking Out the Trash -- Optimizing Memory Allocation in Go Programs"
@@ -192,7 +628,10 @@
    "date": "2015-01-29",
    "added": "2015-02-13",
    "id": "8U7YUINiMz0",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=8U7YUINiMz0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["jonathan-gomez"],
    "tags": ["web-framework"],
    "title": "[Singapore Gophers] Customising Your Own Web Framework in Go"
@@ -201,7 +640,10 @@
    "date": "2015-01-21",
    "added": "2015-02-13",
    "id": "AiRhWG-2nGU",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=AiRhWG-2nGU",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["khaja-minhajuddin"],
    "tags": ["screencast", "tutorial", "webapp"],
    "title": "How to build a simple web app in golang - Redirectapp"
@@ -210,7 +652,10 @@
    "date": "2015-01-09",
    "added": "2015-01-25",
    "id": "1rZ-JorHJEY",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=1rZ-JorHJEY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["andrew-gerrand", "brad-fitzpatrick"],
    "tags": ["hangout"],
    "title": "Hacking with Andrew and Brad: tip.golang.org"
@@ -219,7 +664,10 @@
    "date": "2014-12-15",
    "added": "2015-01-25",
    "id": "GjGRhIl0xWs",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=GjGRhIl0xWs",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["tom-hudson"],
    "tags": ["virtual-machine"],
    "title": "Hey!: Tom Hudson - Let's build a virtual machine!"
@@ -228,7 +676,10 @@
    "date": "2015-01-16",
    "added": "2015-01-25",
    "id": "KY8OXFi3CDU",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=KY8OXFi3CDU",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["matt-sherman"],
    "tags": ["meetup", "code-generation"],
    "title": "Go-Miami Matt Sherman - Stack Overflow"
@@ -237,7 +688,10 @@
    "date": "2015-01-16",
    "added": "2015-01-25",
    "id": "MeOK1UzGHYw",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=MeOK1UzGHYw",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["mark-smith"],
    "tags": ["tutorial"],
    "title": "Building Services in Go"
@@ -246,7 +700,10 @@
    "date": "2014-03-05",
    "added": "2015-01-25",
    "id": "YUigj99zXLU",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=YUigj99zXLU",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["mark-smith"],
    "tags": ["tutorial"],
    "title": "Introduction to Go - Mark Smith (Linux.conf.au 2014) By Net"
@@ -255,7 +712,10 @@
    "date": "2014-12-08",
    "added": "2015-01-01",
    "id": "lDZD2n2GbBA",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=lDZD2n2GbBA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["ted-kornish", "ryan-atallah"],
    "tags": ["style"],
    "title": "Scaling a Go Codebase"
@@ -264,7 +724,10 @@
    "date": "2014-12-09",
    "added": "2015-01-01",
    "id": "-S0-qgl8120",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=-S0-qgl8120",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["chris-agocs"],
    "tags": ["queues"],
    "title": "Message Queues and Go"
@@ -273,7 +736,10 @@
    "date": "2014-12-01",
    "added": "2015-01-01",
    "id": "JkgQJrodSpI",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=JkgQJrodSpI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["ashish-gandhi"],
    "tags": ["optimization"],
    "title": "Optimizing Go with Ashish Gandhi from CloudFlare"
@@ -282,7 +748,10 @@
    "date": "2014-11-26",
    "added": "2015-02-13",
    "id": "89NC1gK2gZA",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=89NC1gK2gZA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["loh-Siu-yin"],
    "tags": ["concurrency"],
    "title": "[Singapore Gophers] Writing Concurrent Programs in Go"
@@ -291,7 +760,10 @@
    "date": "2014-11-11",
    "added": "2015-01-01",
    "id": "r4g25rmiFig",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=r4g25rmiFig",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["baron-schwartz"],
    "tags": ["sql"],
    "title": "MySQL and Go"
@@ -300,7 +772,10 @@
    "date": "2014-12-19",
    "added": "2015-01-01",
    "id": "PXoG0WX0r_E",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=PXoG0WX0r_E",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["rob-pike"],
    "tags": ["little-language"],
    "title": "Implementing a bignum calculator - Rob Pike"
@@ -309,7 +784,10 @@
    "date": "2014-12-24",
    "added": "2015-01-01",
    "id": "Kx0nUrTItR0",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=Kx0nUrTItR0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["bryan-liles"],
    "tags": ["production"],
    "title": "Go at Work (at Digital Ocean)"
@@ -318,7 +796,10 @@
    "date": "2014-12-24",
    "added": "2015-01-01",
    "id": "gjLAoYxSLTE",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=gjLAoYxSLTE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["alan-donovan"],
    "tags": ["tooling"],
    "title": "Static Analysis Tools for Go Code Comprehension and Refactoring"
@@ -327,7 +808,10 @@
    "date": "2013-01-03",
    "added": "2015-01-01",
    "id": "0bsxjosoSoc",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=0bsxjosoSoc",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["olivier-van-acker"],
    "tags": ["sctp"],
    "title": "Implementation of SCTP in Go (FreeBSD)"
@@ -336,7 +820,10 @@
    "date": "2014-11-11",
    "added": "2014-11-29",
    "id": "7t1SqAfZK8w",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=7t1SqAfZK8w",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["andrew-gerrand", "francesc-campoy", "brad-fitzpatrick", "dave-cheney", "keith-rarick", "blake-mizerany"],
    "tags": ["dotgo", "fireside-chat"],
    "title": "dotGo 2014 - Final Go panel - part 2"
@@ -345,7 +832,10 @@
    "date": "2014-11-11",
    "added": "2014-11-29",
    "id": "biX7AMpKTvc",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=biX7AMpKTvc",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["andrew-gerrand", "francesc-campoy", "brad-fitzpatrick", "dave-cheney", "keith-rarick", "blake-mizerany"],
    "tags": ["dotgo", "fireside-chat"],
    "title": "dotGo 2014 - Final Go panel - part 1"
@@ -354,8 +844,12 @@
    "date": "2014-11-22",
    "added": "2014-11-29",
    "id": "BYrmD1UeNxs",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=BYrmD1UeNxs",
    "speakers": ["bill-kennedy"],
+=======
+   "speakers": ["william-kennedy"],
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "tags": ["meetup", "errors"],
    "title": "Go-Miami Error Handling In Go"
 },
@@ -363,7 +857,10 @@
    "date": "2014-11-10",
    "added": "2014-11-29",
    "id": "lkCeLUuftmg",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=lkCeLUuftmg",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["jeremy-saenz", "andrew-gerrand"],
    "tags": ["dotgo", "interview"],
    "title": "dotGo 2014 - Jeremy Saenz - Interview"
@@ -372,7 +869,10 @@
    "date": "2014-11-10",
    "added": "2014-11-29",
    "id": "SptDsw7B93E",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=SptDsw7B93E",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["dave-cheney", "andrew-gerrand"],
    "tags": ["dotgo", "interview"],
    "title": "dotGo 2014 - Dave Cheney - Interview"
@@ -381,7 +881,10 @@
    "date": "2014-11-07",
    "added": "2014-11-09",
    "id": "24lFtGHWxAQ",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=24lFtGHWxAQ",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["dave-cheney"],
    "tags": ["options", "dotgo"],
    "title": "dotGo 2014 - Functional options for friendly APIs"
@@ -390,7 +893,10 @@
    "date": "2014-11-07",
    "added": "2014-11-09",
    "id": "yi5A3cK1LNA",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=yi5A3cK1LNA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["blake-mizerany"],
    "tags": ["dotgo", "dependencies"],
    "title": "dotGo 2014 - Three fallacies of dependencies"
@@ -399,7 +905,10 @@
    "date": "2014-11-06",
    "added": "2014-11-09",
    "id": "VLciNxKAKyc",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=VLciNxKAKyc",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["brad-fitzpatrick", "andrew-gerrand"],
    "tags": ["interview", "dotgo"],
    "title": "dotGo 2014 - Brad Fitzpatrick - Interview"
@@ -408,7 +917,10 @@
    "date": "2014-11-06",
    "added": "2014-11-09",
    "id": "B-r3Wf_I2Lk",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=B-r3Wf_I2Lk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["francesc-campoy"],
    "tags": ["dotgo", "style"],
    "title": "dotGo 2014 - Things I learned teaching Go"
@@ -417,7 +929,10 @@
    "date": "2014-11-06",
    "added": "2014-11-09",
    "id": "cYgm2JJblCE",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=cYgm2JJblCE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["jeremy-saenz"],
    "tags": ["dotgo", "packages"],
    "title": "dotGo 2014 - Building Better Packages"
@@ -426,7 +941,10 @@
    "date": "2014-11-06",
    "added": "2014-11-09",
    "id": "8IKxf98h65Y",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=8IKxf98h65Y",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["ben-sigelman"],
    "tags": ["distributed"],
    "title": "Distributed Systems in Go: The Good, The Bad, and The Otherwise"
@@ -435,7 +953,10 @@
    "date": "2014-11-06",
    "added": "2014-11-09",
    "id": "u72iOjHXQCo",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=u72iOjHXQCo",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["francesc-campoy"],
    "tags": ["gce", "appengine"],
    "title": "Build Your App"
@@ -444,7 +965,10 @@
     "date": "2014-11-05",
     "added": "2014-11-09",
     "id": "3GG9vdA-lSs",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=3GG9vdA-lSs",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["devops", "dotgo"],
     "speakers": ["anthony-eden"],
     "title": "dotGo 2014: Go Remote Control"
@@ -453,7 +977,10 @@
     "date": "2014-11-05",
     "added": "2014-11-09",
     "id": "YcSCFEw08WA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=YcSCFEw08WA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["drone", "dotgo"],
     "speakers": ["felix-geisendorfer"],
     "title": "dotGo 2014: GoDrone: Writing a Quadcopter firmware in Go"
@@ -462,7 +989,10 @@
    "date": "2014-11-04",
    "added": "2014-11-09",
    "id": "fsTOOPB1TBY",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=fsTOOPB1TBY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["andrew-gerrand"],
    "tags": ["dotgo", "intro"],
    "title": "dotGo 2014 - 5 things I love (or why you should learn Go)"
@@ -471,7 +1001,10 @@
    "date": "2014-11-04",
    "added": "2014-11-09",
    "id": "R_0DKX0KbHM",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=R_0DKX0KbHM",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": ["john-graham-cumming", "andrew-gerrand"],
    "tags": ["interview", "dotgo"],
    "title": "dotGo 2014 - John Graham-Cumming - Interview"
@@ -480,7 +1013,10 @@
     "date": "2014-10-29",
     "added": "2014-11-02",
     "id": "ablZG08AjNg",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=ablZG08AjNg",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["couchbase"],
     "speakers": ["marty-schoch"],
     "title": "Building Advanced Systems with Go and Couchbase Server"
@@ -489,7 +1025,10 @@
     "date": "2014-10-27",
     "added": "2014-11-02",
     "id": "0arV-k8OPMg",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=0arV-k8OPMg",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["angular"],
     "speakers": ["kyle-dinh"],
     "title": "AngularJS + Go : A Lean Combination"
@@ -498,7 +1037,10 @@
     "date": "2014-10-27",
     "added": "2014-11-02",
     "id": "woCg2zaIVzQ",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=woCg2zaIVzQ",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["concurrency", "dotgo"],
     "speakers": ["john-graham-cumming"],
     "title": "dotGo 2014: I came for the easy concurrency I stayed for the easy composition"
@@ -507,7 +1049,10 @@
     "date": "2014-10-27",
     "added": "2014-11-02",
     "id": "VoFfhEbcEG0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=VoFfhEbcEG0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["logging", "dotgo", "monitoring"],
     "speakers": ["matt-heath"],
     "title": "dotGo 2014: Observability in micro-service architectures"
@@ -516,7 +1061,10 @@
     "date": "2014-10-27",
     "added": "2014-10-30",
     "id": "2_FMbcQJg0c",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=2_FMbcQJg0c",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["testing", "dotgo", "mocking", "oop"],
     "speakers": ["gabriel-aszalos"],
     "title": "dotGo 2014: Mocking in Go: Using interfaces for fun and profits"
@@ -525,7 +1073,10 @@
     "date": "2014-10-26",
     "added": "2014-11-02",
     "id": "rzzu2NxxPA4",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=rzzu2NxxPA4",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["hardware", "meetup"],
     "speakers": ["zubair-hamed"],
     "title": "Interfacing Go with Real-world Things"
@@ -534,7 +1085,10 @@
     "date": "2014-10-26",
     "added": "2014-11-02",
     "id": "VExv3rSpVh0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=VExv3rSpVh0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["kaggle", "meetup"],
     "speakers": ["martin-andrews"],
     "title": "Using Go for the Reverse Game-of-Life Kaggle Challenge"
@@ -543,7 +1097,10 @@
     "date": "2014-10-26",
     "added": "2014-11-02",
     "id": "kU4N-QJj5Ek",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=kU4N-QJj5Ek",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["testing", "meetup"],
     "speakers": ["mark-tong"],
     "title": "More Efficient Testing"
@@ -552,7 +1109,10 @@
     "date": "2014-10-24",
     "added": "2014-10-25",
     "id": "LJvEIjRBSDA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=LJvEIjRBSDA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["music"],
     "speakers": ["scalability"],
     "title": "Write in Go"
@@ -560,15 +1120,23 @@
     "date": "2014-10-24",
     "added": "2014-10-25",
     "id": "ZUCHMAoOgUQ",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=ZUCHMAoOgUQ",
     "tags": ["constants", "meetup"],
     "speakers": ["bill-kennedy"],
+=======
+    "tags": ["constants", "meetup"],
+    "speakers": ["william-kennedy"],
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "title": "The Nature of Constants in Go"
 }, {
     "date": "2014-10-20",
     "added": "2014-10-25",
     "id": "RdwZXw4B_xM",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=RdwZXw4B_xM",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup"],
     "speakers": ["jeffrey-hulten"],
     "title": "Learning to write Go"
@@ -576,7 +1144,10 @@
     "date": "2014-10-17",
     "added": "2014-10-18",
     "id": "eVlxuST7dCA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=eVlxuST7dCA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["jwt", "json", "meetup"],
     "speakers": ["yamil-asusta"],
     "title": "Using JSON Web Tokens within Go web applications"
@@ -584,7 +1155,10 @@
     "date": "2014-10-14",
     "added": "2014-10-18",
     "id": "lRq8JszFaqY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=lRq8JszFaqY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["php"],
     "speakers": ["jan-halfar"],
     "title": "PHP and Go: a success story"
@@ -592,7 +1166,10 @@
     "date": "2014-10-13",
     "added": "2014-10-14",
     "id": "sFUSP8Au_PE",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=sFUSP8Au_PE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["best-practices", "naming"],
     "speakers": ["andrew-gerrand"],
     "title": "What's in a name?"
@@ -600,7 +1177,10 @@
     "date": "2014-10-12",
     "added": "2014-10-19",
     "id": "iux7MBPUKZI",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=iux7MBPUKZI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["pubnub"],
     "speakers": ["im-a-developer"],
     "title": "Using PubNub 3.5 with Google Go Programming Language"
@@ -608,7 +1188,10 @@
     "date": "2014-10-10",
     "added": "2014-10-25",
     "id": "myCHCXFFTPY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=myCHCXFFTPY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["dotgo", "dependencies"],
     "speakers": ["keith-rarick"],
     "title": "dotGo 2014: Keith Rarick - Vendoring and Import Path Rewriting"
@@ -616,7 +1199,10 @@
     "date": "2014-10-08",
     "added": "2014-10-09",
     "id": "gdHG9DWgUyE",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=gdHG9DWgUyE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["runtime", "internals", "meetup"],
     "speakers": ["shane-hansen"],
     "title": "A Tour of Go's Runtime"
@@ -624,7 +1210,10 @@
     "date": "2014-09-26",
     "added": "2014-09-27",
     "id": "2COw_Q6Ol4k",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=2COw_Q6Ol4k",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["ruby", "go-generate", "meetup"],
     "speakers": ["david-nix", "kevin-gillette"],
     "title": "Why I Chose Rails over Go / Go Generate"
@@ -632,7 +1221,10 @@
     "date": "2014-09-25",
     "added": "2014-09-26",
     "id": "2pkVVD7zFLk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=2pkVVD7zFLk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["optimization", "meetup"],
     "speakers": ["asta-xie"],
     "title": "Golang performance optimization"
@@ -640,7 +1232,10 @@
     "date": "2014-09-25",
     "added": "2014-09-26",
     "id": "_8dAbjQqnT0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=_8dAbjQqnT0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup"],
     "speakers": ["ishan-agrawal"],
     "title": "Building an A/B testing framework in Go"
@@ -648,7 +1243,10 @@
     "date": "2014-09-25",
     "added": "2014-09-26",
     "id": "fqCLXyeRxEA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=fqCLXyeRxEA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["web-app", "meetup"],
     "speakers": ["audrey-lim"],
     "title": "How I built my first web app in Go"
@@ -656,7 +1254,10 @@
     "date": "2014-09-25",
     "added": "2014-10-15",
     "id": "Qi4-OAuL-RU",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=Qi4-OAuL-RU",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["surge2014", "surge", "devops"],
     "speakers": ["baron-schwartz", "owen-zanzal"],
     "title": "Surge 2014: The Golang Effect - How Go Changed Operations at VividCortex"
@@ -664,7 +1265,10 @@
     "date": "2014-09-23",
     "added": "2014-09-24",
     "id": "2r1thDQTtv8",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=2r1thDQTtv8",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["appengine", "angularjs"],
     "speakers": ["francesc-campoy"],
     "title": "Building an app from scratch with Go"
@@ -672,7 +1276,10 @@
     "date": "2014-09-22",
     "added": "2014-09-24",
     "id": "5yDO-tmIoXY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=5yDO-tmIoXY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["scale2014", "vitess"],
     "speakers": ["sugu-sougoumarane"],
     "title": "Scaling YouTube's Backend: The Vitess Trade-offs"
@@ -680,7 +1287,10 @@
     "date": "2014-09-22",
     "added": "2014-09-22",
     "id": "cVJWRc31vbo",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=cVJWRc31vbo",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup"],
     "speakers": ["cory-lanou"],
     "title": "Beginning Go - Questions and Answers"
@@ -688,7 +1298,10 @@
     "date": "2014-09-21",
     "added": "2014-09-22",
     "id": "HJIjTTHWYnE",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=HJIjTTHWYnE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["etcd"],
     "speakers": ["brandon-philips"],
     "title": "etcd: distributed locking and service discovery"
@@ -696,7 +1309,10 @@
     "date": "2014-09-18",
     "added": "2014-09-22",
     "id": "ABGF_ryhFzM",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=ABGF_ryhFzM",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["oop"],
     "speakers": ["steve-francia"],
     "title": "Objected Oriented Programming Go"
@@ -704,7 +1320,10 @@
     "date": "2014-09-11",
     "added": "2014-09-22",
     "id": "Ng8m5VXsn8Q",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=Ng8m5VXsn8Q",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["oop", "concurrency"],
     "speakers": ["francesc-campoy"],
     "title": "Go: Object Oriented and Concurrent (just not the usual way)"
@@ -712,7 +1331,10 @@
     "date": "2014-08-27",
     "added": "2014-09-22",
     "id": "gfErCkcyMQk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=gfErCkcyMQk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["bitcoin"],
     "speakers": ["dave-collins", "marco-peereboom"],
     "title": "BTCD for Go Language Developers"
@@ -720,7 +1342,10 @@
     "date": "2014-08-27",
     "added": "2014-09-22",
     "id": "H2Wk4PHCdpw",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=H2Wk4PHCdpw",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["appengine"],
     "speakers": ["adam-jimerson"],
     "title": "Building web apps in Go on Google App Engine"
@@ -728,7 +1353,10 @@
     "date": "2014-08-26",
     "added": "2014-09-22",
     "id": "qkSsPgXAWU0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=qkSsPgXAWU0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["web-app"],
     "speakers": ["courtland-fowler", "josh-yaganeh", "ryan-arana"],
     "title": "How we build Geobin.io"
@@ -736,7 +1364,10 @@
     "date": "2014-08-21",
     "added": "2014-08-22",
     "id": "w7RziV_Sn-g",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=w7RziV_Sn-g",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["beego"],
     "speakers": ["lei-cao"],
     "title": "Create a Web API Application in One Minute in Beego"
@@ -744,7 +1375,10 @@
     "date": "2014-08-20",
     "added": "2014-08-22",
     "id": "P8U9-wPYiHA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=P8U9-wPYiHA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["errors", "strings", "byte-slices"],
     "speakers": ["kevin-burke", "adam-thomason"],
     "title": "Where Errors Come From / The Pitfalls of Using Strings and Byte Slices Interchangeably"
@@ -752,7 +1386,10 @@
     "date": "2014-08-21",
     "added": "2014-08-22",
     "id": "MAUSLdiyYs4",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=MAUSLdiyYs4",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["math"],
     "speakers": ["attila-olah"],
     "title": "Arbitrary Precision Math Using Go"
@@ -760,7 +1397,10 @@
     "date": "2014-07-30",
     "added": "2014-08-05",
     "id": "70Z1AyvfaQE",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=70Z1AyvfaQE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["hardware"],
     "speakers": ["dave-cheney"],
     "title": "TinyTerm: A silly terminal emulator written in Go"
@@ -768,7 +1408,10 @@
     "date": "2014-07-30",
     "added": "2014-08-05",
     "id": "juHMdcTz5vM",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=juHMdcTz5vM",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["functional"],
     "speakers": ["toby-hede"],
     "title": "Underscore: Helpfully Functional Go"
@@ -776,7 +1419,10 @@
     "date": "2014-07-30",
     "added": "2014-08-05",
     "id": "ndmB0bj7eyw",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=ndmB0bj7eyw",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["testing", "io"],
     "speakers": ["andrew-gerrand"],
     "title": "Testing Techniques"
@@ -784,7 +1430,10 @@
     "date": "2014-07-24",
     "added": "2014-07-26",
     "id": "2Q_rBFGZbRg",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=2Q_rBFGZbRg",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["boltdb"],
     "speakers": ["tommi-virtanen"],
     "title": "Go-nuts and Bolt (2/2)"
@@ -792,7 +1441,10 @@
     "date": "2014-07-24",
     "added": "2014-07-26",
     "id": "KK13S2k318g",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=KK13S2k318g",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["boltdb"],
     "speakers": ["tommi-virtanen"],
     "title": "Go-nuts and Bolt (1/2)"
@@ -800,7 +1452,10 @@
     "date": "2014-07-23",
     "added": "2014-08-14",
     "id": "ydWFpcoYraU",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=ydWFpcoYraU",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["optimization"],
     "speakers": ["oleg-shaldybin"],
     "title": "Finding Memory Leaks in Go Programs"
@@ -808,7 +1463,10 @@
     "date": "2014-07-23",
     "added": "2014-08-22",
     "id": "H8nA_ZZxaMU",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=H8nA_ZZxaMU",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["crypto"],
     "speakers": ["kyle-isom"],
     "title": "A Tour of Cryptography Packages in Go"
@@ -816,7 +1474,10 @@
     "date": "2014-07-23",
     "added": "2014-08-22",
     "id": "7zYXhhrRn2E",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=7zYXhhrRn2E",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["web-app"],
     "speakers": ["beyang-liu"],
     "title": "Patterns and Examples for building a Go web app"
@@ -824,7 +1485,10 @@
     "date": "2014-07-22",
     "added": "2014-08-14",
     "id": "8D3Vmm1BGoY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=8D3Vmm1BGoY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["best-practices"],
     "speakers": ["francesc-campoy"],
     "title": "Twelve Go Best Practices"
@@ -832,7 +1496,10 @@
     "date": "2014-07-22",
     "added": "2014-08-22",
     "id": "oidiAJbtzDM",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=oidiAJbtzDM",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["testing"],
     "speakers": ["quinn-slack"],
     "title": "How Sourcegraph tests in Go"
@@ -840,7 +1507,10 @@
     "date": "2014-07-17",
     "added": "2014-07-26",
     "id": "lx3nIvpAbn8",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=lx3nIvpAbn8",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["docker"],
     "speakers": ["guillaume-charmes"],
     "title": "Go: The language that powers Docker"
@@ -848,7 +1518,10 @@
     "date": "2014-07-04",
     "added": "2014-07-09",
     "id": "r6j2W5DZRtA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=r6j2W5DZRtA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["emacs"],
     "speakers": ["samer-masterson"],
     "title": "Tricking out EMACS for Go"
@@ -856,7 +1529,10 @@
     "date": "2014-06-30",
     "added": "2014-07-09",
     "id": "-DpKaoPz8l8",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=-DpKaoPz8l8",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["sourcegraph", "io"],
     "speakers": ["quinn-slack"],
     "title": "Sourcegraph at Google I/O 2014 - A large-scale code search engine in Go"
@@ -864,7 +1540,10 @@
     "date": "2014-06-28",
     "added": "2014-07-09",
     "id": "hRR-Zy1H-Yo",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=hRR-Zy1H-Yo",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["rest"],
     "speakers": ["chris-stiteler"],
     "title": "Simple JSON Rest API in Go (tutorial) - Creation & Consumption"
@@ -872,7 +1551,10 @@
     "date": "2014-06-25",
     "added": "2014-06-26",
     "id": "midJ6b1LkA0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=midJ6b1LkA0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["vitess", "scalability"],
     "speakers": ["sugu-sougoumarane"],
     "title": "Scaling with Go: YouTube's Vitess"
@@ -880,7 +1562,10 @@
     "date": "2014-06-23",
     "added": "2014-08-05",
     "id": "0KF44QtoByk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=0KF44QtoByk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gosf-summerfest"],
     "speakers": ["andrew-gerrand"],
     "title": "The State of Go"
@@ -888,7 +1573,10 @@
     "date": "2014-06-23",
     "added": "2014-08-05",
     "id": "qC9WhjmewIk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=qC9WhjmewIk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gosf-summerfest"],
     "speakers": ["derek-collison"],
     "title": "Why We Use Go At Apcera"
@@ -896,7 +1584,10 @@
     "date": "2014-06-19",
     "added": "2014-06-21",
     "id": "wlSa6xxSCtk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=wlSa6xxSCtk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "intro"],
     "speakers": ["kelsey-hightower"],
     "title": "Programming Go for Beginning Devs"
@@ -904,7 +1595,10 @@
     "date": "2014-06-18",
     "added": "2014-09-22",
     "id": "wlSa6xxSCtk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=wlSa6xxSCtk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["data-structures"],
     "speakers": ["adam-jimerson"],
     "title": "Data types and structures in Go"
@@ -912,7 +1606,10 @@
     "date": "2014-06-11",
     "added": "2014-06-20",
     "id": "UgQvmBuOUPQ",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=UgQvmBuOUPQ",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "race-detector", "concurrency"],
     "speakers": ["robert-knight"],
     "title": "Go London User Group: The Go Race Detector"
@@ -920,7 +1617,10 @@
     "date": "2014-06-11",
     "added": "2014-06-20",
     "id": "Ph4eYD7Bgek",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=Ph4eYD7Bgek",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "errors"],
     "speakers": ["daniel-morsing"],
     "title": "Go London User Group: Effective Error Handling"
@@ -928,7 +1628,10 @@
     "date": "2014-06-11",
     "added": "2014-06-20",
     "id": "PRT3U9AsnQI",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=PRT3U9AsnQI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "microsoft"],
     "speakers": ["harvey-kandola"],
     "title": "Go London User Group: Go in a Microsoft Shop"
@@ -936,7 +1639,10 @@
     "date": "2014-06-08",
     "added": "2014-06-12",
     "id": "F3tieL1lX1I",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=F3tieL1lX1I",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["beego"],
     "speakers": ["lei-cao"],
     "title": "Beego Framework Tutorials 3 Configuration Parameters"
@@ -944,7 +1650,10 @@
     "date": "2014-06-04",
     "added": "2014-06-21",
     "id": "zbFDjCHzN50",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=zbFDjCHzN50",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "concurrency"],
     "speakers": ["matt-nunogawa"],
     "title": "Concurrency: goroutines and channels"
@@ -952,7 +1661,10 @@
     "date": "2014-05-28",
     "added": "2014-05-29",
     "id": "W9tBcTcXGeo",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=W9tBcTcXGeo",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["beego"],
     "speakers": ["lei-cao"],
     "title": "Beego Framework Tutorials-2-Router Namespace (part 3 of 3)"
@@ -960,7 +1672,10 @@
     "date": "2014-05-27",
     "added": "2014-05-28",
     "id": "eTnosbpVC-g",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=eTnosbpVC-g",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["sourcegraph"],
     "speakers": ["quinn-slack"],
     "title": "Navigating Code in Sourcegraph"
@@ -968,7 +1683,10 @@
     "date": "2014-05-25",
     "added": "2014-05-26",
     "id": "81kxo6FcoOw",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=81kxo6FcoOw",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["beego"],
     "speakers": ["lei-cao"],
     "title": "Beego Framework Tutorials-2-Router URI Patterns (2/3)"
@@ -976,7 +1694,10 @@
     "date": "2014-05-20",
     "added": "2014-05-26",
     "id": "zAvOSsg5bH4",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=zAvOSsg5bH4",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "sajari", "freelancer"],
     "speakers": ["hamish-ogilvy", "chris-miceli"],
     "title": "Personalised Search at Sajari / Golang @ Freelancer.com: Notification System"
@@ -984,7 +1705,10 @@
     "date": "2014-05-18",
     "added": "2014-05-26",
     "id": "LvAFH-oLvqY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=LvAFH-oLvqY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["beego"],
     "speakers": ["lei-cao"],
     "title": "Beego Framework Tutorials-2-Router (1/3)"
@@ -992,7 +1716,10 @@
     "date": "2014-05-11",
     "added": "2014-05-26",
     "id": "zvXDgfoUKFY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=zvXDgfoUKFY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["beego"],
     "speakers": ["lei-cao"],
     "title": "Beego Framework Tutorials-1-Introduction to Beego"
@@ -1000,7 +1727,10 @@
     "date": "2014-05-05",
     "added": "2014-06-26",
     "id": "rfU-SwI7LWg",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=rfU-SwI7LWg",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["vitess"],
     "speakers": ["sugu-sougoumarane"],
     "title": "Vitess, CAP, and Hitting the sweet spot @YouTube"
@@ -1008,7 +1738,10 @@
     "date": "2014-04-25",
     "added": "2014-05-27",
     "id": "dKGmK_Z1Zl0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=dKGmK_Z1Zl0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "style", "simplicity"],
     "speakers": ["andrew-gerrand"],
     "title": "[GopherCon 2014]: Go for Gophers (Closing Keynote)"
@@ -1016,7 +1749,10 @@
     "date": "2014-04-25",
     "added": "2014-05-27",
     "id": "YPQ-aFjJX5Q",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=YPQ-aFjJX5Q",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "web-services"],
     "speakers": ["richard-crowley"],
     "title": "[GopherCon 2014]: Building web services in Go"
@@ -1024,7 +1760,10 @@
     "date": "2014-04-25",
     "added": "2014-05-27",
     "id": "stFw0f3WEsk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=stFw0f3WEsk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "tools"],
     "speakers": ["alan-shreve"],
     "title": "[GopherCon 2014]: Build Your Developer Tools with Go"
@@ -1032,7 +1771,10 @@
     "date": "2014-04-25",
     "added": "2014-05-27",
     "id": "m879N2rzn2g",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=m879N2rzn2g",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "sql"],
     "speakers": ["baron-schwartz"],
     "title": "[GopherCon 2014]: Building Database Applications with Database/SQL"
@@ -1040,7 +1782,10 @@
     "date": "2014-04-25",
     "added": "2014-05-27",
     "id": "u-kkf76TDHE",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=u-kkf76TDHE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "fireside-chat"],
     "speakers": ["blake-mizerany"],
     "title": "[GopherCon 2014]: Inside the Gopher's Studio"
@@ -1048,7 +1793,10 @@
     "date": "2014-04-25",
     "added": "2014-05-27",
     "id": "Va-NE55AqBs",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=Va-NE55AqBs",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "robotics"],
     "speakers": ["ron-evans", "adrian-zankich"],
     "title": "[GopherCon 2014]: Go Powered Robotics and Physical Computing"
@@ -1056,7 +1804,10 @@
     "date": "2014-04-25",
     "added": "2014-05-27",
     "id": "PJlp1YacstQ",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=PJlp1YacstQ",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "games"],
     "speakers": ["stephen-mcquay", "fraser-graham"],
     "title": "[GopherCon 2014]: Writing and Debugging a Web-based Multiplayer Game"
@@ -1064,7 +1815,10 @@
     "date": "2014-04-25",
     "added": "2014-05-27",
     "id": "i26SYvVu1nw",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=i26SYvVu1nw",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "docker"],
     "speakers": ["victor-vieux"],
     "title": "[GopherCon 2014]: Making Docker GO"
@@ -1072,15 +1826,23 @@
     "date": "2014-04-25",
     "added": "2014-05-27",
     "id": "EfJRQ1lGkUk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=EfJRQ1lGkUk",
     "tags": ["gophercon", "mongodb", "analytics"],
     "speakers": ["bill-kennedy"],
+=======
+    "tags": ["gophercon", "mongodb", "analytics"],
+    "speakers": ["william-kennedy"],
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "title": "[GopherCon 2014]: Building an Analytics Engine using MongoDB"
 }, {
     "date": "2014-04-25",
     "added": "2014-05-27",
     "id": "Y1-RLAl7iOI",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=Y1-RLAl7iOI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "best-practices", "production"],
     "speakers": ["peter-bourgon"],
     "title": "[GopherCon 2014]: Best Practices for Production Environments"
@@ -1088,7 +1850,10 @@
     "date": "2014-04-25",
     "added": "2014-05-27",
     "id": "9OkclcLgR0U",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=9OkclcLgR0U",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "mongodb"],
     "speakers": ["gustavo-niemeyer", "steve-francia"],
     "title": "[GopherCon 2014]: Painless Data Storage with MongoDB and Go"
@@ -1096,7 +1861,10 @@
     "date": "2014-04-25",
     "added": "2014-05-27",
     "id": "QIE5nV5fDwA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=QIE5nV5fDwA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "c-to-go"],
     "speakers": ["russ-cox"],
     "title": "[GopherCon 2014]: Go from C to Go"
@@ -1104,7 +1872,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "D6okO8Qzusk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=D6okO8Qzusk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "camlistore"],
     "speakers": ["brad-fitzpatrick"],
     "title": "[GopherCon 2014]: Camlistore and the Standard Library"
@@ -1112,7 +1883,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "k6W1KS_EGI0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=k6W1KS_EGI0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "cli"],
     "speakers": ["mike-gehard"],
     "title": "[GopherCon 2014]: Taking Back the Command Line with Go"
@@ -1120,7 +1894,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "CL_SUzXIUuI",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=CL_SUzXIUuI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "nsq"],
     "speakers": ["matt-reiferson"],
     "title": "[GopherCon 2014]: Spray Some NSQ On It"
@@ -1128,7 +1905,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "mBy20FgB68Q",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=mBy20FgB68Q",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "nodejs"],
     "speakers": ["kelsey-falter"],
     "title": "[GopherCon 2014]: From Node.js to Go at Poptip"
@@ -1136,7 +1916,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "4xB46Xl9O9Q",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=4xB46Xl9O9Q",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "optimization"],
     "speakers": ["ben-johnson"],
     "title": "[GopherCon 2014]: Writing High Performace Databases in Go"
@@ -1144,7 +1927,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "wzSX35qttjg",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=wzSX35qttjg",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "appengine"],
     "speakers": ["david-symonds"],
     "title": "[GopherCon 2014]: Gophers on a Plane: The Story of Go on App Engine"
@@ -1152,7 +1938,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "wljEXLJrIyo",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=wljEXLJrIyo",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "heka"],
     "speakers": ["rob-miller"],
     "title": "[GopherCon 2014]: Data Snarfing with Go: A Heka Good Time"
@@ -1160,7 +1949,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "wyRbHhHFZh8",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=wyRbHhHFZh8",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "sysadmin"],
     "speakers": ["kelsey-hightower"],
     "title": "[GopherCon 2014]: Go for Sysadmins"
@@ -1168,7 +1960,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "a4BQRUpQoe8",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=a4BQRUpQoe8",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "embedded"],
     "speakers": ["josh-bleecher-snyder"],
     "title": "[GopherCon 2014]: Embedded Go and Bluetooth Low Energy Hardware"
@@ -1176,7 +1971,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "SmoM1InWXr0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=SmoM1InWXr0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "concurrency"],
     "speakers": ["john-graham-cumming"],
     "title": "[GopherCon 2014]: A Channel Compendium"
@@ -1184,7 +1982,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "i2VaXnRhob0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=i2VaXnRhob0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "gocircuit"],
     "speakers": ["petar-maymounkov"],
     "title": "[GopherCon 2014]: The Go Circuit: Towards Elastic Computation with No Failures"
@@ -1192,7 +1993,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "ylRKac5kSOk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=ylRKac5kSOk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "optimization"],
     "speakers": ["derek-collison"],
     "title": "[GopherCon 2014]: High Performance Systems in Go"
@@ -1200,7 +2004,10 @@
     "date": "2014-04-24",
     "added": "2014-05-27",
     "id": "VoS7DsT1rdM",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=VoS7DsT1rdM",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["gophercon", "history"],
     "speakers": ["rob-pike"],
     "title": "[GopherCon 2014]: Hello Gophers (Opening Keynote)"
@@ -1208,7 +2015,10 @@
     "date": "2014-04-14",
     "added": "2014-04-15",
     "id": "OsMAyLoeIVM",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=OsMAyLoeIVM",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["corona-sdk"],
     "speakers": ["sergey-lerg"],
     "title": "Using Go and Google App Engine with Corona SDK"
@@ -1216,7 +2026,10 @@
     "date": "2014-04-09",
     "added": "2014-04-10",
     "id": "9sTrCqeHP7E",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=9sTrCqeHP7E",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "appengine", "animated-gifs", "templates"],
     "speakers": ["piotr-piasecki", "gavin-b", "joseph-holsten"],
     "title": "Golangvan: Google App Engine, creating animated Gifs and text/template"
@@ -1224,7 +2037,10 @@
     "date": "2014-03-24",
     "added": "2014-04-16",
     "id": "YIR6-iAi4go",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=YIR6-iAi4go",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "introduction", "intellij", "martini"],
     "speakers": ["stephan-behnke", "florin-patan", "peter-aba"],
     "title": "Backend Web Berlin March 2014: Introduction to Go / IntelliJ / A Simple Backend Web Application in Martini"
@@ -1232,7 +2048,10 @@
     "date": "2014-03-24",
     "added": "2014-03-31",
     "id": "lofYCui4W8M",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=lofYCui4W8M",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["bitcoin"],
     "speakers": ["matthieu-riou"],
     "title": "How to Create a Custom Bitcoin Client in Go"
@@ -1240,7 +2059,10 @@
     "date": "2014-03-10",
     "added": "2014-04-16",
     "id": "6Bc8DJTQ4IU",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=6Bc8DJTQ4IU",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["appengine"],
     "speakers": ["lynn-langit"],
     "title": "Intro to using Go language with GAE"
@@ -1248,7 +2070,10 @@
     "date": "2014-03-07",
     "added": "2014-03-08",
     "id": "YQs8pxrcUHY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=YQs8pxrcUHY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["hangout", "qml"],
     "speakers": ["gustavo-niemeyer"],
     "title": "Go QML Meeting"
@@ -1256,7 +2081,10 @@
     "date": "2014-02-19",
     "added": "2014-03-12",
     "id": "cQD72EOEez8",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=cQD72EOEez8",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["streams"],
     "speakers": ["alan-shreve"],
     "title": "Stream Multiplexing in Go"
@@ -1264,7 +2092,10 @@
     "date": "2014-02-19",
     "added": "2014-03-04",
     "id": "DfDxBj_OvPE",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=DfDxBj_OvPE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["distributed", "mesos"],
     "speakers": ["niklas-neilsen"],
     "title": "Building Distributed Systems with Go and Mesos"
@@ -1272,7 +2103,10 @@
     "date": "2014-02-19",
     "added": "2014-03-01",
     "id": "XciAOxDzqjY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=XciAOxDzqjY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["dependencies"],
     "speakers": ["keith-rarick"],
     "title": "Go Dependency Management"
@@ -1280,7 +2114,10 @@
     "date": "2014-02-11",
     "added": "2014-02-23",
     "id": "D4CjdHllA-E",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=D4CjdHllA-E",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["web-services"],
     "speakers": ["richard-crowley"],
     "title": "Building Web Services in Go"
@@ -1288,7 +2125,10 @@
     "date": "2014-02-05",
     "added": "2014-04-04",
     "id": "XVXUYLSW_eg",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=XVXUYLSW_eg",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "web-services", "production"],
     "speakers": ["joseph-holsten"],
     "title": "Services in Go: from Proof-of-Concept to Production"
@@ -1296,7 +2136,10 @@
     "date": "2014-02-05",
     "added": "2014-04-04",
     "id": "_MhJYCT5HNs",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=_MhJYCT5HNs",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "cli"],
     "speakers": ["andrey-romanov"],
     "title": "Command-line Tools Development in Go"
@@ -1304,7 +2147,10 @@
     "date": "2014-02-05",
     "added": "2014-04-04",
     "id": "BcaqdXh566E",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=BcaqdXh566E",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "web-services", "sphero"],
     "speakers": ["jingwen-owen-ou"],
     "title": "Building a RESTful API in Go"
@@ -1312,7 +2158,10 @@
     "date": "2014-02-02",
     "added": "2014-02-23",
     "id": "yvjeIZgykiA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=yvjeIZgykiA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["fosdem", "camlistore"],
     "speakers": ["brad-fitzpatrick", "mathieu-lonjaret"],
     "title": "[FOSDEM 2014] Camlistore"
@@ -1320,7 +2169,10 @@
     "date": "2014-02-02",
     "added": "2014-02-23",
     "id": "WTRORimPvHE",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=WTRORimPvHE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["fosdem", "distributed"],
     "speakers": ["peter-szilagyi"],
     "title": "[FOSDEM 2014]: Iris Decentralized Messaging"
@@ -1328,7 +2180,10 @@
     "date": "2014-02-02",
     "added": "2014-02-23",
     "id": "tnXOeHRuyyA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=tnXOeHRuyyA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["fosdem", "porting"],
     "speakers": ["aram-havarnanu"],
     "title": "[FOSDEM 2014] Porting Go to New Platforms"
@@ -1336,7 +2191,10 @@
     "date": "2014-02-02",
     "added": "2014-02-23",
     "id": "Qe8Dq7V3hXY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=Qe8Dq7V3hXY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["fosdem"],
     "speakers": ["elliott-stoneham"],
     "title": "[FOSDEM 2014] Write your own Go compiler"
@@ -1344,7 +2202,10 @@
     "date": "2014-02-02",
     "added": "2014-02-23",
     "id": "qATTTSg6zXk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=qATTTSg6zXk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["fosdem", "vitess"],
     "speakers": ["sugu-sougoumarane"],
     "title": "[FOSDEM 2014] Scaling with go: Youtube's Vitess"
@@ -1352,7 +2213,10 @@
     "date": "2014-02-02",
     "added": "2014-02-23",
     "id": "mQ4hwLgSvUs",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=mQ4hwLgSvUs",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["fosdem", "go1.3"],
     "speakers": ["andrew-gerrand"],
     "title": "[FOSDEM 2014]: Looking Toward Go 1.3"
@@ -1360,7 +2224,10 @@
     "date": "2014-02-02",
     "added": "2014-02-23",
     "id": "cwpI5ONWGxc",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=cwpI5ONWGxc",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["fosdem", "lightning-talks"],
     "speakers": [],
     "title": "[FOSDEM 2014]: Go Lightning Talks"
@@ -1368,7 +2235,10 @@
     "date": "2014-02-02",
     "added": "2014-02-23",
     "id": "8lrRIyK_dRE",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=8lrRIyK_dRE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["fosdem", "interfaces"],
     "speakers": ["matthew-cottingham"],
     "title": "[FOSDEM 2014] Interfaces: a new leaf for an old book"
@@ -1376,7 +2246,10 @@
     "date": "2014-02-01",
     "added": "2014-04-16",
     "id": "MnVFpo3rkek",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=MnVFpo3rkek",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["fosdem", "gpu", "science"],
     "speakers": ["arne-vansteenkiste"],
     "title": "[FOSDEM 2014] Scientific GPU Computing with Google's Go Language"
@@ -1384,7 +2257,10 @@
     "date": "2014-01-31",
     "added": "2014-02-16",
     "id": "wCHpytRfSL4",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=wCHpytRfSL4",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["music"],
     "speakers": ["francesc-campoy"],
     "title": "Singing Gophers"
@@ -1392,7 +2268,10 @@
     "date": "2014-01-24",
     "added": "2014-02-23",
     "id": "oEFqxi_n1vU",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=oEFqxi_n1vU",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "cassandra"],
     "speakers": ["kyle-kingsbury", "al-tobey"],
     "title": "Cassandra Introduction / Cassandra and Go"
@@ -1400,7 +2279,10 @@
     "date": "2014-01-23",
     "added": "2014-03-01",
     "id": "BxkJRKYkUc4",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=BxkJRKYkUc4",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "etcd"],
     "speakers": ["ian-eyberg", "brandon-philips"],
     "title": "FQT: A Go Success Story / etcd"
@@ -1408,7 +2290,10 @@
     "date": "2014-01-22",
     "added": "2014-04-08",
     "id": "ysAZ_oqPOo0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=ysAZ_oqPOo0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["angularjs"],
     "speakers": ["calicojake"],
     "title": "Golang Angularjs Tutorial part 2 - Websockets"
@@ -1416,7 +2301,10 @@
     "date": "2014-01-22",
     "added": "2014-04-08",
     "id": "U80k7fTEqNw",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=U80k7fTEqNw",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["angularjs"],
     "speakers": ["calicojake"],
     "title": "Golang Angularjs Tutorial part 1 - Hello World!"
@@ -1424,7 +2312,10 @@
     "date": "2014-01-22",
     "added": "2014-04-08",
     "id": "QHIMygADPPc",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=QHIMygADPPc",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["angularjs"],
     "speakers": ["calicojake"],
     "title": "Golang Angularjs Tutorial part 3 - Rest and ngResource"
@@ -1432,7 +2323,10 @@
     "date": "2014-01-14",
     "added": "2014-02-26",
     "id": "tYe2zk5ROq4",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=tYe2zk5ROq4",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["concurrency"],
     "speakers": ["randall-mcpherson"],
     "title": "Solving a Highly Concurrent Problem in Go"
@@ -1440,7 +2334,10 @@
     "date": "2013-12-11",
     "added": "2014-02-16",
     "id": "elu0VpLzJL8",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=elu0VpLzJL8",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["python"],
     "speakers": ["francesc-campoy"],
     "title": "Go for Pythonistas"
@@ -1448,7 +2345,10 @@
     "date": "2013-12-10",
     "added": "2014-02-23",
     "id": "wB1hoUJDbk0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=wB1hoUJDbk0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["tdd"],
     "speakers": ["francesc-campoy"],
     "title": "TDD with Go"
@@ -1456,7 +2356,10 @@
     "date": "2013-12-07",
     "added": "2014-02-18",
     "id": "3qsGpRxDGxI",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=3qsGpRxDGxI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["optimization"],
     "speakers": ["martin-bruse"],
     "title": "Optimization in Go, an Informal Overview"
@@ -1464,7 +2367,10 @@
     "date": "2013-12-05",
     "added": "2014-04-04",
     "id": "RFIOSjkB-j8",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=RFIOSjkB-j8",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["iteration"],
     "speakers": ["eleanor-mchugh"],
     "title": "Going Loopy: Iteration in Go"
@@ -1472,7 +2378,10 @@
     "date": "2013-12-05",
     "added": "2014-03-04",
     "id": "5wipWZKvNSo",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=5wipWZKvNSo",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["emacs", "screencast"],
     "speakers": ["dustin-sallings"],
     "title": "five minutes of go with emacs"
@@ -1480,7 +2389,10 @@
     "date": "2013-12-05",
     "added": "2014-10-15",
     "id": "BkKP3naKLi8",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=BkKP3naKLi8",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["optimization"],
     "speakers": ["samuel-lampa"],
     "title": "Profiling Go Code - A Beginners Tutorial"
@@ -1488,7 +2400,10 @@
     "date": "2013-11-19",
     "added": "2014-02-23",
     "id": "Hoj-Clpo9ec",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=Hoj-Clpo9ec",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["distributed"],
     "speakers": ["rob-miller"],
     "title": "Backpressure in Heka"
@@ -1496,7 +2411,10 @@
     "date": "2013-11-15",
     "added": "2014-04-08",
     "id": "CBwOuK9x5VQ",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=CBwOuK9x5VQ",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["angularjs", "appengine"],
     "speakers": ["sathish-vj"],
     "title": "Beginning GlowSo.me - AppEngine, Go, AngularJS: A robust, quick app stack"
@@ -1504,7 +2422,10 @@
     "date": "2013-11-06",
     "added": "2014-02-18",
     "id": "_41bkNr7eik",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=_41bkNr7eik",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["optimization"],
     "speakers": ["john-graham-cumming"],
     "title": "Profiling Go Programs"
@@ -1512,7 +2433,10 @@
     "date": "2013-11-05",
     "added": "2014-03-25",
     "id": "9liuBycg3IA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=9liuBycg3IA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["revel"],
     "speakers": ["rob-figueiredo"],
     "title": "A Crash Course on the Go Programming Language"
@@ -1520,7 +2444,10 @@
     "date": "2013-11-02",
     "added": "2014-04-04",
     "id": "dKlNSIUSfz0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=dKlNSIUSfz0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["kml"],
     "speakers": ["shakeel-mahate"],
     "title": "Go Slices and Bytes: Converting GIS Shape files into KML"
@@ -1528,7 +2455,10 @@
     "date": "2013-10-16",
     "added": "2014-07-26",
     "id": "-oSu04LwZ0k",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=-oSu04LwZ0k",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["surge"],
     "speakers": ["baron-schwartz"],
     "title": "Surge 2013: Building a ROUS-Resistant Agent-Based Service in Go"
@@ -1536,7 +2466,10 @@
     "date": "2013-10-14",
     "added": "2014-02-23",
     "id": "B97PK8PdbRE",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=B97PK8PdbRE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["python"],
     "speakers": ["francesc-campoy", "brian-dorsey"],
     "title": "Becoming a Gopher: A Pythonista learning Go"
@@ -1544,7 +2477,10 @@
     "date": "2013-10-07",
     "added": "2014-04-16",
     "id": "LPALFhMyVoQ",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=LPALFhMyVoQ",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["python"],
     "speakers": ["brian-dorsey"],
     "title": "Go for Python Programmers"
@@ -1552,7 +2488,10 @@
     "date": "2013-09-27",
     "added": "2014-02-16",
     "id": "AR9Q6UgxEuY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=AR9Q6UgxEuY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["ruby"],
     "speakers": ["lionel-barrow"],
     "title": "Ruby and Go"
@@ -1560,7 +2499,10 @@
     "date": "2013-08-23",
     "added": "2014-02-23",
     "id": "jXTh2mrqj5w",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=jXTh2mrqj5w",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["data-science"],
     "speakers": ["aditya-murkerjee"],
     "title": "Go for Statistical Programming"
@@ -1568,7 +2510,10 @@
     "date": "2013-08-20",
     "added": "2014-02-18",
     "id": "7BBBl8yeIw0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=7BBBl8yeIw0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["mongodb"],
     "speakers": ["sam-helman"],
     "title": "How we use Go and MongoDB at MongoDB"
@@ -1576,7 +2521,10 @@
     "date": "2013-08-11",
     "added": "2014-05-26",
     "id": "XEQziFzKSgA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=XEQziFzKSgA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["python"],
     "speakers": ["greg-ward"],
     "title": "Go for Python Hackers"
@@ -1584,7 +2532,10 @@
     "date": "2013-08-08",
     "added": "2014-02-23",
     "id": "l_8z4fc-qNw",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=l_8z4fc-qNw",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "best-practices", "zeromq"],
     "speakers": ["francesc-campoy", "buddy-sandidge"],
     "title": "12 Go Best Practices / Go and ZeroMQ"
@@ -1592,7 +2543,10 @@
     "date": "2013-08-05",
     "added": "2014-04-20",
     "id": "5pxcz1G0QKY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=5pxcz1G0QKY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["appengine"],
     "speakers": ["dewbert-bubbert"],
     "title": "Let's Build for Google App Engine - Light Grid #3 - Grid Clicking!"
@@ -1600,7 +2554,10 @@
     "date": "2013-08-02",
     "added": "2014-04-20",
     "id": "tZZ58bWngwo",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=tZZ58bWngwo",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["appengine"],
     "speakers": ["dewbert-bubbert"],
     "title": "Let's Build for Google App Engine - Light Grid #2 - Color UI!"
@@ -1608,7 +2565,10 @@
     "date": "2013-07-29",
     "added": "2014-04-20",
     "id": "v2bWijh4dn0",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=v2bWijh4dn0",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["appengine"],
     "speakers": ["dewbert-bubbert"],
     "title": "Let's Build for Google App Engine - Light Grid #1 - Displays!"
@@ -1616,7 +2576,10 @@
     "date": "2013-07-23",
     "added": "2014-02-23",
     "id": "T-LJF6YOcsY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=T-LJF6YOcsY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["root-access"],
     "speakers": ["martin-gorner", "chad-fowler"],
     "title": "root access Berlin #1: 6Wunderkinder on Go"
@@ -1624,7 +2587,10 @@
     "date": "2013-07-15",
     "added": "2014-03-04",
     "id": "QDO5YOrKSiQ",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=QDO5YOrKSiQ",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["concurrency"],
     "speakers": ["dustin-sallings"],
     "title": "efficient parallelism with channels: the long story of go-saturate (a short story)"
@@ -1632,7 +2598,10 @@
     "date": "2013-07-07",
     "added": "2014-02-25",
     "id": "sYukPc0y_Ro",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=sYukPc0y_Ro",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["dotscale"],
     "speakers": ["brad-fitzpatrick"],
     "title": "dotScale 2013: Software I'm excited about"
@@ -1640,7 +2609,10 @@
     "date": "2013-06-29",
     "added": "2014-02-23",
     "id": "xCH7ZaWUvDI",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=xCH7ZaWUvDI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "gocircuit", "nsq", "distributed"],
     "speakers": ["matt-reiferson", "jehiah-czebotar", "petar-maymounkov"],
     "title": "NSQ: Realtime Distributed Messaging At Scale / Go Circuit: Bottom-up Linguistic Evolution"
@@ -1648,7 +2620,10 @@
     "date": "2013-06-18",
     "added": "2014-02-27",
     "id": "IkU8JsxdCAM",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=IkU8JsxdCAM",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "nsq", "distributed"],
     "speakers": ["matt-reiferson", "jehiah-czebotar"],
     "title": "NSQ: Realtime Distributed Messaging At Scale"
@@ -1656,7 +2631,10 @@
     "date": "2013-06-12",
     "added": "2014-02-18",
     "id": "yue4X8rcGJU",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=yue4X8rcGJU",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["appengine"],
     "speakers": ["danny-hermes", "alex-vagin"],
     "title": "Google Cloud Endpoints on Go and PHP: An Experiment"
@@ -1664,7 +2642,10 @@
     "date": "2013-06-11",
     "added": "2014-02-23",
     "id": "jE59PN4xuWo",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=jE59PN4xuWo",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "oop", "interfaces"],
     "speakers": ["mattias-hansson"],
     "title": "From OOP to Go"
@@ -1672,7 +2653,10 @@
     "date": "2013-06-11",
     "added": "2014-02-23",
     "id": "57gJA6XLDYg",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=57gJA6XLDYg",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "concurrency"],
     "speakers": ["stefan-nilsson"],
     "title": "Go concurrently"
@@ -1680,7 +2664,10 @@
     "date": "2013-05-16",
     "added": "2014-02-16",
     "id": "QDDwwePbDtw",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=QDDwwePbDtw",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["io", "concurrency"],
     "speakers": ["sameer-ajmani"],
     "title": "Advanced Go concurrency"
@@ -1688,7 +2675,10 @@
     "date": "2013-05-15",
     "added": "2014-02-16",
     "id": "p9VUCp98ay4",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=p9VUCp98ay4",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["io", "fireside-chat"],
     "speakers": [],
     "title": "Google I/O 2013: Fireside Chat with the Go Team"
@@ -1696,7 +2686,10 @@
     "date": "2013-05-15",
     "added": "2014-02-16",
     "id": "fc25ihfXhbg",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=fc25ihfXhbg",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["io", "appengine"],
     "speakers": ["david-symonds"],
     "title": "High Performance Apps with Go on App Engine"
@@ -1704,7 +2697,10 @@
     "date": "2013-05-09",
     "added": "2014-02-25",
     "id": "USr0Bvg1ZOo",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=USr0Bvg1ZOo",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "juju", "go1.1"],
     "speakers": ["dave-cheney", "andrew-gerrand"],
     "title": "Go and Juju at Canonical / What's new in Go 1.1"
@@ -1712,7 +2708,10 @@
     "date": "2013-04-25",
     "added": "2014-02-23",
     "id": "1X-3ekyZD9A",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=1X-3ekyZD9A",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "web-services", "chat-roulette", "interfaces"],
     "speakers": ["andrew-gerrand"],
     "title": "Go: A Simple Programming Environment / Code that Grows With Grace"
@@ -1720,7 +2719,10 @@
     "date": "2012-08-22",
     "added": "2014-04-16",
     "id": "XEQziFzKSgA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=XEQziFzKSgA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["python"],
     "speakers": ["greg-ward"],
     "title": "Go for Python Hackers"
@@ -1728,7 +2730,10 @@
     "date": "2013-04-23",
     "added": "2014-02-23",
     "id": "UgzIApJdLwY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=UgzIApJdLwY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["railsberry"],
     "speakers": ["andrew-gerrand"],
     "title": "Go: A Simple programming environment"
@@ -1736,7 +2741,10 @@
     "date": "2013-03-27",
     "added": "2014-03-03",
     "id": "vUqK-0PytV4",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=vUqK-0PytV4",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["hangout"],
     "speakers": ["kevin-mcdermott"],
     "title": "Go Further"
@@ -1744,7 +2752,10 @@
     "date": "2013-02-13",
     "added": "2014-02-25",
     "id": "ruw0uOC4_Xk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=ruw0uOC4_Xk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["hangout", "concurrency", "stathat", "tools"],
     "speakers": ["patrick-crosby", "phil-pennock"],
     "title": "Go concurrency in production / Public Tools with Go"
@@ -1752,7 +2763,10 @@
     "date": "2013-02-06",
     "added": "2014-03-03",
     "id": "61O6uMFzVtw",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=61O6uMFzVtw",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["hangout", "python"],
     "speakers": ["kevin-mcdermott"],
     "title": "Python to Go infosession"
@@ -1760,7 +2774,10 @@
     "date": "2012-12-12",
     "added": "2014-02-26",
     "id": "5JNBPrAiqeU",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=5JNBPrAiqeU",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["kings-of-code"],
     "speakers": ["peter-bourgon"],
     "title": "Kings of Code 2012: Go Do"
@@ -1768,7 +2785,10 @@
     "date": "2012-11-08",
     "added": "2014-03-03",
     "id": "w8yWZks_k70",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=w8yWZks_k70",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["hangout", "concurrency"],
     "speakers": ["mark-summerfield"],
     "title": "Programming in Go: Concurrency tips"
@@ -1776,7 +2796,10 @@
     "date": "2012-11-08",
     "added": "2014-03-03",
     "id": "rDvPfSXjPQY",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=rDvPfSXjPQY",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["hangout", "oop"],
     "speakers": ["mark-summerfield"],
     "title": "Programming in Go: Object Orientation"
@@ -1784,7 +2807,10 @@
     "date": "2012-11-08",
     "added": "2014-03-03",
     "id": "CbDg4zeVedU",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=CbDg4zeVedU",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["hangout", "function-literals"],
     "speakers": ["mark-summerfield"],
     "title": "Programming in Go: Function Literal Tips"
@@ -1792,7 +2818,10 @@
     "date": "2012-10-26",
     "added": "2014-02-18",
     "id": "XCsL89YtqCs",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=XCsL89YtqCs",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["screencast"],
     "speakers": ["andrew-gerrand"],
     "title": "Writing, building, installing, and testing Go code"
@@ -1800,7 +2829,10 @@
     "date": "2012-09-26",
     "added": "2014-02-18",
     "id": "GHaXN8G10fI",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=GHaXN8G10fI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": [],
     "speakers": ["brad-fitzpatrick"],
     "title": "Airbnb Tech Talk: Go Programming Language"
@@ -1808,7 +2840,10 @@
     "date": "2012-09-24",
     "added": "2014-02-16",
     "id": "iyjqL7ZqHfg",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=iyjqL7ZqHfg",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["hangout", "google-drive"],
     "speakers": ["vic-fryzel"],
     "title": "Google Drive SDK: Writing your first Drive App in Go"
@@ -1816,7 +2851,10 @@
     "date": "2012-09-12",
     "added": "2014-04-16",
     "id": "FTl0tl9BGdc",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=FTl0tl9BGdc",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": [],
     "speakers": ["rob-pike"],
     "title": "Why Learn Go?"
@@ -1824,7 +2862,10 @@
     "date": "2012-09-08",
     "added": "2014-02-23",
     "id": "d5aHr8VGU-8",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=d5aHr8VGU-8",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["cloud-foundry"],
     "speakers": ["mike-gehard"],
     "title": "Go Within Cloud Foundry"
@@ -1832,7 +2873,10 @@
     "date": "2012-08-14",
     "added": "2014-02-23",
     "id": "6o5hUFmQCLE",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=6o5hUFmQCLE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup", "juju", "go1.0"],
     "speakers": ["dave-cheney", "andrew-gerrand", "john-barham"],
     "title": "Go at Canonical / Using Go for fun and profit(?) / The Path to Go 1"
@@ -1840,7 +2884,10 @@
     "date": "2012-08-01",
     "added": "2014-02-18",
     "id": "2KmHtgtEZ1s",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=2KmHtgtEZ1s",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["screencast"],
     "speakers": ["andrew-gerrand"],
     "title": "Getting Started with Go"
@@ -1848,7 +2895,10 @@
     "date": "2012-07-18",
     "added": "2014-02-18",
     "id": "bj9T2c2Xk_s",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=bj9T2c2Xk_s",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["oscon", "go1.0"],
     "speakers": ["rob-pike", "andrew-gerrand"],
     "title": "The Path to Go 1"
@@ -1856,7 +2906,10 @@
     "date": "2012-06-29",
     "added": "2014-02-23",
     "id": "sPagpg0b7no",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=sPagpg0b7no",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["io", "appengine", "google-maps"],
     "speakers": ["andrew-gerrand", "chris-broadfoot"],
     "title": "Google I/O 2012 - Computing Map Tiles with Go on App Engine"
@@ -1864,7 +2917,10 @@
     "date": "2012-06-29",
     "added": "2014-02-16",
     "id": "sln-gJaURzk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=sln-gJaURzk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["io", "fireside-chat"],
     "speakers": [],
     "title": "Google I/O 2012: Meet the Go Team"
@@ -1872,7 +2928,10 @@
     "date": "2012-06-29",
     "added": "2014-02-23",
     "id": "kKQLhGZVN4A",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=kKQLhGZVN4A",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["io"],
     "speakers": [],
     "title": "Google I/O 2012 - Go in Production"
@@ -1880,7 +2939,10 @@
     "date": "2012-06-29",
     "added": "2014-02-16",
     "id": "f6kdp27TYZs",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=f6kdp27TYZs",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["io", "concurrency"],
     "speakers": ["rob-pike"],
     "title": "Go concurrency patterns"
@@ -1888,7 +2950,10 @@
     "date": "2012-06-21",
     "added": "2014-02-23",
     "id": "JE17r3n1kz4",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=JE17r3n1kz4",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["meetup"],
     "speakers": ["andrew-gerrand", "rob-pike", "evan-shaw"],
     "title": "10 Things you (probably) don't know about Go / Writing a Shell in Go / Less is Exponentially More"
@@ -1896,7 +2961,10 @@
     "date": "2012-06-20",
     "added": "2014-02-16",
     "id": "ytEkHepK08c",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=ytEkHepK08c",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": [],
     "speakers": ["russ-cox"],
     "title": "A Tour of Go"
@@ -1904,7 +2972,10 @@
     "date": "2012-05-31",
     "added": "2014-02-16",
     "id": "wyJSgTEjuII",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=wyJSgTEjuII",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["hangout", "appengine"],
     "speakers": ["johan-euphrosine"],
     "title": "Go + App Engine Hangout"
@@ -1912,7 +2983,10 @@
     "date": "2012-05-10",
     "added": "2014-02-18",
     "id": "9kzoGaoVkqI",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=9kzoGaoVkqI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["hangout"],
     "speakers": ["brad-fitzpatrick", "andrew-gerrand"],
     "title": "Go hangout with Andrew and Brad"
@@ -1920,7 +2994,10 @@
     "date": "2012-04-25",
     "added": "2014-02-16",
     "id": "4iAiS-qv26Q",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=4iAiS-qv26Q",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["concurrency"],
     "speakers": ["sameer-ajmani"],
     "title": "Let's Go Further: Build Concurrent Software using the Go Programming Language"
@@ -1928,7 +3005,10 @@
     "date": "2012-04-04",
     "added": "2014-02-22",
     "id": "xjfsmKmK9qc",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=xjfsmKmK9qc",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": [],
     "speakers": ["robert-griesemer"],
     "title": "Go in Three Easy Pieces"
@@ -1936,7 +3016,10 @@
     "date": "2012-04-04",
     "added": "2014-02-22",
     "id": "on5DeUyWDqI",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=on5DeUyWDqI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": [],
     "speakers": ["robert-griesemer", "erik-meijer"],
     "title": "E2E: Erik Meijer and Robert Griesemer - Going Go"
@@ -1944,7 +3027,10 @@
     "date": "2012-01-11",
     "added": "2014-02-25",
     "id": "cN_DpYBzKso",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=cN_DpYBzKso",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["concurrency"],
     "speakers": ["rob-pike"],
     "title": "Concurrency is not Parallelism"
@@ -1952,7 +3038,10 @@
     "date": "2011-11-16",
     "added": "2014-02-22",
     "id": "LWpm1qpWRwA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=LWpm1qpWRwA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["osdc"],
     "speakers": ["andrew-gerrand"],
     "title": "Go: It's That Simple"
@@ -1960,7 +3049,10 @@
     "date": "2011-11-01",
     "added": "2014-02-23",
     "id": "Mo1YKpIF1PQ",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=Mo1YKpIF1PQ",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["appengine"],
     "speakers": ["andrew-gerrand"],
     "title": "Building integrated apps on Google's Cloud Platform"
@@ -1968,7 +3060,10 @@
     "date": "2011-08-30",
     "added": "2014-02-16",
     "id": "HxaD_trXwRE",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=HxaD_trXwRE",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["lexing"],
     "speakers": ["rob-pike"],
     "title": "Lexical Scanning in Go"
@@ -1976,7 +3071,10 @@
     "date": "2011-08-30",
     "added": "2014-02-18",
     "id": "HQtLRqqB-Kk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=HQtLRqqB-Kk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["appengine"],
     "speakers": ["andrew-gerrand"],
     "title": "Cuddle, A Go App Engine Demo"
@@ -1984,7 +3082,10 @@
     "date": "2011-05-11",
     "added": "2014-02-16",
     "id": "-i0hat7pdpk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=-i0hat7pdpk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["io", "appengine"],
     "speakers": ["rob-pike", "andrew-gerrand"],
     "title": "Google I/O 2011: Writing Web Apps in Go"
@@ -1992,7 +3093,10 @@
     "date": "2011-05-09",
     "added": "2014-02-24",
     "id": "7QDVRowyUQA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=7QDVRowyUQA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["io"],
     "speakers": ["andrew-gerrand"],
     "title": "I/O BootCamp 2011: Real World Go"
@@ -2000,7 +3104,10 @@
     "date": "2011-02-06",
     "added": "2014-02-22",
     "id": "2-pPAvqyluI",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=2-pPAvqyluI",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["fosdem", "url-shortener"],
     "speakers": ["andrew-gerrand"],
     "title": "[FOSDEM 2011] Practical Go Programming"
@@ -2008,7 +3115,10 @@
     "date": "2010-05-21",
     "added": "2014-02-16",
     "id": "jgVhBThJdXc",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=jgVhBThJdXc",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["io"],
     "speakers": ["russ-cox", "rob-pike"],
     "title": "Google I/O 2010: Go Programming"
@@ -2016,7 +3126,10 @@
     "date": "2010-04-28",
     "added": "2014-02-18",
     "id": "7VcArS4Wpqk",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=7VcArS4Wpqk",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["historic"],
     "speakers": ["rob-pike"],
     "title": "Another Go at Language Design"
@@ -2024,7 +3137,10 @@
     "date": "2010-01-19",
     "added": "2014-04-16",
     "id": "4RSJg_1TdpA",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=4RSJg_1TdpA",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["bdd"],
     "speakers": ["samuel-tesla"],
     "title": "Go Behave! A BDD Framework for the Go Programming Language"
@@ -2032,7 +3148,10 @@
     "date": "2009-10-30",
     "added": "2014-02-18",
     "id": "rKnDgT73v8s",
+<<<<<<< HEAD
     "url": "http://www.youtube.com/watch?v=rKnDgT73v8s",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     "tags": ["historic"],
     "speakers": ["rob-pike"],
     "title": "The Go Programming Language"

@@ -65,6 +65,13 @@ func main() {
 		videos = append(videos, v)
 	}
 
+<<<<<<< HEAD
+=======
+	if err := scanner.Err(); err != nil {
+		log.Fatal("error during scan: ", err)
+	}
+
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
 	today := time.Now().Format("2006-01-02")
 
 	for _, v := range videos {
@@ -73,7 +80,10 @@ func main() {
    "date": "%s",
    "added": "%s",
    "id": "%s",
+<<<<<<< HEAD
    "url": "http://www.youtube.com/watch?v=%s",
+=======
+>>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
    "speakers": [],
    "tags": [],
    "title": %q
