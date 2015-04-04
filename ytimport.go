@@ -65,6 +65,10 @@ func main() {
 		videos = append(videos, v)
 	}
 
+	if err := scanner.Err(); err != nil {
+		log.Fatal("error during scan: ", err)
+	}
+
 	today := time.Now().Format("2006-01-02")
 
 	for _, v := range videos {
