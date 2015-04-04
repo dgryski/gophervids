@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4">
+    <font
+       horiz-adv-x="1024"
+       id="font3015"
+       inkscape:label="font 1">
+      <font-face
+         units-per-em="1024"
+         id="font-face3017"
+         font-family="lea" />
+      <missing-glyph
+         d="M0,0h1000v1024h-1000z"
+         id="missing-glyph3019" />
+    </font>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.08"
+     inkscape:cx="375"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1101"
+     inkscape:window-height="818"
+     inkscape:window-x="428"
+     inkscape:window-y="81"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2985"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion2987"><rect
+           id="rect2989"
+           width="480"
+           height="260"
+           x="85.714287"
+           y="280.93362" /></flowRegion><flowPara
+         id="flowPara2991"
+         style="-inkscape-font-specification:League Gothic Bold;font-family:League Gothic;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;letter-spacing:27px;font-size:161px">GOPHER</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2993"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion2995"><rect
+           id="rect2997"
+           width="411.42856"
+           height="142.85715"
+           x="71.428574"
+           y="592.36218" /></flowRegion><flowPara
+         id="flowPara2999"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3001"
+       style="font-size:80px;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       transform="translate(-37.142857,-177.14286)"><flowRegion
+         id="flowRegion3003"><rect
+           id="rect3005"
+           width="408.57144"
+           height="177.14285"
+           x="148.57143"
+           y="638.07648" /></flowRegion><flowPara
+         id="flowPara3007"
+         style="font-size:80px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Lobster;-inkscape-font-specification:Lobster Bold"><flowSpan
+   style="font-size:90px"
+   id="flowSpan3009">VIDS</flowSpan>.</flowPara></flowRoot>  </g>
+</svg>
