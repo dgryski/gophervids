@@ -152,10 +152,6 @@ a.mobile.menu{
 	/*padding: 1em 1em;*/
 }
 
-.header .desktop.menu ul li:hover{
-	border-bottom: 3px solid rgba(0,0,0,1);
-}
-
 .header .desktop.menu ul li a{
 	display: block;
 	text-transform: uppercase;
@@ -163,8 +159,16 @@ a.mobile.menu{
 	font-weight: 900;
 }
 
-.header .desktop.menu ul li:hover a{
-	color: rgba(128,0,0,1);
+@media all and (min-width: 50em){
+
+	.header .desktop.menu ul li:hover{
+		border-bottom: 3px solid rgba(0,0,0,1);
+	}
+
+	.header .desktop.menu ul li:hover a{
+		color: rgba(128,0,0,1);
+	}
+
 }
 
 
@@ -292,9 +296,11 @@ exvids span.playButton{
 	z-index: 10;
 }
 
-exvids span.playButton:hover{
-	/*background: url("/static/play.png") no-repeat;*/
-	background-position: 0 0;
+@media all and (min-width: 50em){
+	exvids span.playButton:hover{
+		/*background: url("/static/play.png") no-repeat;*/
+		background-position: 0 0;
+	}
 }
 
 exvids video{
@@ -359,8 +365,10 @@ exvids video{
 	background-position: -210 0;
 }
 
-.videoSelection li.selected exvids span.playButton:hover{
-	background-position: -70 0;
+@media all and (min-width: 50em){
+	.videoSelection li.selected exvids span.playButton:hover{
+		background-position: -70 0;
+	}
 }
 
 .videoSelection li.selected exvids > div{

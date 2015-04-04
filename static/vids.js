@@ -172,17 +172,32 @@ mod.directive('exVideo',['$rootScope', '$window' ,function($rootScope, $window){
           element.parent().addClass("selected");
           element.parent().parent().addClass("videoSelection");
           if(vids){ vids.show(); }
-          if(player){ player.play(); }
+          try{
+            if(player){ player.play(); }
+          }catch(err){
+            //incase player looses context and startes error
+            console.log("player error, possibly context",err,player)
+          }
         },function(){
           if(vids){ vids.hide(); }
-          if(player){ player.pause(); }
+          try{
+            if(player){ player.pause(); }
+          }catch(err){
+            //incase player looses context and startes error
+            console.log("player error, possibly context",err,player)
+          }
           element.vids.hide(200);
           element.parent().removeClass("selected");
           element.parent().parent().removeClass("videoSelection");
         }),
         locker = function(){
           if(vids){ vids.hide(); }
-          if(player){ player.pause(); }
+          try{
+            if(player){ player.pause(); }
+          }catch(err){
+            //incase player looses context and startes error
+            console.log("player error, possibly context",err,player)
+          }
           element.vids.hide(200);
           element.parent().removeClass("selected");
           element.parent().parent().removeClass("videoSelected");
@@ -207,6 +222,7 @@ mod.directive('exVideo',['$rootScope', '$window' ,function($rootScope, $window){
         element.vids = vids;
         show.swap();
 
+        console.log('id:',vids[0].id)
 
         player = _V_(vids[0].id,{
           src: src,
@@ -218,7 +234,7 @@ mod.directive('exVideo',['$rootScope', '$window' ,function($rootScope, $window){
 
         player.on("ended",function(){
           if(mod.PlayAll){
-            var sib = element.siblings().first();
+            var sib = element.parent().siblings().first();
             if(sib.length > 0){
               sib.find('exvids').trigger('click');
             }
