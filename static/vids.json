@@ -1,5 +1,13 @@
 [
 {
+   "date": "2015-03-22",
+   "added": "2015-04-04",
+   "id": "gc-cH2t75oE",
+   "speakers": ["francesc-campoy"],
+   "tags": ["go-tour", "whispering-gophers"],
+   "title": "DevFest.ca - Go - 2015.03.21"
+},
+{
    "date": "2015-03-20",
    "added": "2015-04-04",
    "id": "KlsaEYLGq2A",
