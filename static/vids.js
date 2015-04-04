@@ -280,7 +280,7 @@ var app = angular.module('gophervids', ['gophervids-directives', function(){
 app.controller('GopherTVController', ['$scope', '$window', '$http', '$log', function($scope, $window, $http, $log) {
     'use strict';
 
-    $http.get('./static/vids.json').success(function(data) {
+    $http.get('/static/vids.json').success(function(data) {
         $scope.videos = data.sort(function(a, b) {
             return (a.date == b.date ? 0 : (a.date < b.date ? 1 : -1));
         });
