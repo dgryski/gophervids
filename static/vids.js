@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var mod = angular.module('gophervids-directives', []);
 mod.PlayAll = true;
 
@@ -262,9 +261,6 @@ var app = angular.module('gophervids', ['gophervids-directives', function(){
 
 
 app.controller('GopherTVController', ['$scope', '$window', '$http', '$log', function($scope, $window, $http, $log) {
-=======
-function GopherTVController($scope, $window, $http, $log) {
->>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     'use strict';
 
     $http.get('/static/vids.json').success(function(data) {
@@ -275,16 +271,10 @@ function GopherTVController($scope, $window, $http, $log) {
 
         $scope.tags = $scope.getList('tags');
         $scope.speakers = $scope.getList('speakers');
-<<<<<<< HEAD
 
         loadPlaylistFromHash();
     });
 
-=======
-    });
-
-
->>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     $scope.filterOn = function(needle, haystack) {
         return $scope.videos.filter(function(v) {
             return (v[haystack].indexOf(needle) >= 0);
@@ -308,10 +298,7 @@ function GopherTVController($scope, $window, $http, $log) {
     };
 
     $scope.currentPlaylist = null;
-<<<<<<< HEAD
     $scope.currentIndex = 0;
-=======
->>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
 
     $scope.sidebarVideoList = function() {
         if ($scope.currentPlaylist) {
@@ -327,7 +314,6 @@ function GopherTVController($scope, $window, $http, $log) {
 
     $scope.playSomething = function(needle, haystack) {
         $log.log('playing', haystack, needle);
-<<<<<<< HEAD
         if (haystack==='recent-talks') {
               $scope.recentTalks();
               return;
@@ -345,45 +331,22 @@ function GopherTVController($scope, $window, $http, $log) {
             var playlist = $scope.filterOn(needle, haystack);
             $scope.loadPlaylist(playlist);
         }
-=======
-        $scope.currentTag = needle;
-        if ($scope.searchText) {
-            $scope.searchText.title = '';
-        }
-
-        document.location.hash = haystack + '=' + needle;
-
-        var playlist = $scope.filterOn(needle, haystack);
-        $scope.loadPlaylist(playlist);
->>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     };
 
     $scope.loadPlaylist = function(playlist) {
         $scope.currentPlaylist = playlist;
-<<<<<<< HEAD
         $scope.currentIndex = 0;
-=======
-        var ids = playlist.map(function(v) {
-            return v.id;
-        });
-        $window.player.cuePlaylist(ids);
-        $window.player.playVideo();
->>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     };
 
     $scope.playVideo = function(id) {
         $log.log('playing video', id);
 
-<<<<<<< HEAD
         $scope.currentIndex = 0;
 
-=======
->>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
         // if it's in our current playlist, jump there
         if ($scope.currentPlaylist) {
             $scope.currentPlaylist.forEach(function(v, k) {
                 if (v.id == id) {
-<<<<<<< HEAD
                     $scope.currentIndex = k;
                 }
             });
@@ -400,18 +363,6 @@ function GopherTVController($scope, $window, $http, $log) {
       }
     };
 
-=======
-                    window.player.playVideoAt(k);
-                }
-            });
-        }
-
-        // not in the current playlist
-        window.player.loadVideoById(id);
-    };
-
-
->>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
     $scope.playTag = function(what) {
         $scope.playSomething(what, 'tags');
     };
@@ -422,10 +373,7 @@ function GopherTVController($scope, $window, $http, $log) {
 
     $scope.recentTalks = function() {
         $scope.currentTag = 'recent-talks';
-<<<<<<< HEAD
         document.location.hash = 'recent-talks';
-=======
->>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
         $scope.loadPlaylist($scope.videos);
     };
 
@@ -434,7 +382,6 @@ function GopherTVController($scope, $window, $http, $log) {
         var vids = $scope.videos.slice().sort(function(a, b) {
             return (a.added == b.added ? 0 : (a.added < b.added ? 1 : -1));
         });
-<<<<<<< HEAD
         document.location.hash = 'new-videos';
         $scope.loadPlaylist(vids);
     };
@@ -478,25 +425,3 @@ function GopherTVController($scope, $window, $http, $log) {
 
     };
 }]);
-=======
-        $scope.loadPlaylist(vids);
-    };
-
-    $scope.clear = function() {
-        $scope.currentPlaylist = null;
-        $scope.currentTag = null;
-        document.location.hash = '';
-    };
-
-    $window.loadPlaylistFromHash = function() {
-        var h = document.location.hash;
-        var re = /^#(tags|speakers)=([-a-z]+)/;
-        var arr = re.exec(h);
-        if (arr) {
-            $log.log('grabbing playlist from hash', arr[1], '=', arr[2]);
-            $scope.playSomething(arr[2], arr[1]);
-            $scope.$apply();
-        }
-    };
-}
->>>>>>> bc25c7ae4329d0b15d5d899a9a1dd2ddfc64430a
