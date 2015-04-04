@@ -206,6 +206,9 @@ mod.directive('exVideo',['$rootScope', '$window' ,function($rootScope, $window){
     element.on('click',function eventHandle(event){
 
       var src = element.attr("url");
+
+      console.log("src",element,"url:",src);
+
       var order = [];
 
       if(src.match(/vimeo/)){
@@ -221,8 +224,6 @@ mod.directive('exVideo',['$rootScope', '$window' ,function($rootScope, $window){
         element.append(vids);
         element.vids = vids;
         show.swap();
-
-        console.log('id:',vids[0].id)
 
         player = _V_(vids[0].id,{
           src: src,

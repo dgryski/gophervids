@@ -73,6 +73,7 @@ func main() {
    "date": "%s",
    "added": "%s",
    "id": "%s",
+	 "url": "http://www.youtube.com/watch?v=%s",
    "speakers": [],
    "tags": [],
    "title": %q
