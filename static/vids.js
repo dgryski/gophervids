@@ -167,6 +167,7 @@ mod.directive('exVideo',['$rootScope', '$window' ,function($rootScope, $window){
     var player,
         vids,
         play = element.find('.playButton'),
+        link = element.find('.playLink'),
         show = DualLock(function(){
           element.vids.show(200);
           element.parent().addClass("selected");
@@ -203,11 +204,24 @@ mod.directive('exVideo',['$rootScope', '$window' ,function($rootScope, $window){
           element.parent().parent().removeClass("videoSelected");
         };
 
-    element.on('click',function eventHandle(event){
+    element.parent().on('click',function eventHandle(event){
 
       var src = element.attr("url");
 
-      console.log("src",element,"url:",src);
+      if(event.target === link[0]){
+        event.preventDefault();
+        return false;
+      }
+
+      if(src == "" || !src){
+        //temporal fix for issues when video url is not in json
+        //but we need to fix these when vimeo videos get added
+        //or include a tag in the json to indicate if its a vimeo
+        //or youtube video and generate link fix with that for extra care
+        src ="http://www.youtube.com/watch?v="+ element.attr("id")
+        element.attr("url",src)
+        link.attr("href",src)
+      }
 
       var order = [];
 
@@ -250,7 +264,6 @@ mod.directive('exVideo',['$rootScope', '$window' ,function($rootScope, $window){
 
       if(locked.owner(locker)){
         if(event.target === play[0]){
-          console.log('we got button hit');
           show.swap();
         }
       }else{
@@ -378,6 +391,10 @@ app.controller('GopherTVController', ['$scope', '$window', '$http', '$log', func
       }else{
         mod.PlayAll = true;
       }
+    };
+
+    $scope.openSource = function(src) {
+      window.open(src)
     };
 
     $scope.playTag = function(what) {
