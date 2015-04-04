@@ -1,5 +1,69 @@
 [
 {
+   "date": "2015-03-20",
+   "added": "2015-04-04",
+   "id": "KlsaEYLGq2A",
+   "speakers": ["aditya-godbole"],
+   "tags": ["generics"],
+   "title": "Pune Gopher Meetup Golang Generics"
+},
+{
+   "date": "2015-01-21",
+   "added": "2015-04-04",
+   "id": "uyXpUSu_APU",
+   "speakers": ["alexander-surma"],
+   "tags": ["generics"],
+   "title": "Generics Code Generation in Go | Alexander Surma | DevFest 2014 Berlin"
+},
+{
+   "date": "2015-03-20",
+   "added": "2015-04-04",
+   "id": "y2bLGIw4o7k",
+   "speakers": ["francesc-campoy"],
+   "tags": ["cpp"],
+   "title": "Go For C++ Devs"
+},
+{
+   "date": "2015-03-30",
+   "added": "2015-04-04",
+   "id": "R-WwvBbfJWo",
+   "speakers": ["mohit-gupta", "alex-zylman"],
+   "tags": ["interfaces", "rate-limiting"],
+   "title": "Interfaces will Save the Future: Rate Limiter in Golang"
+},
+{
+   "date": "2014-10-25",
+   "added": "2015-04-04",
+   "id": "yg7zsuasIIE",
+   "speakers": ["tomas-senart"],
+   "tags": ["dotgo", "load-testing"],
+   "title": "dotGo 2014 - Tomás Senart - Vegeta: HTTP load testing in Go"
+},
+{
+   "date": "2014-10-28",
+   "added": "2015-04-04",
+   "id": "HqZQBmNVhBw",
+   "speakers": ["john-cimmamond"],
+   "tags": ["dotgo", "oop"],
+   "title": "dotGo 2014 - John Cinnamond - Go is a great OO language"
+},
+{
+   "date": "2014-11-05",
+   "added": "2015-04-04",
+   "id": "4KFTacxqkcQ",
+   "speakers": ["brad-fitzpatrick"],
+   "tags": ["dotgo", "state-of-gopher"],
+   "title": "dotGo 2014 - Brad Fitzpatrick - The State of the Gopher"
+},
+{
+   "date": "2015-04-03",
+   "added": "2015-04-04",
+   "id": "qo4RAPxCTa0",
+   "speakers": ["jeremy-schlatter"],
+   "tags": ["debugging"],
+   "title": "Godebug and the Wonders of Code Generation"
+},
+{
    "date": "2015-03-07",
    "added": "2015-03-22",
    "id": "5iD0Hl0alZ0",
