@@ -82,6 +82,10 @@ a,a:active,a:hover,a:visited{
 	cursor: pointer;
 }
 
+a:active,a:hover,a:visited{
+	text-decoration: underline;
+}
+
 .columns{
 	display: inline-block;
 	/*float: left;*/
@@ -107,7 +111,7 @@ a,a:active,a:hover,a:visited{
 
 .header{
 	width: 100%;
-	height: 120px;
+	height: 95px;
 	/*background: rgba(0,0,0,0.1);*/
 }
 
@@ -127,7 +131,7 @@ a.mobile.menu{
 	width: 65px;
 	height: 60px;
 	position: absolute;
-	top: 27;
+	top: 15;
 	right: 5;
 	display: none;
 }
@@ -350,7 +354,23 @@ exvids video{
 	font-weight: bold;
 }
 
-.video_lists ul li exvids > div{
+.video_lists ul li exvids span.playLink{
+	position: absolute;
+	bottom: 7;
+	background: rgba(27,22,22,1);
+	display:	 block;
+	padding: 0.3em;
+	width: 90px;
+	font-weight: bold;
+	border-radius: 0.5em;
+	text-align: center;
+}
+
+.video_lists ul li exvids span.playLink:hover{
+	text-decoration: underline;
+}
+
+.video_lists ul li exvids  div{
 	display: none !important;
 }
 
@@ -358,7 +378,8 @@ exvids video{
 
 .videoSelection li.selected{
 	width: 60% !important;
-	height: 70% !important;
+	height: 60% !important;
+	cursor: pointer;
 }
 
 .videoSelection li.selected exvids{
@@ -607,7 +628,10 @@ slider ball{
 	border-radius: 3em;
 	background: rgba(246, 246, 246,1);
 	box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
-}rgb(215, 190, 162)
+}
+
+.slided{
+	/*background: rgba(215, 190, 162,1)*/
 	/*background: rgba(231,231,231,0.5);*/
 	background: rgba(109, 213, 25,1);
 	border: 1px solid rgba(49, 101, 42,1);
