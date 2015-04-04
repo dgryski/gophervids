@@ -202,7 +202,12 @@ footer .ft h3{
 }
 
 footer a{
+	color: rgba(255,255,255,0.7) !important;
+}
+
+footer a:hover{
 	color: rgba(255,255,255,1) !important;
+	color: rgba(235, 15, 85,1) !important
 }
 
 footer ul li{
@@ -268,7 +273,8 @@ footer .connect{
 	overflow-y: auto;
 }
 
-.dropdown ul::-webkit-scrollbar,.video_lists::-webkit-scrollbar{
+/*.dropdown ul::-webkit-scrollbar,*/
+.video_lists::-webkit-scrollbar{
 	display: none;
 }
 
@@ -332,8 +338,10 @@ exvids video{
 	background: rgba(115, 48, 134,0.8);
 }
 
-.video_lists ul li:hover{
-	background: rgba(234, 25, 143,1);
+@media all and (min-width: 50em){
+	.video_lists ul li:hover{
+		background: rgba(234, 25, 143,1);
+	}
 }
 
 .video_lists ul li exvids span.playTitle{
@@ -481,6 +489,7 @@ exvids video{
 	min-height: 50px;
 	margin-top: 5px;
 	background: rgba(0,0,0,0.1);
+	background: rgba(215, 190, 162,1);
 	font-size: 1em;
 }
 
@@ -598,9 +607,7 @@ slider ball{
 	border-radius: 3em;
 	background: rgba(246, 246, 246,1);
 	box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
-}
-
-.slided{
+}rgb(215, 190, 162)
 	/*background: rgba(231,231,231,0.5);*/
 	background: rgba(109, 213, 25,1);
 	border: 1px solid rgba(49, 101, 42,1);
@@ -633,6 +640,7 @@ slider ball{
 	width: 100%;
 	height: 60px;
 	background: rgba(0,0,0,0.1);
+	background: rgba(136, 211, 208,1);
 }
 
 .filter_lists  ul.desktop.search{
@@ -641,6 +649,10 @@ slider ball{
 	width: 230px;
 }
 
+.filter_lists  ul li,.filter_lists  ul li a{
+	font-weight: bold;
+	text-transform: capitalize;
+}
 
 .filter_lists  ul.desktop.search li{
 	display: block;
@@ -693,7 +705,7 @@ slider ball{
 .filter_lists ul.filters li ul li{
 	/*padding: 10px;*/
 	text-align: left;
-	width: 31.125em;
+	width: 21em;
 	border-top:1px solid rgba(0,0,0,0.1);
 }
 
@@ -701,8 +713,8 @@ slider ball{
 	padding: 1.5em;
 }
 
-.filter_lists ul.filters li:hover{
-	background: rgba(255,255,255,0.3);
+.filter_lists ul.filters > li:hover{
+	background: rgba(255,255,255,0.8);
 }
 
 .filter_lists ul.filters li a{
@@ -712,7 +724,18 @@ slider ball{
 	padding: 1em 0.1em;
 }
 
+.filter_lists ul.filters li ul{
+	background: rgba(255,255,255,1) !important;
+}
 
+.filter_lists ul.filters li:hover ul{
+	background: rgba(255,255,255,1);
+}
+
+.filter_lists ul.filters li:hover ul li:hover a{
+	/*background: rgba(20,20,20,0.6);*/
+	/*color: #fff;*/
+}
 
 @media screen and (max-width:50em){
 
