@@ -68,7 +68,6 @@ func main() {
 	if err := scanner.Err(); err != nil {
 		log.Fatal("error during scan: ", err)
 	}
-
 	today := time.Now().Format("2006-01-02")
 
 	for _, v := range videos {
@@ -77,6 +76,7 @@ func main() {
    "date": "%s",
    "added": "%s",
    "id": "%s",
+   "url": "http://www.youtube.com/watch?v=%s",
    "speakers": [],
    "tags": [],
    "title": %q
