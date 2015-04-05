@@ -8,9 +8,9 @@ handlers:
   static_files: index.html
   upload: index.html
 
-- url: /static/(.*\.(css|png|js|json))$
+- url: /static/(.*\.(css|png|js|json|svg))$
   static_files: static/\1
-  upload: static/.*\.(css|png|js|json)$
+  upload: static/.*\.(css|png|js|json|svg)$
   application_readable: true
 
 - url: /.*
