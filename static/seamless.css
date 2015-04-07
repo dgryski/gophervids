@@ -166,7 +166,7 @@ a.mobile.menu{
 @media all and (min-width: 50em){
 
 	.header .desktop.menu ul li:hover{
-		border-bottom: 3px solid rgba(0,0,0,1);
+		/*border-bottom: 3px solid rgba(0,0,0,1);*/
 	}
 
 	.header .desktop.menu ul li:hover a{
