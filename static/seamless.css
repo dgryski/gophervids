@@ -334,7 +334,8 @@ exvids video{
 	display: block;
 	float: left;
 	width: 20em;
-	height: 170px;
+	height: 300px;
+	max-height: 350px;
 	/*min-height: 170px;*/
 	/*max-height: 200px;*/
 	margin: 10px;
@@ -374,6 +375,26 @@ exvids video{
 	display: none !important;
 }
 
+.video_lists ul li div.videoSpeakers{
+	/*margin-top: 7px;*/
+	font-size:93%;
+	position: absolute;
+	bottom: 50;
+}
+
+.video_lists ul li div.videoSpeakers span{
+	display: inline-block;
+	margin: 0.1em;
+	padding: 0.3em;
+	border-radius:0.4em;
+	text-transform: capitalize;
+	background: rgba(0,0,0,1);
+	background: rgba(140, 180, 52,1);
+	color: rgba(20,20,20,1);
+	font-weight: bold;
+	font-size:1em;
+}
+
 .videoSelection{}
 
 .videoSelection li.selected{
@@ -387,6 +408,10 @@ exvids video{
 }
 
 .videoSelection li.selected exvids span.playTitle{
+	display: none;
+}
+
+.videoSelection li.selected div.videoSpeakers{
 	display: none;
 }
 
