@@ -327,6 +327,16 @@ app.controller('GopherTVController', ['$scope', '$window', '$http', '$log', func
         });
     };
 
+    $scope.getSpeaker = function(by,val){
+      var res = [];
+      $scope.videos.forEach(function(v){
+        if(v[by] === val){
+          return res = res.concat(v.speakers)
+        }
+      })
+      return res
+    };
+
     $scope.currentPlaylist = null;
     $scope.currentIndex = 0;
 

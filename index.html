@@ -120,6 +120,12 @@
                 <span class="playTitle">{{video.title}}</span>
                 <span class="playLink" ng-click="openSource(video.url)">Source!</span>
               </exvids>
+
+              <div class="videoSpeakers" >
+                <span ng-repeat="sp in getSpeaker('id',video.id)" >
+                  <a href="" ng-click="playSpeaker(sp)">{{sp}}</a>
+                </span>
+              </div>
             </li>
           </ul>
           <div class="clear"></div>
