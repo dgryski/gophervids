@@ -1,5 +1,13 @@
 [
 {
+   "date": "2015-04-30",
+   "added": "2015-04-30",
+   "id": "AQipeq39Aek",
+   "speakers": ["william-kennedy"],
+   "tags": ["meetup", "hangout", "optimization"],
+   "title": "Compiler Optimizations In Go"
+},
+{
    "date": "2015-03-22",
    "added": "2015-04-04",
    "id": "gc-cH2t75oE",
