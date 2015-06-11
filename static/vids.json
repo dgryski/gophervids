@@ -151,8 +151,6 @@
    "tags": ["groupcache"],
    "title": "Make It Feel Fast: Using the Groupcache Library in Go"
 },
-
->>>>>>> clean up massive backlog.
 {
    "date": "2015-03-22",
    "added": "2015-04-04",
