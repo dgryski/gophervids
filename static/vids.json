@@ -1,12 +1,158 @@
 [
 {
+   "date": "2015-06-10",
+   "added": "2015-06-11",
+   "id": "cF1zJYkBW4A",
+   "speakers": ["rob-pike"],
+    "tags": ["gopherfest", "c-to-go"],
+   "title": "The move from C to Go in the toolchain"
+},
+{
+   "date": "2015-06-10",
+   "added": "2015-06-11",
+   "id": "29LLRKIL_TI",
+   "speakers": ["steve-francia"],
+   "tags": ["mistakes", "gopherfest"],
+   "title": "7 common mistakes in Go and when to avoid them by Steve Francia"
+},
+{
+   "date": "2015-06-03",
+   "added": "2015-06-11",
+   "id": "0xpv7SFQ0T4",
+   "speakers": ["aaron-schlesinger"],
+   "tags": ["concurrency", "gopherfest"],
+   "title": "Concurrency Conventions in Go"
+},
+{
+   "date": "2015-06-02",
+   "added": "2015-06-11",
+   "id": "S9Bu6fZnLGM",
+   "speakers": ["andrew-gerrand"],
+   "tags": ["gopherfest"],
+   "title": "Current State of Go and Go 1.5"
+},
+{
+   "date": "2015-05-26",
+   "added": "2015-06-11",
+   "id": "v_wz6E3uFRg",
+   "speakers": ["nick-gauthier"],
+   "tags": ["testing"],
+   "title": "Testing Go"
+},
+{
+   "date": "2015-05-22",
+   "added": "2015-06-11",
+   "id": "ZuF78pVzrE8",
+   "speakers": ["francesc-campoy"],
+   "tags": ["interview"],
+   "title": "Coffee with a Googler: Chat with Francesc Campoy Flores about Go language"
+},
+{
+   "date": "2015-05-21",
+   "added": "2015-06-11",
+   "id": "_q4rOWE8uLI",
+   "speakers": ["prasanna-swaminathan"],
+   "tags": ["meetup", "etl", "perl"],
+   "title": "Scaling Data Ingestion Systems: From Perl to Go"
+},
+{
+   "date": "2015-05-12",
+   "added": "2015-06-11",
+   "id": "c3dW80eO88I",
+   "speakers": ["dave-cheney"],
+   "tags": ["dependencies"],
+   "title": "Reproducible Builds"
+},
+{
+   "date": "2015-05-12",
+   "added": "2015-06-11",
+   "id": "bCWBZ3HEVGA",
+   "speakers": ["ryan-dao"],
+   "tags": ["testing", "meetup"],
+   "title": "Write testable code in Go"
+},
+{
+   "date": "2015-05-12",
+   "added": "2015-06-11",
+   "id": "1r_LVriK6uM",
+   "speakers": ["jonathan-gomez"],
+   "tags": ["meetup", "interfaces"],
+   "title": "Interfaces in Go"
+},
+{
+   "date": "2016-05-08",
+   "added": "2015-06-11",
+   "id": "bAQ9ShmXYLY",
+   "speakers": ["jp-robinson"],
+   "tags": ["new-york-times"],
+   "title": "Using Go at The New York Times"
+},
+{
    "date": "2015-04-30",
-   "added": "2015-04-30",
+   "added": "2015-06-11",
    "id": "AQipeq39Aek",
    "speakers": ["william-kennedy"],
-   "tags": ["meetup", "hangout", "optimization"],
-   "title": "Compiler Optimizations In Go"
+   "tags": ["optimization"],
+   "title": "Compiler Optimizations in Go"
 },
+{
+   "date": "2015-04-28",
+   "added": "2015-06-11",
+   "id": "TZdVWO4Nmug",
+   "speakers": ["james-bardin"],
+   "tags": ["concurrency"],
+   "title": "After Go Concurrency Patterns"
+},
+{
+   "date": "2015-04-23",
+   "added": "2015-06-11",
+   "id": "_c_tQ6_3cCg",
+   "speakers": ["sameer-ajmani"],
+   "tags": ["java"],
+   "title": "Go for Java Programmers"
+},
+{
+   "date": "2015-04-14",
+   "added": "2015-06-11",
+   "id": "Y6RNf7W8go8",
+   "speakers": ["zoltan-giber"],
+   "tags": ["json"],
+   "title": "Working with JSON in Golang"
+},
+{
+   "date": "2015-04-14",
+   "added": "2015-06-11",
+   "id": "ALIvzlGPwd0",
+   "speakers": ["mark-tong"],
+   "tags": ["garbage-collection"],
+   "title": "A short intro to Golang GC"
+},
+{
+   "date": "2015-04-12",
+   "added": "2015-06-11",
+   "id": "2obCmCIofSE",
+   "speakers": ["kai-hendry"],
+   "tags": ["meetup", "websockets"],
+   "title": "Web 3.0: Web Sockets"
+},
+{
+   "date": "2015-04-08",
+   "added": "2015-06-11",
+   "id": "36Si7czwdyA",
+   "speakers": ["francesc-campoy"],
+   "tags": ["polymer", "rest"],
+   "title": "Polymer Gopher"
+},
+{
+   "date": "2015-04-06",
+   "added": "2015-06-11",
+   "id": "nryjcx7qIcE",
+   "speakers": ["evan-owen"],
+   "tags": ["groupcache"],
+   "title": "Make It Feel Fast: Using the Groupcache Library in Go"
+},
+
+>>>>>>> clean up massive backlog.
 {
    "date": "2015-03-22",
    "added": "2015-04-04",
