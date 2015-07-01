@@ -1,5 +1,13 @@
 [
 {
+   "date": "2015-06-29",
+   "added": "2015-07-01",
+   "id": "vgolhSJa26g",
+   "speakers": ["hamish-ogilvy"],
+    "tags": ["golang-syd"],
+   "title": "Binary Encoding in Go"
+},
+{
    "date": "2015-06-10",
    "added": "2015-06-11",
    "id": "cF1zJYkBW4A",
