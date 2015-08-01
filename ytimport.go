@@ -9,54 +9,80 @@ package main
 
 import (
 	"bufio"
-	"encoding/xml"
+	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 )
 
-type VideoXML struct {
-	Id        string    `json:"id"`
-	Title     string    `xml:"title" json:"title"`
-	Published time.Time `xml:"published" json:"data"`
+type video struct {
+	Id          string
+	PublishedAt time.Time
+	Title       string
 }
 
-func fetchXML(vid string) (VideoXML, error) {
+type Response struct {
+	Items []struct {
+		ID      string `json:"id"`
+		Snippet struct {
+			Publishedat time.Time `json:"publishedAt"`
+			Title       string    `json:"title"`
+		} `json:"snippet"`
+	} `json:"items"`
+}
 
-	url := fmt.Sprintf("https://gdata.youtube.com/feeds/api/videos/%s?v=2", vid)
+func fetchInfo(vid string) (video, error) {
+
+	url := fmt.Sprintf("https://www.googleapis.com/youtube/v3/videos?id=%s&key=%s&part=snippet", vid, apikey)
 
 	r, err := http.Get(url)
 
 	if err != nil {
-		return VideoXML{}, err
+		return video{}, err
 	}
 	defer r.Body.Close()
 
-	var vxml VideoXML
+	var ytjson Response
 
-	err = xml.NewDecoder(r.Body).Decode(&vxml)
+	body, _ := ioutil.ReadAll(r.Body)
+
+	err = json.Unmarshal(body, &ytjson)
 
 	if err != nil {
-		return VideoXML{}, err
+		return video{}, err
 	}
 
-	vxml.Id = vid
-
-	return vxml, nil
+	return video{
+		Id:          ytjson.Items[0].ID,
+		PublishedAt: ytjson.Items[0].Snippet.Publishedat,
+		Title:       ytjson.Items[0].Snippet.Title,
+	}, nil
 }
+
+var apikey string
 
 func main() {
 
+	key, err := ioutil.ReadFile("apikey.txt")
+	if err != nil {
+		log.Fatalf("no api key found: ", err)
+	}
+
+	apikey = strings.TrimSpace(string(key))
+
 	scanner := bufio.NewScanner(os.Stdin)
 
-	var videos []VideoXML
+	var videos []video
 
 	for scanner.Scan() {
 		vid := scanner.Text()
 
-		v, err := fetchXML(vid)
+		log.Println(vid)
+		v, err := fetchInfo(vid)
 
 		if err != nil {
 			log.Println(err)
@@ -80,7 +106,7 @@ func main() {
    "speakers": [],
    "tags": [],
    "title": %q
-},`, v.Published.Format("2006-01-02"), today, v.Id, v.Title)
+},`, v.PublishedAt.Format("2006-01-02"), today, v.Id, v.Title)
 	}
 
 }
