@@ -1,11 +1,43 @@
 [
 {
+   "date": "2015-07-24",
+   "added": "2015-07-31",
+   "id": "hDC7IF3OQLM",
+   "speakers": ["kevin-gillette"],
+   "tags": ["errors"],
+   "title": "Kevin Gillette - Effective Go Error Handling"
+},
+{
+   "date": "2015-07-11",
+   "added": "2015-07-31",
+   "id": "Ef7TtSZlmlk",
+   "speakers": ["dmitry-vyukov"],
+   "tags": ["gofuzz"],
+   "title": "Chat with Dmitry Vyukov on go-fuzz, golang and IT security"
+},
+{
    "date": "2015-06-29",
    "added": "2015-07-01",
    "id": "vgolhSJa26g",
    "speakers": ["hamish-ogilvy"],
     "tags": ["golang-syd"],
    "title": "Binary Encoding in Go"
+},
+{
+   "date": "2015-06-26",
+   "added": "2015-07-31",
+   "id": "KjI0OwdiABo",
+   "speakers": ["johnathan-boulle"],
+   "tags": ["rpc"],
+   "title": "A Survey of RPC options in Go"
+},
+{
+   "date": "2015-06-13",
+   "added": "2015-07-31",
+   "id": "pqxRPDNvnck",
+   "speakers": ["marty-schoch"],
+   "tags": ["production"],
+   "title": "Go’ing to the Next Level, Lessons from Go at Couchbase and Introducing the Go SDK"
 },
 {
    "date": "2015-06-10",
@@ -95,6 +127,15 @@
    "tags": ["new-york-times"],
    "title": "Using Go at The New York Times"
 },
+{
+   "date": "2015-05-06",
+   "added": "2015-07-31",
+   "id": "51PksCJJK8U",
+   "speakers": ["francesc-campoy"],
+   "tags": ["python"],
+   "title": "Go for Pythonistas by Francesc Campoy Flores (April 2015)"
+},
+
 {
    "date": "2015-04-30",
    "added": "2015-06-11",
