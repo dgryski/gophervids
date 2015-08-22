@@ -188,7 +188,7 @@
    "added": "2015-07-31",
    "id": "Ef7TtSZlmlk",
    "speakers": ["dmitry-vyukov"],
-   "tags": ["gofuzz"],
+   "tags": ["go-fuzz"],
    "title": "Chat with Dmitry Vyukov on go-fuzz, golang and IT security"
 },
 {
