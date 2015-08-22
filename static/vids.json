@@ -1,5 +1,181 @@
 [
 {
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "3EW1hZ8DVyw",
+   "speakers": ["richard-fliam"],
+   "tags": ["gophercon", "concurrency"],
+   "title": "GopherCon 2015: Richard Fliam - A Practical Guide to Preventing Deadlocks and Leaks in Go"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "1AjaZi4QuGo",
+   "speakers": ["peter-bourgon"],
+   "tags": ["gophercon", "go-kit"],
+   "title": "GopherCon 2015: Peter Bourgon - Go Kit: A Standard Library for Distributed Programming"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "VC3QXZ-x5yI",
+   "speakers": ["kevin-cantwell"],
+   "tags": ["gophercon", "mistakes"],
+   "title": "GopherCon 2015: Kevin Cantwell - What Could Go Wrong?"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "wqVbLlHqAeY",
+   "speakers": [],
+   "tags": ["gophercon", "production", "coreos"],
+   "title": "GopherCon 2015: Kelsey Hightower - Betting the Company on Go and Winning"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "S6mEo_FHZ5Y",
+   "speakers": ["katherine-cox-buday"],
+   "tags": ["gophercon", "simplicity"],
+   "title": "GopherCon 2015: Katherine Cox Buday - Simplicity and Go"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "sQ6-HyPxHKg",
+   "speakers": ["hana-kim"],
+   "tags": ["gophercon", "mobile"],
+   "title": "GopherCon 2015: Hana Kim - Go For Mobile Devices"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "a9xrxRsIbSU",
+   "speakers": ["dmitry-vyukov"],
+   "tags": ["gophercon", "race-detector", "go-fuzz", "trace"],
+   "title": "GopherCon 2015: Dmitry Vyukov - Go Dynamic Tools"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "InG72scKPd4",
+   "speakers": ["derek-parker"],
+   "tags": ["gophercon", "delve"],
+   "title": "GopherCon 2015: Derek Parker - Delve Into Go"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "1V7eJ0jN8-E",
+   "speakers": ["bjorn-rabenstein"],
+   "tags": ["gophercon", "prometheus"],
+   "title": "Bjorn Rabenstein - Prometheus: Designing and Implementing a Modern Monitoring Solution in G"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "D2-gaMvWfQY",
+   "speakers": ["ben-johnson"],
+   "tags": ["gophercon", "static-analysis"],
+   "title": "GopherCon 2015: Ben Johnson - Static Code Analysis Using SSA"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "-9kWbPmSyCI",
+   "speakers": ["barak-michener"],
+   "tags": ["gophercon", "cayley"],
+   "title": "GopherCon 2015: Barak Michener - Cayley: Building a Graph Database"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "0hPOopcJ8-E",
+   "speakers": ["baishampayan-ghose"],
+   "tags": ["gophercon", "history"],
+   "title": "GopherCon 2015: Baishampayan Ghose - The Roots of Go"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "fZh8uCInEfw",
+   "speakers": ["audrey-lim"],
+   "tags": ["gophercon", "beginners"],
+   "title": "Audrey Lim - How a complete beginner learned Go as her first backend language in 5 weeks"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "0ht89TxZZnk",
+   "speakers": ["andrew-gerrand"],
+   "tags": ["gophercon", "development-process"],
+   "title": "GopherCon 2015: Andrew Gerrand - Closing Keynote"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "_f9LS-OWfeA",
+   "speakers": ["abhishek-kona"],
+   "tags": ["gophercon", "parse.com", "ruby"],
+   "title": "GopherCon 2015: Abhishek Kona - Rebuilding Parse.com in Go - an opinionated rewrite"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "aiv1JOfMjm0",
+   "speakers": ["rick-hudson"],
+   "tags": ["gophercon", "garbage-collector"],
+   "title": "GopherCon 2015: Rick Hudson - Go GC: Solving the Latency Problem"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "kGAgHwfjg1s",
+   "speakers": ["sarah-adams"],
+   "tags": ["gophercon", "code-generation"],
+   "title": "GopherCon 2015: Sarah Adams - Code Generation For The Sake Of Consistency"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "_SCRvMunkdA",
+   "speakers": ["sam-helman", "kyle-erf"],
+   "tags": ["gophercon", "struct-tags"],
+   "title": "GopherCon 2015: Sam Helman & Kyle Erf - The Many Faces of Struct Tags"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "0ReKdcpNyQg",
+   "speakers": ["robert-griesemer"],
+   "tags": ["gophercon", "history"],
+   "title": "GopherCon 2015: Robert Griesemer - The Evolution of Go"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "xyDkyFjzFVc",
+   "speakers": ["tomas-senart"],
+   "tags": ["gophercon", "interfaces", "net/http"],
+   "title": "GopherCon 2015: Tomas Senart - Embrace the Interface"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "XvZOdpd_9tc",
+   "speakers": ["russ-cox"],
+   "tags": ["gophercon", "open-source"],
+   "title": "GopherCon 2015: Russ Cox - Keynote"
+},
+{
+   "date": "2015-07-28",
+   "added": "2015-08-22",
+   "id": "PyBJQA4clfc",
+   "speakers": ["blake-caldwell"],
+   "tags": ["gophercon", "services"],
+   "title": "GopherCon 2015: Blake Caldwell - Uptime: Building Resilient Services with Go"
+},
+{
    "date": "2015-07-24",
    "added": "2015-07-31",
    "id": "hDC7IF3OQLM",
