@@ -750,7 +750,7 @@
    "added": "2015-03-05",
    "id": "GM39Be_OhLM",
    "speakers": ["peter-bourgon"],
-   "tags": ["fosdem", "distributed"],
+   "tags": ["fosdem", "distributed", "go-kit"],
    "title": "Go and the Modern Enterprise - Peter Bourgon - Go Devroom FOSDEM 2015"
 },
 {
@@ -862,7 +862,7 @@
    "added": "2015-03-05",
    "id": "iFR_7AKkJFU",
    "speakers": ["peter-bourgon"],
-   "tags": ["london-go-gathering", "distributed"],
+   "tags": ["london-go-gathering", "distributed", "go-kit"],
    "title": "Go and the Modern Enterprise - Peter Bourgon - London Go Gathering 2015"
 },
 {
