@@ -1,5 +1,141 @@
 [
 {
+   "date": "2015-09-10",
+   "added": "2015-10-03",
+   "id": "CdhucJShJU8",
+   "speakers": ["william-kennedy"],
+   "tags": ["golanguk", "dependencies"],
+   "title": "Golang UK Conference 2015 - William Kennedy - Dependency Management"
+},
+{
+   "date": "2015-09-10",
+   "added": "2015-10-03",
+   "id": "UECh7X07m6E",
+   "speakers": ["andrew-gerrand"],
+   "tags": ["golanguk", "slices", "tips"],
+   "title": "Golang UK Conference 2015 - Andrew Gerrand - Stupid Gopher Tricks"
+},
+{
+   "date": "2015-09-10",
+   "added": "2015-10-03",
+   "id": "oorX84tBMqo",
+   "speakers": ["francesc-campoy"],
+   "tags": ["golanguk", "program-tooling"],
+   "title": "Golang UK Conference 2015 - Francesc Campoy  - Program Analysis"
+},
+{
+   "date": "2015-09-10",
+   "added": "2015-10-03",
+   "id": "cFJkLfujOts",
+   "speakers": ["matt-heath"],
+   "tags": ["production"],
+   "title": "Golang UK Conference 2015 - Matt Heath - Building a Bank with Go"
+},
+{
+   "date": "2015-09-10",
+   "added": "2015-10-03",
+   "id": "tIm8UkSf6RA",
+   "speakers": ["mat-ryer"],
+   "tags": ["golanguk", "web-services"],
+   "title": "Golang UK Conference 2015 - Mat Ryer - Building APIs"
+},
+{
+   "date": "2015-09-10",
+   "added": "2015-10-03",
+   "id": "2HOO5gIgyMg",
+   "speakers": ["evan-huus"],
+   "tags": ["concurrency", "golanguk"],
+   "title": "Golang UK Conference 2015 - Evan Huus  - Complex Concurrency Patterns with Go"
+},
+{
+   "date": "2015-09-10",
+   "added": "2015-10-03",
+   "id": "aL6sd4d4hxk",
+   "speakers": ["peter-bourgon"],
+   "tags": ["golanguk", "go-kit"],
+   "title": "Golang UK Conference 2015 - Peter Bourgon - Go Kit A Toolkit for Microservices"
+},
+{
+   "date": "2015-09-10",
+   "added": "2015-10-03",
+   "id": "ViBRx-F4Z2U",
+   "speakers": ["eleanor-mchugh"],
+   "tags": ["crypto", "networking", "golanguk"],
+   "title": "Golang UK Conference 2015 - Eleanor McHugh - Whispered Secrets"
+},
+{
+   "date": "2015-09-10",
+   "added": "2015-10-03",
+   "id": "zjoieOpy5hE",
+   "speakers": ["dean-elbaz"],
+   "tags": ["memory-allocation"],
+   "title": "Golang UK Conference 2015 - Dean Elbaz - Understanding Memory Allocation in Go"
+},
+{
+   "date": "2015-09-10",
+   "added": "2015-10-03",
+   "id": "JPVRnEZ4v_w",
+   "speakers": ["david-calavera"],
+   "tags": ["golanguk"],
+   "title": "Golang UK Conference 2015 - David Calavera  - Crossing the Language Chasm"
+},
+{
+   "date": "2015-09-10",
+   "added": "2015-10-03",
+   "id": "IiSyFc10Jj0",
+   "speakers": ["damian-gryski"],
+   "tags": ["golanguk", "community"],
+   "title": "Golang UK Conference 2015 - Damian Gryski - The Go Community"
+},
+{
+   "date": "2015-09-10",
+   "added": "2015-10-03",
+   "id": "33oqpLmQ3LE",
+   "speakers": ["ben-darnell"],
+   "tags": ["golanguk", "cockroachdb"],
+   "title": "Golang UK Conference 2015 - Ben Darnell - CockroachDB"
+},
+{
+   "date": "2015-08-28",
+   "added": "2015-10-03",
+   "id": "xxDZuPEgbBU",
+   "speakers": ["brad-fitzpatrick"],
+   "tags": ["optimization"],
+   "title": "Profiling & Optimizing in Go / Brad Fitzpatrick"
+},
+{
+   "date": "2015-08-13",
+   "added": "2015-10-03",
+   "id": "6mRFITUwCVU",
+   "speakers": ["kevin-burke"],
+   "tags": ["genetic-algorithms", "reverse-engineering"],
+   "title": "Hacking Roller Coaster Tycoon with Genetic Algorithms and Go - Kevin Burke"
+},
+{
+   "date": "2015-08-11",
+   "added": "2015-10-03",
+   "id": "gGXc_tU-AsU",
+   "speakers": ["dave-cheney"],
+   "tags": ["gb"],
+   "title": "Intro to gb, a Project-based Build Tool for Go by Dave Cheney"
+},
+{
+   "date": "2015-08-06",
+   "added": "2015-10-03",
+   "id": "U0w9eFunkX4",
+   "speakers": ["chris-manghane"],
+   "tags": ["gccgo"],
+   "title": "Brief overview of gccgo, \"the other\" Go compiler"
+},
+{
+   "date": "2015-05-28",
+   "added": "2015-10-03",
+   "id": "qt_5NswNeHc",
+   "speakers": ["brad-fitzpatrick"],
+   "tags": ["build-system"],
+   "title": "Go's Continuous Build System and it's Evolution (CoreOS Fest 2015)"
+},
+{
    "date": "2015-07-28",
    "added": "2015-08-22",
    "id": "3EW1hZ8DVyw",
