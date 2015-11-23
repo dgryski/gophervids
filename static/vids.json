@@ -1,5 +1,205 @@
 [
 {
+   "date": "2015-11-19",
+   "added": "2015-11-23",
+   "id": "5xTNCTD0B4M",
+   "speakers": ["octavian-costache"],
+   "tags": ["go-in-production"],
+   "title": "GoLang at Spring"
+},
+{
+   "date": "2015-11-20",
+   "added": "2015-11-23",
+   "id": "vTIyz2QfExc",
+   "speakers": ["sameer-ajmani"],
+   "tags": ["gothamgo", "grpc"],
+   "title": "gRPC: Google's high-performance, open-source RPC framework by Sameer Ajmani"
+},
+{
+   "date": "2015-11-16",
+   "added": "2015-11-23",
+   "id": "P6hx4yEbWNs",
+   "speakers": ["jp-robinson"],
+   "tags": ["gothamgo","natural-language", "nytimes"],
+   "title": "go get -news (Using Go and Python NLTK for news analysis) by JP Robinson"
+},
+{
+   "date": "2015-11-18",
+   "added": "2015-11-23",
+   "id": "fzXuXUIewBk",
+   "speakers": ["matt-nunogawa "],
+   "tags": ["meetup", "interfaces"],
+   "title": "IO, buffers, readers, writers"
+},
+{
+   "date": "2015-10-21",
+   "added": "2015-11-23",
+   "id": "qEf6SWol8ak",
+   "speakers": ["piotr-piasecki", "ian-smith"],
+   "tags": ["interface", "seven5"],
+   "title": "Go Interfaces & Seven5"
+},
+{
+   "date": "2015-10-17",
+   "added": "2015-11-23",
+   "id": "ordJH-IVbow",
+   "speakers": ["josh-loper"],
+   "tags": ["boltdb"],
+   "title": "How BoltDB Works and How It Fits Into A Native Go Application (Golang)"
+},
+{
+   "date": "2015-10-13",
+   "added": "2015-11-23",
+   "id": "eH4zQ8qGzO4",
+   "speakers": ["matt-stine"],
+   "tags": ["java"],
+   "title": "A Java Dev Learns to Go - Matt Stine"
+},
+{
+   "date": "2015-11-07",
+   "added": "2015-11-23",
+   "id": "ulfriuZjGDk",
+   "speakers": ["dave-cheney"],
+   "tags": ["gothamgo", "keynote"],
+   "title": "The Legacy of Go by Dave Cheney - GothamGo 2015 Closing Keynote"
+},
+{
+   "date": "2015-11-07",
+   "added": "2015-11-23",
+   "id": "FSVeHdi7POM",
+   "speakers": ["brittany-wald", "jen-eisenberg"],
+   "tags": ["ruby"],
+   "title": "/ruby/go by Brittany Wald and Jen Eisenberg"
+},
+{
+   "date": "2015-11-09",
+   "added": "2015-11-23",
+   "id": "3N381ubZTeo",
+   "speakers": ["alan-donovan"],
+   "tags": ["gothamgo", "static-analysis", "tooling"],
+   "title": "Using go/types for Code Comprehension and Refactoring Tools by Alan Donovan"
+},
+{
+   "date": "2015-11-06",
+   "added": "2015-11-23",
+   "id": "QEhPaj3vvPA",
+   "speakers": ["filippo-valsorda"],
+   "tags": ["gothamgo", "go-fuzz", "testing"],
+   "title": "Fuzzing Beyond Security: Automated Testing with go-fuzz by Filippo Valsorda at GothamGo 2015"
+},
+{
+   "date": "2015-11-05",
+   "added": "2015-11-23",
+   "id": "2rHgpx2gClk",
+   "speakers": ["stephan-dollberg"],
+   "tags": ["rest"],
+   "title": "Writing JSON REST APIs in Go (Go from A to Z — Zürich Gophers Meetup)"
+},
+{
+   "date": "2015-11-05",
+   "added": "2015-11-23",
+   "id": "hha7d97VYkM",
+   "speakers": ["thomas-wilde"],
+   "tags": ["intro"],
+   "title": "The Go Programming Language,  An Introduction (Go from A to Z — Zürich Gophers Meetup)"
+},
+{
+   "date": "2015-11-05",
+   "added": "2015-11-23",
+   "id": "P7EzIJZljhY",
+   "speakers": ["matt-proud"],
+   "tags": ["testing"],
+   "title": "testing/quick: Go's little-known blackbox test harness (Go from A to Z — Zürich Gophers Meetup)"
+},
+{
+   "date": "2015-10-28",
+   "added": "2015-11-23",
+   "id": "P7digaHwFMI",
+   "speakers": ["david-raffensperger", "kent-quirk"],
+   "tags": ["cgo", "microservices"],
+   "title": "Go with C/C++ and Microservices"
+},
+{
+   "date": "2015-09-30",
+   "added": "2015-11-23",
+   "id": "jHbeRswUJYI",
+   "speakers": ["aaron-taylor", "sean-kelley"],
+   "tags": ["go1.5", "protobuf"],
+   "title": "Boston Golang - What's new in Go 1.5 | ProtoBuffs & TCP in Go"
+},
+{
+   "date": "2015-09-17",
+   "added": "2015-11-23",
+   "id": "tkIByw9H_HQ",
+   "speakers": ["ryan-faerman"],
+   "tags": ["testing"],
+   "title": "Ryan Faerman - Acceptance Testing"
+},
+{
+   "date": "2015-07-01",
+   "added": "2015-11-23",
+   "id": "jNK5LaEFep0",
+   "speakers": ["jeremy-saenz"],
+   "tags": ["martini", "web-frameworks"],
+   "title": "Philly ETE 2015 #32 - The Rise and Fall of the Go Web Framework - Jeremy Saenz"
+},
+{
+   "date": "2015-07-13",
+   "added": "2015-11-23",
+   "id": "eDRoaxXerOM",
+   "speakers": ["wilfried-schobeiri"],
+   "tags": ["go-in-production"],
+   "title": "How Go is Making us Faster • Wilfried Schobeiri"
+},
+{
+   "date": "2015-06-09",
+   "added": "2015-11-23",
+   "id": "x5__QAIxQZw",
+   "speakers": ["chris-goddard"],
+   "tags": ["redis", "messaging"],
+   "title": "INSIGHT | High-performance messaging with Go and Redis - Chris Goddard (Charge Communications)"
+},
+{
+   "date": "2015-06-18",
+   "added": "2015-11-23",
+   "id": "hKkle1ofJ6U",
+   "speakers": [],
+   "tags": ["rpc", "dynamic-linking", "api-documentation", "go-generate"],
+   "title": "GoSF @ Bigcommerce RPC Options, Dynamic Linking, API Docs"
+},
+{
+   "date": "2014-06-20",
+   "added": "2015-11-23",
+   "id": "zbFDjCHzN50",
+   "speakers": ["matt-nunogawa"],
+   "tags": ["concurrency"],
+   "title": "Concurrency: goroutines and channels"
+},
+{
+   "date": "2015-06-11",
+   "added": "2015-11-23",
+   "id": "4cD0nNpr6v0",
+   "speakers": ["eugene-yakubovich"],
+   "tags": ["concurrency"],
+   "title": "Goroutines and systems programming"
+},
+{
+   "date": "2015-05-15",
+   "added": "2015-11-23",
+   "id": "_QCQnxGxTBk",
+   "speakers": ["blake-gentry"],
+   "tags": ["http2"],
+   "title": "A Faster Future with HTTP/2"
+},
+{
+   "date": "2015-05-15",
+   "added": "2015-11-23",
+   "id": "S_NdzSj1syg",
+   "speakers": ["michael-maximilien"],
+   "tags": ["i18n"],
+   "title": "Going Global with i18n4go"
+},
+{
    "date": "2015-09-10",
    "added": "2015-10-03",
    "id": "CdhucJShJU8",
