@@ -1,5 +1,125 @@
 [
 {
+   "date": "2015-12-31",
+   "added": "2016-01-23",
+   "id": "_M9zvtAoN9Y",
+   "speakers": ["matt-heath"],
+   "tags": ["microservices"],
+   "title": "YOW! 2015 - Matt Heath - Building Microservice Architectures in Go"
+},
+{
+   "date": "2015-12-01",
+   "added": "2016-01-23",
+   "id": "TI8OW22WZvQ",
+   "speakers": ["matt-aimonetti"],
+   "tags": ["dotgo", "concurrency"],
+   "title": "dotGo 2015 - Matt Aimonetti - Applied concurrency in Go"
+},
+{
+   "date": "2015-12-01",
+   "added": "2016-01-23",
+   "id": "OynPw4aOlV0",
+   "speakers": ["marty-schoch"],
+   "tags": ["dotgo", "bleve"],
+   "title": "dotGo 2015 - Marty Schoch - A Tour of the Bleve"
+},
+{
+   "date": "2015-12-01",
+   "added": "2016-01-23",
+   "id": "rHf9p3C2L2A",
+   "speakers": ["natik-shah"],
+   "tags": ["gopherfest", "concurrency"],
+   "title": "Using Go Channels - Natik Shah - Gopherfest - November 18, 2015"
+},
+{
+   "date": "2015-12-01",
+   "added": "2016-01-23",
+   "id": "JOx9enktnUM",
+   "speakers": ["zvian-metreveli"],
+   "tags": ["gopherfest", "production"],
+   "title": "Go at Dropbox - Zviad Metreveli - Gopherfest - November 18, 2015"
+},
+{
+   "date": "2015-12-01",
+   "added": "2016-01-23",
+   "id": "PAAkCSZUG1c",
+   "speakers": ["rob-pike"],
+   "tags": ["gopherfest", "simplicity"],
+   "title": "Go Proverbs - Rob Pike - Gopherfest - November 18, 2015"
+},
+{
+   "date": "2015-11-30",
+   "added": "2016-01-23",
+   "id": "j55aWjgzfV8",
+   "speakers": ["jessica-frazelle"],
+   "tags": ["dotgo", "bugs"],
+   "title": "dotGo 2015 - Jessica Frazelle - The Docker Trail"
+},
+{
+   "date": "2015-11-27",
+   "added": "2016-01-23",
+   "id": "nuDO1oQxARs",
+   "speakers": ["anthony-starks"],
+   "tags": ["dotgo", "svgo"],
+   "title": "dotGo 2015 - Anthony Starks - The Other Side of Go Programming Pictures"
+},
+{
+   "date": "2015-11-27",
+   "added": "2016-01-23",
+   "id": "wqN-l4OrMP4",
+   "speakers": ["fatih-arslan"],
+   "tags": ["dogto", "tools"],
+   "title": "dotGo 2015 - Fatih Arslan - Tools for working with Go Code"
+},
+{
+   "date": "2015-11-24",
+   "added": "2016-01-23",
+   "id": "3SnMrYtlMwE",
+   "speakers": ["brendan-obrien"],
+   "tags": ["gothamgo"],
+   "title": "GothamGo 2015: Go Can Make You Better at Your Job, If You Let It by Brendan O'Brien"
+},
+{
+   "date": "2015-11-24",
+   "added": "2016-01-23",
+   "id": "6l62RYyeLp8",
+   "speakers": ["kyle-erf"],
+   "tags": ["gothamgo", "simplicity"],
+   "title": "GothamGo 2015: Boring is Beautiful by Kyle Erf"
+},
+{
+   "date": "2015-11-24",
+   "added": "2016-01-23",
+   "id": "87cCPJ4OK7E",
+   "speakers": ["paul-dix"],
+   "tags": ["gothamgo", "influxdb"],
+   "title": "GothamGo 2015: Go Highlights from the New InfluxDB Storage Engine by Paul Dix"
+},
+{
+   "date": "2015-11-24",
+   "added": "2016-01-23",
+   "id": "_nsTT0Mvkv4",
+   "speakers": ["nick-sullivan"],
+   "tags": ["gothamgo", "crypto"],
+   "title": "GothamGo 2015: What’s new in Go Crypto? by Nick Sullivan"
+},
+{
+   "date": "2015-11-24",
+   "added": "2016-01-23",
+   "id": "-H_Dyx2sct8",
+   "speakers": ["matthew-campbell"],
+   "tags": ["gothamgo", "testing"],
+   "title": "GothamGo 2015: Chaos Monkey on my Laptop by Matthew Campbell"
+},
+{
+   "date": "2015-11-17",
+   "added": "2016-01-23",
+   "id": "gk4OabD3FUE",
+   "speakers": ["veronica-lopez"],
+   "tags": ["gothamgo", "garbage-collection"],
+   "title": "The \"Modern\" Garbage Collector by Verónica López"
+},
+{
    "date": "2015-11-19",
    "added": "2015-11-23",
    "id": "5xTNCTD0B4M",
@@ -647,7 +767,6 @@
    "tags": ["python"],
    "title": "Go for Pythonistas by Francesc Campoy Flores (April 2015)"
 },
-
 {
    "date": "2015-04-30",
    "added": "2015-06-11",
@@ -848,7 +967,6 @@
    "tags": ["gophercon-india", "javascript"],
    "title": "Go for Front End Developers - GopherConIndia 2015"
 },
-
 {
    "date": "2015-03-10",
    "added": "2015-03-22",
