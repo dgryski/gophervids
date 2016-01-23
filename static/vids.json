@@ -4,7 +4,7 @@
    "added": "2015-11-23",
    "id": "5xTNCTD0B4M",
    "speakers": ["octavian-costache"],
-   "tags": ["go-in-production"],
+   "tags": ["production"],
    "title": "GoLang at Spring"
 },
 {
@@ -148,7 +148,7 @@
    "added": "2015-11-23",
    "id": "eDRoaxXerOM",
    "speakers": ["wilfried-schobeiri"],
-   "tags": ["go-in-production"],
+   "tags": ["production"],
    "title": "How Go is Making us Faster • Wilfried Schobeiri"
 },
 {
@@ -998,7 +998,7 @@
    "added": "2015-03-22",
    "id": "mDTg1dLUqBE",
    "speakers": ["matthew-campbell"],
-   "tags": ["gophercon-india", "go-in-production"],
+   "tags": ["gophercon-india", "production"],
    "title": "How to keep wall street chatting using Go - GopherConIndia 2015"
 },
 {
