@@ -1,5 +1,221 @@
 [
 {
+   "date": "2016-03-04",
+   "added": "2016-03-05",
+   "id": "HKNpybyHfhk",
+   "speakers": ["cory-lanau"],
+   "tags": ["workshop"],
+   "title": "Go Lang Workshop with Cory Lanau - GDG Twin Cities March 2016"
+},
+{
+   "date": "2016-03-03",
+   "added": "2016-03-05",
+   "id": "euROYVOJYuI",
+   "speakers": ["valentyn-shybanov"],
+   "tags": ["google-cloud-platform", "microservices"],
+   "title": "Using GoLang for building micro-service architecture in Google Cloud Platform - Valentyn Shybanov"
+},
+{
+   "date": "2016-02-29",
+   "added": "2016-03-05",
+   "id": "uFXfTXSSt4I",
+   "speakers": ["gabe-rosenhouse"],
+   "tags": ["testing"],
+   "title": "Session 2 - TDD, Mocking & Dependency Injection"
+},
+{
+   "date": "2016-02-25",
+   "added": "2016-03-05",
+   "id": "YmI7Gw4iq3w",
+   "speakers": ["alexandre-bourget"],
+   "tags": ["javascript", "python"],
+   "title": "Go bridges to Javascript and Python - #gomtl-01 - Alexandre Bourget"
+},
+{
+   "date": "2016-02-25",
+   "added": "2016-03-05",
+   "id": "PrVFvHR8HGM",
+   "speakers": ["raza-khan"],
+   "tags": ["websockets"],
+   "title": "WebSockets in Go - #gomtl-01 - Raza Khan"
+},
+{
+   "date": "2016-02-25",
+   "added": "2016-03-05",
+   "id": "ysgMlGHtDMo",
+   "speakers": ["dave-macfarlane"],
+   "tags": ["bug-tracking"],
+   "title": "Distributed Bug Tracking in the 21st Century - #gomtl-01 - Dave MacFarlane"
+},
+{
+   "date": "2016-02-25",
+   "added": "2016-03-05",
+   "id": "oyTgx6S87XY",
+   "speakers": ["olivier-tremblay"],
+   "tags": ["net-http"],
+   "title": "Spelunking in the standard library: A net/http adventure! - #gomtl-01 - Olivier Tremblay"
+},
+{
+   "date": "2016-02-25",
+   "added": "2016-03-05",
+   "id": "3QpS4qO3Efo",
+   "speakers": ["will-stevens"],
+   "tags": ["logs", "alerting"],
+   "title": "slackd : Real-time log based alerting - #gomtl-01 - Will Stevens"
+},
+{
+   "date": "2016-02-24",
+   "added": "2016-03-05",
+   "id": "2yiKUIDFc2I",
+   "speakers": ["mark-allen"],
+   "tags": ["erlang", "concurrency"],
+   "title": "Comparing Erlang and Go Concurrency"
+},
+{
+   "date": "2016-02-19",
+   "added": "2016-03-05",
+   "id": "SRvm3zQQc1Q",
+   "speakers": ["mitchell-hashimoto"],
+   "tags": ["plugins"],
+   "title": "2016 Kickoff - Hashicorp & Go Plugin Architecture"
+},
+{
+   "date": "2016-02-12",
+   "added": "2016-03-05",
+   "id": "RprDn5jTjzE",
+   "speakers": ["eddy-reyes", "guillaume-charmes"],
+   "tags": ["testing", "sql"],
+   "title": "North Austin Golang Meetup - Feb 11th 2016: TDD / Database Pooling"
+},
+{
+   "date": "2016-02-03",
+   "added": "2016-03-05",
+   "id": "V6Rxs9LeKew",
+   "speakers": ["clint-berry"],
+   "tags": ["monitoring"],
+   "title": "#GoUTAH - Build your own monitoring dashboard with Graphite, Statsd, & Grafana"
+},
+{
+   "date": "2016-01-27",
+   "added": "2016-03-05",
+   "id": "4UbNfz9ANEk",
+   "speakers": ["mark-bates", "chris-erway"],
+   "tags": ["fud", "concurrency"],
+   "title": "Boston Golang January Meeting: Fighting the FUD / Python, Go, and the Cost of Concurrency in the Cloud"
+},
+{
+   "date": "2016-01-23",
+   "added": "2016-03-05",
+   "id": "Q8hKdGM40z4",
+   "speakers": ["james-culbertson"],
+   "tags": ["testing"],
+   "title": "Houston Go - Testing Strategies for a Go Application"
+},
+{
+   "date": "2016-01-22",
+   "added": "2016-03-05",
+   "id": "CIh8qN7LO8M",
+   "speakers": ["michael-van-sickle"],
+   "tags": ["websockets"],
+   "title": "Using WebSockets with Go"
+},
+{
+   "date": "2016-01-08",
+   "added": "2016-03-05",
+   "id": "3IHJ6gJHITw",
+   "speakers": ["michael-van-sickle"],
+   "tags": ["http2"],
+   "title": "Exploring HTTP/2 with Go"
+},
+{
+   "date": "2016-01-08",
+   "added": "2016-03-05",
+   "id": "QDO6pcoIsc0",
+   "speakers": ["guillaume-charmes"],
+   "tags": ["gobot"],
+   "title": "North Austin Go Meetup"
+},
+{
+   "date": "2015-12-25",
+   "added": "2016-03-05",
+   "id": "J_CGqiQx04c",
+   "speakers": ["michael-van-sickle"],
+   "tags": ["rabbitmq"],
+   "title": "Using RabbitMQ in Go"
+},
+{
+   "date": "2015-12-15",
+   "added": "2016-03-05",
+   "id": "UXwq39HEof0",
+   "speakers": ["evan-brown"],
+   "tags": ["kubernetes", "go-build-farm"],
+   "title": "KubeCon \"Go, Build it on a Cluster\" by Evan Brown"
+},
+{
+   "date": "2015-11-20",
+   "added": "2016-03-05",
+   "id": "MGF1MjgnoSI",
+   "speakers": [],
+   "tags": [],
+   "title": "Simplifying Scalable Cloud Application Development with Go - Mandy Waite"
+},
+{
+   "date": "2015-10-22",
+   "added": "2016-03-05",
+   "id": "4L0Ak3y8lws",
+   "speakers": ["marty-schoch", "patrick", "ant-zucaro"],
+   "tags": ["go-fuzz", "database-sql", "databases"],
+   "title": "Golang meeting: go-fuzz / database/sql / database deployment"
+},
+{
+   "date": "2015-08-27",
+   "added": "2016-03-05",
+   "id": "A38xX-eJTxQ",
+   "speakers": ["jason-newman"],
+   "tags": ["go-fuzz"],
+   "title": "Battle Harden your APIs with Go-Fuzz Aug 27, 2015"
+},
+{
+   "date": "2015-07-27",
+   "added": "2016-03-05",
+   "id": "mRHqNrCRWug",
+   "speakers": ["bill-lattner"],
+   "tags": ["machine-learning"],
+   "title": "ChicagoLang - June 2015 - Machine Learning"
+},
+{
+   "date": "2015-06-09",
+   "added": "2016-03-05",
+   "id": "F_xNOVY96Ng",
+   "speakers": ["alan-shreve"],
+   "tags": ["ngrok"],
+   "title": "EQUIP | The making of ngrok - Alan Shreve (ngrok)"
+},
+{
+   "date": "2015-03-04",
+   "added": "2016-03-05",
+   "id": "9WcWmLPg7xM",
+   "speakers": ["jonathan-oliver"],
+   "tags": ["modern-go"],
+   "title": "Gopher Meetup March 2015: 5 Ways Your Go Code is Stuck in the 90s and How to Fix It"
+},
+{
+   "date": "2014-12-03",
+   "added": "2016-03-05",
+   "id": "E5DaBCN6oo8",
+   "speakers": ["scott-johnson"],
+   "tags": ["testing", "tools"],
+   "title": "Gopher Meetup December 2014: Performance Profiling and Testing"
+},
+{
+   "date": "2014-12-02",
+   "added": "2016-03-05",
+   "id": "OVnLDIWTerA",
+   "speakers": ["thom-boyer"],
+   "tags": ["interfaces"],
+   "title": "Gopher Meetup November 2014: Interfaces in Go"
+},
+{
    "date": "2015-12-31",
    "added": "2016-01-23",
    "id": "_M9zvtAoN9Y",
