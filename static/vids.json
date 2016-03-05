@@ -243,7 +243,7 @@
    "date": "2015-09-30",
    "added": "2015-11-23",
    "id": "jHbeRswUJYI",
-   "speakers": ["aaron-taylor", "sean-kelley"],
+   "speakers": ["aaron-taylor", "sean-kelly"],
    "tags": ["go1.5", "protobuf"],
    "title": "Boston Golang - What's new in Go 1.5 | ProtoBuffs & TCP in Go"
 },
