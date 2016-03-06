@@ -15,6 +15,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"sort"
 	"strings"
 	"time"
 )
@@ -23,6 +24,18 @@ type video struct {
 	Id          string
 	PublishedAt time.Time
 	Title       string
+}
+
+type videos []video
+
+func (v videos) Len() int { return len(v) }
+
+func (v videos) Less(i int, j int) bool {
+	return v[i].PublishedAt.Before(v[j].PublishedAt)
+}
+
+func (v videos) Swap(i int, j int) {
+	v[i], v[j] = v[j], v[i]
 }
 
 type Response struct {
@@ -76,7 +89,7 @@ func main() {
 
 	scanner := bufio.NewScanner(os.Stdin)
 
-	var videos []video
+	var vids videos
 
 	for scanner.Scan() {
 		vid := scanner.Text()
@@ -88,7 +101,7 @@ func main() {
 			log.Println(err)
 			continue
 		}
-		videos = append(videos, v)
+		vids = append(vids, v)
 	}
 
 	if err := scanner.Err(); err != nil {
@@ -97,7 +110,9 @@ func main() {
 
 	today := time.Now().Format("2006-01-02")
 
-	for _, v := range videos {
+	sort.Sort(sort.Reverse(vids))
+
+	for _, v := range vids {
 		fmt.Printf(`
 {
    "date": "%s",
