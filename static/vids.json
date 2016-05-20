@@ -1,5 +1,205 @@
 [
 {
+    "speakers": ["brad-fitzpatrick"],
+    "date": "2016-02-19",
+    "id": "4Dr8FXs9aJM",
+    "tags": ["gophercon-india"],
+    "title": "Introducing Go 1.6: asymptotically approaching boring",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["aditya-mukerjee"],
+    "date": "2016-02-19",
+    "id": "s4e-cFhT620",
+    "tags": ["gophercon-india", "interfaces"],
+    "title": "The Hidden Power of Humble Interfaces",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["aaron-cruz"],
+    "date": "2016-02-19",
+    "id": "qfhYj-SbXOw",
+    "tags": ["gophercon-india", "interfaces"],
+    "title": "Duck! An interface love story",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["hana-kim"],
+    "date": "2016-02-19",
+    "id": "_zkqDPWnJ_0",
+    "tags": ["gophercon-india", "mobile"],
+    "title": "Writing Mobile App Libraries in Go",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["kedarnag-mukanahallipatna"],
+    "date": "2016-02-19",
+    "id": "bLBpJx3UGtM",
+    "tags": ["gophercon-india", "games"],
+    "title": "Gaming with Golang API",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["verónica-lópez"],
+    "date": "2016-02-19",
+    "id": "TNoLtoCnwNE",
+    "tags": ["gophercon-india", "mobile"],
+    "title": "Building a Product with Go Mobile",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["karthic-rao"],
+    "date": "2016-02-19",
+    "id": "-KDRdz4S81U",
+    "tags": ["gophercon-india", "optimization"],
+    "title": "Perform better using Golang benchmark and profiling",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["shiju-varghese"],
+    "date": "2016-02-19",
+    "id": "HEsGLnNSEfk",
+    "tags": ["gophercon-india", "net-http"],
+    "title": "Writing HTTP Middleware in Go",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["uttam-gandhi"],
+    "date": "2016-02-19",
+    "id": "sID8KIX8eLw",
+    "tags": ["gophercon-india", "rest"],
+    "title": "RESTful webservices in Golang",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["piyush-verma"],
+    "date": "2016-02-19",
+    "id": "G_9741n5e5A",
+    "tags": ["gophercon-india", "microservices"],
+    "title": "Addressing Microservices architecture patterns with Gilmour",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["gabriel-aszalos"],
+    "date": "2016-02-19",
+    "id": "lcFRxzajaAw",
+    "tags": ["gophercon-india", "testing"],
+    "title": "Testing in Go",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["dushyant-bhalgami"],
+    "date": "2016-02-19",
+    "id": "YZpUCEXqmT8",
+    "tags": ["gophercon-india", "testing"],
+    "title": "Comparative Analysis of Automation Frameworks (Testing)",
+    "added": "2016-05-20"
+},
+{
+    "speakers": [],
+    "date": "2016-02-19",
+    "id": "8Eg9WxAd-oI",
+    "tags": ["gophercon-india", "lightning-talks"],
+    "title": "Gophercon India 2016 - Lightning Talks",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["mark-bates"],
+    "date": "2016-02-20",
+    "id": "TQ0gn6ihN-g",
+    "tags": ["gophercon-india"],
+    "title": "Fighting FUD",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["smita-vijayakumar"],
+    "date": "2016-02-20",
+    "id": "G2I5Ha0hBJE",
+    "tags": ["gophercon-india", "distributed"],
+    "title": "Go Build a Context Aware Distributed System",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["sau-sheong-chang"],
+    "date": "2016-02-20",
+    "id": "V9mdWFm2DlU",
+    "tags": ["gophercon-india"],
+    "title": "Programming Complexity",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["marcel-van-lohuizen"],
+    "date": "2016-02-20",
+    "id": "jXXHxCpKzi4",
+    "tags": ["gophercon-india"],
+    "title": "Handling Real-World Text in Go",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["audrey-lim"],
+    "date": "2016-02-20",
+    "id": "DMiMp2yIJhk",
+    "tags": ["gophercon-india", "production"],
+    "title": "Gopher Tricks in Production",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["matthew-campbell"],
+    "date": "2016-02-20",
+    "id": "4bCaSSQsKvQ",
+    "tags": ["gophercon-india"],
+    "title": "Cloud in your Cloud, how we build DigitalOcean",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["sathish-vj"],
+    "date": "2016-02-20",
+    "id": "FDozr6crTPA",
+    "tags": ["gophercon-india"],
+    "title": "Exploiting Your Powerful Cloud Servers",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["siva-chandran"],
+    "date": "2016-02-20",
+    "id": "xuow1E7JqZY",
+    "tags": ["gophercon-india"],
+    "title": "IPFS: The Permanent Web",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["sunil-sayyaparaju"],
+    "date": "2016-02-20",
+    "id": "3NADfgFneRQ",
+    "tags": ["gophercon-india"],
+    "title": "Stream Processing Using Go",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["karan-misra"],
+    "date": "2016-02-20",
+    "id": "qhzymj0_AXs",
+    "tags": ["gophercon-india", "appengine"],
+    "title": "Betting your SoStronk on Go and AppEngine",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["anand-babu-periasamy"],
+    "date": "2016-02-20",
+    "id": "p1dDGWwGCqs",
+    "tags": ["gophercon-india"],
+    "title": "Minio: Amazon S3 alternative in Go",
+    "added": "2016-05-20"
+},
+{
+    "speakers": ["cory-lanou"],
+    "date": "2016-02-20",
+    "id": "oDSOELkAzRU",
+    "tags": ["gophercon-india", "community"],
+    "title": "The Go Community",
+    "added": "2016-05-20"
+},
+{
    "date": "2016-03-04",
    "added": "2016-03-05",
    "id": "HKNpybyHfhk",
