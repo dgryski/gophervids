@@ -1,5 +1,21 @@
 [
 {
+    "speakers": ["yves-junqueira"],
+    "date": "2016-06-24",
+    "id": "liL20kmhcwo",
+    "tags": ["meetup", "games"],
+    "title": "Full Stack Development With Go",
+    "added": "2016-07-06"
+}, 
+{
+    "speakers": ["adil-hafeez"],
+    "date": "2016-06-24",
+    "id": "P7AtfaPK8Es",
+    "tags": ["meetup", "performance"],
+    "title": "Go Performance Tooling",
+    "added": "2016-07-06"
+},
+{
     "speakers": ["brad-fitzpatrick"],
     "date": "2016-02-19",
     "id": "4Dr8FXs9aJM",
