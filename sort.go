@@ -64,7 +64,7 @@ func main() {
 		log.Fatalf("unable to unmarshal: %v", err)
 	}
 
-	sort.Sort(sort.Reverse(vids))
+	sort.Stable(sort.Reverse(vids))
 
 	b, err := json.MarshalIndent(vids, "", "    ")
 	if err != nil {
