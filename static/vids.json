@@ -1,5 +1,294 @@
 [
     {
+        "id": "XdZrhhc2Nis",
+        "date": "2016-07-08",
+        "added": "2016-07-13",
+        "title": "Duck! An interface love story - Aaron Cruz",
+        "speakers": [
+            "aaron-cruz"
+        ],
+        "tags": [
+            "interfaces"
+        ]
+    },
+    {
+        "id": "liL20kmhcwo",
+        "date": "2016-07-06",
+        "added": "2016-07-13",
+        "title": "Full Stack Development With Go - Yves Junqueira",
+        "speakers": [
+            "yves-junqueira"
+        ],
+        "tags": [
+            "full-stack",
+            "javascript"
+        ]
+    },
+    {
+        "id": "P7AtfaPK8Es",
+        "date": "2016-07-06",
+        "added": "2016-07-13",
+        "title": "Go Performance Tooling - Adil Hafeez",
+        "speakers": [
+            "adil-hafeez"
+        ],
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "5lGVCPQeqiM",
+        "date": "2016-06-30",
+        "added": "2016-07-13",
+        "title": "Sharding Containers: Make Go Apps Computer-Friendly Again - Black Belt Track",
+        "speakers": [
+            "andrey-sibiryov"
+        ],
+        "tags": [
+            "docker"
+        ]
+    },
+    {
+        "id": "iu9Bc4yYisw",
+        "date": "2016-06-22",
+        "added": "2016-07-13",
+        "title": "2016 - Intro to JSON Schema with Go, and Generating Validators And Skeletons - Daisuke Maki",
+        "speakers": [
+            "daisuke-maki"
+        ],
+        "tags": [
+            "json"
+        ]
+    },
+    {
+        "id": "5bYO60-qYOI",
+        "date": "2016-06-20",
+        "added": "2016-07-13",
+        "title": "Program your next server in Go",
+        "speakers": [
+            "sameer-ajmani"
+        ],
+        "tags": [
+            "intro"
+        ]
+    },
+    {
+        "id": "AKBwu5sTxvE",
+        "date": "2016-06-20",
+        "added": "2016-07-13",
+        "title": "Programming Complexity - Modelling Complex Systems with Go \u0026 React by Sau Sheong",
+        "speakers": [
+            "sau-sheong"
+        ],
+        "tags": [
+            "simulation"
+        ]
+    },
+    {
+        "id": "v4v0kBOz2jQ",
+        "date": "2016-06-10",
+        "added": "2016-07-13",
+        "title": "OSCon 2016 - Go Unikernels",
+        "speakers": [
+            "ian-eyberg"
+        ],
+        "tags": [
+            "unikernels"
+        ]
+    },
+    {
+        "id": "uBjoTxosSys",
+        "date": "2016-06-02",
+        "added": "2016-07-13",
+        "title": "Go Tooling in Action",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "tooling"
+        ]
+    },
+    {
+        "id": "7wdeQwWsnvM",
+        "date": "2016-05-28",
+        "added": "2016-07-13",
+        "title": "Thread safe testing in Golang - Gophers Meetup",
+        "speakers": [
+            "zhao-chang"
+        ],
+        "tags": [
+            "testing"
+        ]
+    },
+    {
+        "id": "tuOngeBkA2I",
+        "date": "2016-05-28",
+        "added": "2016-07-13",
+        "title": "GraphQL in Go - Gophers Meetup",
+        "speakers": [
+            "hafiz-ismail"
+        ],
+        "tags": [
+            "graphql"
+        ]
+    },
+    {
+        "id": "RN_-kzsaKoc",
+        "date": "2016-05-26",
+        "added": "2016-07-13",
+        "title": "Confessions of a Gopher",
+        "speakers": [],
+        "tags": []
+    },
+    {
+        "id": "N3PWzBeLX2M",
+        "date": "2016-05-19",
+        "added": "2016-07-13",
+        "title": "Profiling and Optimizing Go",
+        "speakers": [
+            "prashant-varanasi"
+        ],
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "yAloMvudvC4",
+        "date": "2016-05-16",
+        "added": "2016-07-13",
+        "title": "Calls between Go and C/C++ (and dynamic langs) - Boston Golang Talk",
+        "speakers": [
+            "david-raffensperger"
+        ],
+        "tags": [
+            "cgo"
+        ]
+    },
+    {
+        "id": "zWp0N9unJFc",
+        "date": "2016-05-15",
+        "added": "2016-07-13",
+        "title": "2.1 How to Write high performance application",
+        "speakers": [
+            "dave-cheney"
+        ],
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "k47aC01Uy64",
+        "date": "2016-05-02",
+        "added": "2016-07-13",
+        "title": "How Go and Neo4j enabled the FT to Deliver at Speed - Dan Murphy, Financial Times",
+        "speakers": [
+            "dan-murphy"
+        ],
+        "tags": [
+            "neo4j",
+            "velocity"
+        ]
+    },
+    {
+        "id": "Dp4EedAmnCQ",
+        "date": "2016-04-28",
+        "added": "2016-07-13",
+        "title": "Session 4 - Go generate, generics, and you",
+        "speakers": [
+            "ehren-murdick"
+        ],
+        "tags": [
+            "code-generation"
+        ]
+    },
+    {
+        "id": "ZuQcbqYK0BY",
+        "date": "2016-04-21",
+        "added": "2016-07-13",
+        "title": "How to optimize Go for really high performance - by Björn Rabenstein",
+        "speakers": [
+            "bjorn-rabenstein"
+        ],
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "yszygk1cpEc",
+        "date": "2016-04-07",
+        "added": "2016-07-13",
+        "title": "NewStore TechTalk - Advanced Testing with Go by Mitchell Hashimoto",
+        "speakers": [
+            "mitchell-hashimoto"
+        ],
+        "tags": [
+            "testing"
+        ]
+    },
+    {
+        "id": "-2sWDr3Z0Wo",
+        "date": "2016-03-24",
+        "added": "2016-07-13",
+        "title": "gRPC: The Story of Microservices at Square",
+        "speakers": [
+            "manik-surtani"
+        ],
+        "tags": [
+            "grpc",
+            "microservices"
+        ]
+    },
+    {
+        "id": "FARQMJndUn0",
+        "date": "2016-03-17",
+        "added": "2016-07-13",
+        "title": "HTTP/2 and http2 in Go 1.6",
+        "speakers": [
+            "brad-fitzpatrick"
+        ],
+        "tags": [
+            "http2"
+        ]
+    },
+    {
+        "id": "dVnMLtdJzn4",
+        "date": "2016-03-17",
+        "added": "2016-07-13",
+        "title": "Matt Heath - Building Microservice Architectures with Go",
+        "speakers": [
+            "matt-heath"
+        ],
+        "tags": [
+            "microservices"
+        ]
+    },
+    {
+        "id": "tCFrgWikEX8",
+        "date": "2016-03-15",
+        "added": "2016-07-13",
+        "title": "Tampa Go Meetup",
+        "speakers": [
+            "brian-ketelsen"
+        ],
+        "tags": [
+            "code-generation",
+            "goa"
+        ]
+    },
+    {
+        "id": "qHrS0lqeZeo",
+        "date": "2016-03-15",
+        "added": "2016-07-13",
+        "title": "pRPC: unary gRPC on AppEngine, in browser, with OAuth 2.0",
+        "speakers": [
+            "nodir-turakulov"
+        ],
+        "tags": [
+            "rpc",
+            "grpc"
+        ]
+    },
+    {
         "id": "HKNpybyHfhk",
         "date": "2016-03-04",
         "added": "2016-03-05",
