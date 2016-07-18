@@ -133,14 +133,6 @@
         ]
     },
     {
-        "id": "RN_-kzsaKoc",
-        "date": "2016-05-26",
-        "added": "2016-07-13",
-        "title": "Confessions of a Gopher",
-        "speakers": [],
-        "tags": []
-    },
-    {
         "id": "N3PWzBeLX2M",
         "date": "2016-05-19",
         "added": "2016-07-13",
@@ -1020,14 +1012,6 @@
         ]
     },
     {
-        "id": "MGF1MjgnoSI",
-        "date": "2015-11-20",
-        "added": "2016-03-05",
-        "title": "Simplifying Scalable Cloud Application Development with Go - Mandy Waite",
-        "speakers": [],
-        "tags": []
-    },
-    {
         "id": "vTIyz2QfExc",
         "date": "2015-11-20",
         "added": "2015-11-23",
@@ -1723,7 +1707,7 @@
         "date": "2015-07-28",
         "added": "2015-08-22",
         "title": "GopherCon 2015: Kelsey Hightower - Betting the Company on Go and Winning",
-        "speakers": [],
+        "speakers": ["kelsey-hightower"],
         "tags": [
             "gophercon",
             "production",
@@ -1872,11 +1856,11 @@
         "id": "hKkle1ofJ6U",
         "date": "2015-06-18",
         "added": "2015-11-23",
-        "title": "GoSF @ Bigcommerce RPC Options, Dynamic Linking, API Docs",
-        "speakers": [],
+        "title": "GoSF @ Bigcommerce RPC Options, Authentication, API Docs",
+        "speakers": ["jonathan-boulle", "alex-toombs", "sarah-adams"],
         "tags": [
             "rpc",
-            "dynamic-linking",
+            "authentication",
             "api-documentation",
             "go-generate"
         ]
