@@ -1,5 +1,852 @@
 [
     {
+        "id": "sDTGhIqyMjo",
+        "date": "2016-09-18",
+        "added": "2016-09-24",
+        "title": "Stacks of Tokens, A study in interfaces - Sydney Go Meetup, September 2016",
+        "speakers": [
+            "rob-pike"
+        ],
+        "tags": [
+            "interfaces"
+        ]
+    },
+    {
+        "id": "5erqWdlhQLA",
+        "date": "2016-09-18",
+        "added": "2016-09-24",
+        "title": "\"\"go test -race\" Under the Hood\" by Kavya Joshi",
+        "speakers": [
+            "kavya-joshi"
+        ],
+        "tags": [
+            "concurrency"
+        ]
+    },
+    {
+        "id": "LpWEDFT3iLU",
+        "date": "2016-09-16",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Nic Jackson - Building Mobile SDKs for iOS and Android",
+        "speakers": [
+            "nic-jackson"
+        ],
+        "tags": [
+            "go-mobile"
+        ]
+    },
+    {
+        "id": "2s5l9ErNL3s",
+        "date": "2016-09-14",
+        "added": "2016-09-24",
+        "title": "Golang UK Conf. 2016 - Jennie Lees - Managing and Scaling Real Time Data Pipelines using Go",
+        "speakers": [
+            "jennie-lees"
+        ],
+        "tags": [
+            "data-pipelines"
+        ]
+    },
+    {
+        "id": "KMyQCokzLwA",
+        "date": "2016-09-14",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Jelmer Snoeck - The Dark Side of Microservices",
+        "speakers": [
+            "jelmer-snoeck"
+        ],
+        "tags": [
+            "microservices"
+        ]
+    },
+    {
+        "id": "oWwcdz3WNKQ",
+        "date": "2016-09-14",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference - Alexander Zolotov - A Go IDE: Because Semantics Matter",
+        "speakers": [
+            "alexander-zolotov"
+        ],
+        "tags": [
+            "editors"
+        ]
+    },
+    {
+        "id": "2Wn2G-f6fK4",
+        "date": "2016-09-14",
+        "added": "2016-09-24",
+        "title": "Golang UK Conferene 2016 - Charlie Smith - Revolutionising Retail with Go",
+        "speakers": [
+            "charlie-smith"
+        ],
+        "tags": [
+            "microservices",
+            "enterprise"
+        ]
+    },
+    {
+        "id": "yCbon_9yGVs",
+        "date": "2016-09-14",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Bryan Boreham - An Actor Model in Go",
+        "speakers": [
+            "bryan-boreham"
+        ],
+        "tags": [
+            "actor-model",
+            "concurrency"
+        ]
+    },
+    {
+        "id": "jM-xkxM9IKY",
+        "date": "2016-09-14",
+        "added": "2016-09-24",
+        "title": "Using the Go compiler infrastructure to generate code and solve problems",
+        "speakers": [
+            "john-leidegren"
+        ],
+        "tags": [
+            "compiler",
+            "dsl"
+        ]
+    },
+    {
+        "id": "pCmLUb5ITUc",
+        "date": "2016-09-12",
+        "added": "2016-09-24",
+        "title": "Sean Schade on Moving from Scala to Golang",
+        "speakers": [
+            "sean-schade"
+        ],
+        "tags": [
+            "adoption"
+        ]
+    },
+    {
+        "id": "AVxosSFzq5s",
+        "date": "2016-09-12",
+        "added": "2016-09-24",
+        "title": "Golang for Python Devs",
+        "speakers": [
+            "dana-garifullina"
+        ],
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "id": "b3ji5tdZUfY",
+        "date": "2016-09-10",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Eleanor McHugh - Implementing Software Machines in Go and C",
+        "speakers": [
+            "eleanor-mchugh"
+        ],
+        "tags": [
+            "emulation"
+        ]
+    },
+    {
+        "id": "I-8PfC6dZe4",
+        "date": "2016-09-10",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Florin Patan - Go From Dev to Prod",
+        "speakers": [
+            "florin-patan"
+        ],
+        "tags": [
+            "production"
+        ]
+    },
+    {
+        "id": "Zl50bk6VRQE",
+        "date": "2016-09-10",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Ernesto Jimenez - Inception: Go programs that generate Go code",
+        "speakers": [
+            "ernesto-jiminez"
+        ],
+        "tags": [
+            "code-generation"
+        ]
+    },
+    {
+        "id": "Iu4nqoCzlRE",
+        "date": "2016-09-10",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Marcel van Lohuizen - Advanced Testing Concepts",
+        "speakers": [
+            "marcel-van-lohuizen"
+        ],
+        "tags": [
+            "testing"
+        ]
+    },
+    {
+        "id": "HPuvDm8IC-4",
+        "date": "2016-09-10",
+        "added": "2016-09-24",
+        "title": "Golang UK Conf. 2016 - Liz Rice - What is a container, really? Let's write one in Go from scratch",
+        "speakers": [
+            "liz-rice"
+        ],
+        "tags": [
+            "containers"
+        ]
+    },
+    {
+        "id": "UAsTNFLGBGI",
+        "date": "2016-09-10",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Jean De Klerk - Let's Build A CI CD Pipeline",
+        "speakers": [
+            "jean-de-klerk"
+        ],
+        "tags": [
+            "continuous-integration",
+            "continuous-delivery"
+        ]
+    },
+    {
+        "id": "fuHGzQcOeDI",
+        "date": "2016-09-10",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Mandy Waite - Building Cloud Native applications with Go",
+        "speakers": [
+            "mandy-waite"
+        ],
+        "tags": [
+            "cloud"
+        ]
+    },
+    {
+        "id": "NOQdkbp-950",
+        "date": "2016-09-10",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Nicholas Ng - Static Deadlock Detection for Go",
+        "speakers": [
+            "nicholaz-ng"
+        ],
+        "tags": [
+            "concurrency",
+            "static-analysis"
+        ]
+    },
+    {
+        "id": "nRCXS6PUr5c",
+        "date": "2016-09-10",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Andreas Krennmair - Real Time Go",
+        "speakers": [
+            "andreas-krennmair"
+        ],
+        "tags": [
+            "real-time"
+        ]
+    },
+    {
+        "id": "yeetIgNeIkc",
+        "date": "2016-09-09",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Mat Ryer - Idiomatic Go Tricks",
+        "speakers": [
+            "mat-ryer"
+        ],
+        "tags": [
+            "tips"
+        ]
+    },
+    {
+        "id": "2h_NFBFrciI",
+        "date": "2016-09-09",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Dave Cheney - Seven ways to Profile Go Applications",
+        "speakers": [
+            "dave-cheney"
+        ],
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "ImF_jDpjFNw",
+        "date": "2016-09-09",
+        "added": "2016-09-24",
+        "title": "Golang UK Conf. 2016 - Carlisia Campos - GoBridge and the Go Community / Initiatives \u0026 Opportunities",
+        "speakers": [
+            "carlisia-campos"
+        ],
+        "tags": [
+            "community"
+        ]
+    },
+    {
+        "id": "HkEZ1LJ7kzQ",
+        "date": "2016-09-09",
+        "added": "2016-09-24",
+        "title": "Golang UK Conf. 2016 - Björn Rabenstein - Grand Treatise of Modern Instrumentation and Orchestration",
+        "speakers": [
+            "bjorn-rabenstein"
+        ],
+        "tags": [
+            "monitoring",
+            "orchestration"
+        ]
+    },
+    {
+        "id": "xspaDovwk34",
+        "date": "2016-09-09",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Asim Aslam - Simplifying Building and Managing Microservices with Micro",
+        "speakers": [
+            "asim-aslam"
+        ],
+        "tags": [
+            "microservices"
+        ]
+    },
+    {
+        "id": "twcDf_Y2gXY",
+        "date": "2016-09-09",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Marcus Olsson - Building an enterprise service in Go",
+        "speakers": [
+            "marcus-olsson"
+        ],
+        "tags": [
+            "microservices",
+            "enterprise"
+        ]
+    },
+    {
+        "id": "9jpnFmJr2PE",
+        "date": "2016-09-09",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Michael Munday - Dropping Down Go Functions in Assembly",
+        "speakers": [
+            "michael-munday"
+        ],
+        "tags": [
+            "assembly"
+        ]
+    },
+    {
+        "id": "JzZwQg0FCrY",
+        "date": "2016-09-09",
+        "added": "2016-09-24",
+        "title": "Golang UK Conf. 2016 - Natalie Pistunovich - Developing Apps for Developing Countries / go mobile",
+        "speakers": [
+            "natalie-pistunovich"
+        ],
+        "tags": [
+            "go-mobile"
+        ]
+    },
+    {
+        "id": "rDQTBpIWa7M",
+        "date": "2016-09-09",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Piyush Verma - Design patterns in Microservices architectures + Gilmour",
+        "speakers": [
+            "piyush-verma"
+        ],
+        "tags": [
+            "microservices"
+        ]
+    },
+    {
+        "id": "ysjcEN548yc",
+        "date": "2016-09-09",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Victor Ruiz - Building your own log-based message queue in Go",
+        "speakers": [
+            "victor-ruiz"
+        ],
+        "tags": [
+            "message-queues"
+        ]
+    },
+    {
+        "id": "r4Mlm6qEWRs",
+        "date": "2016-09-09",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Paul Crawford - A Beginners Guide to Context",
+        "speakers": [
+            "paul-crawford"
+        ],
+        "tags": [
+            "net-context"
+        ]
+    },
+    {
+        "id": "85-ii6Dgi1s",
+        "date": "2016-09-08",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Tiffany Jernigan - How to Raise a Gopher in Record Time",
+        "speakers": [
+            "tiffany-jernigan"
+        ],
+        "tags": [
+            "learning"
+        ]
+    },
+    {
+        "id": "NwWVhRAiW7k",
+        "date": "2016-09-07",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Matthew Campbell - Cloud in your Cloud",
+        "speakers": [
+            "matthew-campbell"
+        ],
+        "tags": [
+            "cloud"
+        ]
+    },
+    {
+        "id": "taiUNm1I3QY",
+        "date": "2016-09-07",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Michael Bironneau - Real time machine learning in Go",
+        "speakers": [
+            "michael-bironneau"
+        ],
+        "tags": [
+            "machine-learning"
+        ]
+    },
+    {
+        "id": "JXEjAwNWays",
+        "date": "2016-09-07",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Peter Bourgon - Go + Microservices = Go Kit",
+        "speakers": [
+            "peter-bourgon"
+        ],
+        "tags": [
+            "microservices",
+            "go-kit"
+        ]
+    },
+    {
+        "id": "F528FnxTo8E",
+        "date": "2016-09-07",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Slawosz Slawinski - What every developer should know about logging",
+        "speakers": [
+            "slawosz-slawinski"
+        ],
+        "tags": [
+            "logging"
+        ]
+    },
+    {
+        "id": "kTAsciVuZLQ",
+        "date": "2016-09-07",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Paul Bellamy - Advanced Patterns with io ReadWriter",
+        "speakers": [
+            "paul-bellamy"
+        ],
+        "tags": [
+            "interfaces"
+        ]
+    },
+    {
+        "id": "q7s30kFHBdw",
+        "date": "2016-09-07",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Travis Bischel - When Idioms Become Bottlenecks",
+        "speakers": [
+            "travis-bischel"
+        ],
+        "tags": [
+            "optimization"
+        ]
+    },
+    {
+        "id": "zzAdEt3xZ1M",
+        "date": "2016-09-07",
+        "added": "2016-09-24",
+        "title": "Golang UK Conference 2016 - Dave Cheney - SOLID Go Design",
+        "speakers": [
+            "dave-cheney"
+        ],
+        "tags": [
+            "design"
+        ]
+    },
+    {
+        "id": "umleBc6fWbY",
+        "date": "2016-09-07",
+        "added": "2016-09-24",
+        "title": "Microservices in Go with GoKit with Peter Bourgon",
+        "speakers": [
+            "peter-bourgon"
+        ],
+        "tags": [
+            "go-kit",
+            "microservices"
+        ]
+    },
+    {
+        "id": "jOKfIhq4o6U",
+        "date": "2016-09-01",
+        "added": "2016-09-24",
+        "title": "Seattle Go Meetup - August 2016 - Making Microservices Great Again",
+        "speakers": [
+            "lee-brown",
+            "adam-ryman"
+        ],
+        "tags": [
+            "microservices"
+        ]
+    },
+    {
+        "id": "-R1tl2dGeIY",
+        "date": "2016-08-22",
+        "added": "2016-09-24",
+        "title": "GopherCon 2016: Donnie Berkholz - Mining the Go Developer Community",
+        "speakers": [
+            "donnie-berkholz"
+        ],
+        "tags": [
+            "community"
+        ]
+    },
+    {
+        "id": "6gdVhHMxNTo",
+        "date": "2016-08-22",
+        "added": "2016-09-24",
+        "title": "GopherCon 2016: Wisdom Omuya - Go Vendoring Deconstructed",
+        "speakers": [
+            "wisdom-omuya"
+        ],
+        "tags": [
+            "vendoring"
+        ]
+    },
+    {
+        "id": "IZgAk6o67Ek",
+        "date": "2016-08-22",
+        "added": "2016-09-24",
+        "title": "GopherCon 2016: José Carlos Nieto - Go Mobile as the backbone of Lantern for Android",
+        "speakers": [
+            "jose-carlos-nieto"
+        ],
+        "tags": [
+            "go-mobile"
+        ]
+    },
+    {
+        "id": "lsBF58Q-DnY",
+        "date": "2016-08-22",
+        "added": "2016-09-24",
+        "title": "GopherCon 2016:  Dave Cheney - Dont Just Check Errors Handle Them Gracefully",
+        "speakers": [
+            "dave-cheney"
+        ],
+        "tags": [
+            "errors"
+        ]
+    },
+    {
+        "id": "4rw_B4yY69k",
+        "date": "2016-08-22",
+        "added": "2016-09-24",
+        "title": "GopherCon 2016: Renee French - The Go Gopher A Character Study",
+        "speakers": [
+            "renee-french"
+        ],
+        "tags": [
+            "gophers"
+        ]
+    },
+    {
+        "id": "S_fDf73AAEw",
+        "date": "2016-08-21",
+        "added": "2016-09-24",
+        "title": "Fosdem 2016 - Go devroom: Building Data applications with Go: from Bloom filters to Data pipelines",
+        "speakers": [
+            "sergii-khomenko"
+        ],
+        "tags": [
+            "data-pipeline"
+        ]
+    },
+    {
+        "id": "ZOg-IqFuWgA",
+        "date": "2016-08-21",
+        "added": "2016-09-24",
+        "title": "Fosdem 2016 - Go devroom: From prototype to deployment: Building a REST application using Go",
+        "speakers": [
+            "luis-pabon"
+        ],
+        "tags": [
+            "rest"
+        ]
+    },
+    {
+        "id": "Y7Hkojgm55w",
+        "date": "2016-08-21",
+        "added": "2016-09-24",
+        "title": "Fosdem 2016 - Go devroom: etcd: the cornerstone of distributed systems using Go",
+        "speakers": [
+            "jonathan-boulle"
+        ],
+        "tags": [
+            "etcd",
+            "distributed"
+        ]
+    },
+    {
+        "id": "KLWMJ0amHSk",
+        "date": "2016-08-21",
+        "added": "2016-09-24",
+        "title": "Fosdem 2016 - Go devroom: Plugins and Go",
+        "speakers": [
+            "kaushal-m"
+        ],
+        "tags": [
+            "plugins"
+        ]
+    },
+    {
+        "id": "hhqSlSGUtPA",
+        "date": "2016-08-21",
+        "added": "2016-09-24",
+        "title": "Fosdem 2016 - Go devroom: Lightning Talks",
+        "speakers": [],
+        "tags": [
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "7Fwi-Zzwyf8",
+        "date": "2016-08-21",
+        "added": "2016-09-24",
+        "title": "Fosdem 2016 - Go devroom: The state of Go",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "state-of-go"
+        ]
+    },
+    {
+        "id": "12Vr6aYYX9s",
+        "date": "2016-08-18",
+        "added": "2016-09-24",
+        "title": "From C++ to Go - Gophers Meetup",
+        "speakers": [
+            "dan-tran"
+        ],
+        "tags": [
+            "c-plus-plus"
+        ]
+    },
+    {
+        "id": "_zm6GpvD2vY",
+        "date": "2016-08-18",
+        "added": "2016-09-24",
+        "title": "Mesos and Golang - Gophers Meetup",
+        "speakers": [
+            "pravin-mishra"
+        ],
+        "tags": [
+            "mesos"
+        ]
+    },
+    {
+        "id": "ak97oH0D6fI",
+        "date": "2016-08-18",
+        "added": "2016-09-24",
+        "title": "GopherCon 2016: Alan Donovan - Navigating Unfamiliar Code with the Go Guru",
+        "speakers": [
+            "alan-donovan"
+        ],
+        "tags": [
+            "guru"
+        ]
+    },
+    {
+        "id": "D5tDubyXLrQ",
+        "date": "2016-08-18",
+        "added": "2016-09-24",
+        "title": "GopherCon 2016: Daniel Whitenack - Go for Data Science",
+        "speakers": [
+            "daniel-whitenack"
+        ],
+        "tags": [
+            "data-science"
+        ]
+    },
+    {
+        "id": "KINIAgRpkDA",
+        "date": "2016-08-18",
+        "added": "2016-09-24",
+        "title": "GopherCon 2016: Rob Pike - The Design of the Go Assembler",
+        "speakers": [
+            "rob-pike"
+        ],
+        "tags": [
+            "assembler"
+        ]
+    },
+    {
+        "id": "F2Ls6xZdSrE",
+        "date": "2016-08-18",
+        "added": "2016-09-24",
+        "title": "GopherCon 2016: Bernerd Schaefer - Go Without the Operating System",
+        "speakers": [
+            "bernerd-schaefer"
+        ],
+        "tags": [
+            "unikernels"
+        ]
+    },
+    {
+        "id": "Tl7mi9QmLns",
+        "date": "2016-08-18",
+        "added": "2016-09-24",
+        "title": "GopherCon 2016: Keith Randall - Inside the Map Implementation",
+        "speakers": [
+            "keith-randall"
+        ],
+        "tags": [
+            "internals"
+        ]
+    },
+    {
+        "id": "ynoY2xz-F8s",
+        "date": "2016-08-18",
+        "added": "2016-09-24",
+        "title": "GopherCon 2016: Francesc Campoy - Understanding nil",
+        "speakers": [
+            "fransesc-campoy"
+        ],
+        "tags": [
+            "nil"
+        ]
+    },
+    {
+        "id": "SCV5froaArg",
+        "date": "2016-08-05",
+        "added": "2016-09-24",
+        "title": "Max Tepkeev - Do I need to switch to Go(lang) ?",
+        "speakers": [
+            "max-tepkeev"
+        ],
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "id": "gvCY5gIHf9o",
+        "date": "2016-08-02",
+        "added": "2016-09-24",
+        "title": "Go Programming - Carousell Tech Talk",
+        "speakers": [
+            "chang-sau-sheong"
+        ],
+        "tags": [
+            "web-applications"
+        ]
+    },
+    {
+        "id": "Txt7JjtCO-U",
+        "date": "2016-07-31",
+        "added": "2016-09-24",
+        "title": "Vinicius Pacheco - APIs and Microservices With Go",
+        "speakers": [
+            "vinicius-pacheco"
+        ],
+        "tags": [
+            "microservices"
+        ]
+    },
+    {
+        "id": "uuMKVl_nt2I",
+        "date": "2016-07-28",
+        "added": "2016-09-24",
+        "title": "Go + Robots",
+        "speakers": [
+            "adrian-zankich"
+        ],
+        "tags": [
+            "robots"
+        ]
+    },
+    {
+        "id": "suPJQ8A9jA4",
+        "date": "2016-07-22",
+        "added": "2016-09-24",
+        "title": "The Go features I can't live without, 2nd round - Rodolfo Henrique Carvalho",
+        "speakers": [
+            "rodolfo-henrique-carvalho"
+        ],
+        "tags": []
+    },
+    {
+        "id": "latIiACe2ys",
+        "date": "2016-07-22",
+        "added": "2016-09-24",
+        "title": "Stream processing with Kafka and Go - Tamas Michelberger",
+        "speakers": [
+            "tamas-michelberger"
+        ],
+        "tags": [
+            "stream-processing",
+            "kafka"
+        ]
+    },
+    {
+        "id": "FDekJrUy4TQ",
+        "date": "2016-07-22",
+        "added": "2016-09-24",
+        "title": "TTL;DR Go channels internals - Vilibald Wanca",
+        "speakers": [
+            "vilibald-wanca"
+        ],
+        "tags": [
+            "internals"
+        ]
+    },
+    {
+        "id": "2KjoWdG4y8Q",
+        "date": "2016-07-15",
+        "added": "2016-09-24",
+        "title": "The Go tool and the evolution of development productivity - Dusan Lilic",
+        "speakers": [
+            "dusan-lilic"
+        ],
+        "tags": [
+            "go-tool"
+        ]
+    },
+    {
+        "id": "qRm_58RA9ns",
+        "date": "2016-07-14",
+        "added": "2016-09-24",
+        "title": "PolyConf 16: Oden - A Functional Programming Language for the Go Ecosystem / Oskar Wickstrom",
+        "speakers": [
+            "oskar-wickstrom"
+        ],
+        "tags": [
+            "oden",
+            "functional-programming"
+        ]
+    },
+    {
+        "id": "gUbdjawYVZk",
+        "date": "2016-07-08",
+        "added": "2016-09-24",
+        "title": "The Go features I can't live without vol. 1 - Rodolfo Henrique Carvalho",
+        "speakers": [
+            "rodolfo-henrique-carvalho"
+        ],
+        "tags": []
+    },
+    {
         "id": "XdZrhhc2Nis",
         "date": "2016-07-08",
         "added": "2016-07-13",
@@ -9,6 +856,18 @@
         ],
         "tags": [
             "interfaces"
+        ]
+    },
+    {
+        "id": "XGDXR6JpOnU",
+        "date": "2016-07-07",
+        "added": "2016-09-24",
+        "title": "95: GoLang Will Make Your Plumbing Code Sexy — Aaron Schlesinger on Technology",
+        "speakers": [
+            "aaron-schlesinger"
+        ],
+        "tags": [
+            "infrastructure"
         ]
     },
     {
@@ -37,6 +896,30 @@
         ]
     },
     {
+        "id": "YQ8xCSrzVwk",
+        "date": "2016-07-05",
+        "added": "2016-09-24",
+        "title": "Zach Dannar - Go for DevOps: Riding a Big Toothed Bear into Battle - BSDC 2016",
+        "speakers": [
+            "zach-dannar"
+        ],
+        "tags": [
+            "devops"
+        ]
+    },
+    {
+        "id": "0IaBAl7onCE",
+        "date": "2016-07-04",
+        "added": "2016-09-24",
+        "title": "YOW! West 2016 Dave Cheney - SOLID Go Design",
+        "speakers": [
+            "dave-cheney"
+        ],
+        "tags": [
+            "design"
+        ]
+    },
+    {
         "id": "5lGVCPQeqiM",
         "date": "2016-06-30",
         "added": "2016-07-13",
@@ -46,6 +929,31 @@
         ],
         "tags": [
             "docker"
+        ]
+    },
+    {
+        "id": "eEEvHEYtp1U",
+        "date": "2016-06-29",
+        "added": "2016-09-24",
+        "title": "Mat Ryer (GrayMeta) - Building APIs in Go / infoShare 2016",
+        "speakers": [
+            "mat-ryer"
+        ],
+        "tags": [
+            "apis"
+        ]
+    },
+    {
+        "id": "hWNwI5q01gI",
+        "date": "2016-06-22",
+        "added": "2016-09-24",
+        "title": "The Challenges of Writing a Massive and Complex Go Application",
+        "speakers": [
+            "ben-darnell"
+        ],
+        "tags": [
+            "cockroachdb",
+            "scale"
         ]
     },
     {
@@ -228,6 +1136,18 @@
         "tags": [
             "grpc",
             "microservices"
+        ]
+    },
+    {
+        "id": "pLdpxoT6v8A",
+        "date": "2016-03-23",
+        "added": "2016-09-24",
+        "title": "dotGo 2015 - Verónica López - Beyond the Distributed System",
+        "speakers": [
+            "veronica-lopez"
+        ],
+        "tags": [
+            "go-mobile"
         ]
     },
     {
@@ -1707,7 +2627,9 @@
         "date": "2015-07-28",
         "added": "2015-08-22",
         "title": "GopherCon 2015: Kelsey Hightower - Betting the Company on Go and Winning",
-        "speakers": ["kelsey-hightower"],
+        "speakers": [
+            "kelsey-hightower"
+        ],
         "tags": [
             "gophercon",
             "production",
@@ -1857,7 +2779,11 @@
         "date": "2015-06-18",
         "added": "2015-11-23",
         "title": "GoSF @ Bigcommerce RPC Options, Authentication, API Docs",
-        "speakers": ["jonathan-boulle", "alex-toombs", "sarah-adams"],
+        "speakers": [
+            "jonathan-boulle",
+            "alex-toombs",
+            "sarah-adams"
+        ],
         "tags": [
             "rpc",
             "authentication",
