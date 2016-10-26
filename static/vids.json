@@ -1,5 +1,31 @@
 [
     {
+        "id": "6XQwwrcRQqc",
+        "date": "2016-10-18",
+        "added": "2016-10-25",
+        "title": "Go At Lyft - Seattle Go Meetup",
+        "speakers": [
+            "christopher-burnett",
+            "chris-roche"
+        ],
+        "tags": [
+            "microservices"
+        ]
+    },
+    {
+        "id": "0KRi9tzKpyo",
+        "date": "2016-10-18",
+        "added": "2016-10-25",
+        "title": "Go At Nordstrom - Seattle Go Meetup",
+        "speakers": [
+            "barrett-hogue",
+            "nils-janson"
+        ],
+        "tags": [
+            "microservices"
+        ]
+    },
+    {
         "id": "sDTGhIqyMjo",
         "date": "2016-09-18",
         "added": "2016-09-24",
