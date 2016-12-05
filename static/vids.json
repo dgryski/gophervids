@@ -26,6 +26,95 @@
         ]
     },
     {
+        "id": "5buaPyJ0XeQ",
+        "date": "2016-10-10",
+        "added": "2016-12-05",
+        "title": "dotGo 2016 - Dave Cheney - Do not fear first class functions",
+        "speakers": [
+            "Dave Cheney"
+        ],
+        "tags": [
+            "dotgo"
+        ]
+    },
+    {
+        "id": "KdX51QJWQTA",
+        "date": "2016-10-10",
+        "added": "2016-12-05",
+        "title": "dotGo 2016 - Matthew Holt - Go with ACME",
+        "speakers": [
+            "Matthew Holt"
+        ],
+        "tags": [
+            "dotgo",
+            "acme"
+        ]
+    },
+    {
+        "id": "-wYLmsizBc0",
+        "date": "2016-10-10",
+        "added": "2016-12-05",
+        "title": "dotGo 2016 - Katrina Owen - The Scandalous Story of the Dreadful Code Written by the Best of Us",
+        "speakers": [
+            "Katrina Owen"
+        ],
+        "tags": [
+            "dotgo"
+        ]
+    },
+    {
+        "id": "fNUx4jHTaIc",
+        "date": "2016-10-10",
+        "added": "2016-12-05",
+        "title": "dotGo 2016 - Péter Szilágyi - Immutability in Go: Post mortem from a DoS-ed blockchain",
+        "speakers": [
+            "Péter Szilágyi"
+        ],
+        "tags": [
+            "dotgo",
+            "data-structures"
+        ]
+    },
+    {
+        "id": "gHCtEjzZ-rY",
+        "date": "2016-10-10",
+        "added": "2016-12-05",
+        "title": "dotGo 2016 - John Cinnamond - A Look at the Criticism of Go",
+        "speakers": [
+            "John Cinnamond"
+        ],
+        "tags": [
+            "dotgo",
+            "criticism"
+        ]
+    },
+    {
+        "id": "QfFwceFo97E",
+        "date": "2016-10-10",
+        "added": "2016-12-05",
+        "title": "dotGo 2016 - Elias Naur - Make mobile programming fun (again)",
+        "speakers": [
+            "Elias Naur"
+        ],
+        "tags": [
+            "dotgo",
+            "go-mobile"
+        ]
+    },
+    {
+        "id": "vLxX3yZmw5Q",
+        "date": "2016-10-10",
+        "added": "2016-12-05",
+        "title": "dotGo 2016 - Robert Griesemer - Prototype your design!",
+        "speakers": [
+            "Robert Griesemer"
+        ],
+        "tags": [
+            "dotgo",
+            "development-process"
+        ]
+    },
+    {
         "id": "sDTGhIqyMjo",
         "date": "2016-09-18",
         "added": "2016-09-24",
