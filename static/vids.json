@@ -22,7 +22,8 @@
             "cassandra-salisbury"
         ],
         "tags": [
-            "community"
+            "community",
+            "gothamgo"
         ]
     },
     {
@@ -34,7 +35,8 @@
             "russ-cox"
         ],
         "tags": [
-            "refactoring"
+            "refactoring",
+            "gothamgo"
         ]
     },
     {
