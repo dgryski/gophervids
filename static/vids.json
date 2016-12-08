@@ -1,5 +1,308 @@
 [
     {
+        "id": "MdTTt5v-HWQ",
+        "date": "2016-12-06",
+        "added": "2016-12-08",
+        "title": "GothamGo 2016 Cloning Git in Go by Aditya Mukerjee",
+        "speakers": [
+            "aditya-mukerjee"
+        ],
+        "tags": [
+            "gothamgo",
+            "git",
+            "interfaces"
+        ]
+    },
+    {
+        "id": "WC0l3ex9F2E",
+        "date": "2016-12-05",
+        "added": "2016-12-08",
+        "title": "GothamGo 2016 Dissection of Gophers by Cassandra Salisbury",
+        "speakers": [
+            "cassandra-salisbury"
+        ],
+        "tags": [
+            "community"
+        ]
+    },
+    {
+        "id": "h6Cw9iCDVcU",
+        "date": "2016-12-05",
+        "added": "2016-12-08",
+        "title": "GothamGo 2016 Codebase Refactoring (with help from Go) by Russ Cox",
+        "speakers": [
+            "russ-cox"
+        ],
+        "tags": [
+            "refactoring"
+        ]
+    },
+    {
+        "id": "dJCV90Yee1o",
+        "date": "2016-12-05",
+        "added": "2016-12-08",
+        "title": "Gopher Puzzlers",
+        "speakers": [
+            "dave-cheney"
+        ],
+        "tags": [
+            "trivia"
+        ]
+    },
+    {
+        "id": "7YcLIbG1ekM",
+        "date": "2016-12-02",
+        "added": "2016-12-08",
+        "title": "Go Talk \u0026 Ask Me Anything With William Kennedy",
+        "speakers": [
+            "william-kennedy"
+        ],
+        "tags": []
+    },
+    {
+        "id": "QZILBu80akk",
+        "date": "2016-11-22",
+        "added": "2016-12-08",
+        "title": "Mobile / Web App with Angular 2, Go and MongoDB",
+        "speakers": [],
+        "tags": []
+    },
+    {
+        "id": "jC_zMLzCS-8",
+        "date": "2016-11-21",
+        "added": "2016-12-08",
+        "title": "GothamGo 2016: The Go Open Source Project's Innards",
+        "speakers": [
+            "brad-fitzpatrick"
+        ],
+        "tags": [
+            "build",
+            "gothamgo"
+        ]
+    },
+    {
+        "id": "fCp7DwGfmo4",
+        "date": "2016-11-20",
+        "added": "2016-12-08",
+        "title": "Golang Phoenix Meetup - Handling Events With NATS",
+        "speakers": [
+            "cesar-gonzalez"
+        ],
+        "tags": [
+            "nats"
+        ]
+    },
+    {
+        "id": "astZ_euFx7U",
+        "date": "2016-11-17",
+        "added": "2016-12-08",
+        "title": "November Meetup - Jud White on Fuzz Testing in Go",
+        "speakers": [
+            "jud-white"
+        ],
+        "tags": [
+            "fuzzing"
+        ]
+    },
+    {
+        "id": "XcSTqjBkOBQ",
+        "date": "2016-11-11",
+        "added": "2016-12-08",
+        "title": "Golang for Python Devs",
+        "speakers": [
+            "dana-garifullina"
+        ],
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "id": "4D506W1AjeM",
+        "date": "2016-11-10",
+        "added": "2016-12-08",
+        "title": "justforfunc #5: Defining a Color Flag in Go",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "flags",
+            "justforfunc"
+        ]
+    },
+    {
+        "id": "oRjI-sdiNrY",
+        "date": "2016-11-03",
+        "added": "2016-12-08",
+        "title": "Using Go text and html templates  - Gophers Meetup",
+        "speakers": [
+            "sui-yin"
+        ],
+        "tags": [
+            "templates"
+        ]
+    },
+    {
+        "id": "J9yxbpmz-nY",
+        "date": "2016-11-03",
+        "added": "2016-12-08",
+        "title": "Static site generator  - Gophers Meetup",
+        "speakers": [
+            "kai-hendry"
+        ],
+        "tags": [
+            "templates"
+        ]
+    },
+    {
+        "id": "5J2tCMWFs8o",
+        "date": "2016-11-03",
+        "added": "2016-12-08",
+        "title": "Modelling \u0026 testing subscription engine - Gophers Meetup",
+        "speakers": [
+            "mark-khiem"
+        ],
+        "tags": [
+            "modelling",
+            "testing"
+        ]
+    },
+    {
+        "id": "W7vmzcW1rpI",
+        "date": "2016-11-03",
+        "added": "2016-12-08",
+        "title": "Open Source Project Flogo - Overview, Architecture and Live Demo",
+        "speakers": [
+            "kai-wahner"
+        ],
+        "tags": [
+            "iot",
+            "flogo"
+        ]
+    },
+    {
+        "id": "6v6OZXk2E_w",
+        "date": "2016-11-02",
+        "added": "2016-12-08",
+        "title": "Wrapping Go in Python",
+        "speakers": [
+            "marcus-willock"
+        ],
+        "tags": [
+            "python"
+        ]
+    },
+    {
+        "id": "D64M3ZZxCIc",
+        "date": "2016-11-02",
+        "added": "2016-12-08",
+        "title": "Using Couchbase Server in a Golang Web Application",
+        "speakers": [
+            "nic-raboy"
+        ],
+        "tags": [
+            "couchbase",
+            "web-app"
+        ]
+    },
+    {
+        "id": "LJZ7lbKHDuM",
+        "date": "2016-11-02",
+        "added": "2016-12-08",
+        "title": "Web Programming in Go",
+        "speakers": [
+            "matthew-liegey"
+        ],
+        "tags": [
+            "intro",
+            "web-app"
+        ]
+    },
+    {
+        "id": "onp6hMv-_T0",
+        "date": "2016-11-01",
+        "added": "2016-12-08",
+        "title": "Getting Started with Golang and Couchbase",
+        "speakers": [
+            "nic-raboy"
+        ],
+        "tags": [
+            "couchbase"
+        ]
+    },
+    {
+        "id": "WiCru2zIWWs",
+        "date": "2016-10-27",
+        "added": "2016-12-08",
+        "title": "GOTO 2016 • Microservices in Go • Matt Heath",
+        "speakers": [
+            "matt-heath"
+        ],
+        "tags": [
+            "microservices"
+        ]
+    },
+    {
+        "id": "21CJtpQnby0",
+        "date": "2016-10-26",
+        "added": "2016-12-08",
+        "title": "Golang for PHP Devs",
+        "speakers": [
+            "mark-ferree"
+        ],
+        "tags": [
+            "php"
+        ]
+    },
+    {
+        "id": "xfVXw87I9XE",
+        "date": "2016-10-22",
+        "added": "2016-12-08",
+        "title": "GoLang on AWS Lambda",
+        "speakers": [
+            "edoardo-scalafiotti"
+        ],
+        "tags": [
+            "aws-lambda"
+        ]
+    },
+    {
+        "id": "MnbMWNR_XZc",
+        "date": "2016-10-21",
+        "added": "2016-12-08",
+        "title": "justforfunc #4: Code Review for a Twitter client",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "code-review",
+            "justforfunc"
+        ]
+    },
+    {
+        "id": "O-bJ4s8OdcA",
+        "date": "2016-10-21",
+        "added": "2016-12-08",
+        "title": "GOTO 2016 • Go Tooling in Action • Francesc Campoy Flores",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "tooling"
+        ]
+    },
+    {
+        "id": "UxIPgbSEYlc",
+        "date": "2016-10-20",
+        "added": "2016-12-08",
+        "title": "October Meetup - Illya Busigin on Goa",
+        "speakers": [
+            "illya-busigin"
+        ],
+        "tags": [
+            "goa"
+        ]
+    },
+    {
         "id": "6XQwwrcRQqc",
         "date": "2016-10-18",
         "added": "2016-10-25",
@@ -23,6 +326,45 @@
         ],
         "tags": [
             "microservices"
+        ]
+    },
+    {
+        "id": "aEqNSR1CgLk",
+        "date": "2016-10-13",
+        "added": "2016-12-08",
+        "title": "Binary encoding, Flatbuffers and gRPC by Manish R Jain - Go Meetup, October 2016",
+        "speakers": [
+            "manish-jain"
+        ],
+        "tags": [
+            "serialization",
+            "flatbuffers",
+            "grpc"
+        ]
+    },
+    {
+        "id": "PxwzRPPW1Ow",
+        "date": "2016-10-13",
+        "added": "2016-12-08",
+        "title": "Simplifying Storage by David Howden - Go Meetup, October 2016",
+        "speakers": [
+            "david-howden"
+        ],
+        "tags": [
+            "storage",
+            "interfaces"
+        ]
+    },
+    {
+        "id": "vizFS-36wLU",
+        "date": "2016-10-12",
+        "added": "2016-12-08",
+        "title": "GOTO 2016 • Building a Clustered Service in Go • Wilfried Schobeiri",
+        "speakers": [
+            "wilfried-schobeiri"
+        ],
+        "tags": [
+            "distributed"
         ]
     },
     {
@@ -112,6 +454,160 @@
         "tags": [
             "dotgo",
             "development-process"
+        ]
+    },
+    {
+        "id": "t1MxuSKVXPc",
+        "date": "2016-10-08",
+        "added": "2016-12-08",
+        "title": "GopherCon 2016: Raphael Simon - goa: A New Approach to Microservice Development in Go",
+        "speakers": [
+            "raphael-simon"
+        ],
+        "tags": [
+            "goa",
+            "gophercon"
+        ]
+    },
+    {
+        "id": "7yfhmni2Uo8",
+        "date": "2016-10-08",
+        "added": "2016-12-08",
+        "title": "GopherCon 2016: Takuya Ueda - Go for Mobile Games",
+        "speakers": [
+            "takuya-ueda"
+        ],
+        "tags": [
+            "go-mobile",
+            "gophercon"
+        ]
+    },
+    {
+        "id": "UOeeR7odY1I",
+        "date": "2016-10-08",
+        "added": "2016-12-08",
+        "title": "GopherCon 2016: Carolyn Van Slyck - Grow your users from an unlikely source: Windows Developers",
+        "speakers": [
+            "carolyn-van-slyck"
+        ],
+        "tags": [
+            "windows",
+            "gophercon"
+        ]
+    },
+    {
+        "id": "cxVvDYG_myQ",
+        "date": "2016-10-08",
+        "added": "2016-12-08",
+        "title": "GopherCon 2016: Michael Matloob - CONTRIBUTING: The Talk",
+        "speakers": [
+            "michael-matloob"
+        ],
+        "tags": [
+            "gophercon",
+            "contributing"
+        ]
+    },
+    {
+        "id": "IYcL0Un1io0",
+        "date": "2016-10-08",
+        "added": "2016-12-08",
+        "title": "GopherCon 2016: Kelsey Hightower - Building a custom Kubernetes scheduler",
+        "speakers": [
+            "keyley-hightower"
+        ],
+        "tags": [
+            "kubernetes",
+            "gophercon"
+        ]
+    },
+    {
+        "id": "lI17OEJCPVw",
+        "date": "2016-10-08",
+        "added": "2016-12-08",
+        "title": "GopherCon 2016: Emily Gu - The Power and Elegance of Reflection",
+        "speakers": [
+            "emily-gu"
+        ],
+        "tags": [
+            "gophercon",
+            "reflection"
+        ]
+    },
+    {
+        "id": "2r_KMzXB74w",
+        "date": "2016-10-08",
+        "added": "2016-12-08",
+        "title": "GopherCon 2016: George Tankersley - Go for Crypto Developers",
+        "speakers": [
+            "george-tankersley"
+        ],
+        "tags": [
+            "gophercon",
+            "crypto"
+        ]
+    },
+    {
+        "id": "5v2fqm_8jYI",
+        "date": "2016-10-08",
+        "added": "2016-12-08",
+        "title": "GopherCon 2016:  Jack Lindamood - Practical Advice for Go Library Authors",
+        "speakers": [
+            "jack-lindamood"
+        ],
+        "tags": [
+            "packages",
+            "best-practices",
+            "gophercon"
+        ]
+    },
+    {
+        "id": "APDnbmTKjgM",
+        "date": "2016-10-08",
+        "added": "2016-12-08",
+        "title": "GopherCon 2016: John Leon - Packet Capture, Analysis, and Injection with Go",
+        "speakers": [
+            "john-leon"
+        ],
+        "tags": [
+            "gophercon",
+            "packet-capture"
+        ]
+    },
+    {
+        "id": "lhMhApWQp2E",
+        "date": "2016-10-08",
+        "added": "2016-12-08",
+        "title": "GopherCon 2016: Filippo Valsorda - cgo Safely Taming the Beast",
+        "speakers": [
+            "filippo-valsorda"
+        ],
+        "tags": [
+            "cgo"
+        ]
+    },
+    {
+        "id": "woX0NUqt0Ow",
+        "date": "2016-10-03",
+        "added": "2016-12-08",
+        "title": "Go for your Organization - Eleanor Deal",
+        "speakers": [
+            "elanor-deal"
+        ],
+        "tags": [
+            "advocacy"
+        ]
+    },
+    {
+        "id": "UXl8SIe2bXs",
+        "date": "2016-10-03",
+        "added": "2016-12-08",
+        "title": "An overview of Go - Ian Kent",
+        "speakers": [
+            "ian-kent"
+        ],
+        "tags": [
+            "intro"
         ]
     },
     {
@@ -750,6 +1246,30 @@
     {
         "id": "12Vr6aYYX9s",
         "date": "2016-08-18",
+        "added": "2016-12-08",
+        "title": "From C++ to Go - Gophers Meetup",
+        "speakers": [
+            "dan-tran"
+        ],
+        "tags": [
+            "cpp"
+        ]
+    },
+    {
+        "id": "_zm6GpvD2vY",
+        "date": "2016-08-18",
+        "added": "2016-12-08",
+        "title": "Mesos and Golang - Gophers Meetup",
+        "speakers": [
+            "pravin-mishra"
+        ],
+        "tags": [
+            "mesos"
+        ]
+    },
+    {
+        "id": "12Vr6aYYX9s",
+        "date": "2016-08-18",
         "added": "2016-09-24",
         "title": "From C++ to Go - Gophers Meetup",
         "speakers": [
@@ -853,6 +1373,34 @@
         ],
         "tags": [
             "python"
+        ]
+    },
+    {
+        "id": "xteEImopTic",
+        "date": "2016-08-04",
+        "added": "2016-12-08",
+        "title": "[GoSF] EVCache, Peripheral I/O, Building  Origin Cache for Images",
+        "speakers": [
+            "scott-mansfield",
+            "jaana-burcu-dogan",
+            "cindy-sridharan"
+        ],
+        "tags": [
+            "caching",
+            "hardware",
+            "origin-cache"
+        ]
+    },
+    {
+        "id": "gvCY5gIHf9o",
+        "date": "2016-08-02",
+        "added": "2016-12-08",
+        "title": "Go Programming - Carousell Tech Talk",
+        "speakers": [
+            "chang-sau-sheong"
+        ],
+        "tags": [
+            "intro"
         ]
     },
     {
@@ -2200,6 +2748,18 @@
         ],
         "tags": [
             "testing"
+        ]
+    },
+    {
+        "id": "_F2peRzJzhU",
+        "date": "2015-11-04",
+        "added": "2016-12-08",
+        "title": "From Python to Golang and back again",
+        "speakers": [
+            "ben-bangert"
+        ],
+        "tags": [
+            "python"
         ]
     },
     {
@@ -6274,7 +6834,7 @@
         "added": "2014-02-23",
         "title": "Go for Statistical Programming",
         "speakers": [
-            "aditya-murkerjee"
+            "aditya-mukerjee"
         ],
         "tags": [
             "data-science"
