@@ -95,7 +95,7 @@
             "jud-white"
         ],
         "tags": [
-            "fuzzing"
+            "go-fuzz"
         ]
     },
     {
