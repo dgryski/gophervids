@@ -31,7 +31,7 @@
         "added": "2016-12-05",
         "title": "dotGo 2016 - Dave Cheney - Do not fear first class functions",
         "speakers": [
-            "Dave Cheney"
+            "dave-cheney"
         ],
         "tags": [
             "dotgo"
@@ -43,7 +43,7 @@
         "added": "2016-12-05",
         "title": "dotGo 2016 - Matthew Holt - Go with ACME",
         "speakers": [
-            "Matthew Holt"
+            "matthew-holt"
         ],
         "tags": [
             "dotgo",
@@ -56,7 +56,7 @@
         "added": "2016-12-05",
         "title": "dotGo 2016 - Katrina Owen - The Scandalous Story of the Dreadful Code Written by the Best of Us",
         "speakers": [
-            "Katrina Owen"
+            "katrina-owen"
         ],
         "tags": [
             "dotgo"
@@ -68,7 +68,7 @@
         "added": "2016-12-05",
         "title": "dotGo 2016 - Péter Szilágyi - Immutability in Go: Post mortem from a DoS-ed blockchain",
         "speakers": [
-            "Péter Szilágyi"
+            "peter-szilágyi"
         ],
         "tags": [
             "dotgo",
@@ -81,7 +81,7 @@
         "added": "2016-12-05",
         "title": "dotGo 2016 - John Cinnamond - A Look at the Criticism of Go",
         "speakers": [
-            "John Cinnamond"
+            "john-cinnamond"
         ],
         "tags": [
             "dotgo",
@@ -94,7 +94,7 @@
         "added": "2016-12-05",
         "title": "dotGo 2016 - Elias Naur - Make mobile programming fun (again)",
         "speakers": [
-            "Elias Naur"
+            "elias-naur"
         ],
         "tags": [
             "dotgo",
