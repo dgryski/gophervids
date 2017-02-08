@@ -7591,5 +7591,31 @@
         "tags": [
             "historic"
         ]
+    },
+    {
+        "id": "snMls3Bysa4",
+        "date": "2016-08-30",
+        "added": "2017-02-08",
+        "title": "Goa for microservices - #gomtl-03 - Alexandre Bourget",
+        "speakers": [
+            "alexandre-bourget"
+        ],
+        "tags": [
+            "goa"
+            "gomtl"
+        ]
+    },
+        {
+        "id": "zuMSbK0Axpk",
+        "date": "2016-08-30",
+        "added": "2017-02-08",
+        "title": "Tests in Go - #gomtl-03 - Dave MacFarlane",
+        "speakers": [
+            "dave-macfarlane"
+        ],
+        "tags": [
+            "testing",
+            "gomtl"
+        ]
     }
 ]
