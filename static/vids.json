@@ -7617,5 +7617,144 @@
             "testing",
             "gomtl"
         ]
+    },
+    {
+        "id": "ElGPOVjg8lU",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Mine the Debt",
+        "speakers": [
+            "johnny-boursiquot"
+        ],
+        "tags": [
+            "capitalgo"
+        ]
+    },
+    {
+        "id": "Q0EHGtfiC1M",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Buffalo: Rapid Web Development in Go",
+        "speakers": [
+            "mark-bates"
+        ],
+        "tags": [
+            "capitalgo",
+            "web-framework"
+        ]
+    },
+    {
+        "id": "w2Q4r4BFxXY",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Set Up a Portable Go Testing Rig with Docker and GoConvey",
+        "speakers": [
+            "alison-rowland"
+        ],
+        "tags": [
+            "capitalgo",
+            "testing",
+            "docker"
+        ]
+    },
+    {
+        "id": "5jGWCM08sKI",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Profile All the Things!",
+        "speakers": [
+            "john-potocny"
+        ],
+        "tags": [
+            "capitalgo",
+            "optimization"
+        ]
+    },
+    {
+        "id": "k97WC5ijB7U",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Finite State Transducers in Go",
+        "speakers": [
+            "Marty Schoch"
+        ],
+        "tags": [
+            "capitalgo"
+        ]
+    },
+    {
+        "id": "ojhFQNgyZO4",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Go Kit Log Package",
+        "speakers": [
+            "Chris Hines"
+        ],
+        "tags": [
+            "capitalgo",
+            "go-kit",
+            "logging"
+        ]
+    },
+    {
+        "id": "VCa1Y2QUVQA",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Translating Go to Other (Human) Languages, and Back Again",
+        "speakers": [
+            "Aditya Mukerjee"
+        ],
+        "tags": [
+            "capitalgo"
+        ]
+    },
+    {
+        "id": "yPg1T-X_K6A",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Graduating to Go",
+        "speakers": [
+            "Kaylyn Gibilterra"
+        ],
+        "tags": [
+            "capitalgo"
+        ]
+    },
+    {
+        "id": "16iCiMEOAd8",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Writing Go",
+        "speakers": [
+            "Bryan Liles"
+        ],
+        "tags": [
+            "capitalgo"
+        ]
+    },
+    {
+        "id": "yGOOUCrrgrE",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Concurrency Design",
+        "speakers": [
+            "William Kennedy"
+        ],
+        "tags": [
+            "capitalgo",
+            "concurrency"
+        ]
+    },
+    {
+        "id": "Ozs-KT6gcjE",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Reproducible Data Processing with Go",
+        "speakers": [
+            "Daniel Whitenack"
+        ],
+        "tags": [
+            "capitalgo"
+        ]
     }
 ]
