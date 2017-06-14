@@ -7756,5 +7756,173 @@
         "tags": [
             "capitalgo"
         ]
+    },
+    {
+        "id": "0NTKMKDsCTE",
+        "date": "2016-07-21",
+        "added": "2017-06-14",
+        "title": "justforfunc #0: Hello, World!",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "eIWFnNz8mF4",
+        "date": "2016-07-22",
+        "added": "2017-06-14",
+        "title": "justforfunc #1: A Code Review",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "mTd3hHUy9OU",
+        "date": "2016-08-12",
+        "added": "2017-06-14",
+        "title": "justforfunc #2: The Magic Gate (part 1)",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "uIA1s3Rhpv8",
+        "date": "2016-08-28",
+        "added": "2017-06-14",
+        "title": "justforfunc #3: The Magic Gate (part 2)",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "MnbMWNR_XZc",
+        "date": "2016-10-21",
+        "added": "2017-06-14",
+        "title": "justforfunc #4: Code Review for a Twitter client",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "4D506W1AjeM",
+        "date": "2016-11-10",
+        "added": "2017-06-14",
+        "title": "justforfunc #5: Defining a Color Flag in Go",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "aYkxFbd6luY",
+        "date": "2017-02-01",
+        "added": "2017-06-14",
+        "title": "justforfunc #6: Flappy Gopher",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "tX_Fgt0gVbQ",
+        "date": "2017-03-01",
+        "added": "2017-06-14",
+        "title": "justforfunc #7: Flappy Gopher II - Handling Events",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "jy9XKfYjtwE",
+        "date": "2017-03-16",
+        "added": "2017-06-14",
+        "title": "justforfunc #8: Flappy Gopher III - Collision detection",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "LSzR0VEraWw",
+        "date": "2017-03-31",
+        "added": "2017-06-14",
+        "title": "justforfunc #9: The Context Package",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "8M90t0KvEDY",
+        "date": "2017-04-17",
+        "added": "2017-06-14",
+        "title": "justforfunc #10: implementing the context package",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "nhElL62BSn0",
+        "date": "2017-05-02",
+        "added": "2017-06-14",
+        "title": "justforfunc #11: code review of an IRC package's API",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "XaMr--wAuSI",
+        "date": "2017-05-18",
+        "added": "2017-06-14",
+        "title": "justforfunc #12: a Text to Speech server with gRPC and Kubernetes",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
+    },
+    {
+        "id": "yuW6BwOS8Eg",
+        "date": "2017-06-10",
+        "added": "2017-06-14",
+        "title": "justforfunc #13: more text to speech with cgo and Docker multistage builds! (4k)",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "just-for-func"
+        ]
     }
 ]
