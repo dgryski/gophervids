@@ -12,6 +12,226 @@
         ]
     },
     {
+        "id": "3mdwXcFYlqw",
+        "date": "2017-06-01",
+        "added": "2017-06-15",
+        "title": "Closing Keynote: Go get go-jek - GopherCon SG 2017",
+        "speakers": [
+            "ajey-gore"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "keynote"
+        ]
+    },
+    {
+        "id": "2557w0qsDV0",
+        "date": "2017-05-30",
+        "added": "2017-06-15",
+        "title": "Escape Analysis and Memory Profiling - GopherCon SG 2017",
+        "speakers": [
+            "william-kennedy"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "concurrency"
+        ]
+    },
+    {
+        "id": "vvu0df82SJI",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Opening Remarks - GopherCon SG 2017",
+        "speakers": [
+            "chang-sau-sheong"
+        ],
+        "tags": [
+            "gophercon-singapore"
+        ]
+    },
+    {
+        "id": "KPk1UPihWtY",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Opening Keynote: Exporting Go - GopherCon SG 2017",
+        "speakers": [
+            "robert-griesemer"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "keynote"
+        ]
+    },
+    {
+        "id": "sxjIaF6xAK0",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Engineering Efficiency powered by Go - GopherCon SG 2017",
+        "speakers": [
+            "huy-do"
+        ],
+        "tags": [
+            "gophercon-singapore"
+        ]
+    },
+    {
+        "id": "fd4EPh2tYrk",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Writing Efficient Generic Multidimensional Slices - GopherCon SG 2017",
+        "speakers": [
+            "chewxy"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "slices"
+        ]
+    },
+    {
+        "id": "ttmzQbaYjjk",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Distributed Scheduler Hell - GopherCon SG 2017",
+        "speakers": [
+            "matthew-campbell"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "containers",
+            "cloud"
+        ]
+    },
+    {
+        "id": "YmARDfv6VN8",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Native Go Development on GCP with the Context Package - GopherCon SG 2017",
+        "speakers": [
+            "ian-lewis",
+            "shilin-wu"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "google-cloud-platform",
+            "net-context"
+        ]
+    },
+    {
+        "id": "nm2A80PfYww",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Distributed Tracing in Grab - GopherCon SG 2017",
+        "speakers": [
+            "ryan-law"
+        ],
+        "tags": [
+            "gophercon-singapore"
+        ]
+    },
+    {
+        "id": "64XXaIC-K74",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Runtime \u0026 Concurrency in Go - GopherCon SG 2017",
+        "speakers": [
+            "v-n-nikhil-anurag"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "concurrency"
+        ]
+    },
+    {
+        "id": "a6oP24CSdUg",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "TDD for those who don't need it - GopherCon SG 2017",
+        "speakers": [
+            "chew-choon-keat"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "testing"
+        ]
+    },
+    {
+        "id": "-OSZEPyhYhQ",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "The Hidden Power of Humble Interfaces - GopherCon SG 2017",
+        "speakers": [
+            "aditya-mukerjee"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "interfaces"
+        ]
+    },
+    {
+        "id": "9RsIoR1Pr6k",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Building CLI apps with Go - GopherCon SG 2017",
+        "speakers": [
+            "lakshan-perera"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "cli"
+        ]
+    },
+    {
+        "id": "cHXbYLNa0qQ",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Dgraph - A distributed graph database written in Go - GopherCon SG 2017",
+        "speakers": [
+            "manish-rai-jain"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "databases"
+        ]
+    },
+    {
+        "id": "_7pWCg94sKw",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "chromedp: A New Way to Drive the Web - GopherCon SG 2017",
+        "speakers": [
+            "kenneth-shaw"
+        ],
+        "tags": [
+            "gophercon-singapore"
+        ]
+    },
+    {
+        "id": "AJHUcHGM3Eg",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Getting started on Ethereum for Go programmers - GopherCon SG 2017",
+        "speakers": [
+            "dave-appleton"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "ethereum"
+        ]
+    },
+    {
+        "id": "yKQOunhhf4A",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Concurrency made easy - GopherCon SG 2017",
+        "speakers": [
+            "dave-cheney"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "concurrency"
+        ]
+    },
+    {
         "id": "XaMr--wAuSI",
         "date": "2017-05-18",
         "added": "2017-06-14",
