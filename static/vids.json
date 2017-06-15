@@ -8,7 +8,9 @@
             "francesc-campoy"
         ],
         "tags": [
-            "just-for-func"
+            "justforfunc",
+            "cgo",
+            "docker"
         ]
     },
     {
@@ -240,7 +242,9 @@
             "francesc-campoy"
         ],
         "tags": [
-            "just-for-func"
+            "justforfunc",
+            "grpc",
+            "kubernetes"
         ]
     },
     {
@@ -252,7 +256,9 @@
             "francesc-campoy"
         ],
         "tags": [
-            "just-for-func"
+            "justforfunc",
+            "code-review",
+            "irc"
         ]
     },
     {
@@ -403,7 +409,8 @@
             "francesc-campoy"
         ],
         "tags": [
-            "just-for-func"
+            "justforfunc",
+            "net-context"
         ]
     },
     {
@@ -415,7 +422,8 @@
             "francesc-campoy"
         ],
         "tags": [
-            "just-for-func"
+            "justforfunc",
+            "net-context"
         ]
     },
     {
@@ -427,7 +435,8 @@
             "francesc-campoy"
         ],
         "tags": [
-            "just-for-func"
+            "justforfunc",
+            "games"
         ]
     },
     {
@@ -439,7 +448,8 @@
             "francesc-campoy"
         ],
         "tags": [
-            "just-for-func"
+            "justforfunc",
+            "games"
         ]
     },
     {
@@ -451,7 +461,8 @@
             "francesc-campoy"
         ],
         "tags": [
-            "just-for-func"
+            "justforfunc",
+            "games"
         ]
     },
     {
@@ -574,20 +585,8 @@
             "francesc-campoy"
         ],
         "tags": [
-            "flags",
-            "justforfunc"
-        ]
-    },
-    {
-        "id": "4D506W1AjeM",
-        "date": "2016-11-10",
-        "added": "2017-06-14",
-        "title": "justforfunc #5: Defining a Color Flag in Go",
-        "speakers": [
-            "francesc-campoy"
-        ],
-        "tags": [
-            "just-for-func"
+            "justforfunc",
+            "flags"
         ]
     },
     {
@@ -735,8 +734,8 @@
             "francesc-campoy"
         ],
         "tags": [
-            "code-review",
-            "justforfunc"
+            "justforfunc",
+            "code-review"
         ]
     },
     {
@@ -749,18 +748,6 @@
         ],
         "tags": [
             "tooling"
-        ]
-    },
-    {
-        "id": "MnbMWNR_XZc",
-        "date": "2016-10-21",
-        "added": "2017-06-14",
-        "title": "justforfunc #4: Code Review for a Twitter client",
-        "speakers": [
-            "francesc-campoy"
-        ],
-        "tags": [
-            "just-for-func"
         ]
     },
     {
@@ -1620,7 +1607,7 @@
             "francesc-campoy"
         ],
         "tags": [
-            "just-for-func"
+            "justforfunc"
         ]
     },
     {
@@ -1883,7 +1870,7 @@
             "francesc-campoy"
         ],
         "tags": [
-            "just-for-func"
+            "justforfunc"
         ]
     },
     {
@@ -2006,7 +1993,8 @@
             "francesc-campoy"
         ],
         "tags": [
-            "just-for-func"
+            "justforfunc",
+            "code-review"
         ]
     },
     {
@@ -2018,7 +2006,7 @@
             "francesc-campoy"
         ],
         "tags": [
-            "just-for-func"
+            "justforfunc"
         ]
     },
     {
