@@ -1,5 +1,471 @@
 [
     {
+        "id": "yuW6BwOS8Eg",
+        "date": "2017-06-10",
+        "added": "2017-06-14",
+        "title": "justforfunc #13: more text to speech with cgo and Docker multistage builds! (4k)",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "cgo",
+            "docker"
+        ]
+    },
+    {
+        "id": "3mdwXcFYlqw",
+        "date": "2017-06-01",
+        "added": "2017-06-15",
+        "title": "Closing Keynote: Go get go-jek - GopherCon SG 2017",
+        "speakers": [
+            "ajey-gore"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "keynote"
+        ]
+    },
+    {
+        "id": "2557w0qsDV0",
+        "date": "2017-05-30",
+        "added": "2017-06-15",
+        "title": "Escape Analysis and Memory Profiling - GopherCon SG 2017",
+        "speakers": [
+            "william-kennedy"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "concurrency"
+        ]
+    },
+    {
+        "id": "vvu0df82SJI",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Opening Remarks - GopherCon SG 2017",
+        "speakers": [
+            "chang-sau-sheong"
+        ],
+        "tags": [
+            "gophercon-singapore"
+        ]
+    },
+    {
+        "id": "KPk1UPihWtY",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Opening Keynote: Exporting Go - GopherCon SG 2017",
+        "speakers": [
+            "robert-griesemer"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "keynote"
+        ]
+    },
+    {
+        "id": "sxjIaF6xAK0",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Engineering Efficiency powered by Go - GopherCon SG 2017",
+        "speakers": [
+            "huy-do"
+        ],
+        "tags": [
+            "gophercon-singapore"
+        ]
+    },
+    {
+        "id": "fd4EPh2tYrk",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Writing Efficient Generic Multidimensional Slices - GopherCon SG 2017",
+        "speakers": [
+            "chewxy"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "slices"
+        ]
+    },
+    {
+        "id": "ttmzQbaYjjk",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Distributed Scheduler Hell - GopherCon SG 2017",
+        "speakers": [
+            "matthew-campbell"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "containers",
+            "cloud"
+        ]
+    },
+    {
+        "id": "YmARDfv6VN8",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Native Go Development on GCP with the Context Package - GopherCon SG 2017",
+        "speakers": [
+            "ian-lewis",
+            "shilin-wu"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "google-cloud-platform",
+            "context"
+        ]
+    },
+    {
+        "id": "nm2A80PfYww",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Distributed Tracing in Grab - GopherCon SG 2017",
+        "speakers": [
+            "ryan-law"
+        ],
+        "tags": [
+            "gophercon-singapore"
+        ]
+    },
+    {
+        "id": "64XXaIC-K74",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Runtime \u0026 Concurrency in Go - GopherCon SG 2017",
+        "speakers": [
+            "v-n-nikhil-anurag"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "concurrency"
+        ]
+    },
+    {
+        "id": "a6oP24CSdUg",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "TDD for those who don't need it - GopherCon SG 2017",
+        "speakers": [
+            "chew-choon-keat"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "testing"
+        ]
+    },
+    {
+        "id": "-OSZEPyhYhQ",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "The Hidden Power of Humble Interfaces - GopherCon SG 2017",
+        "speakers": [
+            "aditya-mukerjee"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "interfaces"
+        ]
+    },
+    {
+        "id": "9RsIoR1Pr6k",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Building CLI apps with Go - GopherCon SG 2017",
+        "speakers": [
+            "lakshan-perera"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "cli"
+        ]
+    },
+    {
+        "id": "cHXbYLNa0qQ",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Dgraph - A distributed graph database written in Go - GopherCon SG 2017",
+        "speakers": [
+            "manish-rai-jain"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "databases"
+        ]
+    },
+    {
+        "id": "_7pWCg94sKw",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "chromedp: A New Way to Drive the Web - GopherCon SG 2017",
+        "speakers": [
+            "kenneth-shaw"
+        ],
+        "tags": [
+            "gophercon-singapore"
+        ]
+    },
+    {
+        "id": "AJHUcHGM3Eg",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Getting started on Ethereum for Go programmers - GopherCon SG 2017",
+        "speakers": [
+            "dave-appleton"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "ethereum"
+        ]
+    },
+    {
+        "id": "yKQOunhhf4A",
+        "date": "2017-05-29",
+        "added": "2017-06-15",
+        "title": "Concurrency made easy - GopherCon SG 2017",
+        "speakers": [
+            "dave-cheney"
+        ],
+        "tags": [
+            "gophercon-singapore",
+            "concurrency"
+        ]
+    },
+    {
+        "id": "XaMr--wAuSI",
+        "date": "2017-05-18",
+        "added": "2017-06-14",
+        "title": "justforfunc #12: a Text to Speech server with gRPC and Kubernetes",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "grpc",
+            "kubernetes"
+        ]
+    },
+    {
+        "id": "nhElL62BSn0",
+        "date": "2017-05-02",
+        "added": "2017-06-14",
+        "title": "justforfunc #11: code review of an IRC package's API",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "code-review",
+            "irc"
+        ]
+    },
+    {
+        "id": "ElGPOVjg8lU",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Mine the Debt",
+        "speakers": [
+            "johnny-boursiquot"
+        ],
+        "tags": [
+            "capitalgo"
+        ]
+    },
+    {
+        "id": "Q0EHGtfiC1M",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Buffalo: Rapid Web Development in Go",
+        "speakers": [
+            "mark-bates"
+        ],
+        "tags": [
+            "capitalgo",
+            "web-framework"
+        ]
+    },
+    {
+        "id": "w2Q4r4BFxXY",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Set Up a Portable Go Testing Rig with Docker and GoConvey",
+        "speakers": [
+            "alison-rowland"
+        ],
+        "tags": [
+            "capitalgo",
+            "testing",
+            "docker"
+        ]
+    },
+    {
+        "id": "5jGWCM08sKI",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Profile All the Things!",
+        "speakers": [
+            "john-potocny"
+        ],
+        "tags": [
+            "capitalgo",
+            "optimization"
+        ]
+    },
+    {
+        "id": "k97WC5ijB7U",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Finite State Transducers in Go",
+        "speakers": [
+            "Marty Schoch"
+        ],
+        "tags": [
+            "capitalgo"
+        ]
+    },
+    {
+        "id": "ojhFQNgyZO4",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Go Kit Log Package",
+        "speakers": [
+            "Chris Hines"
+        ],
+        "tags": [
+            "capitalgo",
+            "go-kit",
+            "logging"
+        ]
+    },
+    {
+        "id": "VCa1Y2QUVQA",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Translating Go to Other (Human) Languages, and Back Again",
+        "speakers": [
+            "Aditya Mukerjee"
+        ],
+        "tags": [
+            "capitalgo"
+        ]
+    },
+    {
+        "id": "yPg1T-X_K6A",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Graduating to Go",
+        "speakers": [
+            "Kaylyn Gibilterra"
+        ],
+        "tags": [
+            "capitalgo"
+        ]
+    },
+    {
+        "id": "16iCiMEOAd8",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Writing Go",
+        "speakers": [
+            "Bryan Liles"
+        ],
+        "tags": [
+            "capitalgo"
+        ]
+    },
+    {
+        "id": "yGOOUCrrgrE",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Concurrency Design",
+        "speakers": [
+            "William Kennedy"
+        ],
+        "tags": [
+            "capitalgo",
+            "concurrency"
+        ]
+    },
+    {
+        "id": "Ozs-KT6gcjE",
+        "date": "2017-04-25",
+        "added": "2017-06-14",
+        "title": "Reproducible Data Processing with Go",
+        "speakers": [
+            "Daniel Whitenack"
+        ],
+        "tags": [
+            "capitalgo"
+        ]
+    },
+    {
+        "id": "8M90t0KvEDY",
+        "date": "2017-04-17",
+        "added": "2017-06-14",
+        "title": "justforfunc #10: implementing the context package",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "context"
+        ]
+    },
+    {
+        "id": "LSzR0VEraWw",
+        "date": "2017-03-31",
+        "added": "2017-06-14",
+        "title": "justforfunc #9: The Context Package",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "context"
+        ]
+    },
+    {
+        "id": "jy9XKfYjtwE",
+        "date": "2017-03-16",
+        "added": "2017-06-14",
+        "title": "justforfunc #8: Flappy Gopher III - Collision detection",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "games"
+        ]
+    },
+    {
+        "id": "tX_Fgt0gVbQ",
+        "date": "2017-03-01",
+        "added": "2017-06-14",
+        "title": "justforfunc #7: Flappy Gopher II - Handling Events",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "games"
+        ]
+    },
+    {
+        "id": "aYkxFbd6luY",
+        "date": "2017-02-01",
+        "added": "2017-06-14",
+        "title": "justforfunc #6: Flappy Gopher",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "games"
+        ]
+    },
+    {
         "id": "MdTTt5v-HWQ",
         "date": "2016-12-06",
         "added": "2016-12-08",
@@ -119,8 +585,8 @@
             "francesc-campoy"
         ],
         "tags": [
-            "flags",
-            "justforfunc"
+            "justforfunc",
+            "flags"
         ]
     },
     {
@@ -268,8 +734,8 @@
             "francesc-campoy"
         ],
         "tags": [
-            "code-review",
-            "justforfunc"
+            "justforfunc",
+            "code-review"
         ]
     },
     {
@@ -980,7 +1446,7 @@
             "paul-crawford"
         ],
         "tags": [
-            "net-context"
+            "context"
         ]
     },
     {
@@ -1104,6 +1570,44 @@
         ],
         "tags": [
             "microservices"
+        ]
+    },
+    {
+        "id": "snMls3Bysa4",
+        "date": "2016-08-30",
+        "added": "2017-02-08",
+        "title": "Goa for microservices - #gomtl-03 - Alexandre Bourget",
+        "speakers": [
+            "alexandre-bourget"
+        ],
+        "tags": [
+            "goa",
+            "gomtl"
+        ]
+    },
+    {
+        "id": "zuMSbK0Axpk",
+        "date": "2016-08-30",
+        "added": "2017-02-08",
+        "title": "Tests in Go - #gomtl-03 - Dave MacFarlane",
+        "speakers": [
+            "dave-macfarlane"
+        ],
+        "tags": [
+            "testing",
+            "gomtl"
+        ]
+    },
+    {
+        "id": "uIA1s3Rhpv8",
+        "date": "2016-08-28",
+        "added": "2017-06-14",
+        "title": "justforfunc #3: The Magic Gate (part 2)",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc"
         ]
     },
     {
@@ -1358,6 +1862,18 @@
         ]
     },
     {
+        "id": "mTd3hHUy9OU",
+        "date": "2016-08-12",
+        "added": "2017-06-14",
+        "title": "justforfunc #2: The Magic Gate (part 1)",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc"
+        ]
+    },
+    {
         "id": "SCV5froaArg",
         "date": "2016-08-05",
         "added": "2016-09-24",
@@ -1466,6 +1982,31 @@
         ],
         "tags": [
             "internals"
+        ]
+    },
+    {
+        "id": "eIWFnNz8mF4",
+        "date": "2016-07-22",
+        "added": "2017-06-14",
+        "title": "justforfunc #1: A Code Review",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "code-review"
+        ]
+    },
+    {
+        "id": "0NTKMKDsCTE",
+        "date": "2016-07-21",
+        "added": "2017-06-14",
+        "title": "justforfunc #0: Hello, World!",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc"
         ]
     },
     {
@@ -7590,32 +8131,6 @@
         ],
         "tags": [
             "historic"
-        ]
-    },
-    {
-        "id": "snMls3Bysa4",
-        "date": "2016-08-30",
-        "added": "2017-02-08",
-        "title": "Goa for microservices - #gomtl-03 - Alexandre Bourget",
-        "speakers": [
-            "alexandre-bourget"
-        ],
-        "tags": [
-            "goa"
-            "gomtl"
-        ]
-    },
-        {
-        "id": "zuMSbK0Axpk",
-        "date": "2016-08-30",
-        "added": "2017-02-08",
-        "title": "Tests in Go - #gomtl-03 - Dave MacFarlane",
-        "speakers": [
-            "dave-macfarlane"
-        ],
-        "tags": [
-            "testing",
-            "gomtl"
         ]
     }
 ]
