@@ -248,6 +248,21 @@
         ]
     },
     {
+        "id": "giUatBmmb_Y",
+        "date": "2017-05-16",
+        "added": "2017-06-16",
+        "title": "GopherFest 2017",
+        "speakers": [
+            "rob-pike",
+            "francesc-campoy",
+            "matt-ho",
+            "waldemar-quevedo"
+        ],
+        "tags": [
+            "gopherfest"
+        ]
+    },
+    {
         "id": "nhElL62BSn0",
         "date": "2017-05-02",
         "added": "2017-06-14",
