@@ -265,7 +265,7 @@
         "id": "ElGPOVjg8lU",
         "date": "2017-04-25",
         "added": "2017-06-14",
-        "title": "Mine the Debt",
+        "title": "Capital Go 2017 - Mine the Debt by Johnny Boursiquot",
         "speakers": [
             "johnny-boursiquot"
         ],
@@ -277,7 +277,7 @@
         "id": "Q0EHGtfiC1M",
         "date": "2017-04-25",
         "added": "2017-06-14",
-        "title": "Buffalo: Rapid Web Development in Go",
+        "title": "Capital Go 2017 - Buffalo: Rapid Web Development in Go by Mark Bates",
         "speakers": [
             "mark-bates"
         ],
@@ -290,7 +290,7 @@
         "id": "w2Q4r4BFxXY",
         "date": "2017-04-25",
         "added": "2017-06-14",
-        "title": "Set Up a Portable Go Testing Rig with Docker and GoConvey",
+        "title": "Capital Go 2017 - Set Up a Portable Go Testing Rig with Docker and GoConvey by Alison Rowland",
         "speakers": [
             "alison-rowland"
         ],
@@ -304,7 +304,7 @@
         "id": "5jGWCM08sKI",
         "date": "2017-04-25",
         "added": "2017-06-14",
-        "title": "Profile All the Things!",
+        "title": "Capital Go 2017 - Profile All the Things! by John Potocny",
         "speakers": [
             "john-potocny"
         ],
@@ -317,9 +317,9 @@
         "id": "k97WC5ijB7U",
         "date": "2017-04-25",
         "added": "2017-06-14",
-        "title": "Finite State Transducers in Go",
+        "title": "Capital Go 2017 - Finite State Transducers in Go by Marty Schoch",
         "speakers": [
-            "Marty Schoch"
+            "marty-schoch"
         ],
         "tags": [
             "capitalgo"
@@ -329,9 +329,9 @@
         "id": "ojhFQNgyZO4",
         "date": "2017-04-25",
         "added": "2017-06-14",
-        "title": "Go Kit Log Package",
+        "title": "Capital Go 2017 - Go Kit Log Package by Chris Hines",
         "speakers": [
-            "Chris Hines"
+            "chris-hines"
         ],
         "tags": [
             "capitalgo",
@@ -343,9 +343,9 @@
         "id": "VCa1Y2QUVQA",
         "date": "2017-04-25",
         "added": "2017-06-14",
-        "title": "Translating Go to Other (Human) Languages, and Back Again",
+        "title": "Capital Go 2017 - Translating Go to Other (Human) Languages, and Back Again by Aditya Mukerjee",
         "speakers": [
-            "Aditya Mukerjee"
+            "aditya-mukerjee"
         ],
         "tags": [
             "capitalgo"
@@ -355,9 +355,9 @@
         "id": "yPg1T-X_K6A",
         "date": "2017-04-25",
         "added": "2017-06-14",
-        "title": "Graduating to Go",
+        "title": "Capital Go 2017 - Graduating to Go by Kaylyn Gibilterra",
         "speakers": [
-            "Kaylyn Gibilterra"
+            "kaylyn-gibilterra"
         ],
         "tags": [
             "capitalgo"
@@ -367,9 +367,9 @@
         "id": "16iCiMEOAd8",
         "date": "2017-04-25",
         "added": "2017-06-14",
-        "title": "Writing Go",
+        "title": "Capital Go 2017 - Writing Go by Bryan Liles",
         "speakers": [
-            "Bryan Liles"
+            "bryan-liles"
         ],
         "tags": [
             "capitalgo"
@@ -379,9 +379,9 @@
         "id": "yGOOUCrrgrE",
         "date": "2017-04-25",
         "added": "2017-06-14",
-        "title": "Concurrency Design",
+        "title": "Capital Go 2017 - Concurrency Design by William Kennedy",
         "speakers": [
-            "William Kennedy"
+            "william-kennedy"
         ],
         "tags": [
             "capitalgo",
@@ -392,9 +392,9 @@
         "id": "Ozs-KT6gcjE",
         "date": "2017-04-25",
         "added": "2017-06-14",
-        "title": "Reproducible Data Processing with Go",
+        "title": "Capital Go 2017 - Reproducible Data Processing with Go by Daniel Whitenack",
         "speakers": [
-            "Daniel Whitenack"
+            "daniel-whitenack"
         ],
         "tags": [
             "capitalgo"
