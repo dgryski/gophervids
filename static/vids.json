@@ -565,6 +565,21 @@
         ]
     },
     {
+        "id": "OVBvOuxbpHA",
+        "date": "2016-12-09",
+        "added": "2017-06-16",
+        "title": "Create a URL Shortener with Golang and Couchbase NoSQL",
+        "speakers": [
+            "nic-raboy"
+        ],
+        "tags": [
+            "screencast",
+            "tutorial",
+            "url-shortener",
+            "couchbase"
+        ]
+    },
+    {
         "id": "MdTTt5v-HWQ",
         "date": "2016-12-06",
         "added": "2016-12-08",
