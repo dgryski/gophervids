@@ -466,6 +466,105 @@
         ]
     },
     {
+        "id": "MMnaq2jwAiE",
+        "date": "2016-12-28",
+        "added": "2017-06-16",
+        "title": "GothamGo 2016 - Quality Tests in Go by Mat Ryer",
+        "speakers": [
+            "mat-ryer"
+        ],
+        "tags": [
+            "gothamgo",
+            "testing"
+        ]
+    },
+    {
+        "id": "1jJ9ILB-9CM",
+        "date": "2016-12-27",
+        "added": "2017-06-16",
+        "title": "GothamGo 2016 - Building a Go Debugger by Abel Mathew",
+        "speakers": [
+            "abel-mathew"
+        ],
+        "tags": [
+            "gothamgo",
+            "debugging"
+        ]
+    },
+    {
+        "id": "lXQJACNSA74",
+        "date": "2016-12-27",
+        "added": "2017-06-16",
+        "title": "GothamGo 2016 - Demystifying Channels by Cindy Sridharan",
+        "speakers": [
+            "cindy-sridharan"
+        ],
+        "tags": [
+            "gothamgo",
+            "channels"
+        ]
+    },
+    {
+        "id": "CnuLfCUoICc",
+        "date": "2016-12-17",
+        "added": "2017-06-16",
+        "title": "GothamGo 2016 - How to Raise a Gopher in Record Time by Tiffany Jernigan",
+        "speakers": [
+            "tiffany-jernigan"
+        ],
+        "tags": [
+            "gothamgo"
+        ]
+    },
+    {
+        "id": "18kmlJvR6Bk",
+        "date": "2016-12-16",
+        "added": "2017-06-16",
+        "title": "GothamGo 2016 - The Go Open Source Project's Innards by Brad Fitzpatrick",
+        "speakers": [
+            "brad-fitzpatrick"
+        ],
+        "tags": [
+            "gothamgo"
+        ]
+    },
+    {
+        "id": "MSYrpMxUVaM",
+        "date": "2016-12-14",
+        "added": "2017-06-16",
+        "title": "GothamGo 2016 - 5 Times Go was Totally Perfect for BuzzFeed's API Gateway by Jon Morehouse",
+        "speakers": [
+            "jon-morehouse"
+        ],
+        "tags": [
+            "gothamgo"
+        ]
+    },
+    {
+        "id": "oxc8B2fjDvY",
+        "date": "2016-12-10",
+        "added": "2017-06-16",
+        "title": "GothamGo 2016 - How to write your own Go tool? by Fatih Arslan",
+        "speakers": [
+            "fatih-arslan"
+        ],
+        "tags": [
+            "gothamgo"
+        ]
+    },
+    {
+        "id": "uVGZtfgUVak",
+        "date": "2016-12-09",
+        "added": "2017-06-16",
+        "title": "GothamGo 2016 - To Go or Not to Go? by Peggy Li",
+        "speakers": [
+            "peggy-li"
+        ],
+        "tags": [
+            "gothamgo"
+        ]
+    },
+    {
         "id": "MdTTt5v-HWQ",
         "date": "2016-12-06",
         "added": "2016-12-08",
