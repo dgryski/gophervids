@@ -2356,6 +2356,19 @@
         ]
     },
     {
+        "id": "CkDwb5koRTc",
+        "date": "2016-06-01",
+        "added": "2017-06-16",
+        "title": "Andrey Petrov - See Python, See Python Go, Go Python Go - PyCon 2016",
+        "speakers": [
+            "andrey-petrov"
+        ],
+        "tags": [
+            "python",
+            "net-http"
+        ]
+    },
+    {
         "id": "7wdeQwWsnvM",
         "date": "2016-05-28",
         "added": "2016-07-13",
