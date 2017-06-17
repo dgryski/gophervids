@@ -1,5 +1,19 @@
 [
     {
+        "id": "SQeAKSJH4vw",
+        "date": "2017-06-17",
+        "added": "2017-06-17",
+        "title": "justforfunc #14: a twitter bot and systemd (that runs free on GCP)",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "twitter",
+            "systemd"
+        ]
+    },
+    {
         "id": "yuW6BwOS8Eg",
         "date": "2017-06-10",
         "added": "2017-06-14",
