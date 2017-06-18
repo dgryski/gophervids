@@ -41,6 +41,31 @@
         ]
     },
     {
+        "id": "F4wUrj6pmSI",
+        "date": "2017-06-02",
+        "added": "2017-06-18",
+        "title": "2 4  Google    Understanding Go Interfaces",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "gophercon-china"
+        ]
+    },
+    {
+        "id": "nmcPwqjPFbw",
+        "date": "2017-06-02",
+        "added": "2017-06-18",
+        "title": "2 5  Atlassion   The hidden #pragma's of Go",
+        "speakers": [
+            "dave-cheney"
+        ],
+        "tags": [
+            "gophercon-china",
+            "pragmas"
+        ]
+    },
+    {
         "id": "3mdwXcFYlqw",
         "date": "2017-06-01",
         "added": "2017-06-15",
@@ -51,6 +76,32 @@
         "tags": [
             "gophercon-singapore",
             "keynote"
+        ]
+    },
+    {
+        "id": "aH-uutCBD2g",
+        "date": "2017-05-31",
+        "added": "2017-06-18",
+        "title": "Golang Philly May 2017 Meetup - Proxy Servers",
+        "speakers": [
+            "mauricio-linhares"
+        ],
+        "tags": [
+            "proxies"
+        ]
+    },
+    {
+        "id": "GO8KeDGcRis",
+        "date": "2017-05-31",
+        "added": "2017-06-18",
+        "title": "Go Syntax \u0026 Reflection (Golang NYC)",
+        "speakers": [
+            "adam-glassman",
+            "henry-clifford"
+        ],
+        "tags": [
+            "dsl",
+            "reflection"
         ]
     },
     {
@@ -290,6 +341,30 @@
         ]
     },
     {
+        "id": "ZdlmZ-ln7hY",
+        "date": "2017-05-15",
+        "added": "2017-06-18",
+        "title": "Unit Testing in GO",
+        "speakers": [
+            "jeff-armstrong"
+        ],
+        "tags": [
+            "testing"
+        ]
+    },
+    {
+        "id": "k4jqTLtdrxQ",
+        "date": "2017-05-03",
+        "added": "2017-06-18",
+        "title": "Infrastructure 2017 - Alfonso Acosta - High-performance Linux monitoring with eBPF",
+        "speakers": [
+            "alfonso-acosta"
+        ],
+        "tags": [
+            "ebpf"
+        ]
+    },
+    {
         "id": "nhElL62BSn0",
         "date": "2017-05-02",
         "added": "2017-06-14",
@@ -301,6 +376,46 @@
             "justforfunc",
             "code-review",
             "irc"
+        ]
+    },
+    {
+        "id": "32gCDXoN1NU",
+        "date": "2017-05-01",
+        "added": "2017-06-18",
+        "title": "[GoSF] Go Project Structure, Concurrent Data Structures and Building Better Go Libraries",
+        "speakers": [
+            "quinn-slack",
+            "konrad-reiche",
+            "william-kennedy"
+        ],
+        "tags": [
+            "project-structure",
+            "concurrency",
+            "package-design"
+        ]
+    },
+    {
+        "id": "cqN-WFO-hw4",
+        "date": "2017-04-26",
+        "added": "2017-06-18",
+        "title": "Golang Up and Coming IDE",
+        "speakers": [
+            "sergey-ignatov"
+        ],
+        "tags": [
+            "gogland"
+        ]
+    },
+    {
+        "id": "SVouWfoHhk0",
+        "date": "2017-04-25",
+        "added": "2017-06-18",
+        "title": "Go, Microservices and all the joy! - Andrzej Grzesik",
+        "speakers": [
+            "andrzej-grzesik"
+        ],
+        "tags": [
+            "microservices"
         ]
     },
     {
@@ -443,6 +558,18 @@
         ]
     },
     {
+        "id": "4i3WAqny424",
+        "date": "2017-04-19",
+        "added": "2017-06-18",
+        "title": "Go: A humble sales pitch for the holdouts",
+        "speakers": [
+            "kelly-heller"
+        ],
+        "tags": [
+            "intro"
+        ]
+    },
+    {
         "id": "8M90t0KvEDY",
         "date": "2017-04-17",
         "added": "2017-06-14",
@@ -482,6 +609,57 @@
         ]
     },
     {
+        "id": "YiNt4kUnnIM",
+        "date": "2017-03-11",
+        "added": "2017-06-18",
+        "title": "Building high performance microservices with Kubernetes, Go, and gRPC (Google Cloud Next '17)",
+        "speakers": [
+            "andrew-jessup"
+        ],
+        "tags": [
+            "kubernetes",
+            "microservices",
+            "grpc"
+        ]
+    },
+    {
+        "id": "x3xLYZGx6Mw",
+        "date": "2017-03-06",
+        "added": "2017-06-18",
+        "title": "Go with Visual Studio Code - Seattle Go Meetup",
+        "speakers": [
+            "kai-maetzel",
+            "ramya-rao"
+        ],
+        "tags": [
+            "vs-code"
+        ]
+    },
+    {
+        "id": "-83IMVS_aWU",
+        "date": "2017-03-06",
+        "added": "2017-06-18",
+        "title": "Go 1.8 Release + Life of a Go Infra Maintainer - Seattle Go Meetup",
+        "speakers": [
+            "ross-light"
+        ],
+        "tags": [
+            "go-at-scale"
+        ]
+    },
+    {
+        "id": "lasJgei66NI",
+        "date": "2017-03-06",
+        "added": "2017-06-18",
+        "title": "Middleware in Golang: InVision's Rye - Seattle Go Meetup",
+        "speakers": [
+            "cale-hoopes"
+        ],
+        "tags": [
+            "middleware"
+        ]
+    },
+    {
         "id": "tX_Fgt0gVbQ",
         "date": "2017-03-01",
         "added": "2017-06-14",
@@ -492,6 +670,150 @@
         "tags": [
             "justforfunc",
             "games"
+        ]
+    },
+    {
+        "id": "-ThK6BZdoxw",
+        "date": "2017-02-24",
+        "added": "2017-06-18",
+        "title": "Flogo - Intro to Golang-powered Open Source IoT Integration Framework (Gophercon)",
+        "speakers": [
+            "kai-wahner"
+        ],
+        "tags": [
+            "flogo",
+            "iot"
+        ]
+    },
+    {
+        "id": "3xdaq8ulJHw",
+        "date": "2017-02-16",
+        "added": "2017-06-18",
+        "title": "Serverless Golang - Gophers Meetup",
+        "speakers": [
+            "kai-hendry"
+        ],
+        "tags": [
+            "serverless",
+            "meetup"
+        ]
+    },
+    {
+        "id": "l20YI9TFDi8",
+        "date": "2017-02-16",
+        "added": "2017-06-18",
+        "title": "More understanding on using Go with (SQL) database - Gophers Meetup",
+        "speakers": [
+            "mark-khiem"
+        ],
+        "tags": [
+            "database-sql"
+        ]
+    },
+    {
+        "id": "AOpprhr6C9I",
+        "date": "2017-02-11",
+        "added": "2017-06-18",
+        "title": "FOSDEM 2017: High performance and scaling techniques in Golang using Go Assembly",
+        "speakers": [
+            "frank-wessels"
+        ],
+        "tags": [
+            "fosdem",
+            "optimization",
+            "assembly"
+        ]
+    },
+    {
+        "id": "qza7-CRCVVU",
+        "date": "2017-02-09",
+        "added": "2017-06-18",
+        "title": "FOSDEM 2017: High-performance IoT Using Go and Gobot",
+        "speakers": [
+            "ron-evans"
+        ],
+        "tags": [
+            "gobot",
+            "fosdem"
+        ]
+    },
+    {
+        "id": "lLDWF59aZAo",
+        "date": "2017-02-09",
+        "added": "2017-06-18",
+        "title": "FOSDEM 2017: Implementing 'tail -f' in Go",
+        "speakers": [
+            "fabian-staber"
+        ],
+        "tags": [
+            "fosdem"
+        ]
+    },
+    {
+        "id": "wgIlkyvXyEw",
+        "date": "2017-02-06",
+        "added": "2017-06-18",
+        "title": "FOSDEM 2017: Android development with Go",
+        "speakers": [
+            "daniel-esteban"
+        ],
+        "tags": [
+            "fosdem",
+            "go-mobile"
+        ]
+    },
+    {
+        "id": "qZezgkZvoKg",
+        "date": "2017-02-06",
+        "added": "2017-06-18",
+        "title": "FOSDEM 2017: gobpf - utilizing eBPF from Go",
+        "speakers": [
+            "michael-schubert"
+        ],
+        "tags": [
+            "fosdem",
+            "ebpf"
+        ]
+    },
+    {
+        "id": "tY4UKkgb5IY",
+        "date": "2017-02-06",
+        "added": "2017-06-18",
+        "title": "The State of Go - February 2017",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "fosdem",
+            "state-of-go"
+        ]
+    },
+    {
+        "id": "glnEVHNu20g",
+        "date": "2017-02-06",
+        "added": "2017-06-18",
+        "title": "Meetup Big Data Infrastructure SF - Kubernetes with AWS",
+        "speakers": [
+            "austin-gibbons",
+            "jason-freidman"
+        ],
+        "tags": [
+            "kubernetes",
+            "aws",
+            "microservices"
+        ]
+    },
+    {
+        "id": "jEG4Qyo_4Bc",
+        "date": "2017-02-01",
+        "added": "2017-06-18",
+        "title": "dotGo 2016 - Damian Gryski - Slices: Performance through cache-friendliness",
+        "speakers": [
+            "damian-gryski"
+        ],
+        "tags": [
+            "dotgo",
+            "optimization"
         ]
     },
     {
@@ -508,6 +830,69 @@
         ]
     },
     {
+        "id": "hsgkdMrEJPs",
+        "date": "2017-01-21",
+        "added": "2017-06-18",
+        "title": "Go for DevOps",
+        "speakers": [
+            "casey-l-dickson"
+        ],
+        "tags": [
+            "devops"
+        ]
+    },
+    {
+        "id": "L04p8SSmW-c",
+        "date": "2017-01-18",
+        "added": "2017-06-18",
+        "title": "UBC CPSC 416 Go Tutorial",
+        "speakers": [
+            "amanda-carbonari",
+            "stewart-grant"
+        ],
+        "tags": [
+            "intro",
+            "tutorial"
+        ]
+    },
+    {
+        "id": "m9U6YwJupfA",
+        "date": "2017-01-18",
+        "added": "2017-06-18",
+        "title": "Hannah Gets Go-ing",
+        "speakers": [
+            "hannah-thompson"
+        ],
+        "tags": [
+            "intro"
+        ]
+    },
+    {
+        "id": "sbtEMFxySrM",
+        "date": "2017-01-13",
+        "added": "2017-06-18",
+        "title": "GLUG #14: 7 Things Before Release Your Code to Production",
+        "speakers": [
+            "mateusz-dyminski"
+        ],
+        "tags": [
+            "production"
+        ]
+    },
+    {
+        "id": "nhmAyZNlECw",
+        "date": "2017-01-09",
+        "added": "2017-06-18",
+        "title": "dotGo 2016 - Kelsey Hightower - Self Deploying Go Applications",
+        "speakers": [
+            "kelsey-hightower"
+        ],
+        "tags": [
+            "kubernetes",
+            "dotgo"
+        ]
+    },
+    {
         "id": "x-iUWJlVfiY",
         "date": "2017-01-06",
         "added": "2017-06-16",
@@ -517,6 +902,19 @@
         ],
         "tags": [
             "intro"
+        ]
+    },
+    {
+        "id": "S-EOx0b-pIw",
+        "date": "2017-01-03",
+        "added": "2017-06-18",
+        "title": "GothamGo 2016 - Mind the Gap by Katrina Owen",
+        "speakers": [
+            "katrina-owen"
+        ],
+        "tags": [
+            "learning",
+            "gothamgo"
         ]
     },
     {
@@ -604,6 +1002,19 @@
         ],
         "tags": [
             "gothamgo"
+        ]
+    },
+    {
+        "id": "9XTl1d4nwdY",
+        "date": "2016-12-09",
+        "added": "2017-06-18",
+        "title": "dotGo 2016 - Dmitri Shuralyov - Go in the browser",
+        "speakers": [
+            "dmitri-shuralov"
+        ],
+        "tags": [
+            "dotgo",
+            "gopherjs"
         ]
     },
     {
@@ -2115,6 +2526,19 @@
         ],
         "tags": [
             "robots"
+        ]
+    },
+    {
+        "id": "xb8u2s7cxzg",
+        "date": "2016-07-25",
+        "added": "2017-06-18",
+        "title": "Scalable Realtime Microservices with Kubernetes and gRPC - Mark Mandel @ Google (Eng)",
+        "speakers": [
+            "mark-mandel"
+        ],
+        "tags": [
+            "kubernetes",
+            "grpc"
         ]
     },
     {
