@@ -14,6 +14,19 @@
         ]
     },
     {
+        "id": "q1h2g84EX1M",
+        "date": "2017-06-15",
+        "added": "2017-06-18",
+        "title": "SREcon17 Asia/Australia: Golang's Garbage",
+        "speakers": [
+            "andrey-sibiryov"
+        ],
+        "tags": [
+            "optimization",
+            "garbage-collection"
+        ]
+    },
+    {
         "id": "yuW6BwOS8Eg",
         "date": "2017-06-10",
         "added": "2017-06-14",
