@@ -1,21 +1,5 @@
 [
     {
-        "id": "T_1ncPoLgrg",
-        "date": "2017-05-09",
-        "added": "2017-06-20",
-        "title": "Ponzu: An Introduction ",
-        "speakers": [
-            "steve-manuel"
-        ],
-        "tags": [
-            "ponzu",
-            "cms",
-            "api-server",
-            "json",
-            "framework"
-        ]
-    },
-    {
         "id": "SQeAKSJH4vw",
         "date": "2017-06-17",
         "added": "2017-06-17",
@@ -415,6 +399,20 @@
         ],
         "tags": [
             "testing"
+        ]
+    },
+    {
+        "id": "T_1ncPoLgrg",
+        "date": "2017-05-09",
+        "added": "2017-06-20",
+        "title": "Ponzu: An Introduction",
+        "speakers": [
+            "steve-manuel"
+        ],
+        "tags": [
+            "cms",
+            "apis",
+            "web-framework"
         ]
     },
     {
