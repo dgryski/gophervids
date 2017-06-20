@@ -14,6 +14,18 @@
         ]
     },
     {
+        "id": "SBS4WJm0GBo",
+        "date": "2017-06-16",
+        "added": "2017-06-20",
+        "title": "Data Races in GoLang",
+        "speakers": [
+            "danny-roes"
+        ],
+        "tags": [
+            "concurrency"
+        ]
+    },
+    {
         "id": "q1h2g84EX1M",
         "date": "2017-06-15",
         "added": "2017-06-18",
@@ -24,6 +36,31 @@
         "tags": [
             "optimization",
             "garbage-collection"
+        ]
+    },
+    {
+        "id": "B6ZPTaZippc",
+        "date": "2017-06-13",
+        "added": "2017-06-20",
+        "title": "GO assembler",
+        "speakers": [
+            "simon-pratt"
+        ],
+        "tags": [
+            "assembler"
+        ]
+    },
+    {
+        "id": "GDHET-k4zz4",
+        "date": "2017-06-12",
+        "added": "2017-06-20",
+        "title": "Migrating to Gogland from a Code Editor: Tips \u0026 Tricks",
+        "speakers": [
+            "brian-ketelsen",
+            "florin-patan"
+        ],
+        "tags": [
+            "gogland"
         ]
     },
     {
@@ -38,6 +75,18 @@
             "justforfunc",
             "cgo",
             "docker"
+        ]
+    },
+    {
+        "id": "Z_yD7YPL2oE",
+        "date": "2017-06-06",
+        "added": "2017-06-20",
+        "title": "Best Practices for (Go) gRPC Services",
+        "speakers": [
+            "doug-fawley"
+        ],
+        "tags": [
+            "grpc"
         ]
     },
     {
