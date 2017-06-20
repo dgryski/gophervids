@@ -4119,6 +4119,7 @@
             "dean-elbaz"
         ],
         "tags": [
+            "golanguk",
             "memory-allocation"
         ]
     },
@@ -4197,6 +4198,7 @@
             "matt-heath"
         ],
         "tags": [
+            "golanguk",
             "production"
         ]
     },
