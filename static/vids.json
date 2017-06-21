@@ -1745,6 +1745,7 @@
             "nic-jackson"
         ],
         "tags": [
+            "golanguk",
             "go-mobile"
         ]
     },
@@ -1757,6 +1758,7 @@
             "jennie-lees"
         ],
         "tags": [
+            "golanguk",
             "data-pipelines"
         ]
     },
@@ -1769,6 +1771,7 @@
             "jelmer-snoeck"
         ],
         "tags": [
+            "golanguk",
             "microservices"
         ]
     },
@@ -1781,6 +1784,7 @@
             "alexander-zolotov"
         ],
         "tags": [
+            "golanguk",
             "editors"
         ]
     },
@@ -1793,6 +1797,7 @@
             "charlie-smith"
         ],
         "tags": [
+            "golanguk",
             "microservices",
             "enterprise"
         ]
@@ -1806,6 +1811,7 @@
             "bryan-boreham"
         ],
         "tags": [
+            "golanguk",
             "actor-model",
             "concurrency"
         ]
@@ -1856,6 +1862,7 @@
             "eleanor-mchugh"
         ],
         "tags": [
+            "golanguk",
             "emulation"
         ]
     },
@@ -1868,6 +1875,7 @@
             "florin-patan"
         ],
         "tags": [
+            "golanguk",
             "production"
         ]
     },
@@ -1880,6 +1888,7 @@
             "ernesto-jiminez"
         ],
         "tags": [
+            "golanguk",
             "code-generation"
         ]
     },
@@ -1892,6 +1901,7 @@
             "marcel-van-lohuizen"
         ],
         "tags": [
+            "golanguk",
             "testing"
         ]
     },
@@ -1904,6 +1914,7 @@
             "liz-rice"
         ],
         "tags": [
+            "golanguk",
             "containers"
         ]
     },
@@ -1916,6 +1927,7 @@
             "jean-de-klerk"
         ],
         "tags": [
+            "golanguk",
             "continuous-integration",
             "continuous-delivery"
         ]
@@ -1929,6 +1941,7 @@
             "mandy-waite"
         ],
         "tags": [
+            "golanguk",
             "cloud"
         ]
     },
@@ -1941,6 +1954,7 @@
             "nicholaz-ng"
         ],
         "tags": [
+            "golanguk",
             "concurrency",
             "static-analysis"
         ]
@@ -1954,6 +1968,7 @@
             "andreas-krennmair"
         ],
         "tags": [
+            "golanguk",
             "real-time"
         ]
     },
@@ -1966,6 +1981,7 @@
             "mat-ryer"
         ],
         "tags": [
+            "golanguk",
             "tips"
         ]
     },
@@ -1978,6 +1994,7 @@
             "dave-cheney"
         ],
         "tags": [
+            "golanguk",
             "optimization"
         ]
     },
@@ -1990,6 +2007,7 @@
             "carlisia-campos"
         ],
         "tags": [
+            "golanguk",
             "community"
         ]
     },
@@ -2002,6 +2020,7 @@
             "bjorn-rabenstein"
         ],
         "tags": [
+            "golanguk",
             "monitoring",
             "orchestration"
         ]
@@ -2015,6 +2034,7 @@
             "asim-aslam"
         ],
         "tags": [
+            "golanguk",
             "microservices"
         ]
     },
@@ -2027,6 +2047,7 @@
             "marcus-olsson"
         ],
         "tags": [
+            "golanguk",
             "microservices",
             "enterprise"
         ]
@@ -2040,6 +2061,7 @@
             "michael-munday"
         ],
         "tags": [
+            "golanguk",
             "assembler"
         ]
     },
@@ -2052,6 +2074,7 @@
             "natalie-pistunovich"
         ],
         "tags": [
+            "golanguk",
             "go-mobile"
         ]
     },
@@ -2064,6 +2087,7 @@
             "piyush-verma"
         ],
         "tags": [
+            "golanguk",
             "microservices"
         ]
     },
@@ -2076,6 +2100,7 @@
             "victor-ruiz"
         ],
         "tags": [
+            "golanguk",
             "message-queues"
         ]
     },
@@ -2088,6 +2113,7 @@
             "paul-crawford"
         ],
         "tags": [
+            "golanguk",
             "context"
         ]
     },
@@ -2100,6 +2126,7 @@
             "tiffany-jernigan"
         ],
         "tags": [
+            "golanguk",
             "learning"
         ]
     },
@@ -2112,6 +2139,7 @@
             "matthew-campbell"
         ],
         "tags": [
+            "golanguk",
             "cloud"
         ]
     },
@@ -2124,6 +2152,7 @@
             "michael-bironneau"
         ],
         "tags": [
+            "golanguk",
             "machine-learning"
         ]
     },
@@ -2136,6 +2165,7 @@
             "peter-bourgon"
         ],
         "tags": [
+            "golanguk",
             "microservices",
             "go-kit"
         ]
@@ -2149,6 +2179,7 @@
             "slawosz-slawinski"
         ],
         "tags": [
+            "golanguk",
             "logging"
         ]
     },
@@ -2161,6 +2192,7 @@
             "paul-bellamy"
         ],
         "tags": [
+            "golanguk",
             "interfaces"
         ]
     },
@@ -2173,6 +2205,7 @@
             "travis-bischel"
         ],
         "tags": [
+            "golanguk",
             "optimization"
         ]
     },
@@ -2185,6 +2218,7 @@
             "dave-cheney"
         ],
         "tags": [
+            "golanguk",
             "design"
         ]
     },
