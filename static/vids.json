@@ -4856,30 +4856,6 @@
         ]
     },
     {
-        "id": "S_NdzSj1syg",
-        "date": "2015-05-15",
-        "added": "2015-11-23",
-        "title": "Going Global with i18n4go",
-        "speakers": [
-            "michael-maximilien"
-        ],
-        "tags": [
-            "i18n"
-        ]
-    },
-    {
-        "id": "_QCQnxGxTBk",
-        "date": "2015-05-15",
-        "added": "2015-11-23",
-        "title": "A Faster Future with HTTP/2",
-        "speakers": [
-            "blake-gentry"
-        ],
-        "tags": [
-            "http2"
-        ]
-    },
-    {
         "id": "bCWBZ3HEVGA",
         "date": "2015-05-12",
         "added": "2015-06-11",
@@ -5970,7 +5946,7 @@
         ]
     },
     {
-        "id": "GjGRhIl0xWs",
+        "id": "DwHJrh3zRH0",
         "date": "2014-12-15",
         "added": "2015-01-25",
         "title": "Hey!: Tom Hudson - Let's build a virtual machine!",
@@ -6506,18 +6482,6 @@
         "tags": [
             "best-practices",
             "naming"
-        ]
-    },
-    {
-        "id": "iux7MBPUKZI",
-        "date": "2014-10-12",
-        "added": "2014-10-19",
-        "title": "Using PubNub 3.5 with Google Go Programming Language",
-        "speakers": [
-            "im-a-developer"
-        ],
-        "tags": [
-            "pubnub"
         ]
     },
     {
@@ -7090,18 +7054,6 @@
         ]
     },
     {
-        "id": "eTnosbpVC-g",
-        "date": "2014-05-27",
-        "added": "2014-05-28",
-        "title": "Navigating Code in Sourcegraph",
-        "speakers": [
-            "quinn-slack"
-        ],
-        "tags": [
-            "sourcegraph"
-        ]
-    },
-    {
         "id": "81kxo6FcoOw",
         "date": "2014-05-25",
         "added": "2014-05-26",
@@ -7579,7 +7531,7 @@
         ]
     },
     {
-        "id": "YUigj99zXLU",
+        "id": "BGDKrf2otjU",
         "date": "2014-03-05",
         "added": "2015-01-25",
         "title": "Introduction to Go - Mark Smith (Linux.conf.au 2014) By Net",
@@ -7995,18 +7947,6 @@
         ]
     },
     {
-        "id": "9liuBycg3IA",
-        "date": "2013-11-05",
-        "added": "2014-03-25",
-        "title": "A Crash Course on the Go Programming Language",
-        "speakers": [
-            "rob-figueiredo"
-        ],
-        "tags": [
-            "revel"
-        ]
-    },
-    {
         "id": "dKlNSIUSfz0",
         "date": "2013-11-02",
         "added": "2014-04-04",
@@ -8301,21 +8241,6 @@
         ]
     },
     {
-        "id": "USr0Bvg1ZOo",
-        "date": "2013-05-09",
-        "added": "2014-02-25",
-        "title": "Go and Juju at Canonical / What's new in Go 1.1",
-        "speakers": [
-            "dave-cheney",
-            "andrew-gerrand"
-        ],
-        "tags": [
-            "meetup",
-            "juju",
-            "go1.1"
-        ]
-    },
-    {
         "id": "1X-3ekyZD9A",
         "date": "2013-04-25",
         "added": "2014-02-23",
@@ -8343,18 +8268,6 @@
         ]
     },
     {
-        "id": "vUqK-0PytV4",
-        "date": "2013-03-27",
-        "added": "2014-03-03",
-        "title": "Go Further",
-        "speakers": [
-            "kevin-mcdermott"
-        ],
-        "tags": [
-            "hangout"
-        ]
-    },
-    {
         "id": "ruw0uOC4_Xk",
         "date": "2013-02-13",
         "added": "2014-02-25",
@@ -8368,19 +8281,6 @@
             "concurrency",
             "stathat",
             "tools"
-        ]
-    },
-    {
-        "id": "61O6uMFzVtw",
-        "date": "2013-02-06",
-        "added": "2014-03-03",
-        "title": "Python to Go infosession",
-        "speakers": [
-            "kevin-mcdermott"
-        ],
-        "tags": [
-            "hangout",
-            "python"
         ]
     },
     {
