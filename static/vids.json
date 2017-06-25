@@ -1,5 +1,54 @@
 [
     {
+        "id": "jUIh14avdDY",
+        "date": "2017-06-22",
+        "added": "2017-06-25",
+        "title": "Gopherfest 2017: Lessons Learned from a Context-NATS Integration (Waldemar Quevedo)",
+        "speakers": [
+            "waldemar-quevedo"
+        ],
+        "tags": [
+            "context",
+            "nats"
+        ]
+    },
+    {
+        "id": "ENLWEfi0Tkg",
+        "date": "2017-06-22",
+        "added": "2017-06-25",
+        "title": "Gopherfest 2017: Upspin (Rob Pike)",
+        "speakers": [
+            "rob-pike"
+        ],
+        "tags": [
+            "upspin"
+        ]
+    },
+    {
+        "id": "B-reKkB8L5Q",
+        "date": "2017-06-22",
+        "added": "2017-06-25",
+        "title": "Gopherfest 2017: Event Sourcing – Architectures and Patterns (Matt Ho)",
+        "speakers": [
+            "matt-ho"
+        ],
+        "tags": [
+            "events"
+        ]
+    },
+    {
+        "id": "dyvpF0jF3AY",
+        "date": "2017-06-22",
+        "added": "2017-06-25",
+        "title": "Gopherfest 2017: The State of Go (Francesc Campoy)",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "state-of-go"
+        ]
+    },
+    {
         "id": "SQeAKSJH4vw",
         "date": "2017-06-17",
         "added": "2017-06-17",
