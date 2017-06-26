@@ -8,6 +8,7 @@
             "waldemar-quevedo"
         ],
         "tags": [
+            "gopherfest",
             "context",
             "nats"
         ]
@@ -21,6 +22,7 @@
             "rob-pike"
         ],
         "tags": [
+            "gopherfest",
             "upspin"
         ]
     },
@@ -33,6 +35,7 @@
             "matt-ho"
         ],
         "tags": [
+            "gopherfest",
             "events"
         ]
     },
@@ -45,6 +48,7 @@
             "francesc-campoy"
         ],
         "tags": [
+            "gopherfest",
             "state-of-go"
         ]
     },
