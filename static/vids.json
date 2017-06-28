@@ -1,5 +1,41 @@
 [
     {
+        "id": "XBKq39caRZ8",
+        "date": "2017-06-27",
+        "added": "2017-06-28",
+        "title": "Introduction to using the Badger key-value store",
+        "speakers": [
+            "jason-chu"
+        ],
+        "tags": [
+            "badger"
+        ]
+    },
+    {
+        "id": "JHagtKS3D2I",
+        "date": "2017-06-24",
+        "added": "2017-06-28",
+        "title": "WWG HBD II (Meg Green)",
+        "speakers": [
+            "meg-green"
+        ],
+        "tags": [
+            "women-who-go"
+        ]
+    },
+    {
+        "id": "6ZXY9-lJF_c",
+        "date": "2017-06-24",
+        "added": "2017-06-28",
+        "title": "WWG HBD II (Sarah Adams)",
+        "speakers": [
+            "sarah-adams"
+        ],
+        "tags": [
+            "women-who-go"
+        ]
+    },
+    {
         "id": "Mvf3gY1MopE",
         "date": "2017-06-23",
         "added": "2017-06-27",
@@ -719,6 +755,18 @@
         "tags": [
             "justforfunc",
             "games"
+        ]
+    },
+    {
+        "id": "6r_glAz-C-A",
+        "date": "2017-03-13",
+        "added": "2017-06-28",
+        "title": "Golang Philly Feb 2017 Meetup - Image Metadata",
+        "speakers": [
+            "rob-murtha"
+        ],
+        "tags": [
+            "images"
         ]
     },
     {
