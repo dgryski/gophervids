@@ -1,5 +1,19 @@
 [
     {
+        "id": "hVFEV-ieeew",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "justforfunc #16: unit testing HTTP servers",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "testing",
+            "net-http"
+        ]
+    },
+    {
         "id": "ha8gdZ27wMo",
         "date": "2017-07-24",
         "added": "2017-07-24",
@@ -746,6 +760,19 @@
         "tags": [
             "gophercon",
             "lightning-talks"
+        ]
+    },
+    {
+        "id": "c5ufcpTGIJM",
+        "date": "2017-07-10",
+        "added": "2017-07-24",
+        "title": "justforfunc #15: a code review with logging, errors, and signals",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "code-review"
         ]
     },
     {
