@@ -1,5 +1,754 @@
 [
     {
+        "id": "ha8gdZ27wMo",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Peter Bourgon - Evolutionary Optimization with Go",
+        "speakers": [
+            "peter-bourgon"
+        ],
+        "tags": [
+            "gophercon",
+            "optimization"
+        ]
+    },
+    {
+        "id": "5doOcaMXx08",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Tammy Butow - Go Reliability and Durability at Dropbox",
+        "speakers": [
+            "tammy-butow"
+        ],
+        "tags": [
+            "gophercon"
+        ]
+    },
+    {
+        "id": "OuT8YYAOOVI",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Joe Tsai - Forward Compatible Go Code",
+        "speakers": [
+            "joe-tsai"
+        ],
+        "tags": [
+            "gophercon",
+            "compatibility"
+        ]
+    },
+    {
+        "id": "0Zbh_vmAKvk",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Russ Cox - The Future of Go",
+        "speakers": [
+            "russ-cox"
+        ],
+        "tags": [
+            "gophercon",
+            "go2"
+        ]
+    },
+    {
+        "id": "bUznDnBboCs",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Fatih Arslan - Writing a Go Tool to Parse and Modify Struct Tags",
+        "speakers": [
+            "fatih-arslan"
+        ],
+        "tags": [
+            "gophercon",
+            "tools"
+        ]
+    },
+    {
+        "id": "KBZlN0izeiY",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Kavya Joshi - Understanding Channels",
+        "speakers": [
+            "kavya-joshi"
+        ],
+        "tags": [
+            "gophercon",
+            "channels"
+        ]
+    },
+    {
+        "id": "CB_VfgwPmxQ",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Filippo Valsorda - Encrypting the Internet with Go",
+        "speakers": [
+            "filippo-valsorda"
+        ],
+        "tags": [
+            "gophercon",
+            "crypto"
+        ]
+    },
+    {
+        "id": "x-LhC-J2Vbk",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: David Crawshaw - Go Build Modes",
+        "speakers": [
+            "david-crawshaw"
+        ],
+        "tags": [
+            "gophercon"
+        ]
+    },
+    {
+        "id": "uTMvKVma5ms",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Keith Randall - Generating Better Machine Code with SSA",
+        "speakers": [
+            "keith-randall"
+        ],
+        "tags": [
+            "gophercon",
+            "compiler"
+        ]
+    },
+    {
+        "id": "IiYHDDz_7mE",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Kris Nova - Valuable Lessons in Over-Engineering the Core of Kubernetes kops",
+        "speakers": [
+            "kris-nova"
+        ],
+        "tags": [
+            "gophercon",
+            "kubernetes"
+        ]
+    },
+    {
+        "id": "c8Fwb4KbVJM",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Aaron Schlesinger - Functional Programming in Go",
+        "speakers": [
+            "aaron-schlesinger"
+        ],
+        "tags": [
+            "gophercon",
+            "functional-programming"
+        ]
+    },
+    {
+        "id": "PdtsV1OOkKc",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Scott Mansfield - Creating a Custom Serialization Format",
+        "speakers": [
+            "scott-mansfield"
+        ],
+        "tags": [
+            "gophercon",
+            "serialization"
+        ]
+    },
+    {
+        "id": "8hQG7QlcLBk",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Mitchell Hashimoto - Advanced Testing with Go",
+        "speakers": [
+            "mitchell-hashimoto"
+        ],
+        "tags": [
+            "gophercon",
+            "testing"
+        ]
+    },
+    {
+        "id": "PXdao4VxQMQ",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Michael Hausenblas - The Fallacies Of Distributed Gomputing",
+        "speakers": [
+            "michael-hausenblas"
+        ],
+        "tags": [
+            "gophercon",
+            "distributed"
+        ]
+    },
+    {
+        "id": "6sBBTFXOq44",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Ashley McNamara - My Journey to Go",
+        "speakers": [
+            "ashley-mcnamara"
+        ],
+        "tags": [
+            "gophercon"
+        ]
+    },
+    {
+        "id": "ltqV6pDKZD8",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Edward Muller - Go Anti-Patterns",
+        "speakers": [
+            "edward-muller"
+        ],
+        "tags": [
+            "gophercon",
+            "best-practices"
+        ]
+    },
+    {
+        "id": "hz6d7rzqJ6Q",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Jon Bodner - Runtime Generated, Typesafe, and Declarative: Pick Any Three",
+        "speakers": [
+            "jon-bodner"
+        ],
+        "tags": [
+            "gophercon"
+        ]
+    },
+    {
+        "id": "5LtMb090AZI",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Sam Boyer - The New Era of Go Package Management",
+        "speakers": [
+            "sam-boyer"
+        ],
+        "tags": [
+            "gophercon",
+            "package-management"
+        ]
+    },
+    {
+        "id": "ttebJcN5bgQ",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Marty Schoch - Building a High-Performance Key/Value Store in Go",
+        "speakers": [
+            "marty-schoch"
+        ],
+        "tags": [
+            "gophercon"
+        ]
+    },
+    {
+        "id": "01w7viEZzXQ",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Liz Rice - A Go Programmer's Guide to Syscalls",
+        "speakers": [
+            "liz-rice"
+        ],
+        "tags": [
+            "gophercon",
+            "syscalls"
+        ]
+    },
+    {
+        "id": "7FZ6ZyzGex0",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Alan Shreve - grpc: From Tutorial to Production",
+        "speakers": [
+            "alan-shreve"
+        ],
+        "tags": [
+            "gophercon",
+            "grpc"
+        ]
+    },
+    {
+        "id": "V74JnrGTwKA",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Rhys Hiltner - An Introduction to \"go tool trace\"",
+        "speakers": [
+            "rhys-hiltner"
+        ],
+        "tags": [
+            "gophercon",
+            "tools"
+        ]
+    },
+    {
+        "id": "SIl3wi1iWPE",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Ian Schenck - Operability in Go",
+        "speakers": [
+            "ian-schenck"
+        ],
+        "tags": [
+            "gophercon"
+        ]
+    },
+    {
+        "id": "XPC-hFL-4lU",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Kelsey Hightower - Self Deploying Kubernetes Applications",
+        "speakers": [
+            "kelsey-hightower"
+        ],
+        "tags": [
+            "gophercon",
+            "kubernetes"
+        ]
+    },
+    {
+        "id": "QoetRI2KHvc",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Waldemar Quevedo - Writing Networking Clients in Go",
+        "speakers": [
+            "waldemar-quevedo"
+        ],
+        "tags": [
+            "gophercon",
+            "networking"
+        ]
+    },
+    {
+        "id": "lD0Qx7ZB_MU",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Will Hawkins - Go at the DARPA Cyber Grand Challenge",
+        "speakers": [
+            "will-hawkins"
+        ],
+        "tags": [
+            "gophercon"
+        ]
+    },
+    {
+        "id": "RW49puXPryg",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Areg Melik Adamyan - Let NFV Go: Experimental Framework for Network Functions",
+        "speakers": [
+            "areg-melik-adamyan"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "N4RnFEDaQdg",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Harvey Laue - Interface Driven HTTP Response Writers",
+        "speakers": [
+            "harvey-laue"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "xAZfWVBhEs4",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Joey Geiger - Regular expressions, do you need them?",
+        "speakers": [
+            "joey-geiger"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "imsOYgv3HkU",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Landon Jones - AI and Go II: Time For Action",
+        "speakers": [
+            "landon-jones"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "TjZeWUVlKd4",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Michael Stapelberg - RobustIRC",
+        "speakers": [
+            "michael-stapelberg"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks",
+            "irc"
+        ]
+    },
+    {
+        "id": "4E9GT1aHIpc",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Aarti Parikh - A tale of two chat servers",
+        "speakers": [
+            "aarti-parikh"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "nsFcUn-RBuI",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Nyah Check - Becoming a better hacker, lessons learned from Poetry",
+        "speakers": [
+            "nyah-check"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "yWTWKqYQ8Zk",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Sukrit Handa - Introduction to Hyperledger Fabric",
+        "speakers": [
+            "sukrit-handa"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "nv_lYi3PYws",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Daniel Selans - Distributed Remote Monitoring in Go",
+        "speakers": [
+            "daniel-selans"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "oiorteQg9n0",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Pete Garcin - Building an ML-Powered Game AI Using TensorFlow in Go",
+        "speakers": [
+            "pete-garcin"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "7y2LhWm04FU",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: George Tankersley - I wanna Go fast",
+        "speakers": [
+            "george-tankersley"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "3NwWiSEr4NE",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Darren McCleary - Beating GCP's MapReduce with Go at The New York Times",
+        "speakers": [
+            "darren-mccleary"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "DgNiktCFuBg",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Matt Layher - Ethernet and Go",
+        "speakers": [
+            "matt-layher"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "oDFerBdr2J0",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017: Aditya Mukerjee - Translating Go to Other (Human) Languages, and Back Again",
+        "speakers": [
+            "aditya-mukerjee"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "nIlM_HUfyw0",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Chris Short - Golang to the rescue: Saving DevOps from TLS turmoil",
+        "speakers": [
+            "chris-short"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "eZwR8qr2BfI",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Carolyn VanSlyck - go dep in 10 minutes",
+        "speakers": [
+            "carolyn-vanslyck"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks",
+            "package-management"
+        ]
+    },
+    {
+        "id": "RgudiksfL-k",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Emile Vauge - Effective ingress traffic management with Traefik",
+        "speakers": [
+            "emile-vauge"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "5bm1r6cjD-c",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Tim Burks - A Go Platform for Polyglot REST API Code Generation",
+        "speakers": [
+            "tim-burks"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "zSW0nKArIvU",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Owen Ou - Godzilla: a ES2015 to Go source code transpiler",
+        "speakers": [
+            "owen-ou"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "Fp-79QX12Xg",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Sergey Ignatov - Gogland Tips and Tricks",
+        "speakers": [
+            "sergey-ignatov"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "C1EtfDnsdDs",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Bryan C  Mills - An overview of sync.Map",
+        "speakers": [
+            "bryan-c-mills"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "Z9v8jEBllu0",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Vladimir Vivien - Calling Go Functions from Other Languages",
+        "speakers": [
+            "vladimir-vivien"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "GYLOmwIqP-M",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Vitor De Mario - Abracadabra - Finding genetic mutations in Go",
+        "speakers": [
+            "vitor-de-mario"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "SwAhE5zgsbQ",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Ramya Rao - Go with Visual Studio Code",
+        "speakers": [
+            "ramya-rao"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "OMhXJD54ZDM",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Brian Scott - Go at Disney",
+        "speakers": [
+            "brian-scott"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "vqLhLMm-mE4",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Tom Elliott - Introducing Edward for Simplified Microservices",
+        "speakers": [
+            "tom-elliott"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "QPfyMnQSpiM",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Marc Antoine Ruel - periph.io: a lean performant hardware library",
+        "speakers": [
+            "marc-antoine-ruel"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "nz3Fd6vQupg",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Marcin Spoczyski - Anomaly Detection in Go",
+        "speakers": [
+            "marcin-spoczyski"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "KnGvs8l2BCI",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Blain Smith - Generating Hundreds of Video Catalog Feeds in Seconds",
+        "speakers": [
+            "blain-smith"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "_p7-BWCNzzc",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Bob Argenbright - Simple Plugin Architectures in Go",
+        "speakers": [
+            "bob-argenbright"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "4k3yl9k6BFA",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Sharon Allsup - Ultimate Coffee: It tastes as good as it smells",
+        "speakers": [
+            "sharon-allsup"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "_wW2U9SGKKI",
+        "date": "2017-07-24",
+        "added": "2017-07-24",
+        "title": "GopherCon 2017 - Lightning Talk: Jonathan Amsterdam - Errors as Side Notes",
+        "speakers": [
+            "jonathan-amsterdam"
+        ],
+        "tags": [
+            "gophercon",
+            "lightning-talks"
+        ]
+    },
+    {
         "id": "XBKq39caRZ8",
         "date": "2017-06-27",
         "added": "2017-06-28",
