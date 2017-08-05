@@ -485,7 +485,8 @@
         ],
         "tags": [
             "gophercon",
-            "lightning-talks"
+            "lightning-talks",
+            "performance"
         ]
     },
     {
@@ -2559,6 +2560,7 @@
             "filippo-valsorda"
         ],
         "tags": [
+            "gophercon",
             "cgo"
         ]
     },
