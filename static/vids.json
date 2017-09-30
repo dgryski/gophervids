@@ -1,5 +1,18 @@
 [
     {
+        "id": "SWKuYLqouIY",
+        "date": "2017-09-26",
+        "added": "2017-09-30",
+        "title": "justforfunc #20: code reviewing ursho (part 1)",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "code-review"
+        ]
+    },
+    {
         "id": "-LzYjMzfGDQ",
         "date": "2017-09-21",
         "added": "2017-09-30",
@@ -363,6 +376,46 @@
             "golanguk",
             "optimization",
             "tooling"
+        ]
+    },
+    {
+        "id": "LHZ2CAZE6Gs",
+        "date": "2017-09-11",
+        "added": "2017-09-30",
+        "title": "justforfunc #19: mastering io.Pipes",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "standard-library"
+        ]
+    },
+    {
+        "id": "Vg603e9C-Vg",
+        "date": "2017-08-29",
+        "added": "2017-09-30",
+        "title": "justforfunc #18: understanding Go's type aliases",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "justforfunc",
+            "type-alias"
+        ]
+    },
+    {
+        "id": "DjZMKKfNVMc",
+        "date": "2017-08-07",
+        "added": "2017-09-30",
+        "title": "justforfunc #17: contributing to the Go project",
+        "speakers": [
+            "francesc-campoy",
+            "chris-broadfoot"
+        ],
+        "tags": [
+            "justforfunc",
+            "contributing"
         ]
     },
     {
