@@ -1928,6 +1928,250 @@
         ]
     },
     {
+        "id": "1BAIOUON2Uo",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "Day 1 - 11. Lightning Talks",
+        "speakers": [],
+        "tags": [
+            "gophercon-india",
+            "lightning-talks"
+        ]
+    },
+    {
+        "id": "2sYT6HH4xcQ",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "Day 2 - 9. Kamesh Balasubramanian - Isomorphic Go Code",
+        "speakers": [
+            "kamesh-balasubramanian"
+        ],
+        "tags": [
+            "gophercon-india"
+        ]
+    },
+    {
+        "id": "ED66wrMNRYU",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "Day 2 - 8. Shamsuddin Madhani - Go for High Throughput Computing",
+        "speakers": [
+            "shamsuddin-madhani"
+        ],
+        "tags": [
+            "gophercon-india",
+            "performance"
+        ]
+    },
+    {
+        "id": "z842jxafB7Y",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "Day 2 - 7. Shiju Varghese - Building High Performance APIs In Go Using gRPC And Protocol Buffers",
+        "speakers": [
+            "siju-varghese"
+        ],
+        "tags": [
+            "gophercon-india",
+            "grpc"
+        ]
+    },
+    {
+        "id": "nsM_m4hZ-bA",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "Day 2 - 6.  Filippo Valsorda - Fighting latency: the CPU profiler is not your ally",
+        "speakers": [
+            "filippo-valsorda"
+        ],
+        "tags": [
+            "gophercon-india",
+            "optimization"
+        ]
+    },
+    {
+        "id": "KqXA6L-EAVA",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "Day 2 - 5. Matthew Campbell - Building Distributed Timeseries database",
+        "speakers": [
+            "matthew-campbell"
+        ],
+        "tags": [
+            "gophercon-india",
+            "timeseries"
+        ]
+    },
+    {
+        "id": "PqK68Jnvkiw",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "Day 2 - 4. Daniel Whitenack - Go Stdlib and Data Science",
+        "speakers": [
+            "daniel=whitenack"
+        ],
+        "tags": [
+            "gophercon-india",
+            "data-science"
+        ]
+    },
+    {
+        "id": "32gk0gUGXL8",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "Day 2 - 3. Aditya Sanghi on Smart Proxy for Migrating to Microservices",
+        "speakers": [
+            "aditya-sanghi"
+        ],
+        "tags": [
+            "gophercon-india",
+            "micro-services"
+        ]
+    },
+    {
+        "id": "LmfC8-lN_AA",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "Day 2 - 2. Ian Lewis - Getting Plugged in with Go Plugins",
+        "speakers": [
+            "ian-lewis"
+        ],
+        "tags": [
+            "gophercon-india",
+            "plugins"
+        ]
+    },
+    {
+        "id": "GFFEgPYaFqI",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "Day 2 - 1. Aditya Mukerjee - Cloning Git in Go",
+        "speakers": [
+            "aditya-mukerjee"
+        ],
+        "tags": [
+            "gophercon-india",
+            "git"
+        ]
+    },
+    {
+        "id": "ZAlIjLKyhcw",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "10. Manish Rai Jain - Dgraph - A native and distributed graph database written in Go",
+        "speakers": [
+            "manish-rai-jain"
+        ],
+        "tags": [
+            "gophercon-india",
+            "dgraph"
+        ]
+    },
+    {
+        "id": "qr150g_6a_g",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "9. Kai Waehner - Project Flogo for Lightweight Microservices and as Integration Gateway for IOT",
+        "speakers": [
+            "kai-waehner"
+        ],
+        "tags": [
+            "gophercon-india",
+            "microservices"
+        ]
+    },
+    {
+        "id": "hWo0FEVr92A",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "8. Karthic Rao - Debugging Go routine leaks",
+        "speakers": [
+            "karthic-rao"
+        ],
+        "tags": [
+            "gophercon-india",
+            "debugging"
+        ]
+    },
+    {
+        "id": "MZRLVxObrlA",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "7. Romin Irani - The Journey to Conversational Interfaces",
+        "speakers": [
+            "romin-irani"
+        ],
+        "tags": [
+            "gophercon-india",
+            "interfaces"
+        ]
+    },
+    {
+        "id": "oNprNOsU0zc",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "6. Vidyasagar Nallapati - Fast and Scalable Machine Learning with GoLang",
+        "speakers": [
+            "vidyasagar-nallapati"
+        ],
+        "tags": [
+            "gophercon-india",
+            "machine-learning"
+        ]
+    },
+    {
+        "id": "267DVTOlZZ4",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "5. Takuya Ueda - Mobile Apps by Pure Go with Reverse Binding",
+        "speakers": [
+            "takuya-ueda"
+        ],
+        "tags": [
+            "gophercon-india",
+            "mobile"
+        ]
+    },
+    {
+        "id": "spKM5CyBwJA",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "4. William Kennedy - Package Oriented Design",
+        "speakers": [
+            "william-kennedy"
+        ],
+        "tags": [
+            "gophercon-india",
+            "package-design"
+        ]
+    },
+    {
+        "id": "niwmT3iKdtc",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "3. Tiffany Jernigan - How to Raise a Gopher in Record Time",
+        "speakers": [
+            "tiffany-jernigan"
+        ],
+        "tags": [
+            "gophercon-india",
+            "learning"
+        ]
+    },
+    {
+        "id": "JKJnGWRF30Q",
+        "date": "2017-03-31",
+        "added": "2017-09-30",
+        "title": "2. Opening Keynote - Some context on context by Francesc Campoy Flores",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "gophercon-india",
+            "context"
+        ]
+    },
+    {
         "id": "LSzR0VEraWw",
         "date": "2017-03-31",
         "added": "2017-06-14",
