@@ -1,5 +1,371 @@
 [
     {
+        "id": "-LzYjMzfGDQ",
+        "date": "2017-09-21",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Sean Kelly - Embedding",
+        "speakers": [
+            "sean-kelly"
+        ],
+        "tags": [
+            "golanguk",
+            "oop"
+        ]
+    },
+    {
+        "id": "Fc1zZm3mCXo",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Diwaker Gupta - How to build an SDK in Go",
+        "speakers": [
+            "diwaker-gupta"
+        ],
+        "tags": [
+            "golanguk"
+        ]
+    },
+    {
+        "id": "mxlJqrVSalY",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Brian Ketelsen - Bringing Go to the Enterprise",
+        "speakers": [
+            "brian-ketelsen"
+        ],
+        "tags": [
+            "golanguk",
+            "enterprise"
+        ]
+    },
+    {
+        "id": "UT4ks8k2My8",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Audrey Lim - Making My First Go Contribution",
+        "speakers": [
+            "audrey-lim"
+        ],
+        "tags": [
+            "golanguk",
+            "contributing"
+        ]
+    },
+    {
+        "id": "TuLGK9oskqM",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Ashley McNamara \u0026 Mat Ryer - How we built and launched Gopherize.me",
+        "speakers": [
+            "ashley-mcnamara",
+            "mat-ryer"
+        ],
+        "tags": [
+            "golanguk"
+        ]
+    },
+    {
+        "id": "Wl3fEXMxogw",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Vlad Galu - Going on the Road Less Bumpy",
+        "speakers": [
+            "vlad-galu"
+        ],
+        "tags": [
+            "golanguk",
+            "enterprise"
+        ]
+    },
+    {
+        "id": "5UG57xQL_RE",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Steve Francia - State of the Gopher Nation",
+        "speakers": [
+            "steve-francia"
+        ],
+        "tags": [
+            "golanguk",
+            "keynote",
+            "state-of-go"
+        ]
+    },
+    {
+        "id": "4MfvoX4aImA",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Nicholas Jackson - Betting on Go",
+        "speakers": [
+            "nicholas-jackson"
+        ],
+        "tags": [
+            "golanguk"
+        ]
+    },
+    {
+        "id": "cAWlv2SeQus",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Mat Ryer - Writing Beautiful Packages in Go",
+        "speakers": [
+            "mat-ryer"
+        ],
+        "tags": [
+            "golanguk",
+            "best-practices"
+        ]
+    },
+    {
+        "id": "rDRa23k70CU",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Arne Claus - Concurrency Patterns in Go",
+        "speakers": [
+            "arne-claus"
+        ],
+        "tags": [
+            "golanguk",
+            "concurrency"
+        ]
+    },
+    {
+        "id": "EiOKQ5PpoaY",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Aditya Mukerjee - করো: Translating Go to Other (Human) Languages",
+        "speakers": [
+            "aditya-mukerjee"
+        ],
+        "tags": [
+            "golanguk"
+        ]
+    },
+    {
+        "id": "bMujSVMarqY",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Will Sewell \u0026 Jim Fisher - Golang's Realtime GC in Theory and Practice",
+        "speakers": [
+            "will-sewell",
+            "jim-fisher"
+        ],
+        "tags": [
+            "golanguk",
+            "garbage-collection"
+        ]
+    },
+    {
+        "id": "emoUiK-GHkE",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Paul Jolly - Creating interactive frontend apps with GopherJS and React",
+        "speakers": [
+            "paul-jolly"
+        ],
+        "tags": [
+            "golanguk",
+            "gopherjs",
+            "javascript"
+        ]
+    },
+    {
+        "id": "2TKxuERTnks",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Paul Bellamy - Building Go with Bazel",
+        "speakers": [
+            "paul-bellamy"
+        ],
+        "tags": [
+            "golanguk",
+            "build-system"
+        ]
+    },
+    {
+        "id": "SzgRMrrbTnM",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Nicholas Ng - Understanding concurrency with behavioural types",
+        "speakers": [
+            "nicholas-ng"
+        ],
+        "tags": [
+            "golanguk",
+            "concurrency"
+        ]
+    },
+    {
+        "id": "nZtukrvSOT4",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Myles McDonnell - Building a RESTful API using go-swagger",
+        "speakers": [
+            "myles-mcdonnell"
+        ],
+        "tags": [
+            "golanguk",
+            "rest"
+        ]
+    },
+    {
+        "id": "UMbicEbSIjc",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Mark Ryan - Command Line Scripting with Templates",
+        "speakers": [
+            "mark-ryan"
+        ],
+        "tags": [
+            "golanguk",
+            "cli",
+            "templates"
+        ]
+    },
+    {
+        "id": "75NjCfLLftw",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Mark Bates - Buffalo: Rapid Web Development in Go",
+        "speakers": [
+            "mark-bates"
+        ],
+        "tags": [
+            "golanguk",
+            "web-framework"
+        ]
+    },
+    {
+        "id": "-_B5uQ4UGi0",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Jack Lindamood - How to correctly use package context",
+        "speakers": [
+            "jack-lindamood"
+        ],
+        "tags": [
+            "golanguk",
+            "context"
+        ]
+    },
+    {
+        "id": "Z2sq1Fwadh4",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Irina Bednova - Ruby to Go - What to expect when you switch",
+        "speakers": [
+            "irina-bednova"
+        ],
+        "tags": [
+            "golanguk",
+            "ruby"
+        ]
+    },
+    {
+        "id": "8T3VxGrrJwc",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Achilleas Anagnostopoulos - Can you write an OS Kernel in Go?",
+        "speakers": [
+            "achilleas-anagnostopoulos"
+        ],
+        "tags": [
+            "golanguk"
+        ]
+    },
+    {
+        "id": "CHzMEamGZDA",
+        "date": "2017-09-16",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Chris Benson - Deep Learning with Go",
+        "speakers": [
+            "chris-benson"
+        ],
+        "tags": [
+            "golanguk",
+            "machine-learning"
+        ]
+    },
+    {
+        "id": "mLVxAU_xpEA",
+        "date": "2017-09-15",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Takuya Ueda - Static Analysis in Go",
+        "speakers": [
+            "takuya-ueda"
+        ],
+        "tags": [
+            "golanguk",
+            "tooling"
+        ]
+    },
+    {
+        "id": "BdfNrs_oeko",
+        "date": "2017-09-15",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Liz Rice - The Beginner's Guide to Linux Syscalls",
+        "speakers": [
+            "liz-rice"
+        ],
+        "tags": [
+            "golanguk",
+            "syscalls"
+        ]
+    },
+    {
+        "id": "b6hM0RFNnHw",
+        "date": "2017-09-15",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Konrad Reiche - It doesn't have to be REST: Websockets in Go",
+        "speakers": [
+            "konrad-reiche"
+        ],
+        "tags": [
+            "golanguk",
+            "websockets"
+        ]
+    },
+    {
+        "id": "YF1qSfkDGAQ",
+        "date": "2017-09-15",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Ian Kent - Production-ready Go",
+        "speakers": [
+            "ian-kent"
+        ],
+        "tags": [
+            "golanguk",
+            "production"
+        ]
+    },
+    {
+        "id": "yo-CkroaQhs",
+        "date": "2017-09-15",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Guido Patanella - Go routines optimization",
+        "speakers": [
+            "guido-patanella"
+        ],
+        "tags": [
+            "golanguk",
+            "optimization",
+            "concurrency"
+        ]
+    },
+    {
+        "id": "Lxt8Vqn4JiQ",
+        "date": "2017-09-15",
+        "added": "2017-09-30",
+        "title": "Golang UK Conference 2017 | Filippo Valsorda - Fighting latency: the CPU profiler is not your ally",
+        "speakers": [
+            "filippo-valsorda"
+        ],
+        "tags": [
+            "golanguk",
+            "optimization",
+            "tooling"
+        ]
+    },
+    {
         "id": "hVFEV-ieeew",
         "date": "2017-07-24",
         "added": "2017-07-24",
