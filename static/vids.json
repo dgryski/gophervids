@@ -5678,7 +5678,8 @@
             "andrew-gerrand"
         ],
         "tags": [
-            "gopherfest"
+            "gopherfest",
+            "state-of-go"
         ]
     },
     {
@@ -6451,7 +6452,8 @@
             "andrew-gerrand"
         ],
         "tags": [
-            "fosdem"
+            "fosdem",
+            "state-of-go"
         ]
     },
     {
@@ -6616,7 +6618,8 @@
             "andrew-gerrand"
         ],
         "tags": [
-            "london-go-gathering"
+            "london-go-gathering",
+            "state-of-go"
         ]
     },
     {
@@ -7812,7 +7815,8 @@
             "andrew-gerrand"
         ],
         "tags": [
-            "gosf-summerfest"
+            "gosf-summerfest",
+            "state-of-go"
         ]
     },
     {
