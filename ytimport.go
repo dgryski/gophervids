@@ -82,7 +82,7 @@ func main() {
 
 	key, err := ioutil.ReadFile("apikey.txt")
 	if err != nil {
-		log.Fatalf("no api key found: ", err)
+		log.Fatalf("no api key found: %v", err)
 	}
 
 	apikey = strings.TrimSpace(string(key))
