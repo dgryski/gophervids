@@ -1,5 +1,56 @@
 [
     {
+        "id": "vFJkH4qDjJ0",
+        "date": "2017-10-03",
+        "added": "2017-10-04",
+        "title": "The State of Go 1.9 - Francesc Campoy - Release Party #GoSF",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "gosf",
+            "state-of-go"
+        ]
+    },
+    {
+        "id": "aAhNDgEZj_U",
+        "date": "2017-10-03",
+        "added": "2017-10-04",
+        "title": "Analyzing production using Flamegraphs - Prashant Varanasi - Release Party #GoSF",
+        "speakers": [
+            "prashant-varanasi"
+        ],
+        "tags": [
+            "gosf",
+            "optimization"
+        ]
+    },
+    {
+        "id": "LHe1Cb_Ud_M",
+        "date": "2017-10-03",
+        "added": "2017-10-04",
+        "title": "Ways To Do Things - Peter Bourgon - Release Party #GoSF",
+        "speakers": [
+            "peter-bourgon"
+        ],
+        "tags": [
+            "gosf",
+            "best-practices"
+        ]
+    },
+    {
+        "id": "Lmgx9KQLueY",
+        "date": "2017-10-03",
+        "added": "2017-10-04",
+        "title": "Blockchain, Cryptocurriencies, and Go  - Vicki Niu - SF Docker + Go Meetup",
+        "speakers": [
+            "vicki-niu"
+        ],
+        "tags": [
+            "blockchain"
+        ]
+    },
+    {
         "id": "DJ4d_PZ6Gns",
         "date": "2017-09-30",
         "added": "2017-10-03",
