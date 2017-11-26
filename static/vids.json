@@ -1,5 +1,113 @@
 [
     {
+        "id": "-I2fo_EyUls",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Tally Go Library :: Dylan Meissner",
+        "speakers": [
+            "dylan-meissner"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "_HH0o5JUyXo",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Sarama Go Library :: Patrick Namasondhi",
+        "speakers": [
+            "patrick-namasondhi"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "9O1qN_gi5m8",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "go-linq Go Library :: Ahmet Alp Balkan",
+        "speakers": [
+            "ahmet-alp-balkan"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "VXJuhMV7o-c",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Logrus Go Library :: Mike Lloyd",
+        "speakers": [
+            "mike-lloyd"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "ff34-XFksKw",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Gorm Go Library :: Ian Auld",
+        "speakers": [
+            "ian-auld"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "VsoP6KGoyWA",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "iTestify Go Library :: Brittany Walentin",
+        "speakers": [
+            "brittany-walentin"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "43SH9SO3f2c",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Cascadia Go Library :: Ryan Cox",
+        "speakers": [
+            "ryan-cox"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "KUielQG-c90",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Statik Go Library :: Matthew Dale",
+        "speakers": [
+            "matthew-dale"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "t7PF-0MK83w",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Cobra Go Library :: Andrew O'neill",
+        "speakers": [
+            "andrew-oneill"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
         "id": "vFJkH4qDjJ0",
         "date": "2017-10-03",
         "added": "2017-10-04",
