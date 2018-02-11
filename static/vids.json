@@ -209,111 +209,99 @@
         ]
     },
     {
-        "id": "-I2fo_EyUls",
-        "date": "2017-04-03",
-        "added": "2017-11-25",
-        "title": "Tally Go Library :: Dylan Meissner",
+        "id": "2AulMm-hsdI",
+        "date": "2018-02-06",
+        "added": "2018-02-11",
+        "title": "justforfunc #28: Basic Benchmarks",
         "speakers": [
-            "dylan-meissner"
+            "francesc-campoy"
         ],
         "tags": [
-            "seattlego"
+            "justforfunc"
         ]
     },
     {
-        "id": "_HH0o5JUyXo",
-        "date": "2017-04-03",
-        "added": "2017-11-25",
-        "title": "Sarama Go Library :: Patrick Namasondhi",
+        "id": "B64hIRjNvLc",
+        "date": "2018-01-23",
+        "added": "2018-02-11",
+        "title": "justforfunc #27: two ways of merging N channels",
         "speakers": [
-            "patrick-namasondhi"
+            "francesc-campoy"
         ],
         "tags": [
-            "seattlego"
+            "justforfunc"
         ]
     },
     {
-        "id": "9O1qN_gi5m8",
-        "date": "2017-04-03",
-        "added": "2017-11-25",
-        "title": "go-linq Go Library :: Ahmet Alp Balkan",
+        "id": "t9bEg2A4jsw",
+        "date": "2018-01-09",
+        "added": "2018-02-11",
+        "title": "justforfunc #26: why are there nil channels in Go?",
         "speakers": [
-            "ahmet-alp-balkan"
+            "francesc-campoy"
         ],
         "tags": [
-            "seattlego"
+            "justforfunc"
         ]
     },
     {
-        "id": "VXJuhMV7o-c",
-        "date": "2017-04-03",
-        "added": "2017-11-25",
-        "title": "Logrus Go Library :: Mike Lloyd",
+        "id": "YRWCa84pykM",
+        "date": "2017-12-12",
+        "added": "2018-02-11",
+        "title": "justforfunc #25: deeper program analysis with go/parser",
         "speakers": [
-            "mike-lloyd"
+            "francesc-campoy"
         ],
         "tags": [
-            "seattlego"
+            "justforfunc"
         ]
     },
     {
-        "id": "ff34-XFksKw",
-        "date": "2017-04-03",
-        "added": "2017-11-25",
-        "title": "Gorm Go Library :: Ian Auld",
+        "id": "k23xhJoTbI4",
+        "date": "2017-11-28",
+        "added": "2018-02-11",
+        "title": "justforfunc #24: what's the most common identifier in the Go stdlib?",
         "speakers": [
-            "ian-auld"
+            "francesc-campoy"
         ],
         "tags": [
-            "seattlego"
+            "justforfunc"
         ]
     },
     {
-        "id": "VsoP6KGoyWA",
-        "date": "2017-04-03",
-        "added": "2017-11-25",
-        "title": "iTestify Go Library :: Brittany Walentin",
+        "id": "77ZFKuMLkp4",
+        "date": "2017-11-14",
+        "added": "2018-02-11",
+        "title": "justforfunc #23: plotting latency distributions with gonum",
         "speakers": [
-            "brittany-walentin"
+            "francesc-campoy"
         ],
         "tags": [
-            "seattlego"
+            "justforfunc"
         ]
     },
     {
-        "id": "43SH9SO3f2c",
-        "date": "2017-04-03",
-        "added": "2017-11-25",
-        "title": "Cascadia Go Library :: Ryan Cox",
+        "id": "ySy3sR1LFCQ",
+        "date": "2017-10-23",
+        "added": "2018-02-11",
+        "title": "justforfunc #22: using the Go execution tracer",
         "speakers": [
-            "ryan-cox"
+            "francesc-campoy"
         ],
         "tags": [
-            "seattlego"
+            "justforfunc"
         ]
     },
     {
-        "id": "KUielQG-c90",
-        "date": "2017-04-03",
-        "added": "2017-11-25",
-        "title": "Statik Go Library :: Matthew Dale",
+        "id": "zBc338CZRpk",
+        "date": "2017-10-08",
+        "added": "2018-02-11",
+        "title": "justforfunc #21: reviewing ursho II - using PostgreSQL",
         "speakers": [
-            "matthew-dale"
+            "francesc-campoy"
         ],
         "tags": [
-            "seattlego"
-        ]
-    },
-    {
-        "id": "t7PF-0MK83w",
-        "date": "2017-04-03",
-        "added": "2017-11-25",
-        "title": "Cobra Go Library :: Andrew O'neill",
-        "speakers": [
-            "andrew-oneill"
-        ],
-        "tags": [
-            "seattlego"
+            "justforfunc"
         ]
     },
     {
@@ -2305,6 +2293,114 @@
         "tags": [
             "justforfunc",
             "context"
+        ]
+    },
+    {
+        "id": "-I2fo_EyUls",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Tally Go Library :: Dylan Meissner",
+        "speakers": [
+            "dylan-meissner"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "_HH0o5JUyXo",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Sarama Go Library :: Patrick Namasondhi",
+        "speakers": [
+            "patrick-namasondhi"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "9O1qN_gi5m8",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "go-linq Go Library :: Ahmet Alp Balkan",
+        "speakers": [
+            "ahmet-alp-balkan"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "VXJuhMV7o-c",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Logrus Go Library :: Mike Lloyd",
+        "speakers": [
+            "mike-lloyd"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "ff34-XFksKw",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Gorm Go Library :: Ian Auld",
+        "speakers": [
+            "ian-auld"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "VsoP6KGoyWA",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "iTestify Go Library :: Brittany Walentin",
+        "speakers": [
+            "brittany-walentin"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "43SH9SO3f2c",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Cascadia Go Library :: Ryan Cox",
+        "speakers": [
+            "ryan-cox"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "KUielQG-c90",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Statik Go Library :: Matthew Dale",
+        "speakers": [
+            "matthew-dale"
+        ],
+        "tags": [
+            "seattlego"
+        ]
+    },
+    {
+        "id": "t7PF-0MK83w",
+        "date": "2017-04-03",
+        "added": "2017-11-25",
+        "title": "Cobra Go Library :: Andrew O'neill",
+        "speakers": [
+            "andrew-oneill"
+        ],
+        "tags": [
+            "seattlego"
         ]
     },
     {
