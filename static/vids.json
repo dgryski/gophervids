@@ -1,5 +1,214 @@
 [
     {
+        "id": "iR7LPAXWfmw",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "The State of Go What's new in Go 1.10",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "fosdem",
+            "state-of-go"
+        ]
+    },
+    {
+        "id": "VBiFiguj52I",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Advanced Go debugging with Delve",
+        "speakers": [
+            "derek-parker"
+        ],
+        "tags": [
+            "fosdem",
+            "delve"
+        ]
+    },
+    {
+        "id": "xfv5nhqacAc",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Networking deepdive From net.Dial to gRPC",
+        "speakers": [
+            "michael-hausenblas"
+        ],
+        "tags": [
+            "fosdem",
+            "networking"
+        ]
+    },
+    {
+        "id": "KgY2uVgz_tQ",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Testing and Automation in the Era of Containers (with Go)",
+        "speakers": [
+            "veronica-lopez"
+        ],
+        "tags": [
+            "fosdem",
+            "containers",
+            "testing"
+        ]
+    },
+    {
+        "id": "gw9TRP5RQLU",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Upspin and a future of the Internet My vision of Rob Pike's Upspin as a basis for a decentralized I…",
+        "speakers": [
+            "gildas-chabot"
+        ],
+        "tags": [
+            "fosdem",
+            "upspin"
+        ]
+    },
+    {
+        "id": "G6MZyC_saGY",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Dep Deep Dive!",
+        "speakers": [
+            "sam-boyer"
+        ],
+        "tags": [
+            "fosdem",
+            "package-management"
+        ]
+    },
+    {
+        "id": "vfBqvuH0ykM",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Networking Swiss Army Knife for Go",
+        "speakers": [
+            "roman-mohr"
+        ],
+        "tags": [
+            "fosdem",
+            "networking"
+        ]
+    },
+    {
+        "id": "FKcCnA9jjXc",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "The case for interface{} When and how to use empty interface",
+        "speakers": [
+            "sam-whited"
+        ],
+        "tags": [
+            "fosdem",
+            "interfaces"
+        ]
+    },
+    {
+        "id": "MoxGcm-aYyI",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Google’s approach to distributed systems observability for Go",
+        "speakers": [
+            "jaana-dogan"
+        ],
+        "tags": [
+            "fosdem",
+            "distributed"
+        ]
+    },
+    {
+        "id": "R2HaxH7Et64",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Creating GopherJS Apps with gRPC-Web",
+        "speakers": [
+            "johan-brandhorst"
+        ],
+        "tags": [
+            "fosdem",
+            "gopherjs",
+            "grpc"
+        ]
+    },
+    {
+        "id": "Su2WqMHVoAA",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Building and testing a distributed data store in Go",
+        "speakers": [
+            "matt-bostock"
+        ],
+        "tags": [
+            "fosdem",
+            "distributed"
+        ]
+    },
+    {
+        "id": "7ls9K-VzAb8",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Computer Vision Using Go And OpenCV",
+        "speakers": [
+            "ron-evans"
+        ],
+        "tags": [
+            "fosdem",
+            "opencv"
+        ]
+    },
+    {
+        "id": "NS1hmEWv4Ac",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Make your Go go faster! Optimising performance through reducing memory allocations",
+        "speakers": [
+            "bryan-boreham"
+        ],
+        "tags": [
+            "fosdem",
+            "optimization"
+        ]
+    },
+    {
+        "id": "4ZWGFjfB3mA",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Distributing DevOps tools using GoLang and Containers, for Fun and Profit!",
+        "speakers": [
+            "lucy-davinhart"
+        ],
+        "tags": [
+            "fosdem",
+            "devops",
+            "containers"
+        ]
+    },
+    {
+        "id": "l2BZoyzj6VM",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "DNA sequencing performance in Go, C++, and Java",
+        "speakers": [
+            "pascal-costanza"
+        ],
+        "tags": [
+            "fosdem",
+            "performance"
+        ]
+    },
+    {
+        "id": "8rtDhNtV0sQ",
+        "date": "2018-02-09",
+        "added": "2018-02-11",
+        "title": "Go Lightning Talks Come speak!",
+        "speakers": [],
+        "tags": [
+            "fosdem",
+            "lightning-talks"
+        ]
+    },
+    {
         "id": "-I2fo_EyUls",
         "date": "2017-04-03",
         "added": "2017-11-25",
