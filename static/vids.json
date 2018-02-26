@@ -1,5 +1,17 @@
 [
     {
+        "id": "rbZeZNVA-Q4",
+        "date": "2018-01-18",
+        "added": "2018-02-26",
+        "title": "packagemain #5: Face Detection in Go using OpenCV and MachineBox",
+        "speakers": [
+            "alex-pliutau"
+        ],
+        "tags": [
+            "packagemain"
+        ]
+    },
+    {
         "id": "iR7LPAXWfmw",
         "date": "2018-02-09",
         "added": "2018-02-11",
