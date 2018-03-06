@@ -1,5 +1,17 @@
 [
     {
+        "id": "zkB_c3cgtd0",
+        "date": "2018-03-04",
+        "added": "2018-03-06",
+        "title": "packagemain #9: Building Slack Bot with Go and Wit.ai",
+        "speakers": [
+            "alex-pliutau"
+        ],
+        "tags": [
+            "packagemain",
+            "nlu"
+        ]
+    },{
         "id": "rbZeZNVA-Q4",
         "date": "2018-01-18",
         "added": "2018-02-26",
