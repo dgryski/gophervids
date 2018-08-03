@@ -1,5 +1,18 @@
 [
     {
+        "id": "OdyXIi6DGYw",
+        "date": "2018-06-15",
+        "added": "2018-06-15",
+        "title": "packagemain #11: Getting started with OAuth2 in Go",
+        "speakers": [
+            "alex-pliutau"
+        ],
+        "tags": [
+            "packagemain",
+            "oauth2"
+        ]
+    },
+    {
         "id": "ADT25tuAx4A",
         "date": "2018-04-13",
         "added": "2018-08-03",
