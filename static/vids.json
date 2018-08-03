@@ -1,5 +1,20 @@
 [
     {
+        "id": "ADT25tuAx4A",
+        "date": "2018-04-13",
+        "added": "2018-08-03",
+        "title": "Go Programming Language",
+        "speakers": [
+            "dave-cheney"
+        ],
+        "tags": [
+            "tools",
+            "optimization",
+            "garbage-collection",
+            "qcon"
+        ]
+    },
+    {
         "id": "zkB_c3cgtd0",
         "date": "2018-03-04",
         "added": "2018-03-06",
@@ -10,18 +25,6 @@
         "tags": [
             "packagemain",
             "nlu"
-        ]
-    },
-    {
-        "id": "rbZeZNVA-Q4",
-        "date": "2018-01-18",
-        "added": "2018-02-26",
-        "title": "packagemain #5: Face Detection in Go using OpenCV and MachineBox",
-        "speakers": [
-            "alex-pliutau"
-        ],
-        "tags": [
-            "packagemain"
         ]
     },
     {
@@ -255,6 +258,18 @@
         ],
         "tags": [
             "justforfunc"
+        ]
+    },
+    {
+        "id": "rbZeZNVA-Q4",
+        "date": "2018-01-18",
+        "added": "2018-02-26",
+        "title": "packagemain #5: Face Detection in Go using OpenCV and MachineBox",
+        "speakers": [
+            "alex-pliutau"
+        ],
+        "tags": [
+            "packagemain"
         ]
     },
     {
