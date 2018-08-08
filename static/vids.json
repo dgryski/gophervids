@@ -1,5 +1,17 @@
 [
     {
+        "id": "40d26ZGfhR8",
+        "date": "2018-04-26",
+        "added": "2018-08-08",
+        "title": "GOTO 2018 • The Robustness of Go • Francesc Campoy",
+        "speakers": [
+            "francesc-campoy"
+        ],
+        "tags": [
+            "intro"
+        ]
+    },
+    {
         "id": "OdyXIi6DGYw",
         "date": "2018-05-26",
         "added": "2018-06-15",
