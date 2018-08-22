@@ -1,5 +1,29 @@
 [
     {
+        "id": "SU9t6fUQltE",
+        "date": "2018-08-12",
+        "added": "2018-08-22",
+        "title": "packagemain #13: Microservices with go-kit. Part 2",
+        "speakers": [
+            "alex-pliutau"
+        ],
+        "tags": [
+            "packagemain"
+        ]
+    },
+    {
+        "id": "1ScP5DyS1_g",
+        "date": "2018-07-26",
+        "added": "2018-08-22",
+        "title": "packagemain #12: Microservices with go-kit. Part 1",
+        "speakers": [
+            "alex-pliutau"
+        ],
+        "tags": [
+            "packagemain"
+        ]
+    },
+    {
         "id": "40d26ZGfhR8",
         "date": "2018-04-26",
         "added": "2018-08-08",
