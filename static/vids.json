@@ -1,5 +1,17 @@
 [
     {
+        "id": "cfwW5IED2nQ",
+        "date": "2018-08-06",
+        "added": "2018-09-12",
+        "title": "Debug GO",
+        "speakers": [
+            "vladimir-kovpak"
+        ],
+        "tags": [
+            "debugging"
+        ]
+    },
+    {
         "id": "40d26ZGfhR8",
         "date": "2018-04-26",
         "added": "2018-08-08",
