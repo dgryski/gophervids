@@ -1,5 +1,31 @@
 [
     {
+        "id": "q1FeRvC82j0",
+        "date": "2020-05-03",
+        "added": "2018-05-05",
+        "title": "packagemain #19: Writing testable Go code",
+        "speakers": [
+            "alex-pliutau"
+        ],
+        "tags": [
+            "testing",
+            "unit-testing"
+        ]
+    },
+    {
+        "id": "evorkFq3Y5k",
+        "date": "2020-04-26",
+        "added": "2020-05-05",
+        "title": "packagemain #18: Writing REST API Client in Go",
+        "speakers": [
+            "alex-pliutau"
+        ],
+        "tags": [
+            "apis",
+            "sdks"
+        ]
+    },
+    {
         "id": "40d26ZGfhR8",
         "date": "2018-04-26",
         "added": "2018-08-08",
